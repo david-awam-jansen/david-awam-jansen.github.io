@@ -11,7 +11,7 @@ jobs:
     container:
       image: ghcr.io/david-awam-jansen/r-github-actions:latest
     env:
-      CR_PAT: ${{ secrets.github-containers }}  # Use the secret github-containers
+      CR_PAT: ${{ secrets.CR_PAT }}  # Use the secret github-containers
     permissions:
       contents: write
     steps:
