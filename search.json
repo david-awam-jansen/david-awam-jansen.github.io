@@ -2,15 +2,22 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "david-awam-jansen.github.io",
+    "title": "Workshops",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+    "text": "This is the index site of the workshops page. It will have multiple presentations about data management, data analysis and data visualizations.\nThe site is created with Rstudio and Quarto (https://quarto.org/docs/websites)."
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "About",
+    "title": "David Jansen",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "David Jansen is a data scientist at MCEVBD."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "David Jansen",
+    "section": "Education",
+    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005\nClick here for my Resume or CV"
   }
 ]
