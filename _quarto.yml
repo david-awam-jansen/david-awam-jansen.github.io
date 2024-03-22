@@ -16,8 +16,6 @@ website:
             url: workshops/reproducibility_workshop.qmd  
           - text: Good data practises
             url: workshops/good_data_practises.qmd
-#          - text: Data Wrangling
-#            url: workshops/data_wrangling_of_field_data.qmd
 #          - text: Introduction into Git
 #            url: workshops/git_version_control.qmd
 #          - text: Introduction into ggplot2
