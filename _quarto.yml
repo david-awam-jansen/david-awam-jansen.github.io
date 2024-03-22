@@ -5,9 +5,9 @@ website:
   title: "David Jansen"
   navbar:
     left:
-      - href: index.qmd
+      - href: qmd/index.qmd
         text: Home
-      - about.qmd
+      - qmd/dabout.qmd
 
 format:
   html:
