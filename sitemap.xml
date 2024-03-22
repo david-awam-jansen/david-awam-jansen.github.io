@@ -2,22 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://david-awam-jansen.github.io/index.html</loc>
-    <lastmod>2024-03-22T16:48:43.224Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/qmd_files/about.html</loc>
-    <lastmod>2024-03-22T16:48:43.224Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/docs/about.html</loc>
-    <lastmod>2024-03-22T16:48:43.224Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/docs/index.html</loc>
-    <lastmod>2024-03-22T16:48:43.224Z</lastmod>
+    <lastmod>2024-03-22T16:59:48.396Z</lastmod>
   </url>
   <url>
     <loc>https://david-awam-jansen.github.io/qmd_files/index.html</loc>
-    <lastmod>2024-03-22T16:48:43.224Z</lastmod>
+    <lastmod>2024-03-22T16:59:48.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-awam-jansen.github.io/docs/index.html</loc>
+    <lastmod>2024-03-22T16:59:48.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-awam-jansen.github.io/docs/about.html</loc>
+    <lastmod>2024-03-22T16:59:48.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-awam-jansen.github.io/qmd_files/about.html</loc>
+    <lastmod>2024-03-22T16:59:48.396Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-awam-jansen.github.io/about.html</loc>
+    <lastmod>2024-03-22T16:59:48.396Z</lastmod>
   </url>
 </urlset>
