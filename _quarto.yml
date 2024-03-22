@@ -7,13 +7,17 @@ website:
     left:
       - href: qmd/index.qmd
         text: Home
-      - qmd/dabout.qmd
+      - qmd/about.qmd
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
+
+source_dir: qmd_files    
+
+
 
 
 
