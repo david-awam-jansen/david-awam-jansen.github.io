@@ -10,6 +10,9 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/david-awam-jansen/r-github-actions:latest
+      credentials:
+        username: ${{ github.actor }}
+        password: ${{ secrets.CR_PAT }}  # Use the secret github-containers
     env:
       CR_PAT: ${{ secrets.CR_PAT }}  # Use the secret github-containers
     permissions:
@@ -23,6 +26,11 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Access Docker container
+        run: |
+          # Run commands inside the Docker container
+          docker exec CONTAINER_ID bash -c "echo Hello from Docker container"
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
