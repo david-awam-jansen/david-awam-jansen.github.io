@@ -10,9 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/david-awam-jansen/r-github-actions:latest
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.GITHUB_TOKEN }}  # Use GITHUB_TOKEN for authentication
+      env:
+        CR_PAT: ${{ secrets.GITHUB_TOKEN }}  # Pass the GitHub token as an environment variable
     permissions:
       contents: write
     steps:
