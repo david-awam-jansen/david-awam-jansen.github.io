@@ -1,10 +1,10 @@
 [
   {
-    "objectID": "qmd_files/index.html",
-    "href": "qmd_files/index.html",
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Workshops",
     "section": "",
-    "text": "This is the index site of the workshops page. It will have multiple presentations about data management, data analysis and data visualizations.\nThe site is created with Rstudio and Quarto (https://quarto.org/docs/websites)."
+    "text": "Is this the version that is the home page? This is the index site of the workshops page. It will have multiple presentations about data management, data analysis and data visualizations.\nThe site is created with Rstudio and Quarto (https://quarto.org/docs/websites)."
   },
   {
     "objectID": "qmd_files/about.html",
@@ -19,5 +19,12 @@
     "title": "David Jansen",
     "section": "Education",
     "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV"
+  },
+  {
+    "objectID": "qmd_files/index.html",
+    "href": "qmd_files/index.html",
+    "title": "Workshops",
+    "section": "",
+    "text": "This is the index site of the workshops page. It will have multiple presentations about data management, data analysis and data visualizations.\nThe site is created with Rstudio and Quarto (https://quarto.org/docs/websites)."
   }
 ]
