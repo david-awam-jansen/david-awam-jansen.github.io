@@ -10,11 +10,14 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: ghcr.io/david-awam-jansen/r-github-actions:latest
-      env:
-        CR_PAT: ${{ secrets.GITHUB_TOKEN }}  # Pass the GitHub token as an environment variable
+    env:
+      CR_PAT: ${{ secrets.github-containers }}  # Use the secret github-containers
     permissions:
       contents: write
     steps:
+      - name: Log in to GitHub Container Registry
+        run: echo "${CR_PAT}" | docker login ghcr.io -u david-awam-jansen --password-stdin
+
       - name: Check out repository
         uses: actions/checkout@v4
 
