@@ -23,15 +23,6 @@ website:
           - text: Introduction into ggplot2
             url: workshops/intro_into_ggplot.qmd
 
-website:
-  title: "David Jansen"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-      - href: about.qmd
-        text: About
-
 format:
   html:
     theme: cosmo
