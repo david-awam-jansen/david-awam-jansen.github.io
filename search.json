@@ -1,21 +1,21 @@
 [
   {
-    "objectID": "qmd/index.html",
-    "href": "qmd/index.html",
+    "objectID": "qmd_files/index.html",
+    "href": "qmd_files/index.html",
     "title": "Workshops",
     "section": "",
     "text": "This is the index site of the workshops page. It will have multiple presentations about data management, data analysis and data visualizations.\nThe site is created with Rstudio and Quarto (https://quarto.org/docs/websites)."
   },
   {
-    "objectID": "qmd/about.html",
-    "href": "qmd/about.html",
+    "objectID": "qmd_files/about.html",
+    "href": "qmd_files/about.html",
     "title": "David Jansen",
     "section": "",
     "text": "David Jansen is a data scientist at MCEVBD."
   },
   {
-    "objectID": "qmd/about.html#education",
-    "href": "qmd/about.html#education",
+    "objectID": "qmd_files/about.html#education",
+    "href": "qmd_files/about.html#education",
     "title": "David Jansen",
     "section": "Education",
     "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV"
