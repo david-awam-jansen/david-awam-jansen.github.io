@@ -1,0 +1,20 @@
+---
+title: "David Jansen"
+about:
+  template: jolla
+  image: ./images/djansen.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/david-awam-jansen
+---
+
+I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.
+
+## Education
+
+University of Zurich , Switzerland PhD in Animal communication \| Sep 2009 - Apr 2013
+Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology \| Aug 2003 - June 2005
+Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003
+
+Click here for my <a href="../files/David_Jansen_Resume.pdf">Resume</a> or <a href="../files/David_Jansen_CV.pdf">CV</a>
