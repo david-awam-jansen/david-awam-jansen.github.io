@@ -12,7 +12,7 @@ jobs:
       image: ghcr.io/david-awam-jansen/r-github-actions:latest
       credentials:
         username: ${{ github.actor }}
-        password: ${{ secrets.PRIVATE_ACCESS_TOKEN }}
+        password: ${{ secrets.GITHUB_TOKEN }}  # Use GITHUB_TOKEN for authentication
     permissions:
       contents: write
     steps:
@@ -26,5 +26,3 @@ jobs:
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
