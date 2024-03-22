@@ -7,7 +7,7 @@ website:
     left:
       - href: qmd_files/index.qmd
         text: Home
-      - qmd_files/about.qmd
+      - href: qmd_files/about.qmd
         text: About
 
 format:
