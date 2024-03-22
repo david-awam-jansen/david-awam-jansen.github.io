@@ -10,16 +10,8 @@ website:
         url: index.qmd
       - text: About
         url: about.qmd
-      - section: "Workshops"
-        contents:
-          - text: Reproducibility research
-            url: workshops/reproducibility_workshop.qmd  
-          - text: Good data practises
-            url: workshops/good_data_practises.qmd
-#          - text: Introduction into Git
-#            url: workshops/git_version_control.qmd
-#          - text: Introduction into ggplot2
-#            url: workshops/intro_into_ggplot.qmd
+      - text: simple R  
+        url: simple_R.qmd
 
 format:
   html:
