@@ -1,8 +1,0 @@
----
-title: "Workshops"
-author: "David Jansen"
----
-
-This is the index site of the workshops page. It will have multiple presentations about data management, data analysis and data visualizations.
-
-The site is created with Rstudio and Quarto (<https://quarto.org/docs/websites>).

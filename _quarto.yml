@@ -2,6 +2,28 @@ project:
   type: website
 
 website:
+  sidebar:
+    style: "docked"
+    search: true
+    contents:
+      - text: Home
+        url: index.qmd
+      - text: About
+        url: about.qmd
+      - section: "Workshops"
+        contents:
+          - text: Reproducibility research
+            url: workshops/reproducibility_workshop.qmd  
+          - text: Good data practises
+            url: workshops/good_data_practises.qmd
+          - text: Data Wrangling
+            url: workshops/data_wrangling_of_field_data.qmd
+          - text: Introduction into Git
+            url: workshops/git_version_control.qmd
+          - text: Introduction into ggplot2
+            url: workshops/intro_into_ggplot.qmd
+
+website:
   title: "David Jansen"
   navbar:
     left:
