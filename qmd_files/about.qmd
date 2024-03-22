@@ -2,7 +2,7 @@
 title: "David Jansen"
 about:
   template: jolla
-  image: images/profile.jpg
+  image: ../images/profile.jpg
   links:
     - icon: github
       text: Github
@@ -17,4 +17,4 @@ University of Zurich , Switzerland PhD in Animal communication \| Sep 2009 - Apr
 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology \| Aug 2003 - June 2005
 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003
 
-Click here for my <a href="docs/David_Jansen_Resume.pdf">Resume</a> or <a href="docs/David_Jansen_CV.pdf">CV</a>
+Click here for my <a href="../docs/David_Jansen_Resume.pdf">Resume</a> or <a href="../docs/David_Jansen_CV.pdf">CV</a>
