@@ -1,11 +1,8 @@
 ---
-title: "david-awam-jansen.github.io"
+title: "Workshops"
+author: "David Jansen"
 ---
 
-This is a Quarto website.
+This is the index site of the workshops page. It will have multiple presentations about data management, data analysis and data visualizations.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
+The site is created with Rstudio and Quarto (<https://quarto.org/docs/websites>).
