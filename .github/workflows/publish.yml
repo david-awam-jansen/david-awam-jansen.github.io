@@ -1,31 +1,29 @@
 on:
-  workflow_dispatch:
   push:
     branches: main
 
-name: Quarto Publish
-
 jobs:
-  build-deploy:
+  import-data:
     runs-on: ubuntu-latest
-    container:
-      image: docker:19.03.12
-    env:
-      GHCR_PAT: ${{ secrets.GHCR_PAT }}  # Use the secret for GitHub Container Registry
     steps:
-      - name: Log in to GitHub Container Registry
-        run: echo "${GHCR_PAT}" | docker login ghcr.io -u david-awam-jansen --password-stdin
+      - name: Set up R
+        uses: r-lib/actions/setup-r@v2
 
-      - name: Access Docker container
-        run: docker exec $(hostname) bash -c "echo Hello from Docker container"
+      - name: Install packages
+        uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+          packages: |
+            any::tidyverse 
+            any::googlesheets4
 
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
 
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
+      - name: Commit results
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add survey_data.rds
+          git commit -m 'Data updated' || echo "No changes to commit"
+          git push origin || echo "No changes to commit"
