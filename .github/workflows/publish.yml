@@ -9,8 +9,6 @@ jobs:
   run-docker-container:
     runs-on: ubuntu-latest
     steps:
-      - name: Print GHCR_secret secret
-        run: echo "GHCR_secret: ${{ secrets.GHCR_secret }}"
       - name: Docker login
         run: echo "${{ secrets.GHCR_secret }}" | docker login ghcr.io -u david-awam-jansen --password-stdin
       - name: Run Docker Container
