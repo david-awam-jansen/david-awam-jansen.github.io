@@ -13,5 +13,20 @@ jobs:
         run: echo "${{ secrets.GHCR_secret }}" | docker login ghcr.io -u david-awam-jansen --password-stdin
       - name: Run Docker Container
         run: docker run djanen1979/david-awam-jansen.github.io:latest /bin/bash
+      
       - name: Print Docker Build Output
         run: cat output.txt
+      
+      - name: Generate Output File
+        run: echo "Output content" > output.txt
+
+      - name: Add Output File
+        run: git add output.txt
+
+      - name: Commit Changes
+        run: git commit -m "Add output.txt file"
+
+      - name: Push Changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}   
