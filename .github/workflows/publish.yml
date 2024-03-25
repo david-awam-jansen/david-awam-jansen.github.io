@@ -8,4 +8,3 @@ jobs:
     steps:
       - name: Print CR_PAT secret
         run: echo "Does this work!!!"
-        run: echo ${{ secrets.CR_PAT }}
