@@ -9,14 +9,9 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/david-awam-jansen/david-awam-jansen.github.io:latest
-      credentials:
-        username: ${{ github.actor }}
-        password: ${{ secrets.GHCR_PAT }}  # Use the secret github-containers
+      image: docker:19.03.12
     env:
-      CR_PAT: ${{ secrets.GHCR_PAT }}  # Use the secret github-containers
-    permissions:
-      contents: write
+      GHCR_PAT: ${{ secrets.GHCR_PAT }}  # Use the secret for GitHub Container Registry
     steps:
       - name: Log in to GitHub Container Registry
         run: echo "${GHCR_PAT}" | docker login ghcr.io -u david-awam-jansen --password-stdin
