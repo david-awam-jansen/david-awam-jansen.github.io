@@ -13,3 +13,5 @@ jobs:
         run: echo "${{ secrets.GHCR_secret }}" | docker login ghcr.io -u david-awam-jansen --password-stdin
       - name: Run Docker Container
         run: docker run djanen1979/david-awam-jansen.github.io:latest
+      - name: Print Docker Build Output
+        run: cat output.txt
