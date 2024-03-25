@@ -5,11 +5,6 @@ on:
 jobs:
   import-data:
     runs-on: ubuntu-latest
-    container:
-      image: ghcr.io/david-awam-jansen/david-awam-jansen.github.io:latest
-    env:
-      USERNAME: ${{ github.actor }}
-      PASSWORD: ${{ secrets.GHRC_PAT }}
     steps:
       - name: Print CR_PAT secret
         run: echo ${{ secrets.CR_PAT }}  
