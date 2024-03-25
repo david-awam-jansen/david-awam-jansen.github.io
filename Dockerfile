@@ -19,6 +19,8 @@ RUN R -e "install.packages(c( \
   , 'readxl' \
     ))"
 
+RUN printf "My current shell - %s\n" "$SHELL"
+
 CMD ["/bin/bash"]
 
 ## docker build -t r-github-actions .
