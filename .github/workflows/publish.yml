@@ -17,9 +17,7 @@ jobs:
         run: echo "${GHCR_PAT}" | docker login ghcr.io -u david-awam-jansen --password-stdin
 
       - name: Access Docker container
-        run: |
-          # Run commands inside the Docker container
-          docker exec CONTAINER_ID bash -c "echo Hello from Docker container"        
+        run: docker exec $(hostname) bash -c "echo Hello from Docker container"
 
       - name: Check out repository
         uses: actions/checkout@v4
