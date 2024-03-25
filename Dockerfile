@@ -1,6 +1,11 @@
 # Use the Rocker tidyverse image as the base image
 FROM rocker/tidyverse
 
+# Install Bash
+RUN apt-get update && \
+    apt-get install -y bash && \
+    rm -rf /var/lib/apt/lists/*
+
 # Install R packages
 RUN R -e "install.packages(c( \ 
     'cellranger' \
