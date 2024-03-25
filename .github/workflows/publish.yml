@@ -12,6 +12,4 @@ jobs:
       PASSWORD: ${{ secrets.GHRC_PAT }}
     steps:
       - name: Print CR_PAT secret
-        run: echo ${{ secrets.CR_PAT }}      
-      - name: Your First Step
-        run: echo "This is your first step, replace it with actual commands"
+        run: echo ${{ secrets.CR_PAT }}  
