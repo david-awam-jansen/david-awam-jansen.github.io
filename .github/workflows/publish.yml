@@ -9,4 +9,7 @@ jobs:
       image: ghcr.io/david-awam-jansen/r-github-actions:latest
       credentials:
         username: ${{ github.actor }}
-        password: ${{ secrets.CR_PAT }} 
+        password: ${{ secrets.CR_PAT }}
+    steps:
+      - name: Your First Step
+        run: echo "This is your first step, replace it with actual commands"
