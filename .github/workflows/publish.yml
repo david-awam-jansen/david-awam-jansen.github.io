@@ -1,10 +1,6 @@
-on:
-  push:
-    branches: main
-
 jobs:
-  import-data:
+  print-secret:
     runs-on: ubuntu-latest
     steps:
       - name: Print CR_PAT secret
-        run: echo ${{ secrets.CR_PAT }}  
+        run: echo ${{ secrets.CR_PAT }}
