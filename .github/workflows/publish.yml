@@ -1,12 +1,10 @@
-on:
-  push:
-    branches: main
-
 jobs:
   print-secret:
     runs-on: ubuntu-latest
+    env:
+      GHCR_SECRET: ${{ secrets.GHCR_secret }}
     steps:
-      - name: Print CR_PAT secret
-        run: echo "${{ secrets.GHCR_PAT }}"
+      - name: Print GHCR_secret secret
+        run: echo "$GHCR_SECRET"
       - name: Docker login
-        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u david-awam-jansen --password-stdin
+        run: echo "$GHCR_SECRET" | docker login ghcr.io -u david-awam-jansen --password-stdin
