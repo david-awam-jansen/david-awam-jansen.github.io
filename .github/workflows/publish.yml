@@ -9,7 +9,7 @@ jobs:
       image: ghcr.io/david-awam-jansen/david-awam-jansen.github.io:latest
     env:
       USERNAME: ${{ github.actor }}
-      PASSWORD: ${{ secrets.CR_PAT }}
+      PASSWORD: ${{ secrets.GHRC_PAT }}
     steps:
       - name: Your First Step
         run: echo "This is your first step, replace it with actual commands"
