@@ -11,6 +11,7 @@ jobs:
     steps:
       - name: Docker login
         run: echo "${{ secrets.GHCR_secret }}" | docker login ghcr.io -u david-awam-jansen --password-stdin
+
       - name: Run Docker Container
         run: docker run djanen1979/david-awam-jansen.github.io:latest /bin/bash
 
@@ -19,6 +20,11 @@ jobs:
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Install R Dependencies
+        uses: r-lib/actions/setup-renv@v2
+        with:
+          cache-version: 1
       
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
