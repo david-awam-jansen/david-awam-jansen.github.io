@@ -9,7 +9,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-latest
     container:
-      image: ghcr.io/david-awam-jansen/r-github-actions:latest
+      image: ghcr.io/david-awam-jansen/david-awam-jansen.github.io:latest
       credentials:
         username: ${{ github.actor }}
         password: ${{ secrets.CR_PAT }}  # Use the secret github-containers
