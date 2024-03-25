@@ -8,3 +8,5 @@ jobs:
     steps:
       - name: Print CR_PAT secret
         run: echo "${{ secrets.GHCR_PAT }}"
+      - name: Docker login
+        run: echo "${{ secrets.GHCR_PAT }}" | docker login ghcr.io -u david-awam-jansen --password-stdin
