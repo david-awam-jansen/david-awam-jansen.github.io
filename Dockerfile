@@ -7,6 +7,11 @@ RUN apt-get update && \
     apt-get install -y bash curl && \
     rm -rf /var/lib/apt/lists/*
 
+# Download and install quarto using dpkg
+RUN curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb && \
+    dpkg -i quarto-linux-amd64.deb && \
+    rm quarto-linux-amd64.deb
+
 # Install R packages required for quarto
 
 RUN  R -e "install.packages(c( \ 
@@ -30,9 +35,6 @@ RUN  R -e "install.packages(c( \
       , 'readxl' \
        , lib = '/usr/local/lib/R/library' \
         ))"
-
-RUN curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
-RUN gdebi --non-interactive quarto-linux-amd64.deb        
 
 ## docker build -t djanen1979/david-awam-jansen.github.io .
 
