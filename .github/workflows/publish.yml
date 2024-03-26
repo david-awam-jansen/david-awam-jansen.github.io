@@ -14,8 +14,5 @@ jobs:
       with:
         version: 0.9.141
 
-    - name: "Quarto render"
-      shell: bash
-      run: |
-        quarto render --fail-if-warnings
-        # https://github.com/quarto-dev/quarto-cli/issues/493
+    - name: Set up Quarto
+      uses: quarto-dev/quarto-actions/setup@v2
