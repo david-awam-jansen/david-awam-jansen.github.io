@@ -10,9 +10,7 @@ website:
         url: index.qmd
       - text: About
         url: about.qmd
-      - text: simple R  
-        url: simple_R.qmd
-
+        
 format:
   html:
     theme: cosmo
