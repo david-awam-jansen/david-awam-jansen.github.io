@@ -26,10 +26,16 @@ jobs:
         run: docker pull djanen1979/david-awam-jansen.github.io:latest
 
       - name: Check Quarto version in Docker container
-        run: docker run --rm djanen1979/david-awam-jansen.github.io:latest quarto --version        
-
+        run: docker run --rm djanen1979/david-awam-jansen.github.io:latest quarto --version
+        
       - name: Render and Publish
-        run: |
-          docker run --rm -v $(pwd):/workspace -w /workspace djanen1979/david-awam-jansen.github.io:latest quarto render --to=github --target=gh-pages
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+
+      #- name: Render and Publish
+      #  run: |
+      #    docker run --rm -v $(pwd):/workspace -w /workspace djanen1979/david-awam-jansen.github.io:latest quarto render --to=github --target=gh-pages
+      # ad env if needed
