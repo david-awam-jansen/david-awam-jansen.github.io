@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   sidebar:
@@ -8,6 +9,8 @@ website:
     contents:
       - text: Home
         url: index.qmd
+      - text: About
+        url: about.qmd        
 
 format:
   html:
