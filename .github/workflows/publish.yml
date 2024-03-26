@@ -9,10 +9,5 @@ jobs:
     steps:
     - uses: actions/checkout@v2
 
-    - name: "Install Quarto"
-      uses: quarto-dev/quarto-actions/install-quarto@main
-      with:
-        version: 0.9.141
-
     - name: Set up Quarto
       uses: quarto-dev/quarto-actions/setup@v2
