@@ -20,14 +20,13 @@ RUN  R -e "install.packages(c( \
 RUN  R -e "install.packages(c( \ 
         'cellranger' \
       , 'data.table' \
-      , 'dismo' \
+#      , 'dismo' \
       , 'flextable' \
       , 'janitor' \
       , 'lme4' \
       , 'lmerTest' \
       , 'purrr' \
       , 'readxl' \
-      , 'rmarkdown' \
         ))"
 
 RUN  echo "R packages installation completed." 
