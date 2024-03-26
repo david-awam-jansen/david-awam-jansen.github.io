@@ -1,43 +1,42 @@
-# Use the Rocker tidyverse image as the base image
-FROM rocker/r-ver:4.3.3
-RUN /rocker_scripts/install_tidyverse.sh
+on:
+  workflow_dispatch:
+  push:
+    branches: main
 
-# Install Bash
-RUN apt-get update && \
-    apt-get install -y bash && \
-    rm -rf /var/lib/apt/lists/*
+name: Quarto Publish
 
-# Install R packages required for quarto
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-RUN  R -e "install.packages(c( \ 
-        'knitr' \
-      , 'rmarkdown' \
-      , 'downlit' \
-      , 'xml2' \
-      , lib = '/usr/local/lib/R/library' \
-        ))"
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
-# Install R packages and redirect output to the file
-RUN  R -e "install.packages(c( \ 
-        'cellranger' \
-      , 'data.table' \
-#      , 'dismo' \
-      , 'flextable' \
-      , 'janitor' \
-      , 'lme4' \
-      , 'lmerTest' \
-      , 'purrr' \
-      , 'readxl' \
-       , lib = '/usr/local/lib/R/library' \
-        ))"
+      - name: Set up Docker
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
 
-# Set environment variable for R packages directory
-ENV R_LIBS=/usr/local/lib/R/library
+      - name: Build Docker image
+        run: |
+          docker build -t my_r_image ../../
+        working-directory: .github/workflows
 
-# Set the working directory to where R libraries are installed
-WORKDIR /usr/local/lib/R/library
+      - name: Run Docker container
+        run: docker run --rm my_r_image
+        working-directory: .github/workflows
 
-RUN  echo "R packages installation completed." 
+      - name: Render and Publish
+        uses: quarto-dev/quarto-actions/publish@v2
+        with:
+          target: gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 ## docker build -t djanen1979/david-awam-jansen.github.io .
 
