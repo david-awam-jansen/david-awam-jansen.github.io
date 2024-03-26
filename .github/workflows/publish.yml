@@ -1,25 +1,30 @@
-name: Build and Deploy
 on:
-  push:
-    branches:
-      - main
   workflow_dispatch:
+  push:
+    branches: main
+
+name: Publish website    
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    permissions: 
+        contents: write
     container:
       image: rocker/verse:latest
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
 
-      - name: Install quarto
-        run: |
-          /rocker_scripts/install_quarto.sh
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2   
+
+      #- name: Install quarto
+      #  run: |
+      #    /rocker_scripts/install_quarto.sh
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
+                 with:
+           target: gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
