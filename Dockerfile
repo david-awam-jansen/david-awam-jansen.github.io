@@ -4,7 +4,7 @@ RUN /rocker_scripts/install_tidyverse.sh
 
 # Install Bash
 RUN apt-get update && \
-    apt-get install -y bash && \
+    apt-get install -y bash curl && \
     rm -rf /var/lib/apt/lists/*
 
 # Install R packages required for quarto
