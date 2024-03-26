@@ -17,9 +17,6 @@ jobs:
       - name: Install quarto
         run: |
           /rocker_scripts/install_quarto.sh
-      - name: Build site
-        run: |
-          quarto render
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
