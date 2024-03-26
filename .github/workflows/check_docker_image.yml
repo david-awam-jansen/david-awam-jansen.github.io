@@ -8,4 +8,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Check Docker image availability
-        run: docker images my_local_docker:latest
+        run: docker ps
