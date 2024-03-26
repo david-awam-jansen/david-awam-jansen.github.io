@@ -22,7 +22,14 @@ jobs:
       #- name: Pull Docker image
       #  run: docker pull david.awam.jansen.io:latest
 
+      - name: Pull Docker image
+        run: docker pull djanen1979/david-awam-jansen.github.io:latest
+
       - name: Render and Publish
+        run: |
+          docker run --rm -v $(pwd):/workspace -w /workspace djanen1979/david-awam-jansen.github.io:latest quarto 
+          render --to=github --target=gh-pages
+
         run: |
           docker run --rm -v $(pwd):/workspace -w /workspace david.awam.jansen.io:latest quarto 
           render --to=github --target=gh-pages
