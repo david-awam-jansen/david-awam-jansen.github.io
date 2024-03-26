@@ -18,7 +18,7 @@ RUN  R -e "install.packages(c( \
         'knitr' \
       , 'rmarkdown' \
       , 'downlit' \
-      , 'xml2' \
+#      , 'xml2' \
       , lib = '/usr/local/lib/R/library' \
         ))"
 ## docker build -t djanen1979/david-awam-jansen.github.io .
