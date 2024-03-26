@@ -9,6 +9,9 @@ jobs:
     steps:
     - name: Check Docker image availability on Docker Hub
       run: docker pull djanen1979/david-awam-jansen.github.io:latest
-      
+
+    - name: Run Docker container
+      run: docker run --name test_container -d djanen1979/david-awam-jansen.github.io:latest
+
     - name: Check Docker image availability
       run: docker ps -a
