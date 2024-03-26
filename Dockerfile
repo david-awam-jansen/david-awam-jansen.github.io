@@ -1,5 +1,5 @@
 # Use the Rocker tidyverse image as the base image
-FROM rocker/r-ver:4.1.2
+FROM rocker/r-ver:4.3.3
 RUN /rocker_scripts/install_tidyverse.sh
 
 # Install Bash
