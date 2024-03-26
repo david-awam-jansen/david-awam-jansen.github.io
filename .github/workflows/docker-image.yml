@@ -3,8 +3,8 @@ name: Docker Image CI
 on:
   push:
     branches: [ "main" ]
-  pull_request:
-    branches: [ "main" ]
+    paths:         ## only change if a change to a qmd file is pushed.
+      - '**/*.ylm' # This matches any qmd file in any subdirectory
 
 jobs:
 

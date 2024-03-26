@@ -1,9 +1,11 @@
+name: Quarto Publish
+
 on:
   workflow_dispatch:
   push:
     branches: main
-
-name: Quarto Publish
+    paths:         ## only change if a change to a qmd file is pushed.
+      - '**/*.qmd' # This matches any qmd file in any subdirectory
 
 jobs:
   build-deploy:
