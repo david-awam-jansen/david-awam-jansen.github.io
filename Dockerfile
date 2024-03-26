@@ -1,17 +1,23 @@
 # Use the Rocker tidyverse image as the base image
-FROM rocker/tidyverse
+FROM rocker/r-ver:4.1.2
+RUN /rocker_scripts/install_tidyverse.sh
 
 # Install Bash
 RUN apt-get update && \
     apt-get install -y bash && \
     rm -rf /var/lib/apt/lists/*
 
-# Create a file to store output
-RUN touch /output.txt
+# Install R packages required for quarto
+
+RUN  R -e "install.packages(c( \ 
+        'knitr' \
+      , 'rmarkdown' \
+      , 'downlit' \
+      , 'xml2' \
+        ))"
 
 # Install R packages and redirect output to the file
-RUN echo "Installing R packages..." >> /output.txt && \
-    R -e "install.packages(c( \ 
+RUN  R -e "install.packages(c( \ 
         'cellranger' \
       , 'data.table' \
       , 'dismo' \
@@ -21,5 +27,20 @@ RUN echo "Installing R packages..." >> /output.txt && \
       , 'lmerTest' \
       , 'purrr' \
       , 'readxl' \
-        ))" >> /output.txt && \
-    echo "R packages installation completed." >> /output.txt
+      , 'rmarkdown' \
+        ))"
+
+RUN  echo "R packages installation completed." 
+
+## docker build -t djanen1979/david-awam-jansen.github.io .
+## docker tag david-awam-jansen.github.io djanen1979/david-awam-jansen.github.io:latest
+##docker login
+## docker push djanen1979/david-awam-jansen.github.io:latest
+
+#docker tag david-awam-jansen.github.io ghcr.io/david-awam-jansen/david-awam-jansen.github.io:latest
+##echo "secret code here" | docker login ghcr.io -u david-awam-jansen --password-stdin
+#docker push ghcr.io/david-awam-jansen/david-awam-jansen.github.io:latest
+
+
+## docker push ghcr.io/david-awam-jansen/r-github-actions:latest
+## docker push djanen/r-github-actions:latest
