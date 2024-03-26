@@ -25,11 +25,11 @@ jobs:
       - name: Build Docker image
         run: |
           docker build -t my_r_image ../../
-        working-directory: website/.github/workflows
+        working-directory: .
 
       - name: Run Docker container
         run: docker run --rm my_r_image
-        working-directory: website/.github/workflows
+        working-directory: .
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
