@@ -1,11 +1,9 @@
-name: Quarto Publish
-
 on:
   workflow_dispatch:
   push:
     branches: main
-    paths:
-      - '**/*.qmd'
+
+name: Quarto Publish
 
 jobs:
   build-deploy:
@@ -16,31 +14,25 @@ jobs:
       - name: Check out repository
         uses: actions/checkout@v4
 
-      - name: Set up Docker Buildx
-        uses: docker/setup-buildx-action@v1
+      - name: Set up Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
 
-      #- name: Pull Docker image
-      #  run: docker pull david.awam.jansen.io:latest
+      - name: Install R
+        uses: r-lib/actions/setup-r@v2
+        with:
+          r-version: '4.2.0'
 
-      - name: Pull Docker image
-        run: docker pull djanen1979/david-awam-jansen.github.io:latest
+      - uses: r-lib/actions/setup-r-dependencies@v2
+        with:
+           packages:
+            any::knitr
+            any::rmarkdown
+            any::downlit
+            any::xml2
 
-      - name: Check Quarto version in Docker container
-        run: docker run --rm djanen1979/david-awam-jansen.github.io:latest quarto --version
-      
-      - name: Run Quarto commands
-        run: |
-          docker run --rm djanen1979/david-awam-jansen.github.io:latest quarto --version
-          docker run --rm djanen1979/david-awam-jansen.github.io:latest quarto render --help
-      
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
           target: gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-
-      #- name: Render and Publish
-      #  run: |
-      #    docker run --rm -v $(pwd):/workspace -w /workspace djanen1979/david-awam-jansen.github.io:latest quarto render --to=github --target=gh-pages
-      # ad env if needed
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
