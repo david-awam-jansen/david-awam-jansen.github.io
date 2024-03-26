@@ -10,7 +10,9 @@ website:
       - text: Home
         url: index.qmd
       - text: About
-        url: about.qmd        
+        url: about.qmd 
+      - text: Simple R
+        url: simple_R.qmd                       
 
 format:
   html:

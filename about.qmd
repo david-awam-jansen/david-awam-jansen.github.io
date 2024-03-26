@@ -9,8 +9,6 @@ about:
       href: https://github.com/david-awam-jansen
 ---
 
-![](images/djansen.jpg){fig-align="center" width="1020" height="402"}
-
 I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.
 
 ## Education
