@@ -24,7 +24,7 @@ jobs:
 
       - name: List files in the repository
         run: |
-        ls -la /usr/local/lib/R/site-library
+          ls -la /usr/local/lib/R/site-library
   
       - name: Check out repository
         uses: actions/checkout@v4
