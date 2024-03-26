@@ -27,6 +27,4 @@ jobs:
           docker run --rm -v $(pwd):/workspace -w /workspace david.awam.jansen.io:latest quarto 
           render --to=github --target=gh-pages
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}render --to=github --target=gh-pages
-        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
