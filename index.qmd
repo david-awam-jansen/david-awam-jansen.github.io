@@ -3,11 +3,9 @@ title: "Workshop for MCEVBD!!"
 author: "David Jansen"
 ---
 
-Lets go!!! come on!!
+![Banner](images/sunset.jpg)
 
-![Banner](path/to/your/image.jpg)
-
-![](figures/profile.jpg){fig-align="center" width="1020" height="402"}
+![](images/profile.jpg){fig-align="center" width="1020" height="402"}
 
 
 The site is created with Rstudio and Quarto (<https://quarto.org/docs/websites>).
