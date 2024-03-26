@@ -21,21 +21,6 @@ RUN  R -e "install.packages(c( \
       , 'xml2' \
       , lib = '/usr/local/lib/R/library' \
         ))"
-
-# Install R packages and redirect output to the file
-RUN  R -e "install.packages(c( \ 
-        'cellranger' \
-      , 'data.table' \
-#      , 'dismo' \
-      , 'flextable' \
-      , 'janitor' \
-      , 'lme4' \
-      , 'lmerTest' \
-      , 'purrr' \
-      , 'readxl' \
-       , lib = '/usr/local/lib/R/library' \
-        ))"
-
 ## docker build -t djanen1979/david-awam-jansen.github.io .
 
 ## for docker
