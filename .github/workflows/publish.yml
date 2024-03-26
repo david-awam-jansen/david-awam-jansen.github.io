@@ -5,47 +5,18 @@ on:
     branches:
       - main
 
-jobs:
-  run-docker-container:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Docker login
-        run: echo "${{ secrets.GHCR_secret }}" | docker login ghcr.io -u david-awam-jansen --password-stdin
-
-      - name: Run Docker Container
-        run: |
-          docker run ghcr.io/david-awam-jansen/david-awam-jansen.github.io:latest 
-
-      - name: List files in the repository
-        run: |
-          ls
-      - name: Get working directory
-        run: |
-          pwd
-
-      - name: List files in the repository
-        run: |
-          ls -la /usr/local/lib/R/site-library
-  
-      - name: Check out repository
-        uses: actions/checkout@v4
-
-      - name: Set up Quarto
-        uses: quarto-dev/quarto-actions/setup@v2
+      jobs:
+        build-and-deploy:
+          runs-on: ubuntu-latest
+          container:
+            image: rocker/verse:latest
+          steps:
+            - name: Checkout 🛎️
+              uses: actions/checkout@v3
       
-      - name: Render and Publish
-        uses: quarto-dev/quarto-actions/publish@v2
-        with:
-          target: gh-pages
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} 
-#     - name: Add Output File
-#        run: git add output.txt#
-#
-#      - name: Commit Changes
-#        run: git commit -m "Add output.txt file"
-#
-#      - name: Push Changes
-#        uses: ad-m/github-push-action@master
-#        with:
-#          github_token: ${{ secrets.GITHUB_TOKEN }} 
+            - name: Install quarto
+              run: |
+                /rocker_scripts/install_quarto.sh
+            - name: Build site
+              run: |
+                quarto render
