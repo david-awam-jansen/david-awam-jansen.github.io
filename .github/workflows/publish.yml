@@ -27,7 +27,12 @@ jobs:
 
       - name: Check Quarto version in Docker container
         run: docker run --rm djanen1979/david-awam-jansen.github.io:latest quarto --version
-        
+      
+      - name: Run Quarto commands
+        run: |
+          docker run --rm djanen1979/david-awam-jansen.github.io:latest quarto --version
+          docker run --rm djanen1979/david-awam-jansen.github.io:latest quarto render --help
+      
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
