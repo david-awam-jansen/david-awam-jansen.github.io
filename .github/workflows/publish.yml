@@ -1,22 +1,21 @@
-name: Run Docker Container Workflow
-
+name: Render and deploy Quarto files
 on:
   push:
-    branches:
-      - main
+  pull_request:
 
-      jobs:
-        build-and-deploy:
-          runs-on: ubuntu-latest
-          container:
-            image: rocker/verse:latest
-          steps:
-            - name: Checkout 🛎️
-              uses: actions/checkout@v3
-      
-            - name: Install quarto
-              run: |
-                /rocker_scripts/install_quarto.sh
-            - name: Build site
-              run: |
-                quarto render
+jobs:
+  quarto-render-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: "Install Quarto"
+      uses: quarto-dev/quarto-actions/install-quarto@main
+      with:
+        version: 0.9.141
+
+    - name: "Quarto render"
+      shell: bash
+      run: |
+        quarto render --fail-if-warnings
+        # https://github.com/quarto-dev/quarto-cli/issues/493
