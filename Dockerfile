@@ -34,6 +34,9 @@ RUN  R -e "install.packages(c( \
 # Set environment variable for R packages directory
 ENV R_LIBS=/usr/local/lib/R/library
 
+# Set the working directory to where R libraries are installed
+WORKDIR /usr/local/lib/R/library
+
 RUN  echo "R packages installation completed." 
 
 ## docker build -t djanen1979/david-awam-jansen.github.io .
