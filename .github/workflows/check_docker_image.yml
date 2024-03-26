@@ -7,5 +7,8 @@ jobs:
   check-docker-image:
     runs-on: ubuntu-latest
     steps:
-      - name: Check Docker image availability
-        run: docker ps -a
+    - name: Check Docker image availability on Docker Hub
+      run: docker pull djanen1979/david-awam-jansen.github.io:latest
+      
+    - name: Check Docker image availability
+      run: docker ps -a
