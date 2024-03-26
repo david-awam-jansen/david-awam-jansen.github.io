@@ -11,14 +11,20 @@
     "href": "about.html",
     "title": "David Jansen",
     "section": "",
-    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project."
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "About"
+    ]
   },
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
     "title": "David Jansen",
     "section": "Education",
-    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV"
+    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV",
+    "crumbs": [
+      "About"
+    ]
   },
   {
     "objectID": "index.html",
