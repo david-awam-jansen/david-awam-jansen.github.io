@@ -31,6 +31,9 @@ RUN  R -e "install.packages(c( \
        , lib = '/usr/local/lib/R/library' \
         ))"
 
+RUN curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb
+RUN gdebi --non-interactive quarto-linux-amd64.deb        
+
 ## docker build -t djanen1979/david-awam-jansen.github.io .
 
 ## for docker
