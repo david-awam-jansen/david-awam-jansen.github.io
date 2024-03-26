@@ -31,13 +31,19 @@ RUN  R -e "install.packages(c( \
        , lib = '/usr/local/lib/R/library' \
         ))"
 
+# Set environment variable for R packages directory
+ENV R_LIBS=/usr/local/lib/R/library
+
 RUN  echo "R packages installation completed." 
 
 ## docker build -t djanen1979/david-awam-jansen.github.io .
+
+## for docker
 ## docker tag david-awam-jansen.github.io djanen1979/david-awam-jansen.github.io:latest
 ##docker login
 ## docker push djanen1979/david-awam-jansen.github.io:latest
 
+## for ghcr.io
 #docker tag david-awam-jansen.github.io ghcr.io/david-awam-jansen/david-awam-jansen.github.io:latest
 ##echo "secret code here" | docker login ghcr.io -u david-awam-jansen --password-stdin
 #docker push ghcr.io/david-awam-jansen/david-awam-jansen.github.io:latest
