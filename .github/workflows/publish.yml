@@ -15,9 +15,17 @@ jobs:
       - name: Run Docker Container
         run: docker run djanen1979/david-awam-jansen.github.io:latest /bin/bash
 
-      - name: Check R lib
-        run : "ls -la /usr/local/lib/R/site-library/"
+      - name: List files in the repository
+        run: |
+          ls
+      - name: Get working directory
+        run: |
+          pwd
 
+      - name: List files in the repository
+        run: |
+        ls -la /usr/local/lib/R/site-library
+  
       - name: Check out repository
         uses: actions/checkout@v4
 

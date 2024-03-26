@@ -14,6 +14,7 @@ RUN  R -e "install.packages(c( \
       , 'rmarkdown' \
       , 'downlit' \
       , 'xml2' \
+      , lib = '/usr/local/lib/R/library' \
         ))"
 
 # Install R packages and redirect output to the file
@@ -27,6 +28,7 @@ RUN  R -e "install.packages(c( \
       , 'lmerTest' \
       , 'purrr' \
       , 'readxl' \
+       , lib = '/usr/local/lib/R/library' \
         ))"
 
 RUN  echo "R packages installation completed." 
