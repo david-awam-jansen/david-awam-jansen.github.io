@@ -1,27 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://david-awam-jansen.github.io/simple_R.html</loc>
-    <lastmod>2024-03-27T13:27:31.797Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/about.html</loc>
-    <lastmod>2024-03-27T13:27:31.793Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/qmd_files/index.html</loc>
-    <lastmod>2024-03-27T13:27:31.797Z</lastmod>
+    <loc>https://david-awam-jansen.github.io/qmd_files/simple_R.html</loc>
+    <lastmod>2024-03-27T13:34:35.891Z</lastmod>
   </url>
   <url>
     <loc>https://david-awam-jansen.github.io/qmd_files/about.html</loc>
-    <lastmod>2024-03-27T13:27:31.797Z</lastmod>
+    <lastmod>2024-03-27T13:34:35.891Z</lastmod>
   </url>
   <url>
-    <loc>https://david-awam-jansen.github.io/qmd_files/simple_R.html</loc>
-    <lastmod>2024-03-27T13:27:31.797Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/index.html</loc>
-    <lastmod>2024-03-27T13:27:31.797Z</lastmod>
+    <loc>https://david-awam-jansen.github.io/qmd_files/index.html</loc>
+    <lastmod>2024-03-27T13:34:35.891Z</lastmod>
   </url>
 </urlset>
