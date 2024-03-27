@@ -32,5 +32,8 @@ jobs:
           fi
       - name: Debug Tidyverse folder
         run: |
-          ls -l /usr/local/lib/R/site-library      
+          ls -l /usr/local/lib/R/site-library
+      - name: Debug R libraries
+        run: docker run --rm -v /usr/local/lib/R/site-library:/usr/local/lib/R/site-library busybox ls -l /usr/local/lib/R/site-library
+        
         

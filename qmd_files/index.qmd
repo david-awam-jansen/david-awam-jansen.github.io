@@ -8,6 +8,7 @@ Can I find tidyverse?
 WHere is it?
 Checking workspace
 adding docker path to R libs
+still no luck
 
 ![](../images/sunset.jpg)
 
