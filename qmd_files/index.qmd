@@ -6,6 +6,7 @@ Can I compile this with a Dockerfile
 Come on you can do this!
 Can I find tidyverse?
 WHere is it?
+Checking workspace
 
 ![](../images/sunset.jpg)
 

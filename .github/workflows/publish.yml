@@ -30,4 +30,11 @@ jobs:
           fi
       - name: Debug Tidyverse folder
         run: |
-          ls -l /usr/local/lib/R/site-library          
+          ls -l /usr/local/lib/R/site-library
+      - name: Print GitHub workspace path
+        run: |
+          echo "GitHub workspace path: ${{ github.workspace }}"
+      - name: Print contents of /workspace in Docker container
+        run: docker run --rm -v "${{ github.workspace }}:/workspace" busybox ls -l /workspace
+        
+        
