@@ -40,6 +40,13 @@ jobs:
           docker run --rm \
             -v /usr/local/lib/R/site-library:/usr/local/lib/R/site-library \
             djanen1979/david-awam-jansen.github.io:latest \
-            ls -l /usr/local/lib/R/site-library        
+            ls -l /usr/local/lib/R/site-library
+      - name: Copy file into Docker container
+        run: |
+          echo "Hello, Docker!" > hello_docker.txt
+          docker run --rm -v "${{ github.workspace }}:/workspace" djanen1979/david-awam-jansen.github.io:latest cp /workspace/hello_docker.txt /tmp/hello_docker.txt
+      - name: Check if file exists inside Docker container
+        run: docker run --rm djanen1979/david-awam-jansen.github.io:latest ls /tmp/hello_docker.txt
+          
 
         
