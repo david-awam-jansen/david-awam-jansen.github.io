@@ -8,11 +8,11 @@ website:
     search: true
     contents:
       - text: Home
-        url: index.qmd
+        url: qmd_files/index.qmd
       - text: About
-        url: about.qmd 
+        url: qmd_files/about.qmd 
       - text: Simple R
-        url: simple_R.qmd                       
+        url: qmd_files/simple_R.qmd                       
 
 format:
   html:
