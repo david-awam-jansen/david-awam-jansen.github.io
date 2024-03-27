@@ -21,34 +21,11 @@ jobs:
         run: |
           docker run --rm \
             -v "${{ github.workspace }}:/workspace" \
-            -v "/usr/local/lib/R/site-library:/usr/local/lib/R/site-library" \
+            -v "/usr:/usr" \
             djanen1979/david-awam-jansen.github.io:latest
-      - name: Check if tidyverse folder exists
-        run: |
-          if [ -d "/usr/local/lib/R/site-library/tidyverse" ]; then
-            echo "rmarkdown folder exists."
-          else
-            echo "rmarkdown folder does not exist."
-          fi
-      - name: Debug Tidyverse folder
-        run: |
-          ls -l /usr/local/lib/R/site-library
-      - name: Debug Docker root directory
-        run: docker run --rm djanen1979/david-awam-jansen.github.io:latest ls -l /
-      - name: Debug R libraries in Docker container
-        run: |
-          docker run --rm \
-            -v /usr/local/lib/R/site-library:/usr/local/lib/R/site-library \
-            djanen1979/david-awam-jansen.github.io:latest \
-            ls -l /usr/local/lib/R/site-library
-      - name: Copy file into Docker container
-        run: |
-          echo "Hello, Docker!" > hello_docker.txt
-          docker run --rm -v "${{ github.workspace }}:/workspace" djanen1979/david-awam-jansen.github.io:latest cp /workspace/hello_docker.txt /tmp/hello_docker.txt
-      - name: Check if file exists inside Docker container
-        run: docker run --rm djanen1979/david-awam-jansen.github.io:latest ls 
-      - name: see the file
-        run: docker run --rm djanen1979/david-awam-jansen.github.io:latest cat hello_docker.txt
-          
 
-        
+      - name: Check if docker_access.txt exists
+        run: ls -l ${{ github.workspace }}/docker_access.txt        
+
+
+  
