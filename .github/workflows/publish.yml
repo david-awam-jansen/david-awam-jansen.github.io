@@ -21,11 +21,5 @@ jobs:
         run: |
           docker run --rm \
             -v "${{ github.workspace }}:/workspace" \
-            -v "/usr:/usr" \
+            -v "/usr/local/lib/R/site-library:/usr/local/lib/R/site-library" \
             djanen1979/david-awam-jansen.github.io:latest
-
-      - name: Check if docker_access.txt exists
-        run: ls -l ${{ github.workspace }}/docker_access.txt        
-
-
-  
