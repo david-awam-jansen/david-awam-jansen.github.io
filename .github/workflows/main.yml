@@ -22,7 +22,10 @@ jobs:
 
     - name: Copy R library from container
       run: |
-        docker cp djanen1979/david-awam-jansen.github.io:latest:/usr/local/lib/R/site-library/ $HOME/R_packages
+        docker create --name temp_container djanen1979/david-awam-jansen.github.io:latest
+        docker cp temp_container:/usr/local/lib/R/site-library/ $HOME/R_packages
+        docker rm temp_container
+    
   
     - name: Set up R environment
       run: |
