@@ -12,20 +12,20 @@ jobs:
     services:
       mydocker:
         image: djanen1979/david-awam-jansen.github.io:latest
-        container_name: mydocker  # Define a custom container name
+
     steps:
-#    - name: Start Docker container
-#      run: docker start mydocker || true  # Start the container if not already running 
-
-    - name: List Docker containers
-      run: docker ps -a 
-
     - name: Check out repository
       uses: actions/checkout@v2
 
+    - name: List running containers
+      run: docker ps -a
+
+    - name: Determine service container name
+      run: echo "Service container name is $GITHUB_JOB"
+
     - name: Copy R library from container
       run: |
-        docker cp mydocker:/usr/local/lib/R/site-library/ $HOME/R_packages
+        docker cp $GITHUB_JOB:/usr/local/lib/R/site-library/ $HOME/R_packages
 
     - name: Set up R environment
       run: |
