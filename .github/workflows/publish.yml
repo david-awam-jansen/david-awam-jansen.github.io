@@ -21,5 +21,7 @@ jobs:
     steps:
       - name: Check out repository-projects
         uses: actions/checkout@v2 
-      - name: check contents
-        run: ls -l ${{ github.workspace }} 
+      - name: Create Docker directory
+        run: mkdir -p /docker
+      - name: check contents overall
+        run: ls -l ${{ github.workspace }}
