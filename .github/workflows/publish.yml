@@ -33,12 +33,13 @@ jobs:
       - name: Debug Tidyverse folder
         run: |
           ls -l /usr/local/lib/R/site-library
+      - name: Debug Docker root directory
+        run: docker run --rm djanen1979/david-awam-jansen.github.io:latest ls -l /
       - name: Debug R libraries in Docker container
         run: |
           docker run --rm \
             -v /usr/local/lib/R/site-library:/usr/local/lib/R/site-library \
             djanen1979/david-awam-jansen.github.io:latest \
-            ls -l /usr/local/lib/R/site-library
-        
+            ls -l /usr/local/lib/R/site-library        
 
         
