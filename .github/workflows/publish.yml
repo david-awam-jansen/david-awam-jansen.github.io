@@ -5,6 +5,7 @@ on:
     paths:
       - '**/*.qmd'
       - _quarto.ylm
+      - .github/workflow/publish.ylm
 
 name: Quarto Publish
 
