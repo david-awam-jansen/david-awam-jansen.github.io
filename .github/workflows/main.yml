@@ -17,6 +17,9 @@ jobs:
     - name: Start Docker container
       run: docker start mydocker || true  # Start the container if not already running 
 
+    - name: List Docker containers
+      run: docker ps -a 
+
     - name: Check out repository
       uses: actions/checkout@v2
 
