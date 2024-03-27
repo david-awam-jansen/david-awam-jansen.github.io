@@ -5,7 +5,7 @@ on:
     paths:
       - '**/*.qmd'
       - _quarto.yml
-      - .github/workflows/publish.ylm
+      - .github/workflows/publish.yml 
 
 name: Quarto Publish
 
@@ -47,6 +47,8 @@ jobs:
           docker run --rm -v "${{ github.workspace }}:/workspace" djanen1979/david-awam-jansen.github.io:latest cp /workspace/hello_docker.txt /tmp/hello_docker.txt
       - name: Check if file exists inside Docker container
         run: docker run --rm djanen1979/david-awam-jansen.github.io:latest ls /tmp/hello_docker.txt
+      - name: see the file
+        run: docker run --rm djanen1979/david-awam-jansen.github.io:latest cat /tmp/hello_docker.txt
           
 
         
