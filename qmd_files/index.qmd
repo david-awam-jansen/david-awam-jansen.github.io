@@ -2,14 +2,6 @@
 title: "Workshop for MCEVBD!!"
 author: "David Jansen"
 ---
-Can I compile this with a Dockerfile
-Come on you can do this!
-Can I find tidyverse?
-WHere is it?
-Checking workspace
-adding docker path to R libs
-still no luck
-
 ![](../images/sunset.jpg)
 
 The site is created with Rstudio and Quarto (<https://quarto.org/docs/websites>).
