@@ -7,6 +7,7 @@ Come on you can do this!
 Can I find tidyverse?
 WHere is it?
 Checking workspace
+adding docker path to R libs
 
 ![](../images/sunset.jpg)
 

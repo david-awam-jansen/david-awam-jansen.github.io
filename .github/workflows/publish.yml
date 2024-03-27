@@ -17,10 +17,12 @@ jobs:
     steps:
       - name: Check out repository-projects
         uses: actions/checkout@v2 
-
       - name: Run Docker container to compile assets
         run: |
-          docker run --rm -v "${{ github.workspace }}:/workspace" djanen1979/david-awam-jansen.github.io:latest
+          docker run --rm \
+            -v "${{ github.workspace }}:/workspace" \
+            -v "/usr/local/lib/R/site-library:/usr/local/lib/R/site-library" \
+            djanen1979/david-awam-jansen.github.io:latest
       - name: Check if tidyverse folder exists
         run: |
           if [ -d "/usr/local/lib/R/site-library/tidyverse" ]; then
@@ -30,11 +32,5 @@ jobs:
           fi
       - name: Debug Tidyverse folder
         run: |
-          ls -l /usr/local/lib/R/site-library
-      - name: Print GitHub workspace path
-        run: |
-          echo "GitHub workspace path: ${{ github.workspace }}"
-      - name: Print contents of /workspace in Docker container
-        run: docker run --rm -v "${{ github.workspace }}:/workspace" busybox ls -l /workspace
-        
+          ls -l /usr/local/lib/R/site-library      
         
