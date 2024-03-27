@@ -21,10 +21,10 @@ jobs:
       - name: Run Docker container to compile assets
         run: |
           docker run --rm -v "${{ github.workspace }}:/workspace" djanen1979/david-awam-jansen.github.io:latest
-      - name: Check if Tidyverse folder exists
+      - name: Check if tidyverse folder exists
         run: |
-          if [ -d "/usr/local/lib/R/library/tidyverse" ]; then
-            echo "Tidyverse folder exists."
+          if [ -d "/usr/local/lib/R/site-library/tidyverse" ]; then
+            echo "rmarkdown folder exists."
           else
-            echo "Tidyverse folder does not exist."
+            echo "rmarkdown folder does not exist."
           fi
