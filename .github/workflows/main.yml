@@ -20,13 +20,10 @@ jobs:
     - name: List running containers
       run: docker ps -a
 
-    - name: Determine service container name
-      run: echo "Service container name is $GITHUB_JOB"
-
     - name: Copy R library from container
       run: |
-        docker cp $GITHUB_JOB:/usr/local/lib/R/site-library/ $HOME/R_packages
-
+        docker cp djanen1979/david-awam-jansen.github.io:latest:/usr/local/lib/R/site-library/ $HOME/R_packages
+  
     - name: Set up R environment
       run: |
         echo "R_LIBS=$HOME/R_packages:/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library" >> $GITHUB_ENV
