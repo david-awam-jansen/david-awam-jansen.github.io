@@ -4,8 +4,8 @@ on:
     branches: main
     paths:
       - '**/*.qmd'
-      - _quarto.ylm
-      - .github/workflow/publish.ylm
+      - _quarto.yml
+      - .github/workflows/publish.ylm
 
 name: Quarto Publish
 
