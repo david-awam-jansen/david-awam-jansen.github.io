@@ -14,12 +14,12 @@ jobs:
     runs-on: ubuntu-latest
     container:
       image: djanen1979/david-awam-jansen.github.io:latest
-        volumes: 
-          - "${{ github.workspace }}:/." 
+      volumes: 
+        - "${{ github.workspace }}:/."
     permissions:
       contents: write
     steps:
       - name: Check out repository-projects
         uses: actions/checkout@v2 
       - name: check contents
-        run: ls -l ${{ github.workspace }}  
+        run: ls -l ${{ github.workspace }} 
