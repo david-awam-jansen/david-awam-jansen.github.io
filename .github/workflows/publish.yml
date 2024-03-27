@@ -15,7 +15,7 @@ jobs:
     container:
       image: djanen1979/david-awam-jansen.github.io:latest
       volumes: 
-        - "${{ github.workspace }}:/."
+        - "${{ github.workspace }}:/docker"
     permissions:
       contents: write
     steps:
