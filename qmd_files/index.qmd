@@ -2,6 +2,8 @@
 title: "Workshop for MCEVBD!!"
 author: "David Jansen"
 ---
+come on docker
+
 ![](../images/sunset.jpg)
 
 The site is created with Rstudio and Quarto (<https://quarto.org/docs/websites>).
