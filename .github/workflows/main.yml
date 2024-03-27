@@ -12,10 +12,10 @@ jobs:
     services:
       mydocker:
         image: djanen1979/david-awam-jansen.github.io:latest
-
-    steps:
-    - name: Start Docker container
-      run: docker start mydocker || true  # Start the container if not already running 
+        container_name: mydocker  # Define a custom container name
+   steps:
+#    - name: Start Docker container
+#      run: docker start mydocker || true  # Start the container if not already running 
 
     - name: List Docker containers
       run: docker ps -a 
