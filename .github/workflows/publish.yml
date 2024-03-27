@@ -13,12 +13,13 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-    steps: 
+    steps:
       - name: Check out repository-projects
         uses: actions/checkout@v2 
+
       - name: Run Docker container to compile assets
         run: |
-        docker run --rm -v "${{ github.workspace }}:/workspace" djanen1979/david-awam-jansen.github.io:latest
+          docker run --rm -v "${{ github.workspace }}:/workspace" djanen1979/david-awam-jansen.github.io:latest
       - name: Check if Tidyverse folder exists
         run: |
           if [ -d "/usr/local/lib/R/library/tidyverse" ]; then
