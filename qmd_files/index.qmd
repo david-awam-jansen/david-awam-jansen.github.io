@@ -2,6 +2,7 @@
 title: "Workshop for MCEVBD!!"
 author: "David Jansen"
 ---
+Can I compile this with a Dockerfile
 
 ![](../images/sunset.jpg)
 
