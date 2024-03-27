@@ -28,3 +28,6 @@ jobs:
           else
             echo "rmarkdown folder does not exist."
           fi
+      - name: Debug Tidyverse folder
+        run: |
+          ls -l /usr/local/lib/R/site-library          
