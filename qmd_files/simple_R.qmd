@@ -1,0 +1,23 @@
+---
+title: "simple R"
+editor: visual
+---
+
+
+This is a simple file
+
+I can add some R code
+
+```{r}
+1 + 1
+```
+
+I should also be able to add a R library
+
+```{r}
+library(tidyverse)
+library(broom)
+
+mtcars %>% 
+  tidy()
+```
