@@ -1,27 +1,42 @@
-on:
-  workflow_dispatch:
-  push:
-    branches: main
-    paths:
-      - '**/*.qmd'
-      - _quarto.yml
-      - .github/workflows/publish.yml 
+name: R Package Workflow
 
-name: Quarto Publish
+on:
+  push:
+    branches:
+      - main
 
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
-    container:
-      image: djanen1979/david-awam-jansen.github.io:latest
-      volumes: 
-        - "${{ github.workspace }}:/docker"
-    permissions:
-      contents: write
+
+    services:
+      mydocker:
+        image: djanen1979/david-awam-jansen.github.io:latest
+
     steps:
-      - name: Check out repository-projects
-        uses: actions/checkout@v2 
-      - name: Create Docker directory
-        run: mkdir -p /docker
-      - name: check contents overall
-        run: ls -l ${{ github.workspace }}
+    - name: Check out repository
+      uses: actions/checkout@v2
+
+    - name: List running containers
+      run: docker ps -a
+
+    - name: Copy R library from container
+      run: |
+        docker create --name temp_container djanen1979/david-awam-jansen.github.io:latest
+        docker cp temp_container:/usr/local/lib/R/site-library/ $HOME/R_packages
+        docker rm temp_container
+    
+  
+    - name: Set up R environment
+      run: |
+        echo "R_LIBS=$HOME/R_packages:/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library" >> $GITHUB_ENV
+
+    - name: Set up Quarto
+      uses: quarto-dev/quarto-actions/setup@v2        
+
+    - name: Render and Publish
+      uses: quarto-dev/quarto-actions/publish@v2
+      with:
+        target: gh-pages
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
