@@ -404,7 +404,7 @@ addline_format <- function(x,...){
 	gsub('\\s','\n',x)
 }
 
-tick_report_data <- read_csv("data/tick_report_data.csv")
+tick_report_data <- read_csv("../data/tick_report_data.csv")
 
 plot_theme <- list(
 	cowplot::theme_cowplot(),
