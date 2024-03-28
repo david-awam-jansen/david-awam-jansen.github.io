@@ -23,18 +23,22 @@ RUN  R -e "install.packages(c( \
         ))"
 
 # Install R packages needed for workshops
-RUN R -e "install.packages(c( \ 
-    'cellranger' \
-  , 'data.table' \
-  , 'dismo' \
-  , 'flextable' \
-  , 'janitor' \
-  , 'lme4' \
-  , 'lmerTest' \
-  , 'purrr' \
-  , 'readxl' \
-    ))"
+RUN R -e "install.packages(c( \
+  'broom', \
+  'cellranger', \
+  'data.table', \
+  'dismo', \
+  'flextable', \
+  'ggtext', \
+  'janitor', \
+  'lme4', \
+  'lmerTest', \
+  'purrr', \
+  'readxl', \
+  'showtext' \
+  ))"
 
+## First build a Docker
 ## docker build -t djanen1979/david-awam-jansen.github.io .
 
 ## for docker
