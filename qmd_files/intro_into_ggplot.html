@@ -12,7 +12,7 @@
 
   <meta name="author" content="David Jansen">
   <meta name="dcterms.date" content="2024-03-28">
-  <title>Introduction into git</title>
+  <title>Introduction to ggplot2</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,6 +30,71 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link rel="stylesheet" href="../styles.css">
@@ -322,14 +387,15 @@
       margin-right: 0; 
     }
   </style>
+  <link href="../site_libs/tabwid-1.1.3/tabwid.css" rel="stylesheet">
+  <script src="../site_libs/tabwid-1.1.3/tabwid.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Introduction into git</h1>
-  <p class="subtitle">version control is control</p>
+  <h1 class="title">Introduction to ggplot2</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -341,235 +407,231 @@ David Jansen
 
   <p class="date">2024-03-28</p>
 </section>
+<section class="slide level2">
+
+<ul>
+<li><p>What is ggplot2?</p></li>
+<li><p>Why use ggplot2?</p></li>
+<li><p>Key Features of ggplot2</p></li>
+<li><p>Basic Syntax Overview</p></li>
+<li><p>Example Visualizations</p></li>
+</ul>
+
+<aside><div>
+<p>Thank you chatgpt to help me make some of these slides</p>
+</div></aside></section>
+<section id="what-is-ggplot2" class="slide level2">
+<h2>What is ggplot2?</h2>
+<ul>
+<li><strong>Definition:</strong> ggplot2 is an R package for creating data visualizations based on the grammar of graphics.</li>
+<li><strong>Created by:</strong> Hadley Wickham</li>
+<li><strong>First released:</strong> 2007</li>
+</ul>
+</section>
+<section id="why-use-ggplot2" class="slide level2">
+<h2>Why Use ggplot2?</h2>
+<ul>
+<li><strong>Advantages:</strong>
+<ul>
+<li>Produces visually appealing and customizable plots.</li>
+<li>Based on a coherent grammar of graphics, making it easy to understand and use.</li>
+<li>Works well with tidy data principles.</li>
+<li>Offers extensive documentation and a large community of users.</li>
+</ul></li>
+</ul>
+</section>
+<section id="why-use-ggplot2-1" class="slide level2">
+<h2>Why Use ggplot2?</h2>
+<ul>
+<li><strong>Grammar of Graphics:</strong> A systematic way to describe the components of a graph, including data, aesthetics, and geometric objects.</li>
+<li><strong>Layered Grammar:</strong> Allows you to build complex plots by adding layers of data and visual elements.</li>
+<li><strong>Faceting:</strong> Easily create multiple plots based on subsets of your data.</li>
+<li><strong>Themes:</strong> Customize the appearance of your plots with built-in or custom themes.</li>
+</ul>
+</section>
+<section id="why-use-ggplot2-2" class="slide level2">
+<h2>Why Use ggplot2?</h2>
+<ul>
+<li>There are many package that build on ggplot to work with specific kinds of data, e.g.;
+<ul>
+<li><strong>survminer</strong> for survival analysis</li>
+<li><strong>ggcorrplot</strong> for correlation plots</li>
+<li><strong>gganimate</strong> make plot animations</li>
+</ul></li>
+</ul>
+</section>
+<section id="basic-syntax-overview" class="slide level2">
+<h2>Basic Syntax Overview</h2>
+<ul>
+<li><code>ggplot()</code> function: Initializes a ggplot object.</li>
+<li><code>data</code> Can be given either directly or through a pipe</li>
+<li><code>aes()</code> function: Specifies aesthetic mappings between data variables and visual properties.</li>
+<li><code>geom_*()</code> functions: Add geometric objects (points, lines, bars, etc.) to your plot.</li>
+<li><code>facet_*()</code> functions: Facet your plot by one or more variables.</li>
+<li><code>theme()</code> function: Customize the appearance of your plot.</li>
+</ul>
+</section>
+<section id="data-prep-for-plotting" class="slide level2">
+<h2>Data prep for plotting</h2>
+<ul>
+<li>Generally data needs to be in a long format</li>
+<li>Columns need top be in format you want to plot</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(tidyverse)</span>
+<span id="cb1-2"><a></a></span>
+<span id="cb1-3"><a></a><span class="fu">tibble</span>(<span class="at">location =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>),</span>
+<span id="cb1-4"><a></a>       <span class="at">week1 =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">12</span>),</span>
+<span id="cb1-5"><a></a>       <span class="at">week2 =</span> <span class="fu">c</span>(<span class="dv">12</span>, <span class="dv">15</span>),</span>
+<span id="cb1-6"><a></a>       <span class="at">week3 =</span> <span class="fu">c</span>(<span class="dv">14</span>, <span class="dv">15</span>),</span>
+<span id="cb1-7"><a></a>       <span class="at">week4 =</span> <span class="fu">c</span>(<span class="dv">11</span>,  <span class="dv">20</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-8"><a></a>  flextable<span class="sc">::</span><span class="fu">flextable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="tabwid"><style>.cl-199ab5f6{}.cl-19938984{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-1996a77c{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-1996a786{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-1996beec{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-1996bef6{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-1996bef7{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-1996bf00{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-1996bf01{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-1996bf02{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-199ab5f6"><thead><tr style="overflow-wrap:break-word;"><th class="cl-1996beec"><p class="cl-1996a77c"><span class="cl-19938984">location</span></p></th><th class="cl-1996bef6"><p class="cl-1996a786"><span class="cl-19938984">week1</span></p></th><th class="cl-1996bef6"><p class="cl-1996a786"><span class="cl-19938984">week2</span></p></th><th class="cl-1996bef6"><p class="cl-1996a786"><span class="cl-19938984">week3</span></p></th><th class="cl-1996bef6"><p class="cl-1996a786"><span class="cl-19938984">week4</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-1996bef7"><p class="cl-1996a77c"><span class="cl-19938984">A</span></p></td><td class="cl-1996bf00"><p class="cl-1996a786"><span class="cl-19938984">10</span></p></td><td class="cl-1996bf00"><p class="cl-1996a786"><span class="cl-19938984">12</span></p></td><td class="cl-1996bf00"><p class="cl-1996a786"><span class="cl-19938984">14</span></p></td><td class="cl-1996bf00"><p class="cl-1996a786"><span class="cl-19938984">11</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-1996bf01"><p class="cl-1996a77c"><span class="cl-19938984">B</span></p></td><td class="cl-1996bf02"><p class="cl-1996a786"><span class="cl-19938984">12</span></p></td><td class="cl-1996bf02"><p class="cl-1996a786"><span class="cl-19938984">15</span></p></td><td class="cl-1996bf02"><p class="cl-1996a786"><span class="cl-19938984">15</span></p></td><td class="cl-1996bf02"><p class="cl-1996a786"><span class="cl-19938984">20</span></p></td></tr></tbody></table></div>
+</div>
+</div>
+</section>
+<section id="data-prep-for-plotting-1" class="slide level2">
+<h2>Data prep for plotting</h2>
+<ul>
+<li>Generally data needs to be in a long format</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a></a>df <span class="ot">&lt;-</span> <span class="fu">tibble</span>(<span class="at">location =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>),</span>
+<span id="cb2-2"><a></a>       <span class="at">week1 =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">12</span>),</span>
+<span id="cb2-3"><a></a>       <span class="at">week2 =</span> <span class="fu">c</span>(<span class="dv">12</span>, <span class="dv">15</span>),</span>
+<span id="cb2-4"><a></a>       <span class="at">week3 =</span> <span class="fu">c</span>(<span class="dv">14</span>, <span class="dv">15</span>),</span>
+<span id="cb2-5"><a></a>       <span class="at">week4 =</span> <span class="fu">c</span>(<span class="dv">11</span>,  <span class="dv">20</span>)) <span class="sc">%&gt;%</span> </span>
+<span id="cb2-6"><a></a>  <span class="fu">pivot_longer</span>(<span class="at">names_to =</span> <span class="st">"week"</span>, <span class="at">values_to =</span> <span class="st">"count"</span>, week1<span class="sc">:</span>week4) <span class="sc">%&gt;%</span>  </span>
+<span id="cb2-7"><a></a>  <span class="fu">mutate</span>(<span class="at">week =</span> <span class="fu">as.numeric</span>(<span class="fu">str_remove</span>(week, <span class="at">pattern =</span> <span class="st">"week"</span>))) </span>
+<span id="cb2-8"><a></a></span>
+<span id="cb2-9"><a></a></span>
+<span id="cb2-10"><a></a>df <span class="sc">%&gt;%</span> </span>
+<span id="cb2-11"><a></a>  flextable<span class="sc">::</span><span class="fu">flextable</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<div class="tabwid"><style>.cl-19cb5260{}.cl-19c662a0{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-19c86e06{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-19c86e10{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-19c87efa{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-19c87f04{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-19c87f05{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-19c87f0e{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-19c87f0f{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-19c87f10{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-19cb5260"><thead><tr style="overflow-wrap:break-word;"><th class="cl-19c87efa"><p class="cl-19c86e06"><span class="cl-19c662a0">location</span></p></th><th class="cl-19c87f04"><p class="cl-19c86e10"><span class="cl-19c662a0">week</span></p></th><th class="cl-19c87f04"><p class="cl-19c86e10"><span class="cl-19c662a0">count</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-19c87f05"><p class="cl-19c86e06"><span class="cl-19c662a0">A</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">1</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">10</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-19c87f05"><p class="cl-19c86e06"><span class="cl-19c662a0">A</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">2</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">12</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-19c87f05"><p class="cl-19c86e06"><span class="cl-19c662a0">A</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">3</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">14</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-19c87f05"><p class="cl-19c86e06"><span class="cl-19c662a0">A</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">4</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">11</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-19c87f05"><p class="cl-19c86e06"><span class="cl-19c662a0">B</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">1</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">12</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-19c87f05"><p class="cl-19c86e06"><span class="cl-19c662a0">B</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">2</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">15</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-19c87f05"><p class="cl-19c86e06"><span class="cl-19c662a0">B</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">3</span></p></td><td class="cl-19c87f0e"><p class="cl-19c86e10"><span class="cl-19c662a0">15</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-19c87f0f"><p class="cl-19c86e06"><span class="cl-19c662a0">B</span></p></td><td class="cl-19c87f10"><p class="cl-19c86e10"><span class="cl-19c662a0">4</span></p></td><td class="cl-19c87f10"><p class="cl-19c86e10"><span class="cl-19c662a0">20</span></p></td></tr></tbody></table></div>
+</div>
+</div>
+</section>
+<section id="first-simple-plot-1" class="slide level2">
+<h2>First simple plot (1)</h2>
+<ul>
+<li>basic plot</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> df, <span class="fu">aes</span>(<span class="at">x =</span> week, <span class="at">y =</span> count)) <span class="sc">+</span></span>
+<span id="cb3-2"><a></a>  <span class="fu">geom_point</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="intro_into_ggplot_files/figure-revealjs/unnamed-chunk-3-1.png" width="960" class="r-stretch"></section>
+<section id="first-simple-plot-2" class="slide level2">
+<h2>First simple plot (2)</h2>
+<ul>
+<li>change size of the dots</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> df, <span class="fu">aes</span>(<span class="at">x =</span> week, <span class="at">y =</span> count)) <span class="sc">+</span></span>
+<span id="cb4-2"><a></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="intro_into_ggplot_files/figure-revealjs/unnamed-chunk-4-1.png" width="960" class="r-stretch"></section>
+<section id="first-simple-plot-3" class="slide level2">
+<h2>First simple plot (3)</h2>
+<ul>
+<li>change the color of the dots</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> df, <span class="fu">aes</span>(<span class="at">x =</span> week, <span class="at">y =</span> count, <span class="at">color =</span> location)) <span class="sc">+</span></span>
+<span id="cb5-2"><a></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">5</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="intro_into_ggplot_files/figure-revealjs/unnamed-chunk-5-1.png" width="960" class="r-stretch"></section>
+<section id="first-simple-plot-4" class="slide level2">
+<h2>First simple plot (4)</h2>
+<ul>
+<li>change axis</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> df, <span class="fu">aes</span>(<span class="at">x =</span> week, <span class="at">y =</span> count, <span class="at">color =</span> location)) <span class="sc">+</span></span>
+<span id="cb6-2"><a></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">5</span>) <span class="sc">+</span></span>
+<span id="cb6-3"><a></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">22</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="intro_into_ggplot_files/figure-revealjs/unnamed-chunk-6-1.png" width="960" class="r-stretch"></section>
+<section id="first-simple-plot-5" class="slide level2">
+<h2>First simple plot (5)</h2>
+<ul>
+<li>change labels and theme</li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> df, <span class="fu">aes</span>(<span class="at">x =</span> week, <span class="at">y =</span> count, <span class="at">color =</span> location)) <span class="sc">+</span></span>
+<span id="cb7-2"><a></a>  <span class="fu">geom_point</span>(<span class="at">size =</span> <span class="dv">5</span>) <span class="sc">+</span></span>
+<span id="cb7-3"><a></a>  <span class="fu">scale_y_continuous</span>(<span class="at">limits =</span> <span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">22</span>)) <span class="sc">+</span></span>
+<span id="cb7-4"><a></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"sample week"</span>, <span class="at">y =</span> <span class="st">"tick count"</span>) <span class="sc">+</span></span>
+<span id="cb7-5"><a></a>  <span class="fu">theme_classic</span>()</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+
+</div>
+<img data-src="intro_into_ggplot_files/figure-revealjs/unnamed-chunk-7-1.png" width="960" class="r-stretch"></section>
 <section>
-<section id="content" class="title-slide slide level1 center">
-<h1>Content</h1>
-<ul>
-<li><p>Version control</p></li>
-<li><p>Git</p></li>
-<li><p>Github</p></li>
-<li><p>Naming of folders, files and scripts.</p></li>
-<li><p>MCEVBD github</p></li>
-</ul>
-</section>
-<section id="what-is-version-control" class="slide level2">
-<h2>What is version control</h2>
+<section id="ok-lets-have-some-fun-with-more-complex-figures" class="title-slide slide level1 center">
+<h1>Ok, lets have some fun with more complex figures</h1>
 
-<img data-src="../presentations/figures/fun_version_control.gif" class="quarto-figure quarto-figure-center r-stretch" width="900"></section>
-<section id="what-is-version-control-1" class="slide level2">
-<h2>What is version control</h2>
-<ul>
-<li><p>Keep track and saves all you changes to code</p></li>
-<li><p>Good backup source</p></li>
-<li><p>Easier to fix mistakes</p></li>
-<li><p>Code is open and easy to share</p></li>
-<li><p>Multiple people working on the same code</p></li>
-</ul>
 </section>
-<section id="what-is-git" class="slide level2">
-<h2>What is Git</h2>
-<ul>
-<li>Git is a version control system that allows developers to track changes in their code</li>
-<li>installed on your own computer</li>
-<li>controlled through mostly terminal
-<ul>
-<li>but e.g.&nbsp;Rstudio have systems to make it easier</li>
-</ul></li>
-<li>there are alternatives but git is most common (at least in science)</li>
-</ul>
-</section>
-<section id="what-is-github" class="slide level2">
-<h2>What is GitHub</h2>
-<ul>
-<li><p>GitHub is a web-based hosting service for git repositories.</p></li>
-<li><p>Enables you to store and share code for different projects</p></li>
-<li><p>More advanced</p>
-<ul>
-<li><p>Github actions</p></li>
-<li><p>Github pages</p></li>
-<li><p>Together they can e.g.&nbsp;build and host a webpage (e.g.&nbsp;this presentation).</p></li>
-</ul></li>
-</ul>
-</section>
-<section id="lets-have-some-fun" class="slide level2">
-<h2>Let’s have some fun !!</h2>
+<section id="zacks-heatmap" class="slide level2">
+<h2>Zack’s heatmap</h2>
 
-<img data-src="../presentations/figures/spike-monkey-typing.gif" class="r-stretch"></section>
-<section id="lets-have-some-fun-1" class="slide level2">
-<h2>Let’s have some fun</h2>
-<p>Sorry I forgot I am in an mosquito lab</p>
+<img data-src="intro_into_ggplot_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch"></section>
+<section id="zacks-heatmap-code" class="slide level2">
+<h2>Zack’s heatmap (code)</h2>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb8-1"><a></a><span class="fu">ggplot</span>(<span class="at">data =</span> heatmap_data, <span class="fu">aes</span>(<span class="at">x =</span> week, <span class="at">y =</span> transect, <span class="at">fill =</span> density)) <span class="sc">+</span></span>
+<span id="cb8-2"><a></a>    <span class="fu">geom_tile</span>() <span class="sc">+</span></span>
+<span id="cb8-3"><a></a>    <span class="fu">facet_grid</span>(treatment_type <span class="sc">~</span> .) <span class="sc">+</span></span>
+<span id="cb8-4"><a></a>    <span class="fu">scale_fill_gradient</span>(<span class="at">low =</span> <span class="st">"white"</span>, <span class="at">high =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
+<span id="cb8-5"><a></a>    <span class="fu">guides</span>(<span class="at">fill =</span> <span class="fu">guide_colorbar</span>(<span class="at">title =</span> <span class="st">"Density of nymphs per 1000m2"</span>))  <span class="sc">+</span></span>
+<span id="cb8-6"><a></a>    <span class="fu">labs</span>(<span class="at">y =</span> <span class="st">""</span>) <span class="sc">+</span></span>
+<span id="cb8-7"><a></a>    <span class="fu">theme</span>(<span class="at">legend.position =</span> <span class="st">"bottom"</span>,</span>
+<span id="cb8-8"><a></a>                <span class="at">legend.key.size =</span> <span class="fu">unit</span>(<span class="dv">1</span>, <span class="st">'cm'</span>)) <span class="sc">+</span></span>
+<span id="cb8-9"><a></a>    <span class="fu">theme</span>(<span class="at">panel.background =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb8-10"><a></a>                <span class="at">plot.background =</span> <span class="fu">element_blank</span>(),</span>
+<span id="cb8-11"><a></a>                <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">19</span>))<span class="sc">+</span></span>
+<span id="cb8-12"><a></a>    <span class="fu">geom_vline</span>(<span class="at">xintercept =</span> <span class="fu">c</span>(<span class="fl">1.5</span>, <span class="fl">5.5</span>), <span class="at">linetype =</span> <span class="st">"dashed"</span>, <span class="at">size =</span> <span class="fl">1.5</span>) <span class="sc">+</span></span>
+<span id="cb8-13"><a></a>    <span class="fu">theme</span>(<span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>),</span>
+<span id="cb8-14"><a></a>                <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>),</span>
+<span id="cb8-15"><a></a>                <span class="at">legend.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">19</span>),</span>
+<span id="cb8-16"><a></a>                <span class="at">title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">15</span>),</span>
+<span id="cb8-17"><a></a>                <span class="at">strip.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">15</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="survival-analysis-in-a-baboon-paper" class="slide level2">
+<h2>Survival analysis in a baboon paper</h2>
 
-<img data-src="../presentations/figures/mosquito_typing.jpg" class="r-stretch"></section>
-<section id="first-steps" class="slide level2">
-<h2>First steps</h2>
-<ul>
-<li>Make an account
-<ul>
-<li>https://github.com/signup</li>
-</ul></li>
-<li>Install git
-<ul>
-<li>https://github.com/git-guides/install-git</li>
-</ul></li>
-<li><a href="https://docs.github.com/en/education/explore-the-benefits-of-teaching-and-learning-with-github-education/github-global-campus-for-students/apply-to-github-global-campus-as-a-student">Github student account</a></li>
-<li>private repositories</li>
-</ul>
-</section>
-<section id="make-a-repository" class="slide level2">
-<h2>Make a repository</h2>
-<ul>
-<li>Method 1 (easy)
-<ul>
-<li>Create repository on github</li>
-<li><a href="https://github.com" class="uri">https://github.com</a></li>
-</ul></li>
-<li>Method 2 (harder)
-<ul>
-<li>use <a href="https://gerrit.googlesource.com/git-repo">Git Repo</a>
-<ul>
-<li>Create a repository from command line</li>
-<li>Not today</li>
-</ul></li>
-</ul></li>
-</ul>
-</section>
-<section id="terminal" class="slide level2">
-<h2>Terminal</h2>
-<ul>
-<li>‘Easy’ start with git bash</li>
-</ul>
-<p><span style="font-size: 30px"><a href="https://education.github.com/git-cheat-sheet-education.pdf" class="uri">https://education.github.com/git-cheat-sheet-education.pdf</a></span></p>
-<p>Let’s go to the terminal.</p>
-</section>
-<section id="terminal-1" class="slide level2">
-<h2>Terminal</h2>
-<pre><code>echo "# training_repo" &gt;&gt; README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:david-awam-jansen/training_repo.git
-git push -u origin main</code></pre>
-</section>
-<section id="terminal-2" class="slide level2">
-<h2>Terminal</h2>
-<pre><code>git status
-git add
-git commit
-</code></pre>
-</section>
-<section id="rstudio-examples" class="slide level2">
-<h2>Rstudio examples</h2>
-<ul>
-<li>terminal</li>
-<li>build-in</li>
-</ul>
-</section>
-<section id="naming" class="slide level2">
-<h2>Naming</h2>
-<ul>
-<li>Use descriptive names for folders, files and variables</li>
-</ul>
-<ul>
-<li class="fragment">Understandable but not to long
-<ul>
-<li class="fragment">m1 versus glm_count_full</li>
-<li class="fragment">data versus tick_counts_EA</li>
-</ul></li>
-</ul>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>While a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!</p>
-</div>
-</div>
-</div>
-</section>
-<section id="naming-1" class="slide level2 smaller">
-<h2>Naming</h2>
-<ul>
-<li class="fragment">Be aware on naming rules of programs
-<ul>
-<li class="fragment">Avoid special characters ($, @, *)</li>
-<li class="fragment">Avoid name of functions</li>
-<li class="fragment">No spaces !!</li>
-<li class="fragment">Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
-<li class="fragment">R (and many other languages) names can’t start with numbers and does not like spaces</li>
-<li class="fragment">‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’</li>
-</ul></li>
-</ul>
-</section>
-<section id="naming-2" class="slide level2 smaller">
-<h2>Naming</h2>
-<ul>
-<li>Be aware on naming rules of programs
-<ul>
-<li>Avoid special characters ($, @, *)</li>
-<li>Avoid name of functions</li>
-<li>No spaces !!</li>
-<li>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
-<li>R (and many other languages) names can’t start with numbers and does not like spaces</li>
-<li>‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’</li>
-</ul></li>
-</ul>
-</section>
-<section id="naming-3" class="slide level2 smaller">
-<h2>Naming</h2>
-<ul>
-<li>Be aware on naming rules of programs
-<ul>
-<li>Avoid special characters ($, @, *)</li>
-<li>Avoid name of functions</li>
-<li>No spaces !!</li>
-<li>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
-<li>R (and many other languages) names can’t start with numbers and does not like spaces</li>
-<li>‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’</li>
-</ul></li>
-<li>styles
-<ul>
-<li>camelCase</li>
-<li>PascalCase</li>
-<li>snake_case</li>
-</ul></li>
-</ul>
-<ul>
-<li class="fragment">be consistent</li>
-</ul>
-</section></section>
-<section>
-<section id="take-home" class="title-slide slide level1 center">
-<h1>Take home</h1>
-<ul>
-<li class="fragment">keep raw data raw</li>
-<li class="fragment">use code to clean data</li>
-<li class="fragment">document code and data</li>
-<li class="fragment"><strong><em>No Spaces :-)</em></strong></li>
-</ul>
-</section>
-<section id="bonus" class="slide level2">
-<h2>Bonus</h2>
+<img data-src="intro_into_ggplot_files/figure-revealjs/unnamed-chunk-10-1.png" width="960" class="r-stretch"></section>
+<section id="tick-classification" class="slide level2">
+<h2>Tick classification</h2>
+<p>This is a very preliminary look at this data, so please judge or share the data.</p>
 
-<img data-src="figures/debugging.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="how-to-deal-with-r-programming-errors" class="slide level2 smaller">
-<h2>How to deal with R (programming) errors</h2>
-<ol type="1">
-<li><p>don’t get frustrated by error messages</p></li>
-<li><p>read the error message</p></li>
-<li><p>google the error message</p></li>
-<li><p>google solutions or use ChatGPT</p></li>
-<li><p>trial and error</p>
-<ol type="1">
-<li><p>it works –&gt; go back to your analysis</p>
-<p><img data-src="figures/yes_scientist.jpg" width="100"></p></li>
-<li><p>error -&gt; go back to 1.</p></li>
-</ol></li>
-</ol>
+<img data-src="intro_into_ggplot_files/figure-revealjs/unnamed-chunk-11-1.png" width="960" class="r-stretch"></section>
+<section id="tick-classification-1" class="slide level2">
+<h2>Tick classification</h2>
+<p>This is a very preliminary look at this data, so please judge or share the data.</p>
+
+<img data-src="intro_into_ggplot_files/figure-revealjs/unnamed-chunk-12-1.png" width="960" class="r-stretch"></section>
+<section id="resources" class="slide level2">
+<h2>Resources</h2>
+<ul>
+<li><p>chatgpt and google</p></li>
+<li><p>find examples and build from there</p></li>
+<li><p>useful webpages</p>
+<ul>
+<li><p><a href="https://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.htmlggplot">https://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html</a></p></li>
+<li><p><a href="https://ggplot2tor.com/theme/" class="uri">https://ggplot2tor.com/theme/</a></p></li>
+<li><p><a href="https://r-graph-gallery.com/" class="uri">https://r-graph-gallery.com/</a></p></li>
+<li><p><a href="https://rstudio.github.io/cheatsheets/html/data-visualization.html" class="uri">https://rstudio.github.io/cheatsheets/html/data-visualization.html</a></p></li>
+</ul></li>
+<li><p>R Graphics Cookbook (I have a copy)</p></li>
+<li><p>ask me (I love making visualizations)</p></li>
+</ul>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">

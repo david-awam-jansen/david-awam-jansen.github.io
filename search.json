@@ -1,11 +1,26 @@
 [
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "David Jansen",
+    "section": "",
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "David Jansen",
+    "section": "Education",
+    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV"
+  },
+  {
     "objectID": "qmd_files/simple_R.html",
     "href": "qmd_files/simple_R.html",
     "title": "simple R",
     "section": "",
     "text": "This is a simple file\nI can add some R code\n\n1 + 1\n\n[1] 2\n\n\nI should also be able to add a R library\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(broom)\n\nmtcars %&gt;% \n  tidy()\n\nWarning: Data frame tidiers are deprecated and will be removed in an upcoming\nrelease of broom.\n\n\n# A tibble: 11 × 13\n   column     n    mean      sd median trimmed    mad   min    max  range   skew\n   &lt;chr&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n 1 mpg       32  20.1     6.03   19.2   19.7    3.65  10.4   33.9   23.5   0.640\n 2 cyl       32   6.19    1.79    6      6.23   2      4      8      4    -0.183\n 3 disp      32 231.    124.    196.   223.    94.8   71.1  472    401.    0.400\n 4 hp        32 147.     68.6   123    141.    52     52    335    283     0.761\n 5 drat      32   3.60    0.535   3.70   3.58   0.475  2.76   4.93   2.17  0.279\n 6 wt        32   3.22    0.978   3.32   3.15   0.517  1.51   5.42   3.91  0.444\n 7 qsec      32  17.8     1.79   17.7   17.8    0.955 14.5   22.9    8.4   0.387\n 8 vs        32   0.438   0.504   0      0.423  0      0      1      1     0.252\n 9 am        32   0.406   0.499   0      0.385  0      0      1      1     0.382\n10 gear      32   3.69    0.738   4      3.62   1      3      5      2     0.555\n11 carb      32   2.81    1.62    2      2.65   1      1      8      7     1.10 \n# ℹ 2 more variables: kurtosis &lt;dbl&gt;, se &lt;dbl&gt;",
     "crumbs": [
+      "Layout",
       "Simple R"
     ]
   },
@@ -16,7 +31,8 @@
     "section": "",
     "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
     "crumbs": [
-      "About"
+      "Basics",
+      "David Jansen"
     ]
   },
   {
@@ -26,7 +42,206 @@
     "section": "Education",
     "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV",
     "crumbs": [
-      "About"
+      "Basics",
+      "David Jansen"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#what-is-ggplot2",
+    "href": "qmd_files/intro_into_ggplot.html#what-is-ggplot2",
+    "title": "Introduction to ggplot2",
+    "section": "What is ggplot2?",
+    "text": "What is ggplot2?\n\nDefinition: ggplot2 is an R package for creating data visualizations based on the grammar of graphics.\nCreated by: Hadley Wickham\nFirst released: 2007",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#why-use-ggplot2",
+    "href": "qmd_files/intro_into_ggplot.html#why-use-ggplot2",
+    "title": "Introduction to ggplot2",
+    "section": "Why Use ggplot2?",
+    "text": "Why Use ggplot2?\n\nAdvantages:\n\nProduces visually appealing and customizable plots.\nBased on a coherent grammar of graphics, making it easy to understand and use.\nWorks well with tidy data principles.\nOffers extensive documentation and a large community of users.",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#why-use-ggplot2-1",
+    "href": "qmd_files/intro_into_ggplot.html#why-use-ggplot2-1",
+    "title": "Introduction to ggplot2",
+    "section": "Why Use ggplot2?",
+    "text": "Why Use ggplot2?\n\nGrammar of Graphics: A systematic way to describe the components of a graph, including data, aesthetics, and geometric objects.\nLayered Grammar: Allows you to build complex plots by adding layers of data and visual elements.\nFaceting: Easily create multiple plots based on subsets of your data.\nThemes: Customize the appearance of your plots with built-in or custom themes.",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#why-use-ggplot2-2",
+    "href": "qmd_files/intro_into_ggplot.html#why-use-ggplot2-2",
+    "title": "Introduction to ggplot2",
+    "section": "Why Use ggplot2?",
+    "text": "Why Use ggplot2?\n\nThere are many package that build on ggplot to work with specific kinds of data, e.g.;\n\nsurvminer for survival analysis\nggcorrplot for correlation plots\ngganimate make plot animations",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#basic-syntax-overview",
+    "href": "qmd_files/intro_into_ggplot.html#basic-syntax-overview",
+    "title": "Introduction to ggplot2",
+    "section": "Basic Syntax Overview",
+    "text": "Basic Syntax Overview\n\nggplot() function: Initializes a ggplot object.\ndata Can be given either directly or through a pipe\naes() function: Specifies aesthetic mappings between data variables and visual properties.\ngeom_*() functions: Add geometric objects (points, lines, bars, etc.) to your plot.\nfacet_*() functions: Facet your plot by one or more variables.\ntheme() function: Customize the appearance of your plot.",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#data-prep-for-plotting",
+    "href": "qmd_files/intro_into_ggplot.html#data-prep-for-plotting",
+    "title": "Introduction to ggplot2",
+    "section": "Data prep for plotting",
+    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\nColumns need top be in format you want to plot\n\n\nlibrary(tidyverse)\n\ntibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  flextable::flextable()\n\nlocationweek1week2week3week4A10121411B12151520",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#data-prep-for-plotting-1",
+    "href": "qmd_files/intro_into_ggplot.html#data-prep-for-plotting-1",
+    "title": "Introduction to ggplot2",
+    "section": "Data prep for plotting",
+    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\n\n\ndf &lt;- tibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  pivot_longer(names_to = \"week\", values_to = \"count\", week1:week4) %&gt;%  \n  mutate(week = as.numeric(str_remove(week, pattern = \"week\"))) \n\n\ndf %&gt;% \n  flextable::flextable()\n\nlocationweekcountA110A212A314A411B112B215B315B420",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#first-simple-plot-1",
+    "href": "qmd_files/intro_into_ggplot.html#first-simple-plot-1",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (1)",
+    "text": "First simple plot (1)\n\nbasic plot\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point()",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#first-simple-plot-2",
+    "href": "qmd_files/intro_into_ggplot.html#first-simple-plot-2",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (2)",
+    "text": "First simple plot (2)\n\nchange size of the dots\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point(size = 5)",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#first-simple-plot-3",
+    "href": "qmd_files/intro_into_ggplot.html#first-simple-plot-3",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (3)",
+    "text": "First simple plot (3)\n\nchange the color of the dots\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5)",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#first-simple-plot-4",
+    "href": "qmd_files/intro_into_ggplot.html#first-simple-plot-4",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (4)",
+    "text": "First simple plot (4)\n\nchange axis\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22))",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#first-simple-plot-5",
+    "href": "qmd_files/intro_into_ggplot.html#first-simple-plot-5",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (5)",
+    "text": "First simple plot (5)\n\nchange labels and theme\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22)) +\n  labs(x = \"sample week\", y = \"tick count\") +\n  theme_classic()",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#zacks-heatmap",
+    "href": "qmd_files/intro_into_ggplot.html#zacks-heatmap",
+    "title": "Introduction to ggplot2",
+    "section": "Zack’s heatmap",
+    "text": "Zack’s heatmap",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#zacks-heatmap-code",
+    "href": "qmd_files/intro_into_ggplot.html#zacks-heatmap-code",
+    "title": "Introduction to ggplot2",
+    "section": "Zack’s heatmap (code)",
+    "text": "Zack’s heatmap (code)\n\nggplot(data = heatmap_data, aes(x = week, y = transect, fill = density)) +\n    geom_tile() +\n    facet_grid(treatment_type ~ .) +\n    scale_fill_gradient(low = \"white\", high = \"black\") +\n    guides(fill = guide_colorbar(title = \"Density of nymphs per 1000m2\"))  +\n    labs(y = \"\") +\n    theme(legend.position = \"bottom\",\n                legend.key.size = unit(1, 'cm')) +\n    theme(panel.background = element_blank(),\n                plot.background = element_blank(),\n                axis.text = element_text(size = 19))+\n    geom_vline(xintercept = c(1.5, 5.5), linetype = \"dashed\", size = 1.5) +\n    theme(axis.title = element_text(size = 16),\n                legend.text = element_text(size = 16),\n                legend.title = element_text(size = 19),\n                title = element_text(size = 15),\n                strip.text = element_text(size = 15))",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
+    "href": "qmd_files/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
+    "title": "Introduction to ggplot2",
+    "section": "Survival analysis in a baboon paper",
+    "text": "Survival analysis in a baboon paper",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#tick-classification",
+    "href": "qmd_files/intro_into_ggplot.html#tick-classification",
+    "title": "Introduction to ggplot2",
+    "section": "Tick classification",
+    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#tick-classification-1",
+    "href": "qmd_files/intro_into_ggplot.html#tick-classification-1",
+    "title": "Introduction to ggplot2",
+    "section": "Tick classification",
+    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
+    "crumbs": [
+      "Layout",
+      "ggplot"
+    ]
+  },
+  {
+    "objectID": "qmd_files/intro_into_ggplot.html#resources",
+    "href": "qmd_files/intro_into_ggplot.html#resources",
+    "title": "Introduction to ggplot2",
+    "section": "Resources",
+    "text": "Resources\n\nchatgpt and google\nfind examples and build from there\nuseful webpages\n\nhttps://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html\nhttps://ggplot2tor.com/theme/\nhttps://r-graph-gallery.com/\nhttps://rstudio.github.io/cheatsheets/html/data-visualization.html\n\nR Graphics Cookbook (I have a copy)\nask me (I love making visualizations)",
+    "crumbs": [
+      "Layout",
+      "ggplot"
     ]
   },
   {
@@ -34,189 +249,10 @@
     "href": "qmd_files/publications.html",
     "title": "Publications",
     "section": "",
-    "text": "Articles\n\nAkinyi, Mercy Y, Bobby Jansen, David And Habig, Laurence R Gesquiere, Susan C Alberts, and Elizabeth A Archie. 2019. “Costs and Drivers of Helminth Parasite Infection in Wild Female Baboons.” Journal of Animal Ecology 88 (7): 1029–43.",
+    "text": "Articles\n\nAkinyi, Mercy Y, Bobby Jansen, David And Habig, Laurence R Gesquiere, Susan C Alberts, and Elizabeth A Archie. 2019. “Costs and Drivers of Helminth Parasite Infection in Wild Female Baboons.” Journal of Animal Ecology 88 (7): 1029–43.\n\n\nJansen, David A, Frank van Langevelde, Willem F de Boer, and Kevin P Kirkman. 2007. “Optimisation or Satiation, Testing Diet Selection Rules in Goats.” Small Ruminant Research 73 (1-3): 160–68.",
     "crumbs": [
+      "Basics",
       "Publications"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#what-is-version-control",
-    "href": "qmd_files/git_version_control.html#what-is-version-control",
-    "title": "Introduction into git",
-    "section": "What is version control",
-    "text": "What is version control",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#what-is-version-control-1",
-    "href": "qmd_files/git_version_control.html#what-is-version-control-1",
-    "title": "Introduction into git",
-    "section": "What is version control",
-    "text": "What is version control\n\nKeep track and saves all you changes to code\nGood backup source\nEasier to fix mistakes\nCode is open and easy to share\nMultiple people working on the same code",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#what-is-git",
-    "href": "qmd_files/git_version_control.html#what-is-git",
-    "title": "Introduction into git",
-    "section": "What is Git",
-    "text": "What is Git\n\nGit is a version control system that allows developers to track changes in their code\ninstalled on your own computer\ncontrolled through mostly terminal\n\nbut e.g. Rstudio have systems to make it easier\n\nthere are alternatives but git is most common (at least in science)",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#what-is-github",
-    "href": "qmd_files/git_version_control.html#what-is-github",
-    "title": "Introduction into git",
-    "section": "What is GitHub",
-    "text": "What is GitHub\n\nGitHub is a web-based hosting service for git repositories.\nEnables you to store and share code for different projects\nMore advanced\n\nGithub actions\nGithub pages\nTogether they can e.g. build and host a webpage (e.g. this presentation).",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#lets-have-some-fun",
-    "href": "qmd_files/git_version_control.html#lets-have-some-fun",
-    "title": "Introduction into git",
-    "section": "Let’s have some fun !!",
-    "text": "Let’s have some fun !!",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#lets-have-some-fun-1",
-    "href": "qmd_files/git_version_control.html#lets-have-some-fun-1",
-    "title": "Introduction into git",
-    "section": "Let’s have some fun",
-    "text": "Let’s have some fun\nSorry I forgot I am in an mosquito lab",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#first-steps",
-    "href": "qmd_files/git_version_control.html#first-steps",
-    "title": "Introduction into git",
-    "section": "First steps",
-    "text": "First steps\n\nMake an account\n\nhttps://github.com/signup\n\nInstall git\n\nhttps://github.com/git-guides/install-git\n\nGithub student account\nprivate repositories",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#make-a-repository",
-    "href": "qmd_files/git_version_control.html#make-a-repository",
-    "title": "Introduction into git",
-    "section": "Make a repository",
-    "text": "Make a repository\n\nMethod 1 (easy)\n\nCreate repository on github\nhttps://github.com\n\nMethod 2 (harder)\n\nuse Git Repo\n\nCreate a repository from command line\nNot today",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#terminal",
-    "href": "qmd_files/git_version_control.html#terminal",
-    "title": "Introduction into git",
-    "section": "Terminal",
-    "text": "Terminal\n\n‘Easy’ start with git bash\n\nhttps://education.github.com/git-cheat-sheet-education.pdf\nLet’s go to the terminal.",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#terminal-1",
-    "href": "qmd_files/git_version_control.html#terminal-1",
-    "title": "Introduction into git",
-    "section": "Terminal",
-    "text": "Terminal\necho \"# training_repo\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin git@github.com:david-awam-jansen/training_repo.git\ngit push -u origin main",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#terminal-2",
-    "href": "qmd_files/git_version_control.html#terminal-2",
-    "title": "Introduction into git",
-    "section": "Terminal",
-    "text": "Terminal\ngit status\ngit add\ngit commit",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#rstudio-examples",
-    "href": "qmd_files/git_version_control.html#rstudio-examples",
-    "title": "Introduction into git",
-    "section": "Rstudio examples",
-    "text": "Rstudio examples\n\nterminal\nbuild-in",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#naming",
-    "href": "qmd_files/git_version_control.html#naming",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#naming-1",
-    "href": "qmd_files/git_version_control.html#naming-1",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#naming-2",
-    "href": "qmd_files/git_version_control.html#naming-2",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#naming-3",
-    "href": "qmd_files/git_version_control.html#naming-3",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#bonus",
-    "href": "qmd_files/git_version_control.html#bonus",
-    "title": "Introduction into git",
-    "section": "Bonus",
-    "text": "Bonus",
-    "crumbs": [
-      "Introduction into Git version control"
-    ]
-  },
-  {
-    "objectID": "qmd_files/git_version_control.html#how-to-deal-with-r-programming-errors",
-    "href": "qmd_files/git_version_control.html#how-to-deal-with-r-programming-errors",
-    "title": "Introduction into git",
-    "section": "How to deal with R (programming) errors",
-    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
-    "crumbs": [
-      "Introduction into Git version control"
     ]
   },
   {
@@ -226,7 +262,15 @@
     "section": "",
     "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites).",
     "crumbs": [
-      "Home"
+      "Basics",
+      "David Jansen"
     ]
+  },
+  {
+    "objectID": "generated_publications.html",
+    "href": "generated_publications.html",
+    "title": "",
+    "section": "",
+    "text": ". **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()"
   }
 ]
