@@ -2,36 +2,10 @@
 title: "David Jansen"
 author: "David Jansen"
 bibliography: publications.bib
+nocite: |
+  *
 ---
 
-![](../images/sunset.jpg)
+# Publications
 
-### References
-
-::: {#refs}
-:::
-
-
-
-## Journal Articles
-
-```latex
-\nocite{*}
-\printbibliography[type=article, heading=none]
-```
-
-## Other Articles
-```latex
-\printbibliography[type=inproceedings, heading=none]
-```
-## Thesis
-```
-\printbibliography[type=phdthesis, heading=none]
-```
-
-
-
-
-
-
-The site is created with Rstudio and Quarto (<https://quarto.org/docs/websites>).
+[@akinyi2019costs]
