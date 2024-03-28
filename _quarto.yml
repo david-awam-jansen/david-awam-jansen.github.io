@@ -14,8 +14,10 @@ website:
           - qmd_files/publications.qmd
       - section: "Layout"
         contents:
-          - qmd_files/intro_into_ggplot.qmd
-          - qmd_files/simple_R.qmd
+          - text: "ggplot"
+            file: qmd_files/intro_into_ggplot.qmd
+          - text: "Simple R"
+            file: qmd_files/simple_R.qmd
 
 format:
   html:
