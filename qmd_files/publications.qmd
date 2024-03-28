@@ -9,8 +9,7 @@ bibliography: publications.bib
 ---
 nocite: |
   @jansen2007,  @jansen20012,@jansen2023,  @manser2014, @townsend2017, @akinyi2019,
-  @habig2019, @grieneisen2020, @grieneisen2021, @bjork2022 @gordon2022,
-  @roche2023
+  @habig2019, @grieneisen2020, @grieneisen2021, @bjork2022 @gordon2022, @roche2023
 ---
 
 # Thesis
