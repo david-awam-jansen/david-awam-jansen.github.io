@@ -9,12 +9,15 @@ website:
     contents:
       - section: "Basics"
         contents:
-          - qmd_files/index.qmd
-          - qmd_files/about.qmd
-          - qmd_files/publications.qmd
-      - section: "Layout"
+          - text: "Home"
+            file: qmd_files/index.qmd
+          - text: "About Me"
+            file: qmd_files/about.qmd
+          - text: "Publications"
+            file: qmd_files/publications.qmd
+      - section: "Workshops"
         contents:
-          - text: "ggplot"
+          - text: "Introduction ggplot"
             file: qmd_files/intro_into_ggplot.qmd
           - text: "Simple R"
             file: qmd_files/simple_R.qmd
