@@ -27,31 +27,11 @@
     ]
   },
   {
-    "objectID": "qmd_files/publications.html#journal-articles",
-    "href": "qmd_files/publications.html#journal-articles",
+    "objectID": "qmd_files/publications.html",
+    "href": "qmd_files/publications.html",
     "title": "David Jansen",
-    "section": "Journal Articles",
-    "text": "Journal Articles\n\\nocite{*}\n\\printbibliography[type=article, heading=none]",
-    "crumbs": [
-      "Publications"
-    ]
-  },
-  {
-    "objectID": "qmd_files/publications.html#other-articles",
-    "href": "qmd_files/publications.html#other-articles",
-    "title": "David Jansen",
-    "section": "Other Articles",
-    "text": "Other Articles\n\\printbibliography[type=inproceedings, heading=none]",
-    "crumbs": [
-      "Publications"
-    ]
-  },
-  {
-    "objectID": "qmd_files/publications.html#thesis",
-    "href": "qmd_files/publications.html#thesis",
-    "title": "David Jansen",
-    "section": "Thesis",
-    "text": "Thesis\n\\printbibliography[type=phdthesis, heading=none]\nThe site is created with Rstudio and Quarto (https://quarto.org/docs/websites).",
+    "section": "",
+    "text": "Publications\n(Akinyi et al. 2019)\n\n\n\n\n\nReferences\n\nAkinyi, Mercy Y, Bobby Jansen, David And Habig, Laurence R Gesquiere, Susan C Alberts, and Elizabeth A Archie. 2019. “Costs and Drivers of Helminth Parasite Infection in Wild Female Baboons.” Journal of Animal Ecology 88 (7): 1029–43.",
     "crumbs": [
       "Publications"
     ]
