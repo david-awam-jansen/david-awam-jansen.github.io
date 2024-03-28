@@ -3,11 +3,6 @@ title: "David Jansen"
 author: "David Jansen"
 ---
 
-Come on syntax issue
-
 ![](../images/sunset.jpg)
-
-
-
 
 The site is created with Rstudio and Quarto (<https://quarto.org/docs/websites>).
