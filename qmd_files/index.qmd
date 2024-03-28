@@ -2,9 +2,7 @@
 title: "Workshop for MCEVBD!!"
 author: "David Jansen"
 ---
-I found you docker!
-test old version
-
+I thi k it finally works. 
 
 ![](../images/sunset.jpg)
 
