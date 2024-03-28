@@ -7,14 +7,15 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "Basic"
+      - section: "Basics"
         contents:
-          - text: Home
-            url: qmd_files/index.qmd
-          - text: About
-            url: qmd_files/about.qmd 
-          - text: Publications
-            url: qmd_files/publications.qmd         
+          - qmd_files/index.qmd
+          - qmd_files/about.qmd
+          - qmd_files/publications.qmd
+      - section: "Layout"
+        contents:
+          - qmd_files/intro_into_ggplot.qmd
+          - qmd_files/simple_R.qmd
 
 format:
   html:
