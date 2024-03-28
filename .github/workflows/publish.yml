@@ -4,6 +4,8 @@ on:
   push:
     branches:
       - main
+      - _quarto.yml
+      - .github/workflows/publish.yml       
 
 jobs:
   build:
