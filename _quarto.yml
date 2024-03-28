@@ -13,10 +13,12 @@ website:
         url: qmd_files/about.qmd 
       - text: Publications
         url: qmd_files/publications.qmd         
-      - text: Simple R
-        url: qmd_files/simple_R.qmd
-      - text: Introduction into Git version control
-        url: qmd_files/git_version_control.qmd
+    - section: "Wprkshops"
+        contents:
+          - text: Simple R
+            url: qmd_files/simple_R.qmd
+          - text: Introduction into Git version control
+            url: qmd_files/git_version_control.qmd     
 
 
 format:
