@@ -26,6 +26,7 @@ RUN  R -e "install.packages(c( \
 RUN R -e "install.packages(c( \
   'broom', \
   'cellranger', \
+  'cowplot', \
   'data.table', \
   'dismo', \
   'flextable', \
