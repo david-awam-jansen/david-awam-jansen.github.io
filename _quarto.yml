@@ -7,6 +7,7 @@ website:
     style: "docked"
     search: true
     contents:
+<<<<<<< HEAD
       - text: Home
         url: qmd_files/index.qmd
       - text: About
@@ -17,6 +18,16 @@ website:
         url: qmd_files/simple_R.qmd
       - text: Introduction into Git version control
         url: qmd_files/git_version_control.qmd
+=======
+      - section: "Basic"
+        contents:
+          - text: Home
+            url: qmd_files/index.qmd
+          - text: About
+            url: qmd_files/about.qmd 
+          - text: Publications
+            url: qmd_files/publications.qmd         
+>>>>>>> origin/main
 
 format:
   html:
