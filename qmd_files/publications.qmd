@@ -1,11 +1,11 @@
 ---
-title: "David Jansen"
+title: "Publications"
 author: "David Jansen"
 bibliography: publications.bib
-nocite: |
-  *
 ---
 
-# Publications
-
-[@akinyi2019costs]
+# Articles
+---
+nocite: |
+  @jansen2007, @akinyi2019costs
+---
