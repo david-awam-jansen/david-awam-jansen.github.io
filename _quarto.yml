@@ -8,12 +8,13 @@ website:
     search: true
     contents:
       - section: "Basic"
-        - text: Home
-          url: qmd_files/index.qmd
-        - text: About
-          url: qmd_files/about.qmd 
-        - text: Publications
-          url: qmd_files/publications.qmd         
+        contents:
+          - text: Home
+            url: qmd_files/index.qmd
+          - text: About
+            url: qmd_files/about.qmd 
+          - text: Publications
+            url: qmd_files/publications.qmd         
     - section: "Wprkshops"
         contents:
           - text: Simple R
