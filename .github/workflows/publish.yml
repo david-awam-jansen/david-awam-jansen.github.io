@@ -19,15 +19,11 @@ jobs:
     - name: Check out repository
       uses: actions/checkout@v2
 
-    - name: List running containers
-      run: docker ps -a
-
     - name: Copy R library from container
       run: |
         docker create --name temp_container djanen1979/david-awam-jansen.github.io:latest
         docker cp temp_container:/usr/local/lib/R/site-library/ $HOME/R_packages
         docker rm temp_container
-    
   
     - name: Set up R environment
       run: |
