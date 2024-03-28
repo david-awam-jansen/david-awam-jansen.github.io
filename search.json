@@ -4,7 +4,10 @@
     "href": "qmd_files/simple_R.html",
     "title": "simple R",
     "section": "",
-    "text": "This is a simple file\nI can add some R code\n\n1 + 1\n\n[1] 2\n\n\nI should also be able to add a R library\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(broom)\n\nmtcars %&gt;% \n  tidy()\n\nWarning: Data frame tidiers are deprecated and will be removed in an upcoming\nrelease of broom.\n\n\n# A tibble: 11 × 13\n   column     n    mean      sd median trimmed    mad   min    max  range   skew\n   &lt;chr&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n 1 mpg       32  20.1     6.03   19.2   19.7    3.65  10.4   33.9   23.5   0.640\n 2 cyl       32   6.19    1.79    6      6.23   2      4      8      4    -0.183\n 3 disp      32 231.    124.    196.   223.    94.8   71.1  472    401.    0.400\n 4 hp        32 147.     68.6   123    141.    52     52    335    283     0.761\n 5 drat      32   3.60    0.535   3.70   3.58   0.475  2.76   4.93   2.17  0.279\n 6 wt        32   3.22    0.978   3.32   3.15   0.517  1.51   5.42   3.91  0.444\n 7 qsec      32  17.8     1.79   17.7   17.8    0.955 14.5   22.9    8.4   0.387\n 8 vs        32   0.438   0.504   0      0.423  0      0      1      1     0.252\n 9 am        32   0.406   0.499   0      0.385  0      0      1      1     0.382\n10 gear      32   3.69    0.738   4      3.62   1      3      5      2     0.555\n11 carb      32   2.81    1.62    2      2.65   1      1      8      7     1.10 \n# ℹ 2 more variables: kurtosis &lt;dbl&gt;, se &lt;dbl&gt;"
+    "text": "This is a simple file\nI can add some R code\n\n1 + 1\n\n[1] 2\n\n\nI should also be able to add a R library\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(broom)\n\nmtcars %&gt;% \n  tidy()\n\nWarning: Data frame tidiers are deprecated and will be removed in an upcoming\nrelease of broom.\n\n\n# A tibble: 11 × 13\n   column     n    mean      sd median trimmed    mad   min    max  range   skew\n   &lt;chr&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n 1 mpg       32  20.1     6.03   19.2   19.7    3.65  10.4   33.9   23.5   0.640\n 2 cyl       32   6.19    1.79    6      6.23   2      4      8      4    -0.183\n 3 disp      32 231.    124.    196.   223.    94.8   71.1  472    401.    0.400\n 4 hp        32 147.     68.6   123    141.    52     52    335    283     0.761\n 5 drat      32   3.60    0.535   3.70   3.58   0.475  2.76   4.93   2.17  0.279\n 6 wt        32   3.22    0.978   3.32   3.15   0.517  1.51   5.42   3.91  0.444\n 7 qsec      32  17.8     1.79   17.7   17.8    0.955 14.5   22.9    8.4   0.387\n 8 vs        32   0.438   0.504   0      0.423  0      0      1      1     0.252\n 9 am        32   0.406   0.499   0      0.385  0      0      1      1     0.382\n10 gear      32   3.69    0.738   4      3.62   1      3      5      2     0.555\n11 carb      32   2.81    1.62    2      2.65   1      1      8      7     1.10 \n# ℹ 2 more variables: kurtosis &lt;dbl&gt;, se &lt;dbl&gt;",
+    "crumbs": [
+      "Simple R"
+    ]
   },
   {
     "objectID": "qmd_files/about.html",
@@ -34,6 +37,186 @@
     "text": "Articles\n\nAkinyi, Mercy Y, Bobby Jansen, David And Habig, Laurence R Gesquiere, Susan C Alberts, and Elizabeth A Archie. 2019. “Costs and Drivers of Helminth Parasite Infection in Wild Female Baboons.” Journal of Animal Ecology 88 (7): 1029–43.",
     "crumbs": [
       "Publications"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#what-is-version-control",
+    "href": "qmd_files/git_version_control.html#what-is-version-control",
+    "title": "Introduction into git",
+    "section": "What is version control",
+    "text": "What is version control",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#what-is-version-control-1",
+    "href": "qmd_files/git_version_control.html#what-is-version-control-1",
+    "title": "Introduction into git",
+    "section": "What is version control",
+    "text": "What is version control\n\nKeep track and saves all you changes to code\nGood backup source\nEasier to fix mistakes\nCode is open and easy to share\nMultiple people working on the same code",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#what-is-git",
+    "href": "qmd_files/git_version_control.html#what-is-git",
+    "title": "Introduction into git",
+    "section": "What is Git",
+    "text": "What is Git\n\nGit is a version control system that allows developers to track changes in their code\ninstalled on your own computer\ncontrolled through mostly terminal\n\nbut e.g. Rstudio have systems to make it easier\n\nthere are alternatives but git is most common (at least in science)",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#what-is-github",
+    "href": "qmd_files/git_version_control.html#what-is-github",
+    "title": "Introduction into git",
+    "section": "What is GitHub",
+    "text": "What is GitHub\n\nGitHub is a web-based hosting service for git repositories.\nEnables you to store and share code for different projects\nMore advanced\n\nGithub actions\nGithub pages\nTogether they can e.g. build and host a webpage (e.g. this presentation).",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#lets-have-some-fun",
+    "href": "qmd_files/git_version_control.html#lets-have-some-fun",
+    "title": "Introduction into git",
+    "section": "Let’s have some fun !!",
+    "text": "Let’s have some fun !!",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#lets-have-some-fun-1",
+    "href": "qmd_files/git_version_control.html#lets-have-some-fun-1",
+    "title": "Introduction into git",
+    "section": "Let’s have some fun",
+    "text": "Let’s have some fun\nSorry I forgot I am in an mosquito lab",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#first-steps",
+    "href": "qmd_files/git_version_control.html#first-steps",
+    "title": "Introduction into git",
+    "section": "First steps",
+    "text": "First steps\n\nMake an account\n\nhttps://github.com/signup\n\nInstall git\n\nhttps://github.com/git-guides/install-git\n\nGithub student account\nprivate repositories",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#make-a-repository",
+    "href": "qmd_files/git_version_control.html#make-a-repository",
+    "title": "Introduction into git",
+    "section": "Make a repository",
+    "text": "Make a repository\n\nMethod 1 (easy)\n\nCreate repository on github\nhttps://github.com\n\nMethod 2 (harder)\n\nuse Git Repo\n\nCreate a repository from command line\nNot today",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#terminal",
+    "href": "qmd_files/git_version_control.html#terminal",
+    "title": "Introduction into git",
+    "section": "Terminal",
+    "text": "Terminal\n\n‘Easy’ start with git bash\n\nhttps://education.github.com/git-cheat-sheet-education.pdf\nLet’s go to the terminal.",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#terminal-1",
+    "href": "qmd_files/git_version_control.html#terminal-1",
+    "title": "Introduction into git",
+    "section": "Terminal",
+    "text": "Terminal\necho \"# training_repo\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin git@github.com:david-awam-jansen/training_repo.git\ngit push -u origin main",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#terminal-2",
+    "href": "qmd_files/git_version_control.html#terminal-2",
+    "title": "Introduction into git",
+    "section": "Terminal",
+    "text": "Terminal\ngit status\ngit add\ngit commit",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#rstudio-examples",
+    "href": "qmd_files/git_version_control.html#rstudio-examples",
+    "title": "Introduction into git",
+    "section": "Rstudio examples",
+    "text": "Rstudio examples\n\nterminal\nbuild-in",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#naming",
+    "href": "qmd_files/git_version_control.html#naming",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#naming-1",
+    "href": "qmd_files/git_version_control.html#naming-1",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#naming-2",
+    "href": "qmd_files/git_version_control.html#naming-2",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#naming-3",
+    "href": "qmd_files/git_version_control.html#naming-3",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#bonus",
+    "href": "qmd_files/git_version_control.html#bonus",
+    "title": "Introduction into git",
+    "section": "Bonus",
+    "text": "Bonus",
+    "crumbs": [
+      "Introduction into Git version control"
+    ]
+  },
+  {
+    "objectID": "qmd_files/git_version_control.html#how-to-deal-with-r-programming-errors",
+    "href": "qmd_files/git_version_control.html#how-to-deal-with-r-programming-errors",
+    "title": "Introduction into git",
+    "section": "How to deal with R (programming) errors",
+    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
+    "crumbs": [
+      "Introduction into Git version control"
     ]
   },
   {
