@@ -1,9 +1,13 @@
 ---
-title: "Workshop for MCEVBD!!"
+title: "David Jansen"
 author: "David Jansen"
 ---
-I thi k it finally works. 
+
+
 
 ![](../images/sunset.jpg)
+
+
+
 
 The site is created with Rstudio and Quarto (<https://quarto.org/docs/websites>).
