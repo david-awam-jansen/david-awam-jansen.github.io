@@ -158,7 +158,7 @@ ggplot(data = df, aes(x = week, y = count, color = location)) +
 ## Zack's heatmap
 
 ```{r, eval=TRUE, echo=FALSE}
-heatmap_data <- read_csv("./data/heatmap_data.csv")
+heatmap_data <- read_csv("../data/heatmap_data.csv")
 
 heatmap_data %>%
 ggplot(aes(x = week, y = transect, fill = density)) +
@@ -206,7 +206,7 @@ ggplot(data = heatmap_data, aes(x = week, y = transect, fill = density)) +
 ## Survival analysis in a baboon paper
 
 ```{r, echo = FALSE}
-load('./data/data_for_fig3.RData')
+load('../data/data_for_fig3.RData')
 library(broom)
 library(survival)
 library(tidyverse)
