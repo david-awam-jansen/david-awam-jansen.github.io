@@ -1,10 +1,17 @@
 ---
 title: "David Jansen"
 author: "David Jansen"
-bibliography: ./publications.bib
+bibliography: publications.bib
 ---
 
 ![](../images/sunset.jpg)
+
+### References
+
+::: {#refs}
+:::
+
+
 
 ## Journal Articles
 
