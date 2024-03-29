@@ -24,7 +24,7 @@ jobs:
 
       - name: Print Commit Message
         run: |
-        echo "The triggering commit message is: ${{ github.event.head_commit.message }}"        
+          echo "The triggering commit message is: ${{ github.event.head_commit.message }}"        
 
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
