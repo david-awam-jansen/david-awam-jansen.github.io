@@ -1,5 +1,5 @@
 ---
-title: "Publications"
+title: "Publications list"
 author: "David Jansen"
 bibliography: publications.bib
 ---
