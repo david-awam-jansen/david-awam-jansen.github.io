@@ -19,7 +19,7 @@ website:
         contents:
           - text: "Introduction ggplot"
             file: ./workshops/intro_into_ggplot.qmd
-          - text: "Introduction into git version control 
+          - text: "Introduction into git version control" 
             file: ./workshops/git_version_control.qmd
           - text: "Simple v2"
             file: ./workshops/simple_R.qmd
