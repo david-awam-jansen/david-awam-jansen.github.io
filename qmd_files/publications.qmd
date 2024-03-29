@@ -2,6 +2,7 @@
 title: "Publications list"
 author: "David Jansen"
 bibliography: publications.bib
+bibliography-style: custom.bst
 ---
 
 ---
