@@ -18,11 +18,11 @@ website:
       - section: "Workshops"
         contents:
           - text: "Introduction ggplot"
-            file: workshops/intro_into_ggplot.qmd
-          - text: "Simple R"
-            file: workshops/simple_R.qmd
+            file: ./workshops/intro_into_ggplot.qmd
+          - text: "Simple R" 
+            file: ./workshops/simple_R.qmd
           - text: "Simple R2"
-            file: workshops/simple_R.qmd
+            file: ./workshops/simple_R.qmd
 format:
   html:
     theme: cosmo
