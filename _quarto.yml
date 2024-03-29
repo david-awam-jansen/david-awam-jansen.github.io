@@ -21,7 +21,8 @@ website:
             file: qmd_files/intro_into_ggplot.qmd
           - text: "Simple R"
             file: qmd_files/simple_R.qmd
-
+          - text: "Simple R2"
+            file: qmd_files/index.qmd
 format:
   html:
     theme: cosmo
