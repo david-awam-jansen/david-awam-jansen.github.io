@@ -10,19 +10,19 @@ website:
       - section: "Basics"
         contents:
           - text: "Home"
-            file: qmd_files/index.qmd
+            file: index.qmd
           - text: "About Me"
-            file: qmd_files/about.qmd
+            file: about.qmd
           - text: "Publications"
-            file: qmd_files/publications.qmd
+            file: publications.qmd
       - section: "Workshops"
         contents:
           - text: "Introduction ggplot"
-            file: qmd_files/intro_into_ggplot.qmd
+            file: workshops/intro_into_ggplot.qmd
           - text: "Simple R"
-            file: qmd_files/simple_R.qmd
+            file: workshops/simple_R.qmd
           - text: "Simple R2"
-            file: qmd_files/index.qmd
+            file: workshops/simple_R.qmd
 format:
   html:
     theme: cosmo
