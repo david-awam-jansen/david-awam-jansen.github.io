@@ -17,6 +17,5 @@ nocite: |
 ---
 nocite: |
   @jansen2003thesis, @jansen2005intern,
-  @jansen2005thesis, @jansen2013thesis,
-  @gordon2022, @roche2023
+  @jansen2005thesis, @jansen2013thesis
 ---
