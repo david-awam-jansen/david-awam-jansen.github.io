@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "David Jansen",
     "section": "",
-    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites).",
+    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
     "crumbs": [
       "Basics",
       "Home"
