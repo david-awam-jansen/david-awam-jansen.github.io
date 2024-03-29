@@ -8,7 +8,7 @@ bibliography: publications.bib
 
 ---
 nocite: |
-  @jansen2007, @jansen2012, @jansen2013,@manser2014, @townsend2017, @akinyi2019,
+  @jansen2007, @jansen2012, @jansen2013, @manser2014, @townsend2017, @akinyi2019,
   @habig2019, @grieneisen2020, @grieneisen2021, @bjork2022, @gordon2022, @roche2023
 ---
 
@@ -16,6 +16,5 @@ nocite: |
 
 ---
 nocite: |
-  @jansen2003thesis, @jansen2005intern,
-  @jansen2005thesis, @jansen2013thesis
+  @jansen2003thesis, @jansen2005intern, @jansen2005thesis, @jansen2013thesis
 ---
