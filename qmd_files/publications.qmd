@@ -4,9 +4,8 @@ author: "David Jansen"
 bibliography: publications.bib
 ---
 
-# Articles
-
 ## Articles
+
 ---
 nocite: |
   @jansen2007, @jansen2012, @jansen2013,@manser2014, @townsend2017, @akinyi2019,
