@@ -1,8 +1,8 @@
 ---
 title: "David Jansen"
-author: "David Jansen"
 ---
 
 ![](./images/sunset.jpg)
 
 The site is created with Rstudio and Quarto (<https://quarto.org/docs/websites>).
+It uses a Docker container to manage R packages and is maintained through github actions.
