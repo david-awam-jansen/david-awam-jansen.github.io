@@ -25,19 +25,18 @@ website:
             file: ./workshops/good_data_practises.qmd
           #- text: "Reproducibility research"
           #  file: ./workshops/reproducibility_workshop.qmd
-      - section: "Workshops"
-        contents:
-          - text: "CV"
-            file: ./workshops/CV.qmd 
-          - text: "Resume"
-            file: ./workshops/resume.qmd
       - section: "Presentations"
         contents:
           - text: "MCEVBD interview"
-            file: ./workshops/CV.qmd 
+            file: ./presentations/MCEVBD_interview.qmd
+      - section: "Other"
+        contents:
+          - text: "CV"
+            file: ./other/CV.qmd 
           - text: "Resume"
-            file: ./workshops/resume.qmd
-                 
+            file: ./other/resume.qmd
+
+
 format:
   html:
     theme: cosmo
