@@ -21,8 +21,22 @@ website:
             file: ./workshops/intro_into_ggplot.qmd
           - text: "Introduction into git version control" 
             file: ./workshops/git_version_control.qmd
-          - text: "Simple v2"
-            file: ./workshops/simple_R.qmd
+          - text: "Introduction into good data and coding practices"
+            file: ./workshops/good_data_practises.qmd
+          #- text: "Reproducibility research"
+          #  file: ./workshops/reproducibility_workshop.qmd
+      - section: "Workshops"
+          contents:
+            - text: "CV"
+              file: ./workshops/CV.qmd 
+            - text: "Resume"
+              file: ./workshops/resume.qmd
+      - section: "Presentations"
+          contents:
+            - text: "MCEVBD interview"
+              file: ./workshops/CV.qmd 
+            - text: "Resume"
+              file: ./workshops/resume.qmd                                                                                        
 format:
   html:
     theme: cosmo

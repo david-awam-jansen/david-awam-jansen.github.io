@@ -298,6 +298,6 @@ While a computer will ultimately run your code, it'll be read by humans, so writ
 
     a.  it works --\> go back to your analysis
 
-        ![](../imagesyes_scientist.jpg){width="100"}
+        ![](../images/yes_scientist.jpg){width="100"}
 
     b.  error -\> go back to 1.

@@ -1,0 +1,29 @@
+---
+title: "Research reproducibility"
+date: last-modified
+author: "David Jansen"
+format:
+  revealjs: 
+    theme: sky
+    css: ../styles.css
+    reveal_plugins: notes
+    mathjax: NULL
+---
+
+# Content
+
+```{r}
+library(tidyverse)
+```
+
+## Folder organization
+
+## Other sources
+Noble WS. A quick guide to organizing computational biology projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. doi: 10.1371/journal.pcbi.1000424.
+http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424
+
+Casadevall A, Ellis LM, Davies EW, McFall-Ngai M, Fang FC. A Framework for Improving the Quality of Research in the Biological Sciences. MBio. 2016 Aug 30;7(4). pii: e01256-16. doi: 10.1128/mBio.01256-16. 
+http://mbio.asm.org/content/7/4/e01256-16.long
+
+Ravel J, Wommack KE. All hail reproducibility in microbiome research. Microbiome. 2014 Mar 7;2(1):8. doi: 10.1186/2049-2618-2-8.
+https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-8
