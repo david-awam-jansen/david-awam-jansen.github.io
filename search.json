@@ -18,15 +18,29 @@
     "text": ". **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()"
   },
   {
-    "objectID": "workshops/simple_R.html",
-    "href": "workshops/simple_R.html",
-    "title": "simple R",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications list",
     "section": "",
-    "text": "This is a simple file\nI can add some R code\n\n1 + 1\n\n[1] 2\n\n\nI should also be able to add a R library\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(broom)\n\nmtcars %&gt;% \n  tidy()\n\nWarning: Data frame tidiers are deprecated and will be removed in an upcoming\nrelease of broom.\n\n\n# A tibble: 11 × 13\n   column     n    mean      sd median trimmed    mad   min    max  range   skew\n   &lt;chr&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n 1 mpg       32  20.1     6.03   19.2   19.7    3.65  10.4   33.9   23.5   0.640\n 2 cyl       32   6.19    1.79    6      6.23   2      4      8      4    -0.183\n 3 disp      32 231.    124.    196.   223.    94.8   71.1  472    401.    0.400\n 4 hp        32 147.     68.6   123    141.    52     52    335    283     0.761\n 5 drat      32   3.60    0.535   3.70   3.58   0.475  2.76   4.93   2.17  0.279\n 6 wt        32   3.22    0.978   3.32   3.15   0.517  1.51   5.42   3.91  0.444\n 7 qsec      32  17.8     1.79   17.7   17.8    0.955 14.5   22.9    8.4   0.387\n 8 vs        32   0.438   0.504   0      0.423  0      0      1      1     0.252\n 9 am        32   0.406   0.499   0      0.385  0      0      1      1     0.382\n10 gear      32   3.69    0.738   4      3.62   1      3      5      2     0.555\n11 carb      32   2.81    1.62    2      2.65   1      1      8      7     1.10 \n# ℹ 2 more variables: kurtosis &lt;dbl&gt;, se &lt;dbl&gt;",
+    "text": "References\n\nAkinyi, Mercy Y, Bobby Jansen, David And Habig, Laurence R Gesquiere, Susan C Alberts, and Elizabeth A Archie. 2019. “Costs and Drivers of Helminth Parasite Infection in Wild Female Baboons.” Journal of Animal Ecology 88 (7): 1029–43.\n\n\nBjörk, Johannes R, Mauna R Dasari, Kim Roche, Laura Grieneisen, Trevor J Gould, Jean-Christophe Grenier, Vania Yotova, Neil Gottel, Laurence R Jansen, David And Gesquiere, et al. 2022. “Synchrony and Idiosyncrasy in the Gut Microbiome of Wild Baboons.” Nature Ecology & Evolution 6 (7): 955–64.\n\n\nGordon, Jacob B, Niki H Jansen, David And Learn, and Susan C Alberts. 2022. “Ordinal Dominance Rank Assignments: Protocol for the Amboseli Baboon Research Project.” Avaialable at: Https://Amboselibaboons. Nd. Edu/Downloads/, Accessed Feb 23: 2023.\n\n\nGrieneisen, Laura, Mauna Dasari, Trevor J Gould, Johannes R Björk, Jean-Christophe Grenier, Vania Yotova, Neil Jansen, David And Gottel, Jacob B Gordon, Niki H Learn, et al. 2021. “Gut Microbiome Heritability Is Nearly Universal but Environmentally Contingent.” Science 373 (6551): 181–86.\n\n\nGrieneisen, L, M Dasari, TJ Gould, JR Bjork, J Grenier, V Yotova, D Jansen, et al. 2020. “HERITABILITY OF THE GUT MICROBIOME IN WILD BABOONS (PAPIO CYNOCEPHALUS).” In AMERICAN JOURNAL OF PRIMATOLOGY. Vol. 82. WILEY 111 RIVER ST, HOBOKEN 07030-5774, NJ USA.\n\n\nHabig, Bobby, Jansen, David A, Mercy Y Akinyi, Laurence R Gesquiere, Susan C Alberts, and Elizabeth A Archie. 2019. “Multi-Scale Predictors of Parasite Risk in Wild Male Savanna Baboons (Papio Cynocephalus).” Behavioral Ecology and Sociobiology 73: 1–16.\n\n\nJansen, David A. 2003. “The Contribution of Floodplains to the Ecology of Large Herbivores.” PhD thesis, University of Wageningen.\n\n\n———. 2013a. “Diet Selection in Goats.” PhD thesis, University of Wageningen.\n\n\n———. 2013b. “Self-Organising Spatial Patterns in Mussel Beds.” PhD thesis, University of Wageningen.\n\n\n———. 2013c. “Vocal Communication in the Banded Mongoose (Mungos Mungo).” PhD thesis, University of Zurich.\n\n\nJansen, David A, Michael A Cant, and Marta B Manser. 2012. “Segmental Concatenation of Individual Signatures and Context Cues in Banded Mongoose (Mungos Mungo) Close Calls.” BMC Biology 10: 1–11.\n\n\n———. 2013. “Testing for Vocal Individual Discrimination in Adult Banded Mongooses.” Journal of Zoology. PhD thesis.\n\n\nJansen, David A, Frank van Langevelde, Willem F de Boer, and Kevin P Kirkman. 2007. “Optimisation or Satiation, Testing Diet Selection Rules in Goats.” Small Ruminant Research 73 (1-3): 160–68.\n\n\nManser, Marta B, Jansen, David A Jansen, Beke Graw, Linda I Hollén, Christophe AH Bousquet, Roman D Furrer, and Aliza Le Roux. 2014. “Vocal Complexity in Meerkats and Other Mongoose Species.” In Advances in the Study of Behavior, 46:281–310. Academic Press.\n\n\nRoche, Kimberly E, Johannes R Bjork, Mauna R Dasari, Laura Grieneisen, Trevor J Jansen, David And Gould, Laurence R Gesquiere, Luis B Barreiro, Susan C Alberts, Ran Blekhman, et al. 2023. “Universal Gut Microbial Relationships in the Gut Microbiome of Wild Baboons.” Elife 12: e83152.\n\n\nTownsend, Simon W, Sonja E Koski, Richard W Byrne, Katie E Slocombe, Balthasar Bickel, Markus Boeckle, Ines Braga Goncalves, et al. 2017. “Exorcising g Rice’s Ghost: An Empirical Approach to Studying Intentional Communication in Animals.” Biological Reviews 92 (3): 1427–33.",
     "crumbs": [
-      "Workshops",
-      "Simple v2"
+      "Basics",
+      "Publications"
     ]
+  },
+  {
+    "objectID": "workshops/about.html",
+    "href": "workshops/about.html",
+    "title": "David Jansen",
+    "section": "",
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project."
+  },
+  {
+    "objectID": "workshops/about.html#education",
+    "href": "workshops/about.html#education",
+    "title": "David Jansen",
+    "section": "Education",
+    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV"
   },
   {
     "objectID": "workshops/git_version_control.html#what-is-version-control",
@@ -429,156 +443,235 @@
     "href": "workshops/good_data_practises.html#data-1",
     "title": "Good data practices",
     "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version"
+    "text": "Data (1)\n\nKeep an as raw as possible version",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-1-1",
     "href": "workshops/good_data_practises.html#data-1-1",
     "title": "Good data practices",
     "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\nkeep in a ‘save’ format\nNot excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\n\n\n\nDon’t make changes to this raw data"
+    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\nkeep in a ‘save’ format\nNot excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\n\n\n\nDon’t make changes to this raw data",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-2",
     "href": "workshops/good_data_practises.html#data-2",
     "title": "Good data practices",
     "section": "Data (2)",
-    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding."
+    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-3",
     "href": "workshops/good_data_practises.html#data-3",
     "title": "Good data practices",
     "section": "Data (3)",
-    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\nspeciesspeedspeed_mphelphant24.0 mph24.0mouse8.1 mph8.1cheetah74.6 mph74.7"
+    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\nspeciesspeedspeed_mphelphant24.0 mph24.0mouse8.1 mph8.1cheetah74.6 mph74.7",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-4",
     "href": "workshops/good_data_practises.html#data-4",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling"
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-4-1",
     "href": "workshops/good_data_practises.html#data-4-1",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible"
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-4-2",
     "href": "workshops/good_data_practises.html#data-4-2",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\n\n\n\n\n\n\n\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0"
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\n\n\n\n\n\n\n\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-4-3",
     "href": "workshops/good_data_practises.html#data-4-3",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n      flextable::flextable() %&gt;% \n      flextable::colformat_double(digits = 1)\n\ndayHouse_AHouse_BHouse_CHouse_D1.010.02.01.011.02.010.010.012.014.03.08.09.05.06.04.04.04.04.02.05.02.02.02.04.0"
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n      flextable::flextable() %&gt;% \n      flextable::colformat_double(digits = 1)\n\ndayHouse_AHouse_BHouse_CHouse_D1.010.02.01.011.02.010.010.012.014.03.08.09.05.06.04.04.04.04.02.05.02.02.02.04.0",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-4-4",
     "href": "workshops/good_data_practises.html#data-4-4",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\n\nLyric: “I changed my mind about house_E”\n\n\n“Sorry I deleted that data” versus “Let me rerun code”"
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\n\nLyric: “I changed my mind about house_E”\n\n\n“Sorry I deleted that data” versus “Let me rerun code”",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#wide-format-versus-long-format",
     "href": "workshops/good_data_practises.html#wide-format-versus-long-format",
     "title": "Good data practices",
     "section": "Wide format versus long format",
-    "text": "Wide format versus long format\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0\n\n\n\nwide often easier for recording\nlong often required for analysis\n\n\n\n\ndayhousestick_count1.0House_A10.01.0House_B2.01.0House_C1.01.0House_D11.01.0House_E14.02.0House_A10.02.0House_B10.02.0House_C12.02.0House_D14.02.0House_E2.03.0House_A8.03.0House_B9.03.0House_C5.03.0House_D6.03.0House_E8.04.0House_A4.04.0House_B4.04.0House_C4.04.0House_D2.04.0House_E11.0"
+    "text": "Wide format versus long format\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0\n\n\n\nwide often easier for recording\nlong often required for analysis\n\n\n\n\ndayhousestick_count1.0House_A10.01.0House_B2.01.0House_C1.01.0House_D11.01.0House_E14.02.0House_A10.02.0House_B10.02.0House_C12.02.0House_D14.02.0House_E2.03.0House_A8.03.0House_B9.03.0House_C5.03.0House_D6.03.0House_E8.04.0House_A4.04.0House_B4.04.0House_C4.04.0House_D2.04.0House_E11.0",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-documentation-1",
     "href": "workshops/good_data_practises.html#data-documentation-1",
     "title": "Good data practices",
     "section": "Data documentation (1)",
-    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others."
+    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#data-documentation-2",
     "href": "workshops/good_data_practises.html#data-documentation-2",
     "title": "Good data practices",
     "section": "Data documentation (2)",
-    "text": "Data documentation (2)\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\nMetadata\n\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\ndata about data\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme"
+    "text": "Data documentation (2)\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\nMetadata\n\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\ndata about data\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#naming",
     "href": "workshops/good_data_practises.html#naming",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!"
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#naming-1",
     "href": "workshops/good_data_practises.html#naming-1",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’"
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#naming-2",
     "href": "workshops/good_data_practises.html#naming-2",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’"
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#naming-3",
     "href": "workshops/good_data_practises.html#naming-3",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent"
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#bonus",
     "href": "workshops/good_data_practises.html#bonus",
     "title": "Good data practices",
     "section": "Bonus",
-    "text": "Bonus"
+    "text": "Bonus",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
   },
   {
     "objectID": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
     "href": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
     "title": "Good data practices",
     "section": "How to deal with R (programming) errors",
-    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1."
-  },
-  {
-    "objectID": "workshops/about.html",
-    "href": "workshops/about.html",
-    "title": "David Jansen",
-    "section": "",
-    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project."
-  },
-  {
-    "objectID": "workshops/about.html#education",
-    "href": "workshops/about.html#education",
-    "title": "David Jansen",
-    "section": "Education",
-    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV"
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications list",
-    "section": "",
-    "text": "References\n\nAkinyi, Mercy Y, Bobby Jansen, David And Habig, Laurence R Gesquiere, Susan C Alberts, and Elizabeth A Archie. 2019. “Costs and Drivers of Helminth Parasite Infection in Wild Female Baboons.” Journal of Animal Ecology 88 (7): 1029–43.\n\n\nBjörk, Johannes R, Mauna R Dasari, Kim Roche, Laura Grieneisen, Trevor J Gould, Jean-Christophe Grenier, Vania Yotova, Neil Gottel, Laurence R Jansen, David And Gesquiere, et al. 2022. “Synchrony and Idiosyncrasy in the Gut Microbiome of Wild Baboons.” Nature Ecology & Evolution 6 (7): 955–64.\n\n\nGordon, Jacob B, Niki H Jansen, David And Learn, and Susan C Alberts. 2022. “Ordinal Dominance Rank Assignments: Protocol for the Amboseli Baboon Research Project.” Avaialable at: Https://Amboselibaboons. Nd. Edu/Downloads/, Accessed Feb 23: 2023.\n\n\nGrieneisen, Laura, Mauna Dasari, Trevor J Gould, Johannes R Björk, Jean-Christophe Grenier, Vania Yotova, Neil Jansen, David And Gottel, Jacob B Gordon, Niki H Learn, et al. 2021. “Gut Microbiome Heritability Is Nearly Universal but Environmentally Contingent.” Science 373 (6551): 181–86.\n\n\nGrieneisen, L, M Dasari, TJ Gould, JR Bjork, J Grenier, V Yotova, D Jansen, et al. 2020. “HERITABILITY OF THE GUT MICROBIOME IN WILD BABOONS (PAPIO CYNOCEPHALUS).” In AMERICAN JOURNAL OF PRIMATOLOGY. Vol. 82. WILEY 111 RIVER ST, HOBOKEN 07030-5774, NJ USA.\n\n\nHabig, Bobby, Jansen, David A, Mercy Y Akinyi, Laurence R Gesquiere, Susan C Alberts, and Elizabeth A Archie. 2019. “Multi-Scale Predictors of Parasite Risk in Wild Male Savanna Baboons (Papio Cynocephalus).” Behavioral Ecology and Sociobiology 73: 1–16.\n\n\nJansen, David A. 2003. “The Contribution of Floodplains to the Ecology of Large Herbivores.” PhD thesis, University of Wageningen.\n\n\n———. 2013a. “Diet Selection in Goats.” PhD thesis, University of Wageningen.\n\n\n———. 2013b. “Self-Organising Spatial Patterns in Mussel Beds.” PhD thesis, University of Wageningen.\n\n\n———. 2013c. “Vocal Communication in the Banded Mongoose (Mungos Mungo).” PhD thesis, University of Zurich.\n\n\nJansen, David A, Michael A Cant, and Marta B Manser. 2012. “Segmental Concatenation of Individual Signatures and Context Cues in Banded Mongoose (Mungos Mungo) Close Calls.” BMC Biology 10: 1–11.\n\n\n———. 2013. “Testing for Vocal Individual Discrimination in Adult Banded Mongooses.” Journal of Zoology. PhD thesis.\n\n\nJansen, David A, Frank van Langevelde, Willem F de Boer, and Kevin P Kirkman. 2007. “Optimisation or Satiation, Testing Diet Selection Rules in Goats.” Small Ruminant Research 73 (1-3): 160–68.\n\n\nManser, Marta B, Jansen, David A Jansen, Beke Graw, Linda I Hollén, Christophe AH Bousquet, Roman D Furrer, and Aliza Le Roux. 2014. “Vocal Complexity in Meerkats and Other Mongoose Species.” In Advances in the Study of Behavior, 46:281–310. Academic Press.\n\n\nRoche, Kimberly E, Johannes R Bjork, Mauna R Dasari, Laura Grieneisen, Trevor J Jansen, David And Gould, Laurence R Gesquiere, Luis B Barreiro, Susan C Alberts, Ran Blekhman, et al. 2023. “Universal Gut Microbial Relationships in the Gut Microbiome of Wild Baboons.” Elife 12: e83152.\n\n\nTownsend, Simon W, Sonja E Koski, Richard W Byrne, Katie E Slocombe, Balthasar Bickel, Markus Boeckle, Ines Braga Goncalves, et al. 2017. “Exorcising g Rice’s Ghost: An Empirical Approach to Studying Intentional Communication in Animals.” Biological Reviews 92 (3): 1427–33.",
+    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
     "crumbs": [
-      "Basics",
-      "Publications"
+      "Workshops",
+      "Introduction into good data and coding practices"
     ]
+  },
+  {
+    "objectID": "workshops/reproducibility_workshop.html#folder-organization",
+    "href": "workshops/reproducibility_workshop.html#folder-organization",
+    "title": "Research reproducibility",
+    "section": "Folder organization",
+    "text": "Folder organization"
+  },
+  {
+    "objectID": "workshops/reproducibility_workshop.html#other-sources",
+    "href": "workshops/reproducibility_workshop.html#other-sources",
+    "title": "Research reproducibility",
+    "section": "Other sources",
+    "text": "Other sources\nNoble WS. A quick guide to organizing computational biology projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. doi: 10.1371/journal.pcbi.1000424. http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424\nCasadevall A, Ellis LM, Davies EW, McFall-Ngai M, Fang FC. A Framework for Improving the Quality of Research in the Biological Sciences. MBio. 2016 Aug 30;7(4). pii: e01256-16. doi: 10.1128/mBio.01256-16. http://mbio.asm.org/content/7/4/e01256-16.long\nRavel J, Wommack KE. All hail reproducibility in microbiome research. Microbiome. 2014 Mar 7;2(1):8. doi: 10.1186/2049-2618-2-8. https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-8"
+  },
+  {
+    "objectID": "workshops/simple_R.html",
+    "href": "workshops/simple_R.html",
+    "title": "simple R",
+    "section": "",
+    "text": "This is a simple file\nI can add some R code\n\n1 + 1\n\n[1] 2\n\n\nI should also be able to add a R library\n\nlibrary(tidyverse)\n\n── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──\n✔ dplyr     1.1.4     ✔ readr     2.1.5\n✔ forcats   1.0.0     ✔ stringr   1.5.1\n✔ ggplot2   3.5.0     ✔ tibble    3.2.1\n✔ lubridate 1.9.3     ✔ tidyr     1.3.1\n✔ purrr     1.0.2     \n── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──\n✖ dplyr::filter() masks stats::filter()\n✖ dplyr::lag()    masks stats::lag()\nℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors\n\nlibrary(broom)\n\nmtcars %&gt;% \n  tidy()\n\nWarning: Data frame tidiers are deprecated and will be removed in an upcoming\nrelease of broom.\n\n\n# A tibble: 11 × 13\n   column     n    mean      sd median trimmed    mad   min    max  range   skew\n   &lt;chr&gt;  &lt;dbl&gt;   &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt;   &lt;dbl&gt;  &lt;dbl&gt; &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;  &lt;dbl&gt;\n 1 mpg       32  20.1     6.03   19.2   19.7    3.65  10.4   33.9   23.5   0.640\n 2 cyl       32   6.19    1.79    6      6.23   2      4      8      4    -0.183\n 3 disp      32 231.    124.    196.   223.    94.8   71.1  472    401.    0.400\n 4 hp        32 147.     68.6   123    141.    52     52    335    283     0.761\n 5 drat      32   3.60    0.535   3.70   3.58   0.475  2.76   4.93   2.17  0.279\n 6 wt        32   3.22    0.978   3.32   3.15   0.517  1.51   5.42   3.91  0.444\n 7 qsec      32  17.8     1.79   17.7   17.8    0.955 14.5   22.9    8.4   0.387\n 8 vs        32   0.438   0.504   0      0.423  0      0      1      1     0.252\n 9 am        32   0.406   0.499   0      0.385  0      0      1      1     0.382\n10 gear      32   3.69    0.738   4      3.62   1      3      5      2     0.555\n11 carb      32   2.81    1.62    2      2.65   1      1      8      7     1.10 \n# ℹ 2 more variables: kurtosis &lt;dbl&gt;, se &lt;dbl&gt;"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "David Jansen",
+    "title": "",
+    "section": "",
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "",
     "section": "",
     "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
     "crumbs": [
@@ -589,7 +682,7 @@
   {
     "objectID": "about.html#education",
     "href": "about.html#education",
-    "title": "David Jansen",
+    "title": "",
     "section": "Education",
     "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV",
     "crumbs": [
