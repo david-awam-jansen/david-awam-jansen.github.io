@@ -21,7 +21,7 @@ website:
             file: ./workshops/intro_into_ggplot.qmd
           - text: "Simple R" 
             file: ./workshops/simple_R.qmd
-          - text: "Simple R2"
+          - text: "Simple v2"
             file: ./workshops/simple_R.qmd
 format:
   html:
