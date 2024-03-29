@@ -26,17 +26,18 @@ website:
           #- text: "Reproducibility research"
           #  file: ./workshops/reproducibility_workshop.qmd
       - section: "Workshops"
-          contents:
-            - text: "CV"
-              file: ./workshops/CV.qmd 
-            - text: "Resume"
-              file: ./workshops/resume.qmd
+        contents:
+          - text: "CV"
+            file: ./workshops/CV.qmd 
+          - text: "Resume"
+            file: ./workshops/resume.qmd
       - section: "Presentations"
-          contents:
-            - text: "MCEVBD interview"
-              file: ./workshops/CV.qmd 
-            - text: "Resume"
-              file: ./workshops/resume.qmd                                                                                        
+        contents:
+          - text: "MCEVBD interview"
+            file: ./workshops/CV.qmd 
+          - text: "Resume"
+            file: ./workshops/resume.qmd
+                 
 format:
   html:
     theme: cosmo
