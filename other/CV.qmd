@@ -1,0 +1,11 @@
+---
+about:
+  template: jolla
+  image: ./images/djansen.jpg
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/david-awam-jansen
+---
+
+Click here for my <a href="./files/David_Jansen_Resume.pdf">Resume</a> or <a href="./files/David_Jansen_CV.pdf">CV</a>
