@@ -8,4 +8,4 @@ about:
   <iframe src="../files/David_Jansen_CV.pdf" style="width:80%; height:10in; margin: 0 auto;" frameborder="0" scrolling="no"></iframe>
 </div>
 
-The LaTeX code that was used to create this CV can be found [here](./files/djansen_cv.tex).
+The LaTeX code that was used to create this CV can be found [here](../files/djansen_cv.tex).
