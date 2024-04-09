@@ -23,8 +23,8 @@ website:
             file: ./workshops/git_version_control.qmd
           - text: "Introduction into good data and coding practices"
             file: ./workshops/good_data_practises.qmd
-          #- text: "Reproducibility research"
-          #  file: ./workshops/reproducibility_workshop.qmd
+          - text: "Reproducibility research"
+            file: ./workshops/reproducibility_workshop.qmd
       - section: "Presentations"
         contents:
           - text: "MCEVBD interview"
