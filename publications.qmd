@@ -1,8 +1,7 @@
 ---
 title: "Publications list"
 bibliography: publications.bib
-csl: styles/apa-cv-short.csl
-bibliography-style: styles/custom.bst
+csl: styles/apa-cv.csl
 ---
 
 ---
