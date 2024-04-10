@@ -1,7 +1,6 @@
 ---
 title: "Publications list"
 bibliography: publications.bib
-csl: nature.csl
 bibliography-style: styles/custom.bst
 ---
 
