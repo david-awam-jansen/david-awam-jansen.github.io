@@ -1,10 +1,9 @@
 ---
 title: "Publications list"
 bibliography: publications.bib
+csl: nature.csl
 bibliography-style: custom.bst
 ---
-
-Is this working?
 
 ---
 nocite: |
@@ -13,13 +12,3 @@ nocite: |
   @jansen2003thesis, @jansen2005intern, @jansen2005thesis, @jansen2013thesis
 ---
 
-\begin{document}
-
-\maketitle
-
-\nocite{*}
-
-\bibliographystyle{custom}
-\bibliography{publications}
-
-\end{document}
