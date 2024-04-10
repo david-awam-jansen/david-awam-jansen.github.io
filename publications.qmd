@@ -1,6 +1,7 @@
 ---
 title: "Publications list"
-bibliography: publications.bib
+bibliography: publications.json
+section-bibs-bibliography: publications.json
 csl: styles/apa-cv.csl
 bibliography-style: styles/custom.bst
 filters:
