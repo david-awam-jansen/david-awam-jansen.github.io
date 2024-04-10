@@ -10,3 +10,14 @@ nocite: |
   @habig2019, @grieneisen2020, @grieneisen2021, @bjork2022, @gordon2022, @roche2023
   @jansen2003thesis, @jansen2005intern, @jansen2005thesis, @jansen2013thesis
 ---
+
+\begin{document}
+
+\maketitle
+
+\nocite{*}
+
+\bibliographystyle{custom}
+\bibliography{publications}
+
+\end{document}
