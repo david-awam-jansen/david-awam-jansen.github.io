@@ -4,6 +4,8 @@ bibliography: publications.bib
 bibliography-style: custom.bst
 ---
 
+Is this working?
+
 ---
 nocite: |
   @jansen2007, @jansen2012, @jansen2013, @manser2014, @townsend2017, @akinyi2019,
