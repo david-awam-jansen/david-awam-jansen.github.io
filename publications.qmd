@@ -3,6 +3,12 @@ title: "Publications list"
 bibliography: publications.bib
 csl: styles/apa-cv.csl
 bibliography-style: styles/custom.bst
+filters:
+  - section-bibliographies
+  - bold-author.lua
+bold-auth-name:
+  - family: Jansen
+    given: D.
 ---
 
 ---
