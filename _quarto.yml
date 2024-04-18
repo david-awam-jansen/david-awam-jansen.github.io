@@ -13,16 +13,18 @@ website:
             file: index.qmd
           - text: "About Me"
             file: about.qmd
+          - text: "About Me2"
+            file: about2.qmd
           - text: "Publications"
             file: publications.qmd
       - section: "Workshops"
         contents:
+          - text: "Introduction into good data and coding practices"
+            file: ./workshops/good_data_practises.qmd
           - text: "Introduction ggplot"
             file: ./workshops/intro_into_ggplot.qmd
           - text: "Introduction into git version control" 
             file: ./workshops/git_version_control.qmd
-          - text: "Introduction into good data and coding practices"
-            file: ./workshops/good_data_practises.qmd
           - text: "Reproducibility research"
             file: ./workshops/reproducibility_workshop.qmd
       - section: "Presentations"
@@ -36,6 +38,7 @@ website:
           - text: "Resume"
             file: ./other/resume.qmd
 
+bibliography: publications.bib         
 
 format:
   html:
