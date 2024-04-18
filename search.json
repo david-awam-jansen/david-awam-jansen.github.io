@@ -425,6 +425,17 @@
     ]
   },
   {
+    "objectID": "about2.html",
+    "href": "about2.html",
+    "title": "test",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites Cant and Manser (2013).\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nReferences\n\nCant, Michael A, and Marta B Manser. 2012. “Segmental Concatenation of Individual Signatures and Context Cues in Banded Mongoose (Mungos Mungo) Close Calls.” BMC Biology 10: 1–11.\n\n\n———. 2013. “Testing for Vocal Individual Discrimination in Adult Banded Mongooses.” Journal of Zoology. PhD thesis.",
+    "crumbs": [
+      "Basics",
+      "About Me2"
+    ]
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "",
