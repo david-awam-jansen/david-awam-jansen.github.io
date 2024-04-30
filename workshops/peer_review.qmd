@@ -87,8 +87,11 @@ format:
 ## Submission
 
 -   Cover letters
+```{pdf}
+source: "data/paper_review/PLOS biology_cover_letter_voc_signature_17JUL12.pdf"
+```
 
-    -   \<a href="data/paper_review/PLOS Biology_cover_letter_voc_signature_17JUL12.pdf target="\_blank"\>Example PLOS Biology\</a\>
+    -   \<a href="data/paper_review/PLOS biology_cover_letter_voc_signature_17JUL12.pdf target="\_blank"\>Example PLOS Biology</a>
     -   \<a href="data/paper_review/Jansen et al_cover letter_vocal signaturer_16JUL12 target="\_blank"\>Example Current biology\</a\>
 
 -   Have everything ready in the right format
