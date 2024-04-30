@@ -12,7 +12,7 @@
 
   <meta name="author" content="David Jansen">
   <meta name="dcterms.date" content="2024-04-30">
-  <title>Research reproducibility</title>
+  <title>Introduction into peer review process</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -328,7 +328,7 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Research reproducibility</h1>
+  <h1 class="title">Introduction into peer review process</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -340,26 +340,91 @@ David Jansen
 
   <p class="date">2024-04-30</p>
 </section>
-<section>
-<section id="content" class="title-slide slide level1 center">
-<h1>Content</h1>
+<section id="the-start" class="slide level2">
+<h2>The start</h2>
+<ul>
+<li>Write paper</li>
+</ul>
 
-</section>
-<section id="folder-organization" class="slide level2">
-<h2>Folder organization</h2>
-</section>
-<section id="other-sources" class="slide level2">
-<h2>Other sources</h2>
-<p>Noble WS. A quick guide to organizing computational biology projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. doi: 10.1371/journal.pcbi.1000424. http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424</p>
-<p>Casadevall A, Ellis LM, Davies EW, McFall-Ngai M, Fang FC. A Framework for Improving the Quality of Research in the Biological Sciences. MBio. 2016 Aug 30;7(4). pii: e01256-16. doi: 10.1128/mBio.01256-16. http://mbio.asm.org/content/7/4/e01256-16.long</p>
-<p>Ravel J, Wommack KE. All hail reproducibility in microbiome research. Microbiome. 2014 Mar 7;2(1):8. doi: 10.1186/2049-2618-2-8. https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-8</p>
+<img data-src="../images/writingtips-011.jpg" class="r-stretch"></section>
+<section id="keep-working-on-it" class="slide level2">
+<h2>Keep working on it</h2>
 
-<div class="quarto-auto-generated-content">
+<img data-src="../images/paper_tips_combined.jpg" class="r-stretch"></section>
+<section id="first-review" class="slide level2">
+<h2>First review</h2>
+<ul>
+<li><p>Have people look at the paper (e.g.&nbsp;writing workshop)</p></li>
+<li><p>Add page and line numbers</p></li>
+<li><p>Send to PIs</p></li>
+<li><p>Send to collaborators</p></li>
+<li><p>….. + lots of back and forth</p></li>
+</ul>
+</section>
+<section id="dont-forget" class="slide level2">
+<h2>Don’t forget</h2>
+<ul>
+<li><p>Decide on journal</p>
+<ul>
+<li><p>scope</p></li>
+<li><p>impact factor</p></li>
+<li><p>similar work</p></li>
+</ul></li>
+</ul>
+
+<img data-src="../images/writingtips-10.jpg" class="r-stretch"></section>
+<section id="step-2" class="slide level2">
+<h2>Step 2</h2>
+<ul>
+<li>Check the author guidelines of the journal
+<ul>
+<li><a href="https://academic.oup.com/jme/pages/General_Instructions">Journal of Medical Entomology</a></li>
+<li><a href="https://www.sciencedirect.com/journal/ticks-and-tick-borne-diseases/publish/guide-for-authors">Tick and Tick-borne Diseases</a></li>
+<li><a href="https://www.cell.com/current-biology/authors">Current Biology</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="get-ready-for-the-exciting-step" class="slide level2">
+<h2>Get ready for the exciting step</h2>
+</section>
+<section id="sorry-one-more-thing" class="slide level2">
+<h2>Sorry one more thing</h2>
+<ul>
+<li><p>Check paper</p>
+<ul>
+<li><p>Are all references there?</p></li>
+<li><p>Spelling and grammar check</p></li>
+<li><p>Journal Formatting</p></li>
+<li><p>Check figures and tables</p></li>
+</ul></li>
+</ul>
+</section>
+<section id="get-ready" class="slide level2">
+<h2>Get ready</h2>
+</section>
+<section id="get-ready-1" class="slide level2">
+<h2>Get ready</h2>
+<ul>
+<li>Check everything one more time</li>
+</ul>
+</section>
+<section id="peer-review-process" class="slide level2">
+<h2>Peer review process</h2>
+
+<img data-src="../images/peer_review_process.jpg" class="r-stretch"></section>
+<section id="submission" class="slide level2">
+<h2>Submission</h2>
+<ul>
+<li>Cover letter</li>
+</ul>
+
+
+<img data-src="../images/writingtips-11.jpg" class="r-stretch"><div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -551,44 +616,6 @@ David Jansen
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
