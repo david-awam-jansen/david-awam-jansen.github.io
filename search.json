@@ -224,11 +224,7 @@
     "href": "other/CV.html",
     "title": "",
     "section": "",
-    "text": "The LaTeX code that was used to create this CV can be found here.",
-    "crumbs": [
-      "Other",
-      "CV"
-    ]
+    "text": "The LaTeX code that was used to create this CV can be found here."
   },
   {
     "objectID": "about.html",
@@ -821,29 +817,7 @@
     "href": "workshops/peer_review.html#submission-1",
     "title": "Introduction into peer review process",
     "section": "Submission",
-    "text": "Submission\n\nCover letters\n\n&lt;a href=“data/paper_review/PLOS Biology_cover_letter_voc_signature_17JUL12.pdf target=”_blank”&gt;Example PLOS Biology&lt;/a&gt;\n&lt;a href=“data/paper_review/Jansen et al_cover letter_vocal signaturer_16JUL12 target=”_blank”&gt;Example Current biology&lt;/a&gt;\n\nHave everything ready in the right format\n\nSometimes figures and tables need to be different file\nInform co-authors they might have to sign something",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#editorial-review",
-    "href": "workshops/peer_review.html#editorial-review",
-    "title": "Introduction into peer review process",
-    "section": "Editorial review",
-    "text": "Editorial review\n\nCheck if paper fits journal’s scope\n\nBusy people and lots of papers\n\nImportance of title, abstract, and cover letter",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#editorial-review-1",
-    "href": "workshops/peer_review.html#editorial-review-1",
-    "title": "Introduction into peer review process",
-    "section": "Editorial review",
-    "text": "Editorial review\n\nCheck if paper fits journal’s scope\n\nDear Dr. Jansen,\n\nMany thanks for your presubmission enquiry to Current Biology. Having discussed your abstract with my colleagues, I am sorry to say that we cannot encourage the submission of your paper. We appreciate the interest in the issues you are addressing, but our feeling is that the work you describe would be better suited to a rather more specialised journal than Current Biology.\n\nI am sorry not to be able to be more positive on this occasion, but thank you for considering us.\n\nYours sincerely,\n\nFlorian Maderspacher",
+    "text": "Submission\n\nCover letters\n\nPlos Biology",
     "crumbs": [
       "Workshops",
       "Peer review process"
