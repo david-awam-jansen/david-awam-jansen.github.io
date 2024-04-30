@@ -31,12 +31,7 @@ website:
         contents:
           - text: "MCEVBD interview"
             file: ./presentations/MCEVBD_interview.qmd
-      - section: "Other"
-        contents:
-          - text: "CV"
-            file: ./other/CV.qmd 
-          - text: "Resume"
-            file: ./other/resume.qmd
+
 
 bibliography: publications.bib         
 
