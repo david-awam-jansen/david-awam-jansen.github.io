@@ -87,5 +87,5 @@ format:
 ## Submission
 
 -   Cover letters
-    -    [Plos Biology](data/paper_review/PLOS biology_cover_letter_voc_signature_17JUL12.pdf)
+    -    [Plos Biology](../data/paper_review/PLOS biology_cover_letter_voc_signature_17JUL12.pdf)
 
