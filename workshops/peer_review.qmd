@@ -113,6 +113,7 @@ source: "data/paper_review/PLOS biology_cover_letter_voc_signature_17JUL12.pdf"
 ## Editorial review
 
 -   Check if paper fits journal's scope
+-   Sometimes answer can be quick 
 
 ```         
 Dear Dr. Jansen,
