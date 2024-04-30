@@ -13,8 +13,6 @@ website:
             file: index.qmd
           - text: "About Me"
             file: about.qmd
-          - text: "About Me2"
-            file: about2.qmd
           - text: "Publications"
             file: publications.qmd
       - section: "Workshops"
@@ -27,6 +25,8 @@ website:
             file: ./workshops/git_version_control.qmd
           - text: "Reproducibility research"
             file: ./workshops/reproducibility_workshop.qmd
+          - text: "Peer review process"
+            file: ./workshops/peer_review.qmd            
       - section: "Presentations"
         contents:
           - text: "MCEVBD interview"

@@ -1,0 +1,85 @@
+---
+title: "Introduction into peer review process"
+date: last-modified
+author: "David Jansen"
+execute:
+  include: true
+  echo: true
+format:
+  revealjs: 
+    theme: sky
+    css: ../styles.css
+    reveal_plugins: notes
+    mathjax: NULL
+---
+
+## The start
+
+-   Write paper
+
+![](/images/writingtips-011.jpg)
+
+## Keep working on it
+
+![](/images/paper_tips_combined.jpg)
+
+## First review
+
+-   Have people look at the paper (e.g. writing workshop)
+
+-   Add page and line numbers
+
+-   Send to PIs
+
+-   Send to collaborators
+
+-   ..... + lots of back and forth
+
+## Don't forget
+
+-   Decide on journal
+
+    -   scope
+
+    -   impact factor
+
+    -   similar work
+
+![](/images/writingtips-10.jpg)
+
+## Step 2
+
+-   Check the author guidelines of the journal
+    -   [Journal of Medical Entomology](https://academic.oup.com/jme/pages/General_Instructions)
+    -   [Tick and Tick-borne Diseases](https://www.sciencedirect.com/journal/ticks-and-tick-borne-diseases/publish/guide-for-authors)
+    -   [Current Biology](https://www.cell.com/current-biology/authors)
+
+## Get ready for the exciting step
+
+## Sorry one more thing
+
+-   Check paper
+
+    -   Are all references there?
+
+    -   Spelling and grammar check
+
+    -   Journal Formatting
+
+    -   Check figures and tables
+
+## Get ready
+
+## Get ready
+
+-   Check everything one more time
+
+## Peer review process
+
+![](/images/peer_review_process.jpg)
+
+## Submission
+
+-   Cover letter
+
+![](/images/writingtips-11.jpg)
