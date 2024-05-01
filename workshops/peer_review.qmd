@@ -87,5 +87,26 @@ format:
 ## Submission
 
 -   Cover letters
-    -    [Plos Biology](../data/paper_review/plos_biology_cover_letter_voc_signature_17jul12.pdf)
-    -    [Plos Biology](plos_biology_cover_letter_voc_signature_17jul12.pdf)
+    -   [Plos Biology](../data/paper_review/plos_biology_cover_letter_voc_signature_16jul12.pdf)
+    -   [Plos one](../data/paper_review/plos_one_cover_letter_indiv_recog.pdf)
+
+## Submission
+
+-   Cover letter
+-   Have everything ready. Often specific formats it needs to be submitted
+
+## Receiving reviewer comments
+
+-   Good reviewers are make your paper better
+-   If rejected still look at comments and do something with them
+-   Very often major or minor revisions needed
+
+## Receiving reviwer commentsReview comments
+
+-   \[Akinti et al\](../data/paper_review/Akinti et al major revision required.pdf\]
+
+-   Read all comments first
+
+-   Share with co-authors (also ask if you need help with specific comments)
+
+-   Respond to all comments and keep track of changes
