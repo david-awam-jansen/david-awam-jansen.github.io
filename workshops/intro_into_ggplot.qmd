@@ -60,7 +60,7 @@ Thank you chatgpt to help me make some of these slides
 -   There are many package that build on ggplot to work with specific kinds of data, e.g.;
     -   **survminer** for survival analysis
     -   **ggcorrplot** for correlation plots
-    -   **gganimate** make plot animations 
+    -   **gganimate** make plot animations
 
 ## Basic Syntax Overview
 
@@ -125,7 +125,8 @@ ggplot(data = df, aes(x = week, y = count)) +
 
 ## First simple plot (3)
 
-- change the color of the dots
+-   change the color of the dots
+
 ```{r}
 ggplot(data = df, aes(x = week, y = count, color = location)) +
   geom_point(size = 5)
@@ -538,7 +539,6 @@ p2 <- plot_data %>%
 
 cowplot::plot_grid(p1, p2)  
 ```
-
 
 ## Resources
 
