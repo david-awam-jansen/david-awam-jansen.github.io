@@ -1,496 +1,189 @@
 [
   {
-    "objectID": "workshops/reproducibility_workshop.html#folder-organization",
-    "href": "workshops/reproducibility_workshop.html#folder-organization",
-    "title": "Research reproducibility",
-    "section": "Folder organization",
-    "text": "Folder organization",
+    "objectID": "workshops/peer_review.html#the-start",
+    "href": "workshops/peer_review.html#the-start",
+    "title": "Introduction into peer review process",
+    "section": "The start",
+    "text": "The start\n\nWrite paper",
     "crumbs": [
       "Workshops",
-      "Reproducibility research"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/reproducibility_workshop.html#other-sources",
-    "href": "workshops/reproducibility_workshop.html#other-sources",
-    "title": "Research reproducibility",
-    "section": "Other sources",
-    "text": "Other sources\nNoble WS. A quick guide to organizing computational biology projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. doi: 10.1371/journal.pcbi.1000424. http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424\nCasadevall A, Ellis LM, Davies EW, McFall-Ngai M, Fang FC. A Framework for Improving the Quality of Research in the Biological Sciences. MBio. 2016 Aug 30;7(4). pii: e01256-16. doi: 10.1128/mBio.01256-16. http://mbio.asm.org/content/7/4/e01256-16.long\nRavel J, Wommack KE. All hail reproducibility in microbiome research. Microbiome. 2014 Mar 7;2(1):8. doi: 10.1186/2049-2618-2-8. https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-8",
+    "objectID": "workshops/peer_review.html#keep-working-on-it",
+    "href": "workshops/peer_review.html#keep-working-on-it",
+    "title": "Introduction into peer review process",
+    "section": "Keep working on it",
+    "text": "Keep working on it",
     "crumbs": [
       "Workshops",
-      "Reproducibility research"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#what-is-version-control",
-    "href": "workshops/git_version_control.html#what-is-version-control",
-    "title": "Introduction into git",
-    "section": "What is version control",
-    "text": "What is version control",
+    "objectID": "workshops/peer_review.html#first-review",
+    "href": "workshops/peer_review.html#first-review",
+    "title": "Introduction into peer review process",
+    "section": "First review",
+    "text": "First review\n\nHave people look at the paper (e.g. writing workshop)\nAdd page and line numbers\nSend to PIs\n\nSend to co-authors (give them a heads-up)",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#what-is-version-control-1",
-    "href": "workshops/git_version_control.html#what-is-version-control-1",
-    "title": "Introduction into git",
-    "section": "What is version control",
-    "text": "What is version control\n\nKeep track and saves all you changes to code\nGood backup source\nEasier to fix mistakes\nCode is open and easy to share\nMultiple people working on the same code",
+    "objectID": "workshops/peer_review.html#dont-forget",
+    "href": "workshops/peer_review.html#dont-forget",
+    "title": "Introduction into peer review process",
+    "section": "Don’t forget",
+    "text": "Don’t forget\n\nDecide on journal\n\nscope\nimpact factor\nsimilar work",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#what-is-git",
-    "href": "workshops/git_version_control.html#what-is-git",
-    "title": "Introduction into git",
-    "section": "What is Git",
-    "text": "What is Git\n\nGit is a version control system that allows developers to track changes in their code\ninstalled on your own computer\ncontrolled through mostly terminal\n\nbut e.g. Rstudio have systems to make it easier\n\nthere are alternatives but git is most common (at least in science)",
+    "objectID": "workshops/peer_review.html#step-2",
+    "href": "workshops/peer_review.html#step-2",
+    "title": "Introduction into peer review process",
+    "section": "Step 2",
+    "text": "Step 2\n\nCheck the author guidelines of the journal\n\nJournal of Medical Entomology\nTick and Tick-borne Diseases\nCurrent Biology",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#what-is-github",
-    "href": "workshops/git_version_control.html#what-is-github",
-    "title": "Introduction into git",
-    "section": "What is GitHub",
-    "text": "What is GitHub\n\nGitHub is a web-based hosting service for git repositories.\nEnables you to store and share code for different projects\nMore advanced\n\nGithub actions\nGithub pages\nTogether they can e.g. build and host a webpage (e.g. this presentation).",
+    "objectID": "workshops/peer_review.html#get-ready-for-the-exciting-step",
+    "href": "workshops/peer_review.html#get-ready-for-the-exciting-step",
+    "title": "Introduction into peer review process",
+    "section": "Get ready for the exciting step",
+    "text": "Get ready for the exciting step",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#lets-have-some-fun",
-    "href": "workshops/git_version_control.html#lets-have-some-fun",
-    "title": "Introduction into git",
-    "section": "Let’s have some fun !!",
-    "text": "Let’s have some fun !!",
+    "objectID": "workshops/peer_review.html#sorry-one-more-thing",
+    "href": "workshops/peer_review.html#sorry-one-more-thing",
+    "title": "Introduction into peer review process",
+    "section": "Sorry one more thing",
+    "text": "Sorry one more thing\n\nCheck paper\n\nAre all references there?\nSpelling and grammar check\nJournal Formatting\nCheck figures and tables",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#lets-have-some-fun-1",
-    "href": "workshops/git_version_control.html#lets-have-some-fun-1",
-    "title": "Introduction into git",
-    "section": "Let’s have some fun",
-    "text": "Let’s have some fun\nSorry I forgot I am in an mosquito lab",
+    "objectID": "workshops/peer_review.html#get-ready",
+    "href": "workshops/peer_review.html#get-ready",
+    "title": "Introduction into peer review process",
+    "section": "Get ready",
+    "text": "Get ready",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#first-steps",
-    "href": "workshops/git_version_control.html#first-steps",
-    "title": "Introduction into git",
-    "section": "First steps",
-    "text": "First steps\n\nMake an account\n\nhttps://github.com/signup\n\nInstall git\n\nhttps://github.com/git-guides/install-git\n\nGithub student account\nprivate repositories",
+    "objectID": "workshops/peer_review.html#get-ready-1",
+    "href": "workshops/peer_review.html#get-ready-1",
+    "title": "Introduction into peer review process",
+    "section": "Get ready",
+    "text": "Get ready\n\nCheck everything one more time",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#make-a-repository",
-    "href": "workshops/git_version_control.html#make-a-repository",
-    "title": "Introduction into git",
-    "section": "Make a repository",
-    "text": "Make a repository\n\nMethod 1 (easy)\n\nCreate repository on github\nhttps://github.com\n\nMethod 2 (harder)\n\nuse Git Repo\n\nCreate a repository from command line\nNot today",
+    "objectID": "workshops/peer_review.html#peer-review-process",
+    "href": "workshops/peer_review.html#peer-review-process",
+    "title": "Introduction into peer review process",
+    "section": "Peer review process",
+    "text": "Peer review process",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#terminal",
-    "href": "workshops/git_version_control.html#terminal",
-    "title": "Introduction into git",
-    "section": "Terminal",
-    "text": "Terminal\n\n‘Easy’ start with git bash\n\nhttps://education.github.com/git-cheat-sheet-education.pdf\nLet’s go to the terminal.",
+    "objectID": "workshops/peer_review.html#submission",
+    "href": "workshops/peer_review.html#submission",
+    "title": "Introduction into peer review process",
+    "section": "Submission",
+    "text": "Submission\n\nCover letter",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#terminal-1",
-    "href": "workshops/git_version_control.html#terminal-1",
-    "title": "Introduction into git",
-    "section": "Terminal",
-    "text": "Terminal\necho \"# training_repo\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin git@github.com:david-awam-jansen/training_repo.git\ngit push -u origin main",
+    "objectID": "workshops/peer_review.html#submission-1",
+    "href": "workshops/peer_review.html#submission-1",
+    "title": "Introduction into peer review process",
+    "section": "Submission",
+    "text": "Submission\n\nCover letters\n\nPlos Biology\nPlos one",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#terminal-2",
-    "href": "workshops/git_version_control.html#terminal-2",
-    "title": "Introduction into git",
-    "section": "Terminal",
-    "text": "Terminal\ngit status\ngit add\ngit commit",
+    "objectID": "workshops/peer_review.html#submission-2",
+    "href": "workshops/peer_review.html#submission-2",
+    "title": "Introduction into peer review process",
+    "section": "Submission",
+    "text": "Submission\n\nCover letter\nHave everything ready. Often specific formats it needs to be submitted",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#rstudio-examples",
-    "href": "workshops/git_version_control.html#rstudio-examples",
-    "title": "Introduction into git",
-    "section": "Rstudio examples",
-    "text": "Rstudio examples\n\nterminal\nbuild-in",
+    "objectID": "workshops/peer_review.html#receiving-reviewer-comments",
+    "href": "workshops/peer_review.html#receiving-reviewer-comments",
+    "title": "Introduction into peer review process",
+    "section": "Receiving reviewer comments",
+    "text": "Receiving reviewer comments\n\nGood reviewers make your paper better\nIf rejected still look at comments and do something with them\nVery often major or minor revisions needed",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#naming",
-    "href": "workshops/git_version_control.html#naming",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "objectID": "workshops/peer_review.html#receiving-reviewer-comments-1",
+    "href": "workshops/peer_review.html#receiving-reviewer-comments-1",
+    "title": "Introduction into peer review process",
+    "section": "Receiving reviewer comments",
+    "text": "Receiving reviewer comments\n\nRevisions required\n\nRead all comments first\nShare with co-authors (also ask if you need help with specific comments)\nRespond to all comments and keep track of changes\nGenerally a limited turn around period\nJansen et al paper\n\nRejected\n\nStill, read all the comments\n\nWhy was the paper rejected?\n\nGenerally, still, revise paper\nHabig et al paper",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#naming-1",
-    "href": "workshops/git_version_control.html#naming-1",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "objectID": "workshops/peer_review.html#respond-to-reviewer-comments",
+    "href": "workshops/peer_review.html#respond-to-reviewer-comments",
+    "title": "Introduction into peer review process",
+    "section": "Respond to reviewer comments",
+    "text": "Respond to reviewer comments\n\nRespond to all comments\n\nPoint by point\nTrack changes on the document\nAll co-authors should read responses and agree\nInclude a cover letter to the editor\nMajor revision Jansen et al BMC paper",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
+      "Peer review process"
     ]
   },
   {
-    "objectID": "workshops/git_version_control.html#naming-2",
-    "href": "workshops/git_version_control.html#naming-2",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "objectID": "workshops/peer_review.html#proofing-paper",
+    "href": "workshops/peer_review.html#proofing-paper",
+    "title": "Introduction into peer review process",
+    "section": "Proofing paper",
+    "text": "Proofing paper\n\nPaper is accepted\nCopy editors will format paper They are probrably not scientists\nJansen et al BMC paper proofing request\n\nFirst time you see your final paper :-)\n\nJansen et al BMC paper proof document\n\nRead whole paper\nCheck details\n\nreferences\nfigures and tables (captions)\nscientific names and notations\nauthor names and affiliations\n\nJansen et al BMC paper comments to proof",
     "crumbs": [
       "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#naming-3",
-    "href": "workshops/git_version_control.html#naming-3",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#bonus",
-    "href": "workshops/git_version_control.html#bonus",
-    "title": "Introduction into git",
-    "section": "Bonus",
-    "text": "Bonus",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#how-to-deal-with-r-programming-errors",
-    "href": "workshops/git_version_control.html#how-to-deal-with-r-programming-errors",
-    "title": "Introduction into git",
-    "section": "How to deal with R (programming) errors",
-    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "other/CV.html",
-    "href": "other/CV.html",
-    "title": "",
-    "section": "",
-    "text": "The LaTeX code that was used to create this CV can be found here."
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "",
-    "section": "",
-    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
-    "crumbs": [
-      "Basics",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "",
-    "section": "",
-    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
-    "crumbs": [
-      "Basics",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "",
-    "section": "Education",
-    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV",
-    "crumbs": [
-      "Basics",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about2.html",
-    "href": "about2.html",
-    "title": "test",
-    "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites Jansen, Cant, and Manser (2013).\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nReferences\n\nJansen, David A, Michael A Cant, and Marta B Manser. 2012. “Segmental Concatenation of Individual Signatures and Context Cues in Banded Mongoose (Mungos Mungo) Close Calls.” BMC Biology 10: 1–11.\n\n\n———. 2013. “Testing for Vocal Individual Discrimination in Adult Banded Mongooses.” Journal of Zoology 291 (3): 171–77."
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications list",
-    "section": "",
-    "text": "This page should have a new style.\n\nnocite: |",
-    "crumbs": [
-      "Basics",
-      "Publications"
-    ]
-  },
-  {
-    "objectID": "generated_publications.html",
-    "href": "generated_publications.html",
-    "title": "",
-    "section": "",
-    "text": ". **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "David Jansen",
-    "section": "",
-    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
-    "crumbs": [
-      "Basics",
-      "Home"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#what-is-ggplot2",
-    "href": "workshops/intro_into_ggplot.html#what-is-ggplot2",
-    "title": "Introduction to ggplot2",
-    "section": "What is ggplot2?",
-    "text": "What is ggplot2?\n\nDefinition: ggplot2 is an R package for creating data visualizations based on the grammar of graphics.\nCreated by: Hadley Wickham\nFirst released: 2007",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2",
-    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2",
-    "title": "Introduction to ggplot2",
-    "section": "Why Use ggplot2?",
-    "text": "Why Use ggplot2?\n\nAdvantages:\n\nProduces visually appealing and customizable plots.\nBased on a coherent grammar of graphics, making it easy to understand and use.\nWorks well with tidy data principles.\nOffers extensive documentation and a large community of users.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2-1",
-    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2-1",
-    "title": "Introduction to ggplot2",
-    "section": "Why Use ggplot2?",
-    "text": "Why Use ggplot2?\n\nGrammar of Graphics: A systematic way to describe the components of a graph, including data, aesthetics, and geometric objects.\nLayered Grammar: Allows you to build complex plots by adding layers of data and visual elements.\nFaceting: Easily create multiple plots based on subsets of your data.\nThemes: Customize the appearance of your plots with built-in or custom themes.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2-2",
-    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2-2",
-    "title": "Introduction to ggplot2",
-    "section": "Why Use ggplot2?",
-    "text": "Why Use ggplot2?\n\nThere are many package that build on ggplot to work with specific kinds of data, e.g.;\n\nsurvminer for survival analysis\nggcorrplot for correlation plots\ngganimate make plot animations",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#basic-syntax-overview",
-    "href": "workshops/intro_into_ggplot.html#basic-syntax-overview",
-    "title": "Introduction to ggplot2",
-    "section": "Basic Syntax Overview",
-    "text": "Basic Syntax Overview\n\nggplot() function: Initializes a ggplot object.\ndata Can be given either directly or through a pipe\naes() function: Specifies aesthetic mappings between data variables and visual properties.\ngeom_*() functions: Add geometric objects (points, lines, bars, etc.) to your plot.\nfacet_*() functions: Facet your plot by one or more variables.\ntheme() function: Customize the appearance of your plot.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#data-prep-for-plotting",
-    "href": "workshops/intro_into_ggplot.html#data-prep-for-plotting",
-    "title": "Introduction to ggplot2",
-    "section": "Data prep for plotting",
-    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\nColumns need top be in format you want to plot\n\n\nlibrary(tidyverse)\n\ntibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  flextable::flextable()\n\nlocationweek1week2week3week4A10121411B12151520",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#data-prep-for-plotting-1",
-    "href": "workshops/intro_into_ggplot.html#data-prep-for-plotting-1",
-    "title": "Introduction to ggplot2",
-    "section": "Data prep for plotting",
-    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\n\n\ndf &lt;- tibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  pivot_longer(names_to = \"week\", values_to = \"count\", week1:week4) %&gt;%  \n  mutate(week = as.numeric(str_remove(week, pattern = \"week\"))) \n\n\ndf %&gt;% \n  flextable::flextable()\n\nlocationweekcountA110A212A314A411B112B215B315B420",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-1",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-1",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (1)",
-    "text": "First simple plot (1)\n\nbasic plot\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point()",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-2",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-2",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (2)",
-    "text": "First simple plot (2)\n\nchange size of the dots\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point(size = 5)",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-3",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-3",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (3)",
-    "text": "First simple plot (3)\n\nchange the color of the dots\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5)",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-4",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-4",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (4)",
-    "text": "First simple plot (4)\n\nchange axis\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22))",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-5",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-5",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (5)",
-    "text": "First simple plot (5)\n\nchange labels and theme\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22)) +\n  labs(x = \"sample week\", y = \"tick count\") +\n  theme_classic()",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#zacks-heatmap",
-    "href": "workshops/intro_into_ggplot.html#zacks-heatmap",
-    "title": "Introduction to ggplot2",
-    "section": "Zack’s heatmap",
-    "text": "Zack’s heatmap",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#zacks-heatmap-code",
-    "href": "workshops/intro_into_ggplot.html#zacks-heatmap-code",
-    "title": "Introduction to ggplot2",
-    "section": "Zack’s heatmap (code)",
-    "text": "Zack’s heatmap (code)\n\nggplot(data = heatmap_data, aes(x = week, y = transect, fill = density)) +\n    geom_tile() +\n    facet_grid(treatment_type ~ .) +\n    scale_fill_gradient(low = \"white\", high = \"black\") +\n    guides(fill = guide_colorbar(title = \"Density of nymphs per 1000m2\"))  +\n    labs(y = \"\") +\n    theme(legend.position = \"bottom\",\n                legend.key.size = unit(1, 'cm')) +\n    theme(panel.background = element_blank(),\n                plot.background = element_blank(),\n                axis.text = element_text(size = 19))+\n    geom_vline(xintercept = c(1.5, 5.5), linetype = \"dashed\", size = 1.5) +\n    theme(axis.title = element_text(size = 16),\n                legend.text = element_text(size = 16),\n                legend.title = element_text(size = 19),\n                title = element_text(size = 15),\n                strip.text = element_text(size = 15))",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
-    "href": "workshops/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
-    "title": "Introduction to ggplot2",
-    "section": "Survival analysis in a baboon paper",
-    "text": "Survival analysis in a baboon paper",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#tick-classification",
-    "href": "workshops/intro_into_ggplot.html#tick-classification",
-    "title": "Introduction to ggplot2",
-    "section": "Tick classification",
-    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#tick-classification-1",
-    "href": "workshops/intro_into_ggplot.html#tick-classification-1",
-    "title": "Introduction to ggplot2",
-    "section": "Tick classification",
-    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#resources",
-    "href": "workshops/intro_into_ggplot.html#resources",
-    "title": "Introduction to ggplot2",
-    "section": "Resources",
-    "text": "Resources\n\nchatgpt and google\nfind examples and build from there\nuseful webpages\n\nhttps://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html\nhttps://ggplot2tor.com/theme/\nhttps://r-graph-gallery.com/\nhttps://rstudio.github.io/cheatsheets/html/data-visualization.html\n\nR Graphics Cookbook (I have a copy)\nask me (I love making visualizations)",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
+      "Peer review process"
     ]
   },
   {
@@ -692,190 +385,525 @@
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#the-start",
-    "href": "workshops/peer_review.html#the-start",
-    "title": "Introduction into peer review process",
-    "section": "The start",
-    "text": "The start\n\nWrite paper",
+    "objectID": "workshops/intro_into_ggplot.html#what-is-ggplot2",
+    "href": "workshops/intro_into_ggplot.html#what-is-ggplot2",
+    "title": "Introduction to ggplot2",
+    "section": "What is ggplot2?",
+    "text": "What is ggplot2?\n\nDefinition: ggplot2 is an R package for creating data visualizations based on the grammar of graphics.\nCreated by: Hadley Wickham\nFirst released: 2007",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#keep-working-on-it",
-    "href": "workshops/peer_review.html#keep-working-on-it",
-    "title": "Introduction into peer review process",
-    "section": "Keep working on it",
-    "text": "Keep working on it",
+    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2",
+    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2",
+    "title": "Introduction to ggplot2",
+    "section": "Why Use ggplot2?",
+    "text": "Why Use ggplot2?\n\nAdvantages:\n\nProduces visually appealing and customizable plots.\nBased on a coherent grammar of graphics, making it easy to understand and use.\nWorks well with tidy data principles.\nOffers extensive documentation and a large community of users.",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#first-review",
-    "href": "workshops/peer_review.html#first-review",
-    "title": "Introduction into peer review process",
-    "section": "First review",
-    "text": "First review\n\nHave people look at the paper (e.g. writing workshop)\nAdd page and line numbers\nSend to PIs\n\nSend to co-authors (give them a heads-up)",
+    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2-1",
+    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2-1",
+    "title": "Introduction to ggplot2",
+    "section": "Why Use ggplot2?",
+    "text": "Why Use ggplot2?\n\nGrammar of Graphics: A systematic way to describe the components of a graph, including data, aesthetics, and geometric objects.\nLayered Grammar: Allows you to build complex plots by adding layers of data and visual elements.\nFaceting: Easily create multiple plots based on subsets of your data.\nThemes: Customize the appearance of your plots with built-in or custom themes.",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#dont-forget",
-    "href": "workshops/peer_review.html#dont-forget",
-    "title": "Introduction into peer review process",
-    "section": "Don’t forget",
-    "text": "Don’t forget\n\nDecide on journal\n\nscope\nimpact factor\nsimilar work",
+    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2-2",
+    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2-2",
+    "title": "Introduction to ggplot2",
+    "section": "Why Use ggplot2?",
+    "text": "Why Use ggplot2?\n\nThere are many package that build on ggplot to work with specific kinds of data, e.g.;\n\nsurvminer for survival analysis\nggcorrplot for correlation plots\ngganimate make plot animations",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#step-2",
-    "href": "workshops/peer_review.html#step-2",
-    "title": "Introduction into peer review process",
-    "section": "Step 2",
-    "text": "Step 2\n\nCheck the author guidelines of the journal\n\nJournal of Medical Entomology\nTick and Tick-borne Diseases\nCurrent Biology",
+    "objectID": "workshops/intro_into_ggplot.html#basic-syntax-overview",
+    "href": "workshops/intro_into_ggplot.html#basic-syntax-overview",
+    "title": "Introduction to ggplot2",
+    "section": "Basic Syntax Overview",
+    "text": "Basic Syntax Overview\n\nggplot() function: Initializes a ggplot object.\ndata Can be given either directly or through a pipe\naes() function: Specifies aesthetic mappings between data variables and visual properties.\ngeom_*() functions: Add geometric objects (points, lines, bars, etc.) to your plot.\nfacet_*() functions: Facet your plot by one or more variables.\ntheme() function: Customize the appearance of your plot.",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#get-ready-for-the-exciting-step",
-    "href": "workshops/peer_review.html#get-ready-for-the-exciting-step",
-    "title": "Introduction into peer review process",
-    "section": "Get ready for the exciting step",
-    "text": "Get ready for the exciting step",
+    "objectID": "workshops/intro_into_ggplot.html#data-prep-for-plotting",
+    "href": "workshops/intro_into_ggplot.html#data-prep-for-plotting",
+    "title": "Introduction to ggplot2",
+    "section": "Data prep for plotting",
+    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\nColumns need top be in format you want to plot\n\n\nlibrary(tidyverse)\n\ntibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  flextable::flextable()\n\nlocationweek1week2week3week4A10121411B12151520",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#sorry-one-more-thing",
-    "href": "workshops/peer_review.html#sorry-one-more-thing",
-    "title": "Introduction into peer review process",
-    "section": "Sorry one more thing",
-    "text": "Sorry one more thing\n\nCheck paper\n\nAre all references there?\nSpelling and grammar check\nJournal Formatting\nCheck figures and tables",
+    "objectID": "workshops/intro_into_ggplot.html#data-prep-for-plotting-1",
+    "href": "workshops/intro_into_ggplot.html#data-prep-for-plotting-1",
+    "title": "Introduction to ggplot2",
+    "section": "Data prep for plotting",
+    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\n\n\ndf &lt;- tibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  pivot_longer(names_to = \"week\", values_to = \"count\", week1:week4) %&gt;%  \n  mutate(week = as.numeric(str_remove(week, pattern = \"week\"))) \n\n\ndf %&gt;% \n  flextable::flextable()\n\nlocationweekcountA110A212A314A411B112B215B315B420",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#get-ready",
-    "href": "workshops/peer_review.html#get-ready",
-    "title": "Introduction into peer review process",
-    "section": "Get ready",
-    "text": "Get ready",
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-1",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-1",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (1)",
+    "text": "First simple plot (1)\n\nbasic plot\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point()",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#get-ready-1",
-    "href": "workshops/peer_review.html#get-ready-1",
-    "title": "Introduction into peer review process",
-    "section": "Get ready",
-    "text": "Get ready\n\nCheck everything one more time",
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-2",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-2",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (2)",
+    "text": "First simple plot (2)\n\nchange size of the dots\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point(size = 5)",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#peer-review-process",
-    "href": "workshops/peer_review.html#peer-review-process",
-    "title": "Introduction into peer review process",
-    "section": "Peer review process",
-    "text": "Peer review process",
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-3",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-3",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (3)",
+    "text": "First simple plot (3)\n\nchange the color of the dots\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5)",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#submission",
-    "href": "workshops/peer_review.html#submission",
-    "title": "Introduction into peer review process",
-    "section": "Submission",
-    "text": "Submission\n\nCover letter",
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-4",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-4",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (4)",
+    "text": "First simple plot (4)\n\nchange axis\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22))",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#submission-1",
-    "href": "workshops/peer_review.html#submission-1",
-    "title": "Introduction into peer review process",
-    "section": "Submission",
-    "text": "Submission\n\nCover letters\n\nPlos Biology\nPlos one",
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-5",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-5",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (5)",
+    "text": "First simple plot (5)\n\nchange labels and theme\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22)) +\n  labs(x = \"sample week\", y = \"tick count\") +\n  theme_classic()",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#submission-2",
-    "href": "workshops/peer_review.html#submission-2",
-    "title": "Introduction into peer review process",
-    "section": "Submission",
-    "text": "Submission\n\nCover letter\nHave everything ready. Often specific formats it needs to be submitted",
+    "objectID": "workshops/intro_into_ggplot.html#zacks-heatmap",
+    "href": "workshops/intro_into_ggplot.html#zacks-heatmap",
+    "title": "Introduction to ggplot2",
+    "section": "Zack’s heatmap",
+    "text": "Zack’s heatmap",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#receiving-reviewer-comments",
-    "href": "workshops/peer_review.html#receiving-reviewer-comments",
-    "title": "Introduction into peer review process",
-    "section": "Receiving reviewer comments",
-    "text": "Receiving reviewer comments\n\nGood reviewers make your paper better\nIf rejected still look at comments and do something with them\nVery often major or minor revisions needed",
+    "objectID": "workshops/intro_into_ggplot.html#zacks-heatmap-code",
+    "href": "workshops/intro_into_ggplot.html#zacks-heatmap-code",
+    "title": "Introduction to ggplot2",
+    "section": "Zack’s heatmap (code)",
+    "text": "Zack’s heatmap (code)\n\nggplot(data = heatmap_data, aes(x = week, y = transect, fill = density)) +\n    geom_tile() +\n    facet_grid(treatment_type ~ .) +\n    scale_fill_gradient(low = \"white\", high = \"black\") +\n    guides(fill = guide_colorbar(title = \"Density of nymphs per 1000m2\"))  +\n    labs(y = \"\") +\n    theme(legend.position = \"bottom\",\n                legend.key.size = unit(1, 'cm')) +\n    theme(panel.background = element_blank(),\n                plot.background = element_blank(),\n                axis.text = element_text(size = 19))+\n    geom_vline(xintercept = c(1.5, 5.5), linetype = \"dashed\", size = 1.5) +\n    theme(axis.title = element_text(size = 16),\n                legend.text = element_text(size = 16),\n                legend.title = element_text(size = 19),\n                title = element_text(size = 15),\n                strip.text = element_text(size = 15))",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#receiving-reviewer-comments-1",
-    "href": "workshops/peer_review.html#receiving-reviewer-comments-1",
-    "title": "Introduction into peer review process",
-    "section": "Receiving reviewer comments",
-    "text": "Receiving reviewer comments\n\nRevisions required\n\nRead all comments first\nShare with co-authors (also ask if you need help with specific comments)\nRespond to all comments and keep track of changes\nGenerally a limited turn around period\nJansen et al paper\n\nRejected\n\nStill, read all the comments\n\nWhy was the paper rejected?\n\nGenerally, still, revise paper\nHabig et al paper",
+    "objectID": "workshops/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
+    "href": "workshops/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
+    "title": "Introduction to ggplot2",
+    "section": "Survival analysis in a baboon paper",
+    "text": "Survival analysis in a baboon paper",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#respond-to-reviewer-comments",
-    "href": "workshops/peer_review.html#respond-to-reviewer-comments",
-    "title": "Introduction into peer review process",
-    "section": "Respond to reviewer comments",
-    "text": "Respond to reviewer comments\n\nRespond to all comments\n\nPoint by point\nTrack changes on the document\nAll co-authors should read responses and agree\nInclude a cover letter to the editor\nMajor revision Jansen et al BMC paper",
+    "objectID": "workshops/intro_into_ggplot.html#tick-classification",
+    "href": "workshops/intro_into_ggplot.html#tick-classification",
+    "title": "Introduction to ggplot2",
+    "section": "Tick classification",
+    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#proofing-paper",
-    "href": "workshops/peer_review.html#proofing-paper",
-    "title": "Introduction into peer review process",
-    "section": "Proofing paper",
-    "text": "Proofing paper\n\nPaper is accepted\nCopy editors will format paper They are probrably not scientists\nJansen et al BMC paper proofing request\n\nFirst time you see your final paper :-)\n\nJansen et al BMC paper proof document\n\nRead whole paper\nCheck details\n\nreferences\nfigures and tables (captions)\nscientific names and notations\nauthor names and affiliations\n\nJansen et al BMC paper comments to proof",
+    "objectID": "workshops/intro_into_ggplot.html#tick-classification-1",
+    "href": "workshops/intro_into_ggplot.html#tick-classification-1",
+    "title": "Introduction to ggplot2",
+    "section": "Tick classification",
+    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Introduction ggplot"
     ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#resources",
+    "href": "workshops/intro_into_ggplot.html#resources",
+    "title": "Introduction to ggplot2",
+    "section": "Resources",
+    "text": "Resources\n\nchatgpt and google\nfind examples and build from there\nuseful webpages\n\nhttps://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html\nhttps://ggplot2tor.com/theme/\nhttps://r-graph-gallery.com/\nhttps://rstudio.github.io/cheatsheets/html/data-visualization.html\n\nR Graphics Cookbook (I have a copy)\nask me (I love making visualizations)",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Jansen",
+    "section": "",
+    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
+    "crumbs": [
+      "Basics",
+      "Home"
+    ]
+  },
+  {
+    "objectID": "generated_publications.html",
+    "href": "generated_publications.html",
+    "title": "",
+    "section": "",
+    "text": ". **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()\n. **. ()"
+  },
+  {
+    "objectID": "about2.html",
+    "href": "about2.html",
+    "title": "test",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites Jansen, Cant, and Manser (2013).\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nReferences\n\nJansen, David A, Michael A Cant, and Marta B Manser. 2012. “Segmental Concatenation of Individual Signatures and Context Cues in Banded Mongoose (Mungos Mungo) Close Calls.” BMC Biology 10: 1–11.\n\n\n———. 2013. “Testing for Vocal Individual Discrimination in Adult Banded Mongooses.” Journal of Zoology 291 (3): 171–77."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications list",
+    "section": "",
+    "text": "nocite: | Jansen (2013c), Jansen (2013b), Jansen (2013a), Jansen et al. (2007), Jansen et al. (2012), Jansen et al. (2013), Jansen (2013d), Manser et al. (2014), Townsend et al. (2017), Akinyi et al. (2019), Habig et al. (2019), Levy et al. (2020), Grieneisen et al. (2020), Grieneisen et al. (2021), Björk et al. (2022), Gordon et al. (2022), Paietta et al. (2022), Roche et al. (2023), Weibel et al. (2024)\n\n\n\n\n\nReferences\n\nAkinyi, M. Y., Habig, B., Gesquiere, L. R., Alberts, S. C., & Archie, E. A. (2019). Costs and drivers of helminth parasite infection in wild female baboons. Journal of Animal Ecology, 88(7), 1029–1043.\n\n\nBjörk, J. R., Dasari, M. R., Roche, K., Grieneisen, L., Gould, T. J., Grenier, J.-C., Yotova, V., Gottel, N., Gesquiere, L. R., et al. (2022). Synchrony and idiosyncrasy in the gut microbiome of wild baboons. Nature Ecology & Evolution, 6(7), 955–964.\n\n\nGordon, J. B., Learn, N. H., & Alberts, S. C. (2022). Ordinal dominance rank assignments: Protocol for the amboseli baboon research project. Avaialable at: Https://Amboselibaboons. Nd. Edu/Downloads/, Accessed Feb, 23, 2023.\n\n\nGrieneisen, L., Dasari, M., Gould, T. J., Björk, J. R., Grenier, J.-C., Yotova, V., Gottel, N., Gordon, J. B., Learn, N. H., et al. (2021). Gut microbiome heritability is nearly universal but environmentally contingent. Science, 373(6551), 181–186.\n\n\nGrieneisen, L., Dasari, M., Gould, T., Bjork, J., Grenier, J., Yotova, V., Gottel, N., Gilbert, J., Barreiro, L., et al. (2020). Heritability of the gut microbiome in wild baboons (papio cynocephalus). American Journal of Primatology, 82.\n\n\nHabig, B., Akinyi, M. Y., Gesquiere, L. R., Alberts, S. C., & Archie, E. A. (2019). Multi-scale predictors of parasite risk in wild male savanna baboons (papio cynocephalus). Behavioral Ecology and Sociobiology, 73, 1–16.\n\n\nJansen, D. A. (2013a). Diet selection of goats: - a feeding trial experiment [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013b). Self-organising spatial patterns in mussel beds. [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013c). The contribution of floodplains to the ecology of large herbivores [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013d). Vocal communication in the banded mongoose (mungos mungo) [PhD thesis]. University of Zurich.\n\n\nJansen, D. A., Cant, M. A., & Manser, M. B. (2012). Segmental concatenation of individual signatures and context cues in banded mongoose (mungos mungo) close calls. BMC Biology, 10, 1–11.\n\n\nJansen, D. A., Cant, M. A., & Manser, M. B. (2013). Testing for vocal individual discrimination in adult banded mongooses. Journal of Zoology, 291(3), 171–177.\n\n\nJansen, D. A., Langevelde, F. van, Boer, W. F. de, & Kirkman, K. P. (2007). Optimisation or satiation, testing diet selection rules in goats. Small Ruminant Research, 73(1-3), 160–168.\n\n\nLevy, E. J., Zipple, M. N., McLean, E., Campos, F. A., Dasari, M., Fogel, A. S., Franz, M., Gesquiere, L. R., Gordon, J. B., Grieneisen, L., et al. (2020). A comparison of dominance rank metrics reveals multiple competitive landscapes in an animal society. Proceedings of the Royal Society B, 287(1934), 20201013.\n\n\nManser, M. B., Jansen, J. D. A., Graw, B., Hollén, L. I., Bousquet, C. A., Furrer, R. D., & Le Roux, A. (2014). Vocal complexity in meerkats and other mongoose species. 46, 281–310.\n\n\nPaietta, E. N., Weibel, C. J., Jansen, D. A., Mututua, R. S., Warutere, J. K., Long’ida Siodi, I., Gesquiere, L. R., Obanda, V., Alberts, S. C., & Archie, E. A. (2022). Troubled waters: Water availability drives human-baboon encounters in a protected, semi-arid landscape. Biological Conservation, 274, 109740. https://doi.org/https://doi.org/10.1016/j.biocon.2022.109740\n\n\nRoche, K. E., Bjork, J. R., Dasari, M. R., Grieneisen, L., Gould, T. J., Gesquiere, L. R., Barreiro, L. B., Alberts, S. C., Blekhman, R., et al. (2023). Universal gut microbial relationships in the gut microbiome of wild baboons. Elife, 12, e83152.\n\n\nTownsend, S. W., Koski, S. E., Byrne, R. W., Slocombe, K. E., Bickel, B., Boeckle, M., Braga Goncalves, I., Burkart, J. M., Flower, T., Gaunet, F., et al. (2017). Exorcising g rice’s ghost: An empirical approach to studying intentional communication in animals. Biological Reviews, 92(3), 1427–1433.\n\n\nWeibel, C. J., Dasari, M. R., Jansen, D. A., Gesquiere, L. R., Mututua, R. S., Warutere, J. K., Siodi, L. I., Alberts, S. C., Tung, J., & Archie, E. A. (2024). Using non-invasive behavioral and physiological data to measure biological age in wild baboons. GeroScience. https://doi.org/10.1007/s11357-024-01157-5",
+    "crumbs": [
+      "Basics",
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "boldname/example.html",
+    "href": "boldname/example.html",
+    "title": "Boldname Example",
+    "section": "",
+    "text": "This filter adds formatting to heading text."
+  },
+  {
+    "objectID": "boldname/example.html#heading",
+    "href": "boldname/example.html#heading",
+    "title": "Boldname Example",
+    "section": "",
+    "text": "This filter adds formatting to heading text."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "",
+    "section": "",
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "",
+    "section": "Education",
+    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013 Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005 Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003\nClick here for my Resume or CV",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "other/CV.html",
+    "href": "other/CV.html",
+    "title": "",
+    "section": "",
+    "text": "The LaTeX code that was used to create this CV can be found here."
+  },
+  {
+    "objectID": "workshops/git_version_control.html#what-is-version-control",
+    "href": "workshops/git_version_control.html#what-is-version-control",
+    "title": "Introduction into git",
+    "section": "What is version control",
+    "text": "What is version control",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#what-is-version-control-1",
+    "href": "workshops/git_version_control.html#what-is-version-control-1",
+    "title": "Introduction into git",
+    "section": "What is version control",
+    "text": "What is version control\n\nKeep track and saves all you changes to code\nGood backup source\nEasier to fix mistakes\nCode is open and easy to share\nMultiple people working on the same code",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#what-is-git",
+    "href": "workshops/git_version_control.html#what-is-git",
+    "title": "Introduction into git",
+    "section": "What is Git",
+    "text": "What is Git\n\nGit is a version control system that allows developers to track changes in their code\ninstalled on your own computer\ncontrolled through mostly terminal\n\nbut e.g. Rstudio have systems to make it easier\n\nthere are alternatives but git is most common (at least in science)",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#what-is-github",
+    "href": "workshops/git_version_control.html#what-is-github",
+    "title": "Introduction into git",
+    "section": "What is GitHub",
+    "text": "What is GitHub\n\nGitHub is a web-based hosting service for git repositories.\nEnables you to store and share code for different projects\nMore advanced\n\nGithub actions\nGithub pages\nTogether they can e.g. build and host a webpage (e.g. this presentation).",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#lets-have-some-fun",
+    "href": "workshops/git_version_control.html#lets-have-some-fun",
+    "title": "Introduction into git",
+    "section": "Let’s have some fun !!",
+    "text": "Let’s have some fun !!",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#lets-have-some-fun-1",
+    "href": "workshops/git_version_control.html#lets-have-some-fun-1",
+    "title": "Introduction into git",
+    "section": "Let’s have some fun",
+    "text": "Let’s have some fun\nSorry I forgot I am in an mosquito lab",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#first-steps",
+    "href": "workshops/git_version_control.html#first-steps",
+    "title": "Introduction into git",
+    "section": "First steps",
+    "text": "First steps\n\nMake an account\n\nhttps://github.com/signup\n\nInstall git\n\nhttps://github.com/git-guides/install-git\n\nGithub student account\nprivate repositories",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#make-a-repository",
+    "href": "workshops/git_version_control.html#make-a-repository",
+    "title": "Introduction into git",
+    "section": "Make a repository",
+    "text": "Make a repository\n\nMethod 1 (easy)\n\nCreate repository on github\nhttps://github.com\n\nMethod 2 (harder)\n\nuse Git Repo\n\nCreate a repository from command line\nNot today",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#terminal",
+    "href": "workshops/git_version_control.html#terminal",
+    "title": "Introduction into git",
+    "section": "Terminal",
+    "text": "Terminal\n\n‘Easy’ start with git bash\n\nhttps://education.github.com/git-cheat-sheet-education.pdf\nLet’s go to the terminal.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#terminal-1",
+    "href": "workshops/git_version_control.html#terminal-1",
+    "title": "Introduction into git",
+    "section": "Terminal",
+    "text": "Terminal\necho \"# training_repo\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin git@github.com:david-awam-jansen/training_repo.git\ngit push -u origin main",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#terminal-2",
+    "href": "workshops/git_version_control.html#terminal-2",
+    "title": "Introduction into git",
+    "section": "Terminal",
+    "text": "Terminal\ngit status\ngit add\ngit commit",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#rstudio-examples",
+    "href": "workshops/git_version_control.html#rstudio-examples",
+    "title": "Introduction into git",
+    "section": "Rstudio examples",
+    "text": "Rstudio examples\n\nterminal\nbuild-in",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#naming",
+    "href": "workshops/git_version_control.html#naming",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#naming-1",
+    "href": "workshops/git_version_control.html#naming-1",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#naming-2",
+    "href": "workshops/git_version_control.html#naming-2",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#naming-3",
+    "href": "workshops/git_version_control.html#naming-3",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#bonus",
+    "href": "workshops/git_version_control.html#bonus",
+    "title": "Introduction into git",
+    "section": "Bonus",
+    "text": "Bonus",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#how-to-deal-with-r-programming-errors",
+    "href": "workshops/git_version_control.html#how-to-deal-with-r-programming-errors",
+    "title": "Introduction into git",
+    "section": "How to deal with R (programming) errors",
+    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/reproducibility_workshop.html#folder-organization",
+    "href": "workshops/reproducibility_workshop.html#folder-organization",
+    "title": "Research reproducibility",
+    "section": "Folder organization",
+    "text": "Folder organization",
+    "crumbs": [
+      "Workshops",
+      "Reproducibility research"
+    ]
+  },
+  {
+    "objectID": "workshops/reproducibility_workshop.html#other-sources",
+    "href": "workshops/reproducibility_workshop.html#other-sources",
+    "title": "Research reproducibility",
+    "section": "Other sources",
+    "text": "Other sources\nNoble WS. A quick guide to organizing computational biology projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. doi: 10.1371/journal.pcbi.1000424. http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424\nCasadevall A, Ellis LM, Davies EW, McFall-Ngai M, Fang FC. A Framework for Improving the Quality of Research in the Biological Sciences. MBio. 2016 Aug 30;7(4). pii: e01256-16. doi: 10.1128/mBio.01256-16. http://mbio.asm.org/content/7/4/e01256-16.long\nRavel J, Wommack KE. All hail reproducibility in microbiome research. Microbiome. 2014 Mar 7;2(1):8. doi: 10.1186/2049-2618-2-8. https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-8",
+    "crumbs": [
+      "Workshops",
+      "Reproducibility research"
+    ]
+  },
+  {
+    "objectID": "dociteproc/example.html",
+    "href": "dociteproc/example.html",
+    "title": "Dociteproc Example",
+    "section": "",
+    "text": "filters: - dociteproc"
+  },
+  {
+    "objectID": "dociteproc/example.html#heading",
+    "href": "dociteproc/example.html#heading",
+    "title": "Dociteproc Example",
+    "section": "Heading",
+    "text": "Heading\nThis filter adds formatting to heading text."
   }
 ]
