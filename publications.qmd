@@ -11,4 +11,3 @@ nocite: |
 
 <!-- As point make bold author name. This would be so cool -->
 <!-- At some point be inspired by https://github.com/jhelvy/jhelvy_quarto/blob/main/research.qmd -->
-
