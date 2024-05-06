@@ -1,8 +1,5 @@
 ---
 title: "Publications list"
-filters:
-  - dociteproc
-  - boldname
 bibliography: publications.bib
 csl: styles/animal-behaviour.csl
 ---
