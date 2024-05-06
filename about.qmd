@@ -14,8 +14,10 @@ I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease
 
 ## Education
 
-University of Zurich , Switzerland PhD in Animal communication \| Sep 2009 - Apr 2013
-Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology \| Aug 2003 - June 2005
-Wageningen University, Netherlands BSc in Forest and Nature Management Aug 2000 - June 2003
+-   University of Zurich , Switzerland PhD in Animal communication \| Sep 2009 - Apr 2013
+
+-   Wageningen University, Netherlands MsC in Forest and Nature Management - Ecology \| Aug 2003 - June 2005
+
+-   Wageningen University, Netherlands BSc in Forest and Nature Management \| Aug 2000 - June 2003
 
 Click here for my <a href="./files/David_Jansen_Resume.pdf">Resume</a> or <a href="./files/David_Jansen_CV.pdf">CV</a>
