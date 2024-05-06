@@ -1,8 +1,8 @@
 ---
 title: "Boldname Example"
+---
 filters:
   - boldname
----
 
 ## Heading
 
