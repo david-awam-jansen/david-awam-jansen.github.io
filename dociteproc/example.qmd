@@ -1,0 +1,11 @@
+---
+title: "Dociteproc Example"
+filters:
+  - dociteproc
+---
+
+## Heading
+
+This filter adds formatting to heading text.
+
+
