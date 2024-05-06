@@ -623,14 +623,14 @@
     "href": "boldname/example.html",
     "title": "Boldname Example",
     "section": "",
-    "text": "This filter adds formatting to heading text."
+    "text": "filters: - boldname"
   },
   {
     "objectID": "boldname/example.html#heading",
     "href": "boldname/example.html#heading",
     "title": "Boldname Example",
-    "section": "",
-    "text": "This filter adds formatting to heading text."
+    "section": "Heading",
+    "text": "Heading\nThis filter adds formatting to heading text."
   },
   {
     "objectID": "about.html",
