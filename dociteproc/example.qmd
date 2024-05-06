@@ -1,8 +1,8 @@
 ---
 title: "Dociteproc Example"
+---
 filters:
   - dociteproc
----
 
 ## Heading
 
