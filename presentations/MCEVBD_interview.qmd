@@ -2,7 +2,7 @@
 title: "MCEVBD job interview"
 about:
   template: jolla
-  image: ./images/djansen.jpg
+  image: ../images/djansen.jpg
 ---
 
 #### MCEVBD job interview 
