@@ -1,11 +1,10 @@
 ---
 title: "Publications list"
-filters:
-  - section-bibliographies
 bibliography: publications.bib
 csl: styles/animal-behaviour.csl
 nocite: |
-   @jansen2003thesis, @jansen2005intern, @jansen2005thesis, @jansen2007, @jansen2012, @jansen2013, @jansen2013thesis, @manser2014, @townsend2017, @akinyi2019, @habig2019,  @levy2020, @grieneisen2020, @grieneisen2021, @bjork2022, @gordon2023, @paietta2023, @roche2023, @weibel2024
+  @jansen2003thesis, @jansen2005intern, @jansen2005thesis, @jansen2007, @jansen2012, @jansen2013, @jansen2013thesis, @manser2014, @townsend2017, @akinyi2019, @habig2019, @levy2020, @grieneisen2020, @grieneisen2021, @bjork2022, @gordon2023, @paietta2023, @roche2023, @weibel2024
+reference-section-title: ""  
 ---
 
 
