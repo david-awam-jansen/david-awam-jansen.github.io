@@ -9,4 +9,6 @@ format: revealjs
 <!-- {{< pdf ./MCEVBD_interview/MCEVBD_presentation.pdf >}} -->
 :::
 
+<a href="./files/MCEVBD_interview/MCEVBD_presentation.pdf  ">CV</a>
+
 This presentation was made with LaTeX. The raw code can be found [here](./MCEVBD_interview/JansenD_presentation.Rtex).
