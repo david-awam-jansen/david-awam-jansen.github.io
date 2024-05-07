@@ -1026,6 +1026,17 @@
     ]
   },
   {
+    "objectID": "presentations/MCEVBD_interview.html",
+    "href": "presentations/MCEVBD_interview.html",
+    "title": "MCEVBD job interview",
+    "section": "",
+    "text": "MCEVBD job interview\nI gave this presentation as part of my job interview for my current job at the MCEVBD.\nCV\nThis presentation was made with LaTeX. The raw code can be found here.",
+    "crumbs": [
+      "Presentations",
+      "MCEVBD interview"
+    ]
+  },
+  {
     "objectID": "presentations/git_version_control.html#what-is-version-control",
     "href": "presentations/git_version_control.html#what-is-version-control",
     "title": "Introduction into git",
