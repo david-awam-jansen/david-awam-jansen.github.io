@@ -1,7 +1,13 @@
 ---
 title: "MCEVBD job interview"
-format: revealjs
+about:
+  template: jolla
+  image: ./images/djansen.jpg
 ---
+
+#### MCEVBD job interview 
+
+I gave this presentation as part of my job interview for my current job at the MCEVBD.
 
 <a href="./files/MCEVBD_interview/MCEVBD_presentation.pdf  ">CV</a>
 
