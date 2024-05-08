@@ -29,17 +29,11 @@ website:
             file: ./workshops/reproducibility_workshop.qmd
           - text: "Peer review process"
             file: ./workshops/peer_review.qmd
-
-      - section: "Presentations"
-        contents:
-          - text: "MCEVBD interview"
-            file: ./presentations/MCEVBD_interview.qmd
-
-
+            
 bibliography: publications.bib         
 
 format:
   html:
     theme: cosmo
-    css: styles.css
+    css: ./styles/styles.css
     toc: true
