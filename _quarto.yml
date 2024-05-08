@@ -15,6 +15,8 @@ website:
             file: about.qmd
           - text: "Publications"
             file: publications.qmd
+          - text: "Presentations"
+            file: presentations.qmd
       - section: "Workshops"
         contents:
           - text: "Introduction into good data and coding practices"
@@ -26,7 +28,8 @@ website:
           - text: "Reproducibility research"
             file: ./workshops/reproducibility_workshop.qmd
           - text: "Peer review process"
-            file: ./workshops/peer_review.qmd            
+            file: ./workshops/peer_review.qmd
+
       - section: "Presentations"
         contents:
           - text: "MCEVBD interview"
