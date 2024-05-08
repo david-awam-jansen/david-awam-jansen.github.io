@@ -274,655 +274,25 @@
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#the-start",
-    "href": "workshops/peer_review.html#the-start",
-    "title": "Introduction into peer review process",
-    "section": "The start",
-    "text": "The start\n\nWrite paper",
+    "objectID": "workshops/reproducibility_workshop.html#folder-organization",
+    "href": "workshops/reproducibility_workshop.html#folder-organization",
+    "title": "Research reproducibility",
+    "section": "Folder organization",
+    "text": "Folder organization",
     "crumbs": [
       "Workshops",
-      "Peer review process"
+      "Reproducibility research"
     ]
   },
   {
-    "objectID": "workshops/peer_review.html#keep-working-on-it",
-    "href": "workshops/peer_review.html#keep-working-on-it",
-    "title": "Introduction into peer review process",
-    "section": "Keep working on it",
-    "text": "Keep working on it",
+    "objectID": "workshops/reproducibility_workshop.html#other-sources",
+    "href": "workshops/reproducibility_workshop.html#other-sources",
+    "title": "Research reproducibility",
+    "section": "Other sources",
+    "text": "Other sources\nNoble WS. A quick guide to organizing computational biology projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. doi: 10.1371/journal.pcbi.1000424. http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424\nCasadevall A, Ellis LM, Davies EW, McFall-Ngai M, Fang FC. A Framework for Improving the Quality of Research in the Biological Sciences. MBio. 2016 Aug 30;7(4). pii: e01256-16. doi: 10.1128/mBio.01256-16. http://mbio.asm.org/content/7/4/e01256-16.long\nRavel J, Wommack KE. All hail reproducibility in microbiome research. Microbiome. 2014 Mar 7;2(1):8. doi: 10.1186/2049-2618-2-8. https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-8",
     "crumbs": [
       "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#first-review",
-    "href": "workshops/peer_review.html#first-review",
-    "title": "Introduction into peer review process",
-    "section": "First review",
-    "text": "First review\n\nHave people look at the paper (e.g. writing workshop)\nAdd page and line numbers\nSend to PIs\n\nSend to co-authors (give them a heads-up)",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#dont-forget",
-    "href": "workshops/peer_review.html#dont-forget",
-    "title": "Introduction into peer review process",
-    "section": "Don’t forget",
-    "text": "Don’t forget\n\nDecide on journal\n\nscope\nimpact factor\nsimilar work",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#step-2",
-    "href": "workshops/peer_review.html#step-2",
-    "title": "Introduction into peer review process",
-    "section": "Step 2",
-    "text": "Step 2\n\nCheck the author guidelines of the journal\n\nJournal of Medical Entomology\nTick and Tick-borne Diseases\nCurrent Biology",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#get-ready-for-the-exciting-step",
-    "href": "workshops/peer_review.html#get-ready-for-the-exciting-step",
-    "title": "Introduction into peer review process",
-    "section": "Get ready for the exciting step",
-    "text": "Get ready for the exciting step",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#sorry-one-more-thing",
-    "href": "workshops/peer_review.html#sorry-one-more-thing",
-    "title": "Introduction into peer review process",
-    "section": "Sorry one more thing",
-    "text": "Sorry one more thing\n\nCheck paper\n\nAre all references there?\nSpelling and grammar check\nJournal Formatting\nCheck figures and tables",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#get-ready",
-    "href": "workshops/peer_review.html#get-ready",
-    "title": "Introduction into peer review process",
-    "section": "Get ready",
-    "text": "Get ready",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#get-ready-1",
-    "href": "workshops/peer_review.html#get-ready-1",
-    "title": "Introduction into peer review process",
-    "section": "Get ready",
-    "text": "Get ready\n\nCheck everything one more time",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#peer-review-process",
-    "href": "workshops/peer_review.html#peer-review-process",
-    "title": "Introduction into peer review process",
-    "section": "Peer review process",
-    "text": "Peer review process",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#submission",
-    "href": "workshops/peer_review.html#submission",
-    "title": "Introduction into peer review process",
-    "section": "Submission",
-    "text": "Submission\n\nCover letter",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#submission-1",
-    "href": "workshops/peer_review.html#submission-1",
-    "title": "Introduction into peer review process",
-    "section": "Submission",
-    "text": "Submission\n\nCover letters\n\nPlos Biology\nPlos one",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#submission-2",
-    "href": "workshops/peer_review.html#submission-2",
-    "title": "Introduction into peer review process",
-    "section": "Submission",
-    "text": "Submission\n\nCover letter\nHave everything ready. Often specific formats it needs to be submitted",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#receiving-reviewer-comments",
-    "href": "workshops/peer_review.html#receiving-reviewer-comments",
-    "title": "Introduction into peer review process",
-    "section": "Receiving reviewer comments",
-    "text": "Receiving reviewer comments\n\nGood reviewers make your paper better\nIf rejected still look at comments and do something with them\nVery often major or minor revisions needed",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#receiving-reviewer-comments-1",
-    "href": "workshops/peer_review.html#receiving-reviewer-comments-1",
-    "title": "Introduction into peer review process",
-    "section": "Receiving reviewer comments",
-    "text": "Receiving reviewer comments\n\nRevisions required\n\nRead all comments first\nShare with co-authors (also ask if you need help with specific comments)\nRespond to all comments and keep track of changes\nGenerally a limited turn around period\nJansen et al paper\n\nRejected\n\nStill, read all the comments\n\nWhy was the paper rejected?\n\nGenerally, still, revise paper\nHabig et al paper",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#respond-to-reviewer-comments",
-    "href": "workshops/peer_review.html#respond-to-reviewer-comments",
-    "title": "Introduction into peer review process",
-    "section": "Respond to reviewer comments",
-    "text": "Respond to reviewer comments\n\nRespond to all comments\n\nPoint by point\nTrack changes on the document\nAll co-authors should read responses and agree\nInclude a cover letter to the editor\nMajor revision Jansen et al BMC paper",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/peer_review.html#proofing-paper",
-    "href": "workshops/peer_review.html#proofing-paper",
-    "title": "Introduction into peer review process",
-    "section": "Proofing paper",
-    "text": "Proofing paper\n\nPaper is accepted\nCopy editors will format paper They are probrably not scientists\nJansen et al BMC paper proofing request\n\nFirst time you see your final paper :-)\n\nJansen et al BMC paper proof document\n\nRead whole paper\nCheck details\n\nreferences\nfigures and tables (captions)\nscientific names and notations\nauthor names and affiliations\n\nJansen et al BMC paper comments to proof",
-    "crumbs": [
-      "Workshops",
-      "Peer review process"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-1",
-    "href": "workshops/good_data_practises.html#data-1",
-    "title": "Good data practices",
-    "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-1-1",
-    "href": "workshops/good_data_practises.html#data-1-1",
-    "title": "Good data practices",
-    "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\nkeep in a ‘save’ format\nNot excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\n\n\n\nDon’t make changes to this raw data",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-2",
-    "href": "workshops/good_data_practises.html#data-2",
-    "title": "Good data practices",
-    "section": "Data (2)",
-    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-3",
-    "href": "workshops/good_data_practises.html#data-3",
-    "title": "Good data practices",
-    "section": "Data (3)",
-    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\nspeciesspeedspeed_mphelphant24.0 mph24.0mouse8.1 mph8.1cheetah74.6 mph74.7",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4",
-    "href": "workshops/good_data_practises.html#data-4",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-1",
-    "href": "workshops/good_data_practises.html#data-4-1",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-2",
-    "href": "workshops/good_data_practises.html#data-4-2",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\n\n\n\n\n\n\n\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-3",
-    "href": "workshops/good_data_practises.html#data-4-3",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n      flextable::flextable() %&gt;% \n      flextable::colformat_double(digits = 1)\n\ndayHouse_AHouse_BHouse_CHouse_D1.010.02.01.011.02.010.010.012.014.03.08.09.05.06.04.04.04.04.02.05.02.02.02.04.0",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-4",
-    "href": "workshops/good_data_practises.html#data-4-4",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\n\nLyric: “I changed my mind about house_E”\n\n\n“Sorry I deleted that data” versus “Let me rerun code”",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#wide-format-versus-long-format",
-    "href": "workshops/good_data_practises.html#wide-format-versus-long-format",
-    "title": "Good data practices",
-    "section": "Wide format versus long format",
-    "text": "Wide format versus long format\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0\n\n\n\nwide often easier for recording\nlong often required for analysis\n\n\n\n\ndayhousestick_count1.0House_A10.01.0House_B2.01.0House_C1.01.0House_D11.01.0House_E14.02.0House_A10.02.0House_B10.02.0House_C12.02.0House_D14.02.0House_E2.03.0House_A8.03.0House_B9.03.0House_C5.03.0House_D6.03.0House_E8.04.0House_A4.04.0House_B4.04.0House_C4.04.0House_D2.04.0House_E11.0",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-documentation-1",
-    "href": "workshops/good_data_practises.html#data-documentation-1",
-    "title": "Good data practices",
-    "section": "Data documentation (1)",
-    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-documentation-2",
-    "href": "workshops/good_data_practises.html#data-documentation-2",
-    "title": "Good data practices",
-    "section": "Data documentation (2)",
-    "text": "Data documentation (2)\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\nMetadata\n\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\ndata about data\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming",
-    "href": "workshops/good_data_practises.html#naming",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming-1",
-    "href": "workshops/good_data_practises.html#naming-1",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming-2",
-    "href": "workshops/good_data_practises.html#naming-2",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming-3",
-    "href": "workshops/good_data_practises.html#naming-3",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#bonus",
-    "href": "workshops/good_data_practises.html#bonus",
-    "title": "Good data practices",
-    "section": "Bonus",
-    "text": "Bonus",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
-    "href": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
-    "title": "Good data practices",
-    "section": "How to deal with R (programming) errors",
-    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#what-is-ggplot2",
-    "href": "workshops/intro_into_ggplot.html#what-is-ggplot2",
-    "title": "Introduction to ggplot2",
-    "section": "What is ggplot2?",
-    "text": "What is ggplot2?\n\nDefinition: ggplot2 is an R package for creating data visualizations based on the grammar of graphics.\nCreated by: Hadley Wickham\nFirst released: 2007",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2",
-    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2",
-    "title": "Introduction to ggplot2",
-    "section": "Why Use ggplot2?",
-    "text": "Why Use ggplot2?\n\nAdvantages:\n\nProduces visually appealing and customizable plots.\nBased on a coherent grammar of graphics, making it easy to understand and use.\nWorks well with tidy data principles.\nOffers extensive documentation and a large community of users.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2-1",
-    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2-1",
-    "title": "Introduction to ggplot2",
-    "section": "Why Use ggplot2?",
-    "text": "Why Use ggplot2?\n\nGrammar of Graphics: A systematic way to describe the components of a graph, including data, aesthetics, and geometric objects.\nLayered Grammar: Allows you to build complex plots by adding layers of data and visual elements.\nFaceting: Easily create multiple plots based on subsets of your data.\nThemes: Customize the appearance of your plots with built-in or custom themes.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2-2",
-    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2-2",
-    "title": "Introduction to ggplot2",
-    "section": "Why Use ggplot2?",
-    "text": "Why Use ggplot2?\n\nThere are many package that build on ggplot to work with specific kinds of data, e.g.;\n\nsurvminer for survival analysis\nggcorrplot for correlation plots\ngganimate make plot animations",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#basic-syntax-overview",
-    "href": "workshops/intro_into_ggplot.html#basic-syntax-overview",
-    "title": "Introduction to ggplot2",
-    "section": "Basic Syntax Overview",
-    "text": "Basic Syntax Overview\n\nggplot() function: Initializes a ggplot object.\ndata Can be given either directly or through a pipe\naes() function: Specifies aesthetic mappings between data variables and visual properties.\ngeom_*() functions: Add geometric objects (points, lines, bars, etc.) to your plot.\nfacet_*() functions: Facet your plot by one or more variables.\ntheme() function: Customize the appearance of your plot.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#data-prep-for-plotting",
-    "href": "workshops/intro_into_ggplot.html#data-prep-for-plotting",
-    "title": "Introduction to ggplot2",
-    "section": "Data prep for plotting",
-    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\nColumns need top be in format you want to plot\n\n\nlibrary(tidyverse)\n\ntibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  flextable::flextable()\n\nlocationweek1week2week3week4A10121411B12151520",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#data-prep-for-plotting-1",
-    "href": "workshops/intro_into_ggplot.html#data-prep-for-plotting-1",
-    "title": "Introduction to ggplot2",
-    "section": "Data prep for plotting",
-    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\n\n\ndf &lt;- tibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  pivot_longer(names_to = \"week\", values_to = \"count\", week1:week4) %&gt;%  \n  mutate(week = as.numeric(str_remove(week, pattern = \"week\"))) \n\n\ndf %&gt;% \n  flextable::flextable()\n\nlocationweekcountA110A212A314A411B112B215B315B420",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-1",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-1",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (1)",
-    "text": "First simple plot (1)\n\nbasic plot\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point()",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-2",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-2",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (2)",
-    "text": "First simple plot (2)\n\nchange size of the dots\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point(size = 5)",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-3",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-3",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (3)",
-    "text": "First simple plot (3)\n\nchange the color of the dots\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5)",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-4",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-4",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (4)",
-    "text": "First simple plot (4)\n\nchange axis\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22))",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-5",
-    "href": "workshops/intro_into_ggplot.html#first-simple-plot-5",
-    "title": "Introduction to ggplot2",
-    "section": "First simple plot (5)",
-    "text": "First simple plot (5)\n\nchange labels and theme\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22)) +\n  labs(x = \"sample week\", y = \"tick count\") +\n  theme_classic()",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#zacks-heatmap",
-    "href": "workshops/intro_into_ggplot.html#zacks-heatmap",
-    "title": "Introduction to ggplot2",
-    "section": "Zack’s heatmap",
-    "text": "Zack’s heatmap",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#zacks-heatmap-code",
-    "href": "workshops/intro_into_ggplot.html#zacks-heatmap-code",
-    "title": "Introduction to ggplot2",
-    "section": "Zack’s heatmap (code)",
-    "text": "Zack’s heatmap (code)\n\nggplot(data = heatmap_data, aes(x = week, y = transect, fill = density)) +\n    geom_tile() +\n    facet_grid(treatment_type ~ .) +\n    scale_fill_gradient(low = \"white\", high = \"black\") +\n    guides(fill = guide_colorbar(title = \"Density of nymphs per 1000m2\"))  +\n    labs(y = \"\") +\n    theme(legend.position = \"bottom\",\n                legend.key.size = unit(1, 'cm')) +\n    theme(panel.background = element_blank(),\n                plot.background = element_blank(),\n                axis.text = element_text(size = 19))+\n    geom_vline(xintercept = c(1.5, 5.5), linetype = \"dashed\", size = 1.5) +\n    theme(axis.title = element_text(size = 16),\n                legend.text = element_text(size = 16),\n                legend.title = element_text(size = 19),\n                title = element_text(size = 15),\n                strip.text = element_text(size = 15))",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
-    "href": "workshops/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
-    "title": "Introduction to ggplot2",
-    "section": "Survival analysis in a baboon paper",
-    "text": "Survival analysis in a baboon paper",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#tick-classification",
-    "href": "workshops/intro_into_ggplot.html#tick-classification",
-    "title": "Introduction to ggplot2",
-    "section": "Tick classification",
-    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#tick-classification-1",
-    "href": "workshops/intro_into_ggplot.html#tick-classification-1",
-    "title": "Introduction to ggplot2",
-    "section": "Tick classification",
-    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "workshops/intro_into_ggplot.html#resources",
-    "href": "workshops/intro_into_ggplot.html#resources",
-    "title": "Introduction to ggplot2",
-    "section": "Resources",
-    "text": "Resources\n\nchatgpt and google\nfind examples and build from there\nuseful webpages\n\nhttps://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html\nhttps://ggplot2tor.com/theme/\nhttps://r-graph-gallery.com/\nhttps://rstudio.github.io/cheatsheets/html/data-visualization.html\n\nR Graphics Cookbook (I have a copy)\nask me (I love making visualizations)",
-    "crumbs": [
-      "Workshops",
-      "Introduction ggplot"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "",
-    "section": "",
-    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
-    "crumbs": [
-      "Basics",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "",
-    "section": "",
-    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
-    "crumbs": [
-      "Basics",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "",
-    "section": "Education",
-    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013\nWageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005\nWageningen University, Netherlands BSc in Forest and Nature Management | Aug 2000 - June 2003\nClick here for my Resume or CV",
-    "crumbs": [
-      "Basics",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications list",
-    "section": "",
-    "text": "References\n\nAkinyi, M. Y., Habig, B., Gesquiere, L. R., Alberts, S. C., & Archie, E. A. (2019). Costs and drivers of helminth parasite infection in wild female baboons. Journal of Animal Ecology, 88(7), 1029–1043.\n\n\nBjörk, J. R., Dasari, M. R., Roche, K., Grieneisen, L., Gould, T. J., Grenier, J.-C., Yotova, V., Gottel, N., Gesquiere, L. R., et al. (2022). Synchrony and idiosyncrasy in the gut microbiome of wild baboons. Nature Ecology & Evolution, 6(7), 955–964.\n\n\nGordon, J. B., Learn, N. H., & Alberts, S. C. (2022). Ordinal dominance rank assignments: Protocol for the amboseli baboon research project. Avaialable at: Https://Amboselibaboons. Nd. Edu/Downloads/, Accessed Feb, 23, 2023.\n\n\nGrieneisen, L., Dasari, M., Gould, T. J., Björk, J. R., Grenier, J.-C., Yotova, V., Gottel, N., Gordon, J. B., Learn, N. H., et al. (2021). Gut microbiome heritability is nearly universal but environmentally contingent. Science, 373(6551), 181–186.\n\n\nGrieneisen, L., Dasari, M., Gould, T., Bjork, J., Grenier, J., Yotova, V., Gottel, N., Gilbert, J., Barreiro, L., et al. (2020). Heritability of the gut microbiome in wild baboons (papio cynocephalus). American Journal of Primatology, 82.\n\n\nHabig, B., Akinyi, M. Y., Gesquiere, L. R., Alberts, S. C., & Archie, E. A. (2019). Multi-scale predictors of parasite risk in wild male savanna baboons (papio cynocephalus). Behavioral Ecology and Sociobiology, 73, 1–16.\n\n\nJansen, D. A. (2013a). Diet selection of goats: - a feeding trial experiment [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013b). Self-organising spatial patterns in mussel beds. [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013c). The contribution of floodplains to the ecology of large herbivores [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013d). Vocal communication in the banded mongoose (mungos mungo) [PhD thesis]. University of Zurich.\n\n\nJansen, D. A., Cant, M. A., & Manser, M. B. (2012). Segmental concatenation of individual signatures and context cues in banded mongoose (mungos mungo) close calls. BMC Biology, 10, 1–11.\n\n\nJansen, D. A., Cant, M. A., & Manser, M. B. (2013). Testing for vocal individual discrimination in adult banded mongooses. Journal of Zoology, 291(3), 171–177.\n\n\nJansen, D. A., Langevelde, F. van, Boer, W. F. de, & Kirkman, K. P. (2007). Optimisation or satiation, testing diet selection rules in goats. Small Ruminant Research, 73(1-3), 160–168.\n\n\nLevy, E. J., Zipple, M. N., McLean, E., Campos, F. A., Dasari, M., Fogel, A. S., Franz, M., Gesquiere, L. R., Gordon, J. B., Grieneisen, L., et al. (2020). A comparison of dominance rank metrics reveals multiple competitive landscapes in an animal society. Proceedings of the Royal Society B, 287(1934), 20201013.\n\n\nManser, M. B., Jansen, J. D. A., Graw, B., Hollén, L. I., Bousquet, C. A., Furrer, R. D., & Le Roux, A. (2014). Vocal complexity in meerkats and other mongoose species. 46, 281–310.\n\n\nPaietta, E. N., Weibel, C. J., Jansen, D. A., Mututua, R. S., Warutere, J. K., Long’ida Siodi, I., Gesquiere, L. R., Obanda, V., Alberts, S. C., & Archie, E. A. (2022). Troubled waters: Water availability drives human-baboon encounters in a protected, semi-arid landscape. Biological Conservation, 274, 109740. https://doi.org/https://doi.org/10.1016/j.biocon.2022.109740\n\n\nRoche, K. E., Bjork, J. R., Dasari, M. R., Grieneisen, L., Gould, T. J., Gesquiere, L. R., Barreiro, L. B., Alberts, S. C., Blekhman, R., et al. (2023). Universal gut microbial relationships in the gut microbiome of wild baboons. Elife, 12, e83152.\n\n\nTownsend, S. W., Koski, S. E., Byrne, R. W., Slocombe, K. E., Bickel, B., Boeckle, M., Braga Goncalves, I., Burkart, J. M., Flower, T., Gaunet, F., et al. (2017). Exorcising g rice’s ghost: An empirical approach to studying intentional communication in animals. Biological Reviews, 92(3), 1427–1433.\n\n\nWeibel, C. J., Dasari, M. R., Jansen, D. A., Gesquiere, L. R., Mututua, R. S., Warutere, J. K., Siodi, L. I., Alberts, S. C., Tung, J., & Archie, E. A. (2024). Using non-invasive behavioral and physiological data to measure biological age in wild baboons. GeroScience. https://doi.org/10.1007/s11357-024-01157-5",
-    "crumbs": [
-      "Basics",
-      "Publications"
-    ]
-  },
-  {
-    "objectID": "boldname/example.html",
-    "href": "boldname/example.html",
-    "title": "Boldname Example",
-    "section": "",
-    "text": "filters: - boldname"
-  },
-  {
-    "objectID": "boldname/example.html#heading",
-    "href": "boldname/example.html#heading",
-    "title": "Boldname Example",
-    "section": "Heading",
-    "text": "Heading\nThis filter adds formatting to heading text."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "David Jansen",
-    "section": "",
-    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
-    "crumbs": [
-      "Basics",
-      "Home"
+      "Reproducibility research"
     ]
   },
   {
@@ -1124,40 +494,642 @@
     ]
   },
   {
-    "objectID": "workshops/reproducibility_workshop.html#folder-organization",
-    "href": "workshops/reproducibility_workshop.html#folder-organization",
-    "title": "Research reproducibility",
-    "section": "Folder organization",
-    "text": "Folder organization",
-    "crumbs": [
-      "Workshops",
-      "Reproducibility research"
-    ]
-  },
-  {
-    "objectID": "workshops/reproducibility_workshop.html#other-sources",
-    "href": "workshops/reproducibility_workshop.html#other-sources",
-    "title": "Research reproducibility",
-    "section": "Other sources",
-    "text": "Other sources\nNoble WS. A quick guide to organizing computational biology projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. doi: 10.1371/journal.pcbi.1000424. http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424\nCasadevall A, Ellis LM, Davies EW, McFall-Ngai M, Fang FC. A Framework for Improving the Quality of Research in the Biological Sciences. MBio. 2016 Aug 30;7(4). pii: e01256-16. doi: 10.1128/mBio.01256-16. http://mbio.asm.org/content/7/4/e01256-16.long\nRavel J, Wommack KE. All hail reproducibility in microbiome research. Microbiome. 2014 Mar 7;2(1):8. doi: 10.1186/2049-2618-2-8. https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-8",
-    "crumbs": [
-      "Workshops",
-      "Reproducibility research"
-    ]
-  },
-  {
-    "objectID": "dociteproc/example.html",
-    "href": "dociteproc/example.html",
-    "title": "Dociteproc Example",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Jansen",
     "section": "",
-    "text": "filters: - dociteproc"
+    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
+    "crumbs": [
+      "Basics",
+      "Home"
+    ]
   },
   {
-    "objectID": "dociteproc/example.html#heading",
-    "href": "dociteproc/example.html#heading",
-    "title": "Dociteproc Example",
-    "section": "Heading",
-    "text": "Heading\nThis filter adds formatting to heading text."
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications list",
+    "section": "",
+    "text": "References\n\nAkinyi, M. Y., Habig, B., Gesquiere, L. R., Alberts, S. C., & Archie, E. A. (2019). Costs and drivers of helminth parasite infection in wild female baboons. Journal of Animal Ecology, 88(7), 1029–1043.\n\n\nBjörk, J. R., Dasari, M. R., Roche, K., Grieneisen, L., Gould, T. J., Grenier, J.-C., Yotova, V., Gottel, N., Gesquiere, L. R., et al. (2022). Synchrony and idiosyncrasy in the gut microbiome of wild baboons. Nature Ecology & Evolution, 6(7), 955–964.\n\n\nGordon, J. B., Learn, N. H., & Alberts, S. C. (2022). Ordinal dominance rank assignments: Protocol for the amboseli baboon research project. Avaialable at: Https://Amboselibaboons. Nd. Edu/Downloads/, Accessed Feb, 23, 2023.\n\n\nGrieneisen, L., Dasari, M., Gould, T. J., Björk, J. R., Grenier, J.-C., Yotova, V., Gottel, N., Gordon, J. B., Learn, N. H., et al. (2021). Gut microbiome heritability is nearly universal but environmentally contingent. Science, 373(6551), 181–186.\n\n\nGrieneisen, L., Dasari, M., Gould, T., Bjork, J., Grenier, J., Yotova, V., Gottel, N., Gilbert, J., Barreiro, L., et al. (2020). Heritability of the gut microbiome in wild baboons (papio cynocephalus). American Journal of Primatology, 82.\n\n\nHabig, B., Akinyi, M. Y., Gesquiere, L. R., Alberts, S. C., & Archie, E. A. (2019). Multi-scale predictors of parasite risk in wild male savanna baboons (papio cynocephalus). Behavioral Ecology and Sociobiology, 73, 1–16.\n\n\nJansen, D. A. (2013a). Diet selection of goats: - a feeding trial experiment [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013b). Self-organising spatial patterns in mussel beds. [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013c). The contribution of floodplains to the ecology of large herbivores [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013d). Vocal communication in the banded mongoose (mungos mungo) [PhD thesis]. University of Zurich.\n\n\nJansen, D. A., Cant, M. A., & Manser, M. B. (2012). Segmental concatenation of individual signatures and context cues in banded mongoose (mungos mungo) close calls. BMC Biology, 10, 1–11.\n\n\nJansen, D. A., Cant, M. A., & Manser, M. B. (2013). Testing for vocal individual discrimination in adult banded mongooses. Journal of Zoology, 291(3), 171–177.\n\n\nJansen, D. A., Langevelde, F. van, Boer, W. F. de, & Kirkman, K. P. (2007). Optimisation or satiation, testing diet selection rules in goats. Small Ruminant Research, 73(1-3), 160–168.\n\n\nLevy, E. J., Zipple, M. N., McLean, E., Campos, F. A., Dasari, M., Fogel, A. S., Franz, M., Gesquiere, L. R., Gordon, J. B., Grieneisen, L., et al. (2020). A comparison of dominance rank metrics reveals multiple competitive landscapes in an animal society. Proceedings of the Royal Society B, 287(1934), 20201013.\n\n\nManser, M. B., Jansen, J. D. A., Graw, B., Hollén, L. I., Bousquet, C. A., Furrer, R. D., & Le Roux, A. (2014). Vocal complexity in meerkats and other mongoose species. 46, 281–310.\n\n\nPaietta, E. N., Weibel, C. J., Jansen, D. A., Mututua, R. S., Warutere, J. K., Long’ida Siodi, I., Gesquiere, L. R., Obanda, V., Alberts, S. C., & Archie, E. A. (2022). Troubled waters: Water availability drives human-baboon encounters in a protected, semi-arid landscape. Biological Conservation, 274, 109740. https://doi.org/https://doi.org/10.1016/j.biocon.2022.109740\n\n\nRoche, K. E., Bjork, J. R., Dasari, M. R., Grieneisen, L., Gould, T. J., Gesquiere, L. R., Barreiro, L. B., Alberts, S. C., Blekhman, R., et al. (2023). Universal gut microbial relationships in the gut microbiome of wild baboons. Elife, 12, e83152.\n\n\nTownsend, S. W., Koski, S. E., Byrne, R. W., Slocombe, K. E., Bickel, B., Boeckle, M., Braga Goncalves, I., Burkart, J. M., Flower, T., Gaunet, F., et al. (2017). Exorcising g rice’s ghost: An empirical approach to studying intentional communication in animals. Biological Reviews, 92(3), 1427–1433.\n\n\nWeibel, C. J., Dasari, M. R., Jansen, D. A., Gesquiere, L. R., Mututua, R. S., Warutere, J. K., Siodi, L. I., Alberts, S. C., Tung, J., & Archie, E. A. (2024). Using non-invasive behavioral and physiological data to measure biological age in wild baboons. GeroScience. https://doi.org/10.1007/s11357-024-01157-5",
+    "crumbs": [
+      "Basics",
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "",
+    "section": "",
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "",
+    "section": "Education",
+    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013\nWageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005\nWageningen University, Netherlands BSc in Forest and Nature Management | Aug 2000 - June 2003\nClick here for my Resume or CV",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#what-is-ggplot2",
+    "href": "workshops/intro_into_ggplot.html#what-is-ggplot2",
+    "title": "Introduction to ggplot2",
+    "section": "What is ggplot2?",
+    "text": "What is ggplot2?\n\nDefinition: ggplot2 is an R package for creating data visualizations based on the grammar of graphics.\nCreated by: Hadley Wickham\nFirst released: 2007",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2",
+    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2",
+    "title": "Introduction to ggplot2",
+    "section": "Why Use ggplot2?",
+    "text": "Why Use ggplot2?\n\nAdvantages:\n\nProduces visually appealing and customizable plots.\nBased on a coherent grammar of graphics, making it easy to understand and use.\nWorks well with tidy data principles.\nOffers extensive documentation and a large community of users.",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2-1",
+    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2-1",
+    "title": "Introduction to ggplot2",
+    "section": "Why Use ggplot2?",
+    "text": "Why Use ggplot2?\n\nGrammar of Graphics: A systematic way to describe the components of a graph, including data, aesthetics, and geometric objects.\nLayered Grammar: Allows you to build complex plots by adding layers of data and visual elements.\nFaceting: Easily create multiple plots based on subsets of your data.\nThemes: Customize the appearance of your plots with built-in or custom themes.",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#why-use-ggplot2-2",
+    "href": "workshops/intro_into_ggplot.html#why-use-ggplot2-2",
+    "title": "Introduction to ggplot2",
+    "section": "Why Use ggplot2?",
+    "text": "Why Use ggplot2?\n\nThere are many package that build on ggplot to work with specific kinds of data, e.g.;\n\nsurvminer for survival analysis\nggcorrplot for correlation plots\ngganimate make plot animations",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#basic-syntax-overview",
+    "href": "workshops/intro_into_ggplot.html#basic-syntax-overview",
+    "title": "Introduction to ggplot2",
+    "section": "Basic Syntax Overview",
+    "text": "Basic Syntax Overview\n\nggplot() function: Initializes a ggplot object.\ndata Can be given either directly or through a pipe\naes() function: Specifies aesthetic mappings between data variables and visual properties.\ngeom_*() functions: Add geometric objects (points, lines, bars, etc.) to your plot.\nfacet_*() functions: Facet your plot by one or more variables.\ntheme() function: Customize the appearance of your plot.",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#data-prep-for-plotting",
+    "href": "workshops/intro_into_ggplot.html#data-prep-for-plotting",
+    "title": "Introduction to ggplot2",
+    "section": "Data prep for plotting",
+    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\nColumns need top be in format you want to plot\n\n\nlibrary(tidyverse)\n\ntibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  flextable::flextable()\n\nlocationweek1week2week3week4A10121411B12151520",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#data-prep-for-plotting-1",
+    "href": "workshops/intro_into_ggplot.html#data-prep-for-plotting-1",
+    "title": "Introduction to ggplot2",
+    "section": "Data prep for plotting",
+    "text": "Data prep for plotting\n\nGenerally data needs to be in a long format\n\n\ndf &lt;- tibble(location = c(\"A\", \"B\"),\n       week1 = c(10, 12),\n       week2 = c(12, 15),\n       week3 = c(14, 15),\n       week4 = c(11,  20)) %&gt;% \n  pivot_longer(names_to = \"week\", values_to = \"count\", week1:week4) %&gt;%  \n  mutate(week = as.numeric(str_remove(week, pattern = \"week\"))) \n\n\ndf %&gt;% \n  flextable::flextable()\n\nlocationweekcountA110A212A314A411B112B215B315B420",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-1",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-1",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (1)",
+    "text": "First simple plot (1)\n\nbasic plot\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point()",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-2",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-2",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (2)",
+    "text": "First simple plot (2)\n\nchange size of the dots\n\n\nggplot(data = df, aes(x = week, y = count)) +\n  geom_point(size = 5)",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-3",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-3",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (3)",
+    "text": "First simple plot (3)\n\nchange the color of the dots\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5)",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-4",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-4",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (4)",
+    "text": "First simple plot (4)\n\nchange axis\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22))",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#first-simple-plot-5",
+    "href": "workshops/intro_into_ggplot.html#first-simple-plot-5",
+    "title": "Introduction to ggplot2",
+    "section": "First simple plot (5)",
+    "text": "First simple plot (5)\n\nchange labels and theme\n\n\nggplot(data = df, aes(x = week, y = count, color = location)) +\n  geom_point(size = 5) +\n  scale_y_continuous(limits = c(0,22)) +\n  labs(x = \"sample week\", y = \"tick count\") +\n  theme_classic()",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#zacks-heatmap",
+    "href": "workshops/intro_into_ggplot.html#zacks-heatmap",
+    "title": "Introduction to ggplot2",
+    "section": "Zack’s heatmap",
+    "text": "Zack’s heatmap",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#zacks-heatmap-code",
+    "href": "workshops/intro_into_ggplot.html#zacks-heatmap-code",
+    "title": "Introduction to ggplot2",
+    "section": "Zack’s heatmap (code)",
+    "text": "Zack’s heatmap (code)\n\nggplot(data = heatmap_data, aes(x = week, y = transect, fill = density)) +\n    geom_tile() +\n    facet_grid(treatment_type ~ .) +\n    scale_fill_gradient(low = \"white\", high = \"black\") +\n    guides(fill = guide_colorbar(title = \"Density of nymphs per 1000m2\"))  +\n    labs(y = \"\") +\n    theme(legend.position = \"bottom\",\n                legend.key.size = unit(1, 'cm')) +\n    theme(panel.background = element_blank(),\n                plot.background = element_blank(),\n                axis.text = element_text(size = 19))+\n    geom_vline(xintercept = c(1.5, 5.5), linetype = \"dashed\", size = 1.5) +\n    theme(axis.title = element_text(size = 16),\n                legend.text = element_text(size = 16),\n                legend.title = element_text(size = 19),\n                title = element_text(size = 15),\n                strip.text = element_text(size = 15))",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
+    "href": "workshops/intro_into_ggplot.html#survival-analysis-in-a-baboon-paper",
+    "title": "Introduction to ggplot2",
+    "section": "Survival analysis in a baboon paper",
+    "text": "Survival analysis in a baboon paper",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#tick-classification",
+    "href": "workshops/intro_into_ggplot.html#tick-classification",
+    "title": "Introduction to ggplot2",
+    "section": "Tick classification",
+    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#tick-classification-1",
+    "href": "workshops/intro_into_ggplot.html#tick-classification-1",
+    "title": "Introduction to ggplot2",
+    "section": "Tick classification",
+    "text": "Tick classification\nThis is a very preliminary look at this data, so please judge or share the data.",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/intro_into_ggplot.html#resources",
+    "href": "workshops/intro_into_ggplot.html#resources",
+    "title": "Introduction to ggplot2",
+    "section": "Resources",
+    "text": "Resources\n\nchatgpt and google\nfind examples and build from there\nuseful webpages\n\nhttps://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html\nhttps://ggplot2tor.com/theme/\nhttps://r-graph-gallery.com/\nhttps://rstudio.github.io/cheatsheets/html/data-visualization.html\n\nR Graphics Cookbook (I have a copy)\nask me (I love making visualizations)",
+    "crumbs": [
+      "Workshops",
+      "Introduction ggplot"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-1",
+    "href": "workshops/good_data_practises.html#data-1",
+    "title": "Good data practices",
+    "section": "Data (1)",
+    "text": "Data (1)\n\nKeep an as raw as possible version",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-1-1",
+    "href": "workshops/good_data_practises.html#data-1-1",
+    "title": "Good data practices",
+    "section": "Data (1)",
+    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\nkeep in a ‘save’ format\nNot excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\n\n\n\nDon’t make changes to this raw data",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-2",
+    "href": "workshops/good_data_practises.html#data-2",
+    "title": "Good data practices",
+    "section": "Data (2)",
+    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-3",
+    "href": "workshops/good_data_practises.html#data-3",
+    "title": "Good data practices",
+    "section": "Data (3)",
+    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\nspeciesspeedspeed_mphelphant24.0 mph24.0mouse8.1 mph8.1cheetah74.6 mph74.7",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4",
+    "href": "workshops/good_data_practises.html#data-4",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-1",
+    "href": "workshops/good_data_practises.html#data-4-1",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-2",
+    "href": "workshops/good_data_practises.html#data-4-2",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\n\n\n\n\n\n\n\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-3",
+    "href": "workshops/good_data_practises.html#data-4-3",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n      flextable::flextable() %&gt;% \n      flextable::colformat_double(digits = 1)\n\ndayHouse_AHouse_BHouse_CHouse_D1.010.02.01.011.02.010.010.012.014.03.08.09.05.06.04.04.04.04.02.05.02.02.02.04.0",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-4",
+    "href": "workshops/good_data_practises.html#data-4-4",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\n\nLyric: “I changed my mind about house_E”\n\n\n“Sorry I deleted that data” versus “Let me rerun code”",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#wide-format-versus-long-format",
+    "href": "workshops/good_data_practises.html#wide-format-versus-long-format",
+    "title": "Good data practices",
+    "section": "Wide format versus long format",
+    "text": "Wide format versus long format\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0\n\n\n\nwide often easier for recording\nlong often required for analysis\n\n\n\n\ndayhousestick_count1.0House_A10.01.0House_B2.01.0House_C1.01.0House_D11.01.0House_E14.02.0House_A10.02.0House_B10.02.0House_C12.02.0House_D14.02.0House_E2.03.0House_A8.03.0House_B9.03.0House_C5.03.0House_D6.03.0House_E8.04.0House_A4.04.0House_B4.04.0House_C4.04.0House_D2.04.0House_E11.0",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-documentation-1",
+    "href": "workshops/good_data_practises.html#data-documentation-1",
+    "title": "Good data practices",
+    "section": "Data documentation (1)",
+    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-documentation-2",
+    "href": "workshops/good_data_practises.html#data-documentation-2",
+    "title": "Good data practices",
+    "section": "Data documentation (2)",
+    "text": "Data documentation (2)\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\nMetadata\n\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\ndata about data\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming",
+    "href": "workshops/good_data_practises.html#naming",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming-1",
+    "href": "workshops/good_data_practises.html#naming-1",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming-2",
+    "href": "workshops/good_data_practises.html#naming-2",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming-3",
+    "href": "workshops/good_data_practises.html#naming-3",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#bonus",
+    "href": "workshops/good_data_practises.html#bonus",
+    "title": "Good data practices",
+    "section": "Bonus",
+    "text": "Bonus",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
+    "href": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
+    "title": "Good data practices",
+    "section": "How to deal with R (programming) errors",
+    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#the-start",
+    "href": "workshops/peer_review.html#the-start",
+    "title": "Introduction into peer review process",
+    "section": "The start",
+    "text": "The start\n\nWrite paper",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#keep-working-on-it",
+    "href": "workshops/peer_review.html#keep-working-on-it",
+    "title": "Introduction into peer review process",
+    "section": "Keep working on it",
+    "text": "Keep working on it",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#first-review",
+    "href": "workshops/peer_review.html#first-review",
+    "title": "Introduction into peer review process",
+    "section": "First review",
+    "text": "First review\n\nHave people look at the paper (e.g. writing workshop)\nAdd page and line numbers\nSend to PIs\n\nSend to co-authors (give them a heads-up)",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#dont-forget",
+    "href": "workshops/peer_review.html#dont-forget",
+    "title": "Introduction into peer review process",
+    "section": "Don’t forget",
+    "text": "Don’t forget\n\nDecide on journal\n\nscope\nimpact factor\nsimilar work",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#step-2",
+    "href": "workshops/peer_review.html#step-2",
+    "title": "Introduction into peer review process",
+    "section": "Step 2",
+    "text": "Step 2\n\nCheck the author guidelines of the journal\n\nJournal of Medical Entomology\nTick and Tick-borne Diseases\nCurrent Biology",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#get-ready-for-the-exciting-step",
+    "href": "workshops/peer_review.html#get-ready-for-the-exciting-step",
+    "title": "Introduction into peer review process",
+    "section": "Get ready for the exciting step",
+    "text": "Get ready for the exciting step",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#sorry-one-more-thing",
+    "href": "workshops/peer_review.html#sorry-one-more-thing",
+    "title": "Introduction into peer review process",
+    "section": "Sorry one more thing",
+    "text": "Sorry one more thing\n\nCheck paper\n\nAre all references there?\nSpelling and grammar check\nJournal Formatting\nCheck figures and tables",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#get-ready",
+    "href": "workshops/peer_review.html#get-ready",
+    "title": "Introduction into peer review process",
+    "section": "Get ready",
+    "text": "Get ready",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#get-ready-1",
+    "href": "workshops/peer_review.html#get-ready-1",
+    "title": "Introduction into peer review process",
+    "section": "Get ready",
+    "text": "Get ready\n\nCheck everything one more time",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#peer-review-process",
+    "href": "workshops/peer_review.html#peer-review-process",
+    "title": "Introduction into peer review process",
+    "section": "Peer review process",
+    "text": "Peer review process",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#submission",
+    "href": "workshops/peer_review.html#submission",
+    "title": "Introduction into peer review process",
+    "section": "Submission",
+    "text": "Submission\n\nCover letter",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#submission-1",
+    "href": "workshops/peer_review.html#submission-1",
+    "title": "Introduction into peer review process",
+    "section": "Submission",
+    "text": "Submission\n\nCover letters\n\nPlos Biology\nPlos one",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#submission-2",
+    "href": "workshops/peer_review.html#submission-2",
+    "title": "Introduction into peer review process",
+    "section": "Submission",
+    "text": "Submission\n\nCover letter\nHave everything ready. Often specific formats it needs to be submitted",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#receiving-reviewer-comments",
+    "href": "workshops/peer_review.html#receiving-reviewer-comments",
+    "title": "Introduction into peer review process",
+    "section": "Receiving reviewer comments",
+    "text": "Receiving reviewer comments\n\nGood reviewers make your paper better\nIf rejected still look at comments and do something with them\nVery often major or minor revisions needed",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#receiving-reviewer-comments-1",
+    "href": "workshops/peer_review.html#receiving-reviewer-comments-1",
+    "title": "Introduction into peer review process",
+    "section": "Receiving reviewer comments",
+    "text": "Receiving reviewer comments\n\nRevisions required\n\nRead all comments first\nShare with co-authors (also ask if you need help with specific comments)\nRespond to all comments and keep track of changes\nGenerally a limited turn around period\nJansen et al paper\n\nRejected\n\nStill, read all the comments\n\nWhy was the paper rejected?\n\nGenerally, still, revise paper\nHabig et al paper",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#respond-to-reviewer-comments",
+    "href": "workshops/peer_review.html#respond-to-reviewer-comments",
+    "title": "Introduction into peer review process",
+    "section": "Respond to reviewer comments",
+    "text": "Respond to reviewer comments\n\nRespond to all comments\n\nPoint by point\nTrack changes on the document\nAll co-authors should read responses and agree\nInclude a cover letter to the editor\nMajor revision Jansen et al BMC paper",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
+  },
+  {
+    "objectID": "workshops/peer_review.html#proofing-paper",
+    "href": "workshops/peer_review.html#proofing-paper",
+    "title": "Introduction into peer review process",
+    "section": "Proofing paper",
+    "text": "Proofing paper\n\nPaper is accepted\nCopy editors will format paper They are probrably not scientists\nJansen et al BMC paper proofing request\n\nFirst time you see your final paper :-)\n\nJansen et al BMC paper proof document\n\nRead whole paper\nCheck details\n\nreferences\nfigures and tables (captions)\nscientific names and notations\nauthor names and affiliations\n\nJansen et al BMC paper comments to proof",
+    "crumbs": [
+      "Workshops",
+      "Peer review process"
+    ]
   },
   {
     "objectID": "presentations/intro_into_ggplot.html#what-is-ggplot2",
