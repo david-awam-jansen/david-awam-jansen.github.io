@@ -1,0 +1,1003 @@
+%to create an handout
+%\documentclass[xcolor=dvipsnames,handout]{beamer}
+\documentclass[xcolor=dvipsnames]{beamer} 
+\usepackage{etex}
+
+\usetheme{Warsaw}
+%\beamertemplatenavigationsymbolsempty
+%\setbeamertemplate{headline}{}
+%\useoutertheme{infolines}
+
+\setbeamertemplate{items}[circle] 
+\setbeamercolor{structure}{fg=OliveGreen!50!black}
+ \setbeamercovered{invisible}
+\mode<presentation>
+
+%set background
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{./images/mong1trans.jpg}}
+
+%%own userpackages
+\usepackage{amssymb,amsmath}
+\usepackage[latin1]{inputenc}
+\usepackage{bbding}
+\usepackage{textcomp}
+
+%% for tables
+\usepackage{multirow}
+\usepackage{tabularx}
+\usepackage{booktabs}
+
+%% for layout and figures
+\usepackage[absolute,overlay]{textpos}
+\usepackage{subcaption}
+\usepackage{caption}
+\captionsetup[figure]{name=}
+\captionsetup[table]{name=}
+\captionsetup[subfigure]{name=}
+\usepackage{tikz}
+
+%% for sound
+\usepackage{multimedia}
+	\mode<presentation>
+
+\newcommand\References[1]{
+\tiny{
+  \begin{textblock*}{\paperwidth}(0mm, 0.94\paperheight)%
+    \raggedleft (#1)\hspace{0.01\paperwidth}
+  \end{textblock*}}}
+
+\begin{document}
+
+\title[Vocal Communication in the Banded Mongoose]{Vocal Communication in the Banded Mongoose \\ Complexity of information coding}
+
+\author [David Jansen]{{\large David A.W.A.M. Jansen}$^{1}$\endgraf\bigskip
+\begin{tabular}{ll}
+PhD committee  &   Collaborator \\
+Prof. Dr. Marta B. Manser$^{1}$ &  Professor Michael Cant$^{2}$\\
+Prof. Dr. Carel van Schaik$^{3}$ & \\
+\end{tabular} }
+
+  \institute[IEU, UZH]{$^{1}$Animal Behaviour, IEU, University of Zurich,  Switzerland\\$^{2}$ Centre for Ecology and Conservation, University of Exeter, UK\\
+  $^{3}$Anthropological Institute \& Museum, University of Zurich, Switzerland }
+  
+  \date{Zurich, 30st April 2013}
+
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{./images/mong1trans.jpg}}
+% % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame} [plain]
+\begin{figure}[t]
+\begin{flushright} 
+\includegraphics[height=1cm]{./images/uzh_logo.png}
+\includegraphics[height=1cm]{./images/mongoose_logo.png}
+\end{flushright}
+\end{figure}
+\titlepage
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\usebackgroundtemplate{\includegraphics[width=\paperwidth, height=\paperheight]{./images/mongoose1.jpg}}
+% % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Content}
+\begin{itemize}
+\item Introduction
+\item Study species/site
+\item Vocal repertoire
+\item Vocal cues
+\item Call sequences
+\item General discussion
+\end{itemize}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\section{Introduction}
+\begin{frame}
+\begin{block}{The Expression of the Emotions in Man and Animals.}
+\textit {`With social animals, the power of intercommunication between the members of the same community, and with other species, between the opposite sexes, as well as between the young and the old, is of the highest importance to them. This is generally effected by means of the voice, but it is certain that gestures and expressions are to a certain extent mutually intelligible.'}
+\begin{flushright} Darwin 1872, p. 60 \end{flushright}
+\end{block} 
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\subsection{Social complexity}
+\begin{frame}{Social complexity}
+\begin{itemize}
+\item Social complexity hypothesis
+\begin{itemize}
+\item Social groups
+\item Cognitive skills 
+\end{itemize}
+\end{itemize}
+\begin{figure}[b]
+\label{fig:freeberg2012_social_complexity}
+\includegraphics[width=\linewidth]{./images/freeberg_wide}
+\end{figure}
+\References{Whitten and Byrne, 1988; McComb and Semple, 2005; Freeberg et al, 2012}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Social complexity and vocal repertoire complexity}
+\uncover<1->{
+\begin{block}{The evolution of communication.}
+\textit {`...the richest elaboration of systems of social communication
+should be expected in intra-specific relationships, especially where trends towards increasing inter-individual cooperation converge with the emergence of social groupings consisting of close kin.'}
+\begin{flushright} Marler 1977, p. 47 \end{flushright}
+\end{block} }
+
+\uncover<2->{
+\begin{block}{The evolution of male loud calls among mangabeys and baboons.}
+\textit {`...the value to a signaler of broadcasting information to recipients, and thus the degree to which selection favors specialized `information-transfer' abilities, depend[s] on the social system.'}
+\begin{flushright} Waser 1982, p. 118 \end{flushright}
+\end{block}}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Social complexity}
+\begin{overlayarea}{\textwidth}{0.8\paperheight}
+\begin{itemize}
+\item Social complexity drives the evolution of vocal repertoire size
+\end{itemize}
+\vspace*{-1cm}
+\begin{columns}
+\begin{column}{0.25\textwidth}
+\begin{figure}
+\begin{tikzpicture}
+\centering
+\uncover<2>{\node (img1)[opacity=1] {\includegraphics[width=\textwidth,  height=\textwidth]{./images/marmot.jpg}};}
+\uncover<1->{\node (img1t) at (img1.south) [anchor=south, opacity=0.2]{\includegraphics[width=\textwidth, height=\textwidth]{./images/marmot.jpg}};}
+\uncover<1->{\node (img2) at (img1.south) [anchor=north, opacity=0.2]{\includegraphics[width=\textwidth, height=\textwidth]{./images/primates.jpg}};}
+\uncover<3-4>{\node (img2t) at (img1.south) [anchor=north, opacity=1]{\includegraphics[width=\textwidth, height=\textwidth]{./images/primates.jpg}};}
+\end{tikzpicture}  
+\end{figure}
+\end{column}
+\begin{column}{0.5\textwidth}
+\begin{figure}[b]
+\centering
+\includegraphics<2>[width=\textwidth]{./images/blumstein1997.jpg}
+\includegraphics<3>[width=\textwidth ]{./images/McComb2006a.jpg}
+\includegraphics<4>[width=\textwidth ]{./images/McComb2006b.jpg}
+\includegraphics<5>[width=\textwidth]{./images/Wilkinson2003.jpg}
+\includegraphics<6>[width=\textwidth]{./images/freeberg2006.jpg}
+\end{figure}
+\begin{center}
+\scriptsize{
+\only<2>{Blumstein and Armitage, 1997}
+\only<3-4>{McComb and Semple, 2005}
+\only<5>{Wilkinson, 2003}
+\only<6>{Freeberg, 2006}}
+\end{center}
+\end{column}
+\begin{column}{0.25\textwidth}
+\begin{figure}
+\begin{tikzpicture}
+\centering
+\uncover<5>{\node (img3)[opacity=1] {\includegraphics[width=\textwidth,  height=\textwidth]{./images/bats.jpg}};}
+\uncover<1->{\node (img3t) at (img3.south) [anchor=south, opacity=0.2]{\includegraphics[width=\textwidth, height=\textwidth]{./images/bats.jpg}};}
+\uncover<1->{\node (img4) at (img3.south) [anchor=north, opacity=0.2]{\includegraphics[width=\textwidth, height=\textwidth]{./images/chickadee.jpg}};}
+\uncover<6>{\node (img4t) at (img3.south) [anchor=north, opacity=1]{\includegraphics[width=\textwidth, height=\textwidth]{./images/chickadee.jpg}};}
+\end{tikzpicture}  
+\end{figure}
+\end{column}
+\end{columns}
+\end{overlayarea}
+\begin{overlayarea}{\textwidth}{0.2\paperheight}
+\end{overlayarea}
+\References{Marler, 1977; Hauser, 1996; Blumstein and Armitage, 1997; McComb and Semple, 2005; Freeberg et al, 2012}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+\subsection{Vocal repertoires}
+\begin{frame}{Vocal repertoire}
+\begin{overlayarea}{\textwidth}{1\textheight}
+\begin{itemize}
+\uncover<1->{\item Convention is to simply count number of discrete call types}
+\uncover<2->{\item However many species anatomically are constrained in the number of different calls they can produce}
+\begin{itemize}
+\uncover<2->{\item Limited number of discrete call types} 
+\uncover<3->{\item Constrained amount of information that can be emitted}
+\end{itemize}
+\uncover<4->{\item Triggered the evolution of call combinations}
+\uncover<5->{\begin{itemize}
+		\item Campbell's monkeys (\textit{Cercopithecus campbelli campbelli}) 
+    	\item Putty-nosed monkeys (\textit{Cercopithecus nictitans martini}) 
+		\end{itemize}}
+\uncover<6>{\item<6-> But what about vocal cues?}
+\end{itemize}
+\vspace{-1cm}
+\begin{figure}
+\centering
+\begin{subfigure}{.45\textwidth}
+\centering
+\includegraphics<5>[width=0.5\textwidth]{./images/campbellmonkey}
+\end{subfigure}
+\begin{subfigure}{.45\textwidth}
+\centering
+\includegraphics<5>[width=0.5\textwidth]{./images/putty-nosed_monkey}
+\end{subfigure}
+\end{figure}
+\end{overlayarea}
+\References{Fitch 2000; Arnold and Zuberbuhler, 2006}
+\end{frame}
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Vocal cues}
+\begin{overlayarea}{\textwidth}{.45\paperheight}
+\begin{itemize}
+\item<1-> {Individual identity signature  is the most commonly shown vocal cue, \\
+	   but also vocal cues for:}
+\begin{itemize}
+	\item<2-> Parent-offspring recognition
+	\item<2-> Group
+	\item<2-> Sex
+	\item<2-> Male quality
+	\item<2-> Reproductive state 
+\end{itemize}
+\end{itemize}
+\only<3>{
+$\Rightarrow$ These all provide potential additional information to receivers}
+\end{overlayarea}
+\begin{overlayarea}{\textwidth}{.5\paperheight}
+\only<1>{
+\begin{figure}[b]
+\begin{subfigure}{.3\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/bottlenose.jpg}
+\end{subfigure} \quad
+\begin{subfigure}{.3\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/meerkat.jpg}
+\end{subfigure}\quad
+\begin{subfigure}{.3\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/parakeet.jpg}
+\end{subfigure}
+\end{figure}}
+
+\only<2-3>{
+\begin{figure}[b]
+\begin{subfigure}{.3\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/seal.jpg}
+\end{subfigure} \quad
+\begin{subfigure}{.3\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/chimp.jpg}
+\end{subfigure}\quad
+\begin{subfigure}{.3\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/panda.jpg}
+\end{subfigure}
+\end{figure}}
+\end{overlayarea}
+\end{frame}
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Social complexity and vocal cues}
+\begin{overlayarea}{\textwidth}{0.18\paperheight}
+\begin{itemize}
+\item<1-> Individuality is expected to evolve with group size
+	\begin{itemize}
+	\item<1-> Social group size hypothesised to drive the evolution of individual signatures
+	\end{itemize}
+\end{itemize}
+\end{overlayarea}
+\vspace*{\fill}
+\begin{overlayarea}{\textwidth}{0.5\paperheight}
+\begin{figure}
+\centering
+\includegraphics<2->[width=0.8\linewidth]{./images/Pollard2012_indiv_marmots}
+\label{fig:Pollard2012_indiv_marmots}
+\end{figure}
+\end{overlayarea}
+\vspace*{\fill}
+\begin{overlayarea}{\textwidth}{0.05\paperheight}
+\References{Beecher, 1989; Pollard \& Blumsetin, 2011/2012}
+\end{overlayarea}
+\end{frame}
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Social complexity and vocal repertoire complexity}
+\begin{overlayarea}{\textwidth}{1\paperheight}
+\begin{columns}
+\begin{column}{.5\textwidth}
+\begin{itemize}
+\item<1-> Focus of recent research 
+\item<2-> Limited or partial evidence
+\item<3-> Need for more comparisons
+\begin{itemize}
+\item<4-> Lemurs
+\item<4-> Mongooses 
+\begin{itemize}
+\item<5-> Solitary
+\item<5-> Family groups
+\item<5-> Cooperative breeders
+\end{itemize}
+\end{itemize}
+\end{itemize}
+		\end{column}
+		\begin{column}{.5\textwidth}
+\begin{figure}[b]
+\includegraphics[height = 4cm]{./images/front-matter.jpg}
+\end{figure}
+\end{column}
+\end{columns}
+%\vspace*{0.05cm}
+\only<5->{
+\begin{figure}[b]
+\begin{subfigure}{.20\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/slender.jpg}
+\end{subfigure} \quad
+\begin{subfigure}{.20\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/yellow.jpg}
+\end{subfigure}\quad
+\begin{subfigure}{.20\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/banded2.jpg}
+\end{subfigure}\quad
+\begin{subfigure}{.20\textwidth}
+\centering
+\includegraphics<1->[width=\textwidth, height=0.75\textwidth]{./images/meerkat2.jpg}
+\end{subfigure}
+\end{figure}}
+\end{overlayarea}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\section{Methods}
+\subsection{Study species/site}
+\begin{frame}{Study species and study site}
+\begin{columns}
+\begin{column}{.6\textwidth}
+\begin{itemize}
+\item<1-> Banded mongoose \textit{Mungos mungo}
+\item<1-> Approx. 2kg 
+\item<1-> Communally breeding 
+\item<1-> Groups of mixed sex with 7 to 45 individuals
+\item<1-> No clear dominance hierarchy 
+\end{itemize}
+\vspace{.1cm} 
+\end{column}
+\begin{column}{.4\textwidth}
+\begin{figure}[t]
+\includegraphics<1->[height=4.5cm]{./images/mong3.jpg}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Banded mongoose - Vocalisations}
+\begin{itemize}
+\item<1-> Vocal repertoire of captive study
+\begin{itemize}
+\item<1-> High degree of variability and graded
+\item<1-> 9 different vocalisations
+\item<1-> Two close call types
+\end{itemize}
+\item<2-> Previous observations in the field
+\begin{itemize}
+\item<3-> Individual signature in close call 
+\item <4-> Graded recruitment calls 
+\item <5-> Combination of elements 
+\end{itemize}
+\end{itemize}
+\only<1>{
+\References{Messeri et al, 1987}}
+\only<2->{
+\References{Messeri et al, 1987; M\"uller and Manser, 2008; Furrer and Manser, 2009/2011}}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Study site}
+\begin{itemize}
+\item Queen Elisabeth National Park, Uganda
+\item Banded Mongoose Research Station (since 1995)
+\item 4-6 habituated groups
+\item Approx. 200 individuals
+\item All individuals individually marked
+\item Approx. 30 - 50 habituated to recording microphone at $\leqq$  2m 
+\end{itemize}
+%\vspace*{2cm}
+\begin{center}
+\begin{tikzpicture}
+\node[anchor=east,inner sep=0] (africa) at (0,0) {\includegraphics[width=0.3\textwidth]{./images/Africa.jpg}};
+\draw [<-, black,ultra thick]  (-1.05,-0.2)-- (1,2);
+%%\draw [-, black,ultra thick]  (1.02,1.15)-- (1.02,-1.15) -- (3.25, -1.15) -- (3.25, 1.15)  -- (1.02, 1.15)    ;
+\node (mweya) at (africa) [anchor=west, xshift = 4cm]{\includegraphics[width=0.3\textwidth]{./images/mweya_map.jpg}};
+\end{tikzpicture}
+\end{center}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Methods - field work}
+\begin{columns}
+\begin{column}{0.6\textwidth}
+\begin{itemize}
+\item \textit{Ad libitum}
+\item  5 minutes focal watches
+\item Record behaviour and associated calls
+\item Close call variations
+\item Call sequences
+\end{itemize}
+\end{column}
+\begin{column}{0.4\textwidth}
+\begin{figure}
+\raggedleft
+\includegraphics<1->[height=0.27\textheight]{./images/walking_with_mongoose.jpg}
+
+ \smallskip
+\includegraphics<1->[height=0.27\textheight]{./images/mongoose_habituated.jpg}
+
+ \smallskip
+\includegraphics<1->[height=0.27\textheight]{./images/mongoose_mic2.jpg}
+
+\end{figure}
+
+\end{column}
+\end{columns}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Methods - statistical analysis}
+\begin{itemize}
+\item Mixed effect models
+\item Variance inflation factor
+\item DFA analyses with stepwise variable selection
+\item Permuted DFA for nonindependent data
+\item Bootstrapping analysis to test for significance 
+\end{itemize}
+\References{Mundry and Sommer, 2007; M\"uller and Manser, 2008; Jansen et al 2012}	
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Result - Vocal repertoire}
+\begin{itemize}
+\item<1> 14 adult call types 
+\item<1> Calls show high degree of variability 
+\invisible<1>{\item Calls in 4 different behavioural contexts}
+\end{itemize}
+
+\invisible<1>{
+\begin{table}
+\centering
+\begin{tabular}{lc}
+\toprule
+Behaviour contexts  & Number of call types \\
+\midrule
+Cohesion$/$movement & 3 \\
+Resource calls & 4 \\
+Social calls & 4 \\
+Calls of context in danger &  3 \\
+\bottomrule
+\end{tabular}
+\end{table}}
+
+\invisible<1>{
+\begin{itemize}
+\item Additionally 6 pup vocalisations
+\end{itemize}}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}
+\begin{figure}
+\begin{subfigure}{.45\textwidth}
+\centering
+\includegraphics[height=0.8\textwidth]{./images/ch1_hunt} 
+\end{subfigure} \quad
+\begin{subfigure}{.45\textwidth}
+\centering
+\includegraphics[height=0.8\textwidth]{./images/ch1_recruitement_low} 
+\end{subfigure}\
+
+\begin{subfigure}{.45\textwidth}
+\centering
+\includegraphics[height=0.8\textwidth]{./images/ch1_submisison_b} 
+\end{subfigure}
+\end{figure}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}
+\begin{columns}
+\begin{column}{.40\textwidth}
+\begin{figure}
+\begin{subfigure}{\textwidth}
+\centering
+\includegraphics[height=0.8\textwidth]{./images/ch1_cc}
+\end{subfigure} \smallskip
+
+\begin{subfigure}{\textwidth}
+\centering
+\includegraphics[height=0.8\textwidth]{./images/ch1_lead_higher} 
+\end{subfigure}
+\end{figure}
+\end{column}
+\begin{column}{.40\textwidth}
+\begin{figure}
+\begin{subfigure}{\textwidth}
+\centering
+\includegraphics[height=1.6\textwidth]{./images/ch1_scream_short}  
+\end{subfigure}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Result - Vocal repertoire}
+\begin{itemize}
+\item 14 adult call types 
+\item Several new call types
+\item Calls show high degree of variability 
+\item Calls in 4 different behavioural contexts
+\end{itemize}
+
+\begin{table}
+\centering
+\begin{tabular}{lc}
+\toprule
+Behaviour contexts  & Number of call types \\
+\midrule
+Cohesion$/$movement & 3 \\
+Resource calls & 4 \\
+Social calls & 4 \\
+Calls of context in danger &  3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{itemize}
+\item Additionally 6 pup vocalisations
+\end{itemize}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Discussion - vocal repertoire}
+\begin{itemize}
+\item Graded vocal repertoire
+\item Differences with other social mongooses
+\end{itemize}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Close calls}
+\begin{itemize}
+\item Most commonly emitted call type
+\item Soft short distance vocalisation
+\item  Likely related to maintaining group cohesion
+\item Individually distinct
+\item Additional variation
+\end{itemize}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Research questions - Close calls}
+\begin{itemize}
+\itemsep10mm
+\item<1-> What vocal cues are encoded in close calls?
+\vspace*{1cm}
+\item<2-> How is the individual signature encoded in a graded call?
+\vspace*{1cm}
+\item<3-> Is the additional variation correlated with behaviour?
+\end{itemize}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\subsection{Methods}
+\begin{frame}{Methods - Close calls}
+\begin{columns}
+\begin{column}{.5\textwidth}
+\begin{itemize}
+\item Assigned labels to call parts
+	\begin{itemize}
+		\item Whole call
+		\item Noisy part (cc)
+		\item Harmonic part (if present)
+	\end{itemize}
+\item 16 parameters
+	\begin{itemize}
+	\item Spectral parameters
+	\item Temporal
+	\end{itemize}
+\end{itemize}
+\end{column}
+\begin{column}{.5\textwidth}
+\begin{figure}
+\centering
+\begin{flushright} 
+\begin{tikzpicture}
+    \node[anchor=south west,inner sep=0] (image) at (0,0) {\includegraphics[width=\textwidth  ]{./images/bm_cc2.jpg}};
+    \begin{scope}[x={(image.south east)},y={(image.north west)}]
+%        \draw[] (0.5,0.6) -- (0.85,0.6);
+        \draw [<->, black,ultra thick] (0.35,0.8) -- (0.35,0.9) -- (0.80,0.9) -- (0.80,0.8);
+        \node at (0.58,0.95) {whole call};
+         \draw [<->, black,ultra thick] (0.35,0.45) -- (0.35,0.55) -- (0.53,0.55) -- (0.53,0.45);
+         \node at (0.45,0.50) {cc};
+             \draw [<->, black,ultra thick] (0.53,0.60) -- (0.53,0.70) -- (0.80,0.70) -- (0.80,0.60);
+                 \node at (0.67,0.75) {harmonic};     
+                  \draw [dashed, black] (0.35,0) -- (0.35,0.9);
+                   \draw [dashed, black] (0.53,0) -- (0.53,0.9);  
+                  \draw [dashed, black] (0.80,0) -- (0.80,0.9);
+                     \end{scope}
+\end{tikzpicture}
+\end{flushright}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\subsection{Results}
+\begin{frame}{Results - Spectrogram}
+\begin{overlayarea}{\textwidth}{0.5\paperheight}
+\begin{figure}[h]
+\includegraphics[width= 1\textwidth]{./images/figure1.jpg}
+\end{figure}
+\end{overlayarea}
+\begin{overlayarea}{\textwidth}{0.4\paperheight}
+\begin{columns}
+\begin{column}{0.33\textwidth}
+\begin{center}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./images/digging}
+\end{figure}
+\movie[]{\includegraphics[width=0.5cm]{./images/speaker.png}
+}{./images/close_call_forage.wav}
+\end{center}
+\end{column}
+
+\begin{column}{0.33\textwidth}
+\begin{center}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./images/searching}
+\end{figure}
+\movie[]{\includegraphics[width=0.5cm]{./images/speaker.png}
+}{./images/close_call_search.wav}
+\end{center}
+\end{column}
+
+
+\begin{column}{0.33\textwidth}
+\begin{center}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./images/moving}
+\end{figure}
+\movie[]{\includegraphics[width=0.5cm]{./images/speaker.png}
+}{./images/close_call_move.wav}
+\end{center}
+\end{column}
+\end{columns}
+\end{overlayarea}
+\References{Jansen et al 2012}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Results - individual signature}
+\begin{table}[h]
+\footnotesize{
+%\begin{tabularx}{\textwidth}{cccccc}
+  \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}cccccc}
+  \hline
+&&& \multicolumn{3}{c}{CV-values ($\%$)}\\
+Group & \#$^{\textasteriskcentered}$ & Random ($\%$)$^{\dagger}$ &  Whole call  & Noisy part & Harmonic \\
+\hline
+1B 	& 	8 	 & 	 12.5	 & 	48.1***   & 45.0***  & 25.0 \\
+1H 	& 	14  & 	7      & 	26.1*     & 40.0***  &  11.4 \\
+11 	& 	7 	 & 	 14    & 	42.0***   & 48.0***  &  22.0 \\
+15 	& 	7 	 & 	14     & 	61.5***   & 61.1***  &  22.5\\
+\hline
+\multicolumn{6}{p{0.85\textwidth}}{$^{\textasteriskcentered}$ \tiny{Number of individuals tested}} \\
+\multicolumn{6}{p{0.85\textwidth}}{$^{\dagger}$\tiny{\textit{p}--values are derived by bootstrapping (M\"uller and Manser, 2008);  $^{*} \: p\leqq0.05$, $^{**} \: p\leqq0.01$, $^{***} \: p \leqq 0.001$}}
+\end{tabular*}}
+\end{table}
+
+\References{Jansen et al 2012}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Results - behavioural cue}
+\footnotesize
+\begin{table}[h]
+   \begin{tabular*}{0.9\textwidth}{@{\extracolsep{\fill}}llcc}
+\hline
+Part analyzed & Behavior & Individuals & ncce$^{\ddagger}$ \\ 
+\hline
+\multirow{3}[2]{*}{Whole call} & digging--searching & 30 & 3.340$^\bullet$ \\
+          & digging--moving    & 25    & 40.640$^{***}$ \\
+          & searching--moving    & 20    & 30.610$^{***}$ \\
+\hline
+ \multirow{3}[2]{*}{Noisy part} & digging--searching    & 30    & 1.500 \\
+          & digging--moving    & 25    & 34.850 \\
+          & searching--moving   & 20    & 23.100 \\
+\hline
+    \multirow{3}[2]{*}{Harmonic part} & digging--searching    & 18    & 78.040{***} \\
+          & digging--moving    & 30    & 77.440{***} \\
+          & searching--moving   & 30    & 67.600{**} \\
+\hline 
+\multicolumn{4}{l}{$^{\ddagger}$ \tiny{The results of the pDFA is the number of correctly cross-classified elements (ncce).}} \\
+\multicolumn{4}{l}{\tiny{$^\bullet \:  p\leqq0.1$, $^{*} \: p\leqq0.05$, $^{**} \: p\leqq0.01$, $^{***} \: p \leqq 0.001$}}
+%\end{tabularx}
+\end{tabular*}
+\end{table}
+\References{Jansen et al 2012}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\subsection{Discussion}
+\begin{frame}{Temporal segregation of vocal cues}
+\begin{itemize}
+\item Banded mongoose close calls first quantification in a animal vocalisations for: 
+\begin{itemize}
+\item<2-> An identity cue as discrete element within a single call
+\item<3-> `Segregation of information' within a call type
+\item<4-> Temporally separated behavioural cue
+\item<5-> `Vowel-like' segmentation with a animal vocalisation
+\end{itemize}
+\end{itemize}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\section{Call sequences}
+\subsection{Introduction}
+\begin{frame}{Call sequences}
+\begin{itemize}
+\item Predominately shown in predation contexts
+\item Hypothesised to be prevalent  in affiliative and social contexts
+\item Mainly be shown in primates
+\item Predominately investigated for the possible  link to evolution of language 
+\end{itemize}
+ \References{Lemasson and Hausberger, 2011; Candiotti et al, 2012}
+\end{frame}
+%%% % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Research questions - Call sequences}
+\begin{itemize}
+\itemsep10mm
+\item Are close calls used in call sequences?
+\item Is the individual cue in the close call maintained?
+\item In which behavioural contexts are the call sequences used?
+\end{itemize}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Call sequences - Spectrogram}
+\begin{tabular}{rcc}
+&\multirow{3}{*}{ \includegraphics[height=0.80\textheight]{c:/talks/phd_defence/images/call_types}}&\\
+Excitement - \movie[]{\includegraphics[width=.5cm]{./images/speaker.png}}{./images/excitement.wav} &    & \includegraphics[height=0.2\textheight]{c:/talks/phd_defence/images/mongoose_excitement.jpg} \\ 
+Lead - \movie[]{\includegraphics[width=.5cm]{./images/speaker.png}}{./images/moving.wav}&   &  \includegraphics[height=0.20\textheight]{c:/talks/phd_defence/images/mongoose_lead.jpg}\\ 
+Lost - \movie[]{\includegraphics[width=.5cm]{./images/speaker.png}}{./images/lost.wav}  &   & \includegraphics[height=0.2\textheight]{c:/talks/phd_defence/images/mongoose_lost.jpg} \\ 
+\end{tabular} 
+\References{Jansen et al to be submitted} 
+\end{frame}
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Results - Call sequences}
+\begin{table}
+\begin{tabular*}{\textwidth}{p{0.2\textwidth} p{0.80\textwidth}} 
+\toprule
+Call type & Context \\
+\midrule
+  Excitement &  Emitted when encountering wet ground/onset of rain \\
+  Lead & Initiation and coordination of group movement  \\ 
+  Lost & Emitted when separated from their group \\
+   \bottomrule
+  \end{tabular*}
+  \end{table}
+\end{frame}
+%%   % % % % % % % % % % % % % % % % % % % % % % %
+%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Results - DFA call sequences}
+%\begin{tikzpicture}
+ \begin{table}
+      \centering
+   \begin{tabular*}{90mm}{p{20mm} >{\centering}p{14mm}  >{\centering}p{14mm}  >{\centering}p{14mm} p{10mm} }
+   \toprule
+   Call types & \multicolumn{3}{c}{Predicted membership} & Total \\
+   \cmidrule(lr){2-4}
+    & Excitement & Lead &  Lost&  \\
+    \midrule
+    Excitement &  \textbf{72.7}  &  27.3 & 0 & 100 \\
+    Lead &  3.7     &  \textbf{81.5}  &  14.8 & 100 \\
+    Lost & 8.7   &  21.7  & \textbf{69.6} & 100 \\
+    \bottomrule
+%    \multicolumn{5}{p{90mm}}{Call types 1: Excitement; 2. Lead; 3: Lost}
+   \end{tabular*}
+   \end{table}
+%   \end{tikzpicture}
+         \References{Jansen et al to be submitted} 
+   \end{frame}
+%%  % % % % % % % % % % % % % % % % % % % % % % %
+%%  % % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}
+\begin{table}
+\centering
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}lcccccc}
+\toprule
+ &\multicolumn{5}{c}{Observed behavioural context} & \\
+\cmidrule(lr){2-6}
+Call types   & Excitement & Leading & Lost & Foraging & Other &Total\\
+\midrule
+Close call 	&-  & - & -  &   21 & -  & 21 \\
+Excitement  & 9 & 1 & - & - & 1 & 11\\
+Lead 			  & - & 26 & 1 & 4 & - & 31\\
+Lost 			   & - & 3 & 17 & 2 & 3 & 25 \\ 
+\bottomrule
+\end{tabular*}
+      \References{Jansen et al to be submitted} 
+ \end{table}
+       \end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Results - call sequences}
+\begin{figure}
+\centering
+\includegraphics<1>[width=1\linewidth]{./images/call_sequence}
+\includegraphics<2>[width=1\linewidth]{./images/sequence}
+\end{figure}
+\end{frame}
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+%%%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Discussion - Call sequences}
+\begin{itemize}
+\item Close calls used in combination with other elements
+\item Call sequences used in various behavioural contexts
+\item Call sequences in affiliative contexts 
+\item Need of playback studies to test exact function
+\end{itemize}
+      \References{Jansen et al to be submitted} 
+\end{frame}
+
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{General discussion}
+\begin{itemize}
+\item<1-> Banded mongoose show vocal flexibility
+\begin{itemize}
+\item<1> Production 
+\item<1> Usage
+\end{itemize}  
+\item<2-> First quantification for segmental concatenation in mammal 
+\item<3-> Importance of vocal cues
+\item<4-> Considerable complexity  may lie within a single `simple' calls
+\end{itemize}  
+      \begin{figure}[h]
+      \flushright{
+      \includegraphics[width=0.5\textwidth]{./images/mong2.jpg}}
+      \end{figure}
+\end{frame}
+ % % % % % % % % % % % % % % % % % % % % % %
+ % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{General discussion}
+\begin{overlayarea}{\textwidth}{0.5\paperheight}
+\only<1->{
+Call combinations have been hypothesised to occur related in response to discrete external events (e.g. alarm calls) or behavioural contexts.\\}
+\vspace{.2cm}
+\only<2->{
+Segmental concatenation  or temporal segregation of multiple vocal signatures... }
+\begin{itemize}
+\item<3-> more related to characteristics of the signaller
+\item<4-> may increase explicitness of the information 
+\item<5-> seems to appears in other taxa (literature review) 
+\end{itemize}  
+\vspace{.2cm}
+\only<6->{
+...provides an additional dimension to the complexity of information in animal vocal communications. }
+\end{overlayarea}
+\References{Arnold and Zuberb\"uhler, 2006; Quttara 2009, Jansen et al 2012} 
+\end{frame}
+ % % % % % % % % % % % % % % % % % % % % % %
+ % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{Is human language complex?}
+\begin{itemize}
+\item<2-> Number of discrete `sounds'
+\begin{itemize}
+\item<2->  44 phonemes ( $\approx$ = sounds) for English language
+\end{itemize}
+\end{itemize}
+\uncover<4-> {But clearly this does not represent the complexity of human language}
+\begin{itemize}
+\item<5-> $\approx$ $\frac{1}{4}$ to $\frac{3}{4}$ million words in English language
+\end{itemize}
+
+\begin{figure}
+\centering
+\includegraphics<5->[width=0.7\linewidth]{./images/Nettle2012}
+\end{figure}
+\References{Nettle, 2012}
+\end{frame}
+% % % % % % % % % % % % % % % % % % % % % % %
+% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}
+\uncover<1->{
+\begin{block}{The evolution of communication.}
+\textit {`...the  \underline{\textbf{richest elaboration}} of systems of social communication
+should be expected in intraspecic relationships, especially where trends towards increasing inter individual cooperation converge with the emergence of social groupings consisting of close kin.'}
+\begin{flushright} Marler 1977, p. 47 \end{flushright}
+\end{block} }
+
+\uncover<2->{
+\begin{block}{The evolution of male loud calls among mangabeys and baboons.}
+\textit {`...the value to a signaler of broadcasting information to recipients, and thus the degree to which selection favors specialized \underline{\textbf{`information-transfer' abilities}}, depend[s] on the social system.'}
+\begin{flushright} Waser 1982, p. 118 \end{flushright}
+\end{block}}
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}{General discussion}
+\begin{overlayarea}{\textwidth}{0.5\paperheight}
+\only<1->{
+Both call combinations and (temporal separation of) vocal signatures can increase potential quantity of information sets in a species' vocal repertoire.\\} 
+\vspace{.2cm}
+\only<2->{
+\large{$\Rightarrow$} These, and other forms of vocal flexibility,  therefore should be considered when comparing species.}
+\end{overlayarea}
+\References{Arnold and Zuberb\"uhler, 2006; Quttara 2009, Jansen et al submitted} 
+\end{frame}
+%% % % % % % % % % % % % % % % % % % % % % % %
+%% % % % % % % % % % % % % % % % % % % % % % %
+\begin{frame}[plain]{Acknowledgements}
+\begin{itemize}
+\item Marta Manser
+\item Mike Cant
+\item Simon Townsend
+\item Carel van Schaik
+\end{itemize}
+
+\begin{itemize}
+\item Funding:
+\begin{itemize}
+\item University of Zurich (PhD)  
+\item NERC (long term field site)
+\end{itemize}
+\end{itemize}
+
+\begin{itemize}
+\item Banded mongoose research project (Exeter University)
+\item The irreplaceable project field assistants \\Francis, Solomon and Kenneth 
+\end{itemize}
+\begin{figure}
+  \centering
+\centering
+\begin{subfigure}{.3\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./images/lion}
+\end{subfigure}\quad
+\centering
+\begin{subfigure}{.3\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./images/hippo}
+\end{subfigure}\quad
+\begin{subfigure}{.3\textwidth}
+\centering
+\includegraphics[width=\textwidth]{./images/elephant2}
+\end{subfigure}
+\end{figure}
+\end{frame}
+   % % % % % % % % % % % % % % % % % % %
+   % % % % % % % % % % % % % % % % % % %
+   \begin{frame}
+\begin{center}
+{\Large Questions ???}
+\end{center}
+
+
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./images/funny_mongoose}
+\end{figure}
+
+   \end{frame}
+   
+   
+   
+   
+\end{document}
+
+
