@@ -11,4 +11,7 @@ I gave this presentation as part of my job interview for my current job at the M
 
 <a href="./MCEVBD_interview/MCEVBD_presentation.pdf  ">MCEVBD interview</a>
 
-This presentation was made with LaTeX. The raw code can be found <a href="../files/MCEVBD_presentation.pdf  ">here</a> or can be downloaded [here](./MCEVBD_interview/JansenD_presentation.Rtex).
+This presentation was made with LaTeX. The raw code can be found <a href="./MCEVBD_interview/MCEVBD_presentation.pdf  ">here</a> or can be downloaded [here](./MCEVBD_interview/JansenD_presentation.Rtex).
+
+Click here for my <a href="../files/David_Jansen_Resume.pdf">Resume</a> or <a href="../files/David_Jansen_CV.pdf">CV</a>
+
