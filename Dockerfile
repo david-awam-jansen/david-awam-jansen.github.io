@@ -11,9 +11,15 @@ RUN apt-get update && \
 RUN curl -LO https://quarto.org/download/latest/quarto-linux-amd64.deb && \
     dpkg -i quarto-linux-amd64.deb && \
     rm quarto-linux-amd64.deb
+    
+# Ensure pandoc is installed and at the right version
+RUN wget https://github.com/jgm/pandoc/releases/download/3.2/pandoc-3.2-1-amd64.deb
+RUN dpkg -i pandoc-3.2-1-amd64.deb
 
+# Clean up
+RUN apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*    
+    
 # Install R packages required for quarto
-
 RUN  R -e "install.packages(c( \ 
         'knitr' \
       , 'rmarkdown' \
