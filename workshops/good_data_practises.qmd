@@ -15,8 +15,19 @@ format:
 
 ```{r}
 library(tidyverse)
-library(kableExtra)
+#library(kableExtra)
 library(knitr)
+```
+
+
+```{r}
+available.packages() %>% 
+  as_tibble() %>% 
+  filter(str_detect(Package, "knitr"))
+
+available.packages() %>% 
+  as_tibble() %>% 
+  filter(str_detect(Package, "kable"))
 ```
 
 -   Data management
@@ -65,7 +76,7 @@ R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
 -   Try to have content of columns in correct data type and units
 -   An example why this ~~can~~ is important
 
-```{r, eval=TRUE}
+```{r, eval=FALSE}
 tibble(species = c("elphant", "mouse", "cheetah"),
        speed = c("24.0 mph", "8.1 mph", "74.6 mph"),
        speed_mph = c(24, 8.1, 74.7)) %>% 
@@ -129,7 +140,7 @@ labs(y = "speed (mph)")
 :::
 
 ::: {.column width="60%"}
-```{r, eval=TRUE}
+```{r, eval=FALSE}
 raw_data_wide <- tibble(day = c(1,2,3,4,5),
                House_A = c(10, 10, 8, 4, 2),
                House_B = c(2, 10, 9, 4, 2),
@@ -155,7 +166,7 @@ raw_data_wide %>%
 
 -   Lyric: "House E used pesticides and should be excluded for this study"
 
-```{r, echo=  TRUE, eval = TRUE}
+```{r, echo=  TRUE, eval =FALSE}
  raw_data_wide %>% 
   select(-House_E) %>%    ## The owners used pesticides during the trials
   knitr::kable(digits = 1) %>% 
@@ -184,7 +195,7 @@ raw_data_wide %>%
 
 ::: columns
 ::: {.column width="70%"}
-```{r, eval=TRUE}
+```{r, eval=FALSE}
 raw_data_wide %>% 
   knitr::kable(digits = 1) %>% 
   kable_classic(full_width = F, html_font = "Cambria")
@@ -197,7 +208,7 @@ raw_data_wide %>%
 :::
 
 ::: {.column width="30%"}
-```{r, eval=TRUE}
+```{r, eval=FALSE}
 raw_data_wide %>% 
   pivot_longer(names_to = "houses",
                values_to = "tick_count",
