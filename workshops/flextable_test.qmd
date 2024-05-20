@@ -6,7 +6,9 @@ editor: visual
 
 ```{r}
 library(flextable)
+```
 
+```{r, eval = FALSE}
 ft <- flextable(airquality[ sample.int(10),])
 ft <- add_header_row(ft,
   colwidths = c(4, 2),
