@@ -8,8 +8,12 @@ editor: visual
 library(flextable)
 ```
 
-```{r, eval = FALSE}
+```{r, eval = TRUE}
 ft <- flextable(airquality[ sample.int(10),])
+```
+
+```{r, eval = FALSE}
+
 ft <- add_header_row(ft,
   colwidths = c(4, 2),
   values = c("Air quality", "Time")
