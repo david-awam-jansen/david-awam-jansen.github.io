@@ -1,0 +1,266 @@
+---
+title: "Good data practices "
+subtitle: "MCEVBD fellowship"
+date: last-modified
+author: "David Jansen"
+format:
+  revealjs: 
+    theme: sky
+    css: ../styles.css
+    reveal_plugins: notes
+    mathjax: NULL
+---
+
+# Content
+
+```{r}
+library(tidyverse)
+```
+
+-   Data management
+
+-   Naming structures
+
+-   Eau Claire terminex project
+
+## Data (1)
+
+-   Keep an as raw as possible version
+
+    ![](../images/raw_vegies.jpg)
+
+## Data (1)
+
+-   Keep an as raw as possible version
+-   Consider making your original data file read-only
+
+::: nonincremental
+> -   keep in a 'save' format
+> -   Gnerally not excel format - transferring between platforms can cause an issue (e.g. dates)
+
+```         
+> - But sometimes it is useful   
+```
+
+> -   Better are csv, tsv, maybe text
+:::
+
+> -   Don't make changes to this raw data
+
+## Data (2) {data-transition="convex"}
+
+-   Content of columns in correct data type and units
+
+    -   character (e.g, "a", "swc")
+
+    -   numeric (real or decimal) (e.g, 2, 2.0)
+
+    -   logical (FALSE, TRUE)
+
+    -   integer (e.g, 2L, as.integer(3))
+
+    -   complex (e.g, 1 + 0i, 1 + 4i) \<- These can be annoying
+
+::: aside
+R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
+:::
+
+## Data (3)
+
+-   Try to have content of columns in correct data type and units
+-   An example why this ~~can~~ is important
+
+```{r}
+tibble(species = c("elphant", "mouse", "cheetah"),
+       speed = c("24.0 mph", "8.1 mph", "74.6 mph"),
+       speed_mph = c(24, 8.1, 74.7)) %>% 
+    flextable::flextable() %>% 
+    flextable::fontsize(size = 14, part = "all") %>% 
+    flextable::colformat_double(digits = 1) %>%  
+    flextable::width(j = 2, 1, unit = "in")
+```
+
+. . .
+
+::: {,columns}
+::: {.column width="45%"}
+```{r}
+tibble(species = c("elphant", "mouse", "cheetah"),
+       speed = c("24.0 mph", "8.1 mph", "74.6 mph"),
+       speed_mph = c(24, 8.1, 74.7)) %>% 
+  ggplot(aes(x = species, y = speed)) +
+    geom_col() +
+    cowplot::theme_cowplot()
+
+```
+:::
+
+::: {.column width="45 %"}
+```{r}
+tibble(species = c("elphant", "mouse", "cheetah"),
+       speed = c("24.0 mph", "8.1 mph", "74.6 mph"),
+       speed_mph = c(24, 8.1, 74.7)) %>% 
+  ggplot(aes(x = species, y = speed_mph)) +
+    geom_col() +
+    cowplot::theme_cowplot() +
+     scale_y_continuous(expand = c(0, 0), breaks= scales::pretty_breaks()) +
+labs(y = "speed (mph)")
+```
+:::
+:::
+
+## Data (4)
+
+-   Use a scripted program not only for analysis, but also for ***data cleaning*** and ***data wrangling***
+
+## Data (4)
+
+-   Use a scripted program not only for analysis, but also for ***data cleaning*** and ***data wrangling***
+
+-   reproducible
+
+    ![](../images/recipe.jpg){fig-align="center"}
+
+## Wide format versus long format {.smaller}
+
+::: columns
+::: {.column width="70%"}
+```{r}
+raw_data_wide %>% 
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 1)
+```
+
+-   wide often easier for recording
+-   long often required for analysis
+:::
+
+::: {.column width="30%"}
+```{r}
+raw_data_wide %>% 
+  pivot_longer(names_to = "houses",
+               values_to = "tick_count",
+               cols = -day) %>% 
+  slice(1:20) %>% 
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 1)
+```
+:::
+:::
+
+## Data documentation (1)
+
+![](../images/data_metadat.png){fig-align="center" width="600"}
+
+::: callout-tip
+You know details of project and data structure (at this moment), but what about future you or others.
+:::
+
+::: callout-tip
+This is why notes are important. You were in the field. Your data scientist might not.
+:::
+
+## Data documentation (2) {.smaller}
+
+-   README
+    -   one per dataset
+    -   provide a title for the dataset
+    -   brief description per column
+    -   publicly available data may need more details
+    -   <https://guides.lib.uci.edu/datamanagement/readme>
+-   Metadata
+    -   often 1 per study
+    -   information does generally not change
+        -   e.g. details on study sites
+    -   data about data
+
+::: aside
+https://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme
+:::
+
+## Naming
+
+-   Use descriptive names for folders, files and variables
+
+> -   Understandable but not to long
+>     -   m1 versus glm_count_full
+>     -   data versus tick_counts_EA
+
+::: callout-tip
+While a computer will ultimately run your code, it'll be read by humans, so write code intended for humans!
+:::
+
+## Naming {.smaller}
+
+-   Be aware on naming rules of programs
+    -   Avoid special characters (\$, \@, \*)
+    -   Avoid name of functions
+    -   No spaces !!
+    -   Case-sensitive (e.g. R) versus case insensitive (SQL)
+    -   R (and many other languages) names can't start with numbers and does not like spaces
+    -   'car speed in miles per hour' versus 'car speed (mph)' versus car_speed_mph'
+
+## Naming {.smaller}
+
+-   Be aware on naming rules of programs
+    -   Avoid special characters (\$, \@, \*)
+    -   Avoid name of functions
+    -   No spaces !!
+    -   Case-sensitive (e.g. R) versus case insensitive (SQL)
+    -   R (and many other languages) names can't start with numbers and does not like spaces
+    -   'car speed in miles per hour' versus 'car speed (mph)' versus car_speed_mph'
+-   styles
+    -   camelCase
+    -   PascalCase
+    -   snake_case
+
+> -   be consistent
+
+# Take home
+
+> -   keep raw data raw
+> -   use code to clean data
+> -   document code and data
+> -   ***No Spaces :-)***
+
+## Bonus
+
+![](../images/debugging.jpg){fig-align="center"}
+
+## How to deal with R (programming) errors {.smaller}
+
+1.  don't get frustrated by error messages
+
+2.  read the error message
+
+3.  google the error message
+
+4.  google solutions or use ChatGPT
+
+5.  trial and error
+
+    a.  it works --\> go back to your analysis
+
+        ![](../images/yes_scientist.jpg){width="100"}
+
+    b.  error -\> go back to 1.
+
+## Examples of problems last year
+
+## Blank versus 0
+
+-   0 means that you did not find tick
+-   blank could mean several things
+    -   You looked for ticks, but did not find any.
+    -   You did not look for ticks so you don't know how many ticks there are.
+    -   Computers will see blanks as NA (i.e. you don't know).
+
+Example why this is an important difference
+
+So please pay attention so I can avoid this
+
+![](images/frustrated_coder.jpg){fig-align="center"}
+
+and be
+
+![](images/yes_scientist.jpg){fig-align="center"}
