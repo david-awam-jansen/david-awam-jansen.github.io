@@ -97,10 +97,12 @@ R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
 tibble(species = c("elphant", "mouse", "cheetah"),
        speed = c("24.0 mph", "8.1 mph", "74.6 mph"),
        speed_mph = c(24, 8.1, 74.7)) %>% 
-    flextable::flextable() %>% 
-    flextable::fontsize(size = 14, part = "all") %>% 
-    flextable::colformat_double(digits = 1) %>%  
-    flextable::width(j = 2, 1, unit = "in")
+    flextable::flextable() 
+
+# %>% 
+#     flextable::fontsize(size = 14, part = "all") %>% 
+#     flextable::colformat_double(digits = 1) %>%  
+#     flextable::width(j = 2, 1, unit = "in")
 ```
 
 . . .
