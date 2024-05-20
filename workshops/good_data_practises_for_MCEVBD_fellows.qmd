@@ -93,14 +93,16 @@ R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
 -   Try to have content of columns in correct data type and units
 -   An example why this ~~can~~ is important
 
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 tibble(species = c("elphant", "mouse", "cheetah"),
        speed = c("24.0 mph", "8.1 mph", "74.6 mph"),
        speed_mph = c(24, 8.1, 74.7)) %>% 
-  flextable::flextable() %>% 
-  flextable::fontsize(size = 14, part = "all") %>% 
-  flextable::colformat_double(digits = 1) %>%  
-  flextable::width(j = 2, 1, unit = "in")
+    flextable::flextable() 
+
+# %>% 
+#     flextable::fontsize(size = 14, part = "all") %>% 
+#     flextable::colformat_double(digits = 1) %>%  
+#     flextable::width(j = 2, 1, unit = "in")
 ```
 
 . . .
