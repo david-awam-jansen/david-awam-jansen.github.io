@@ -151,7 +151,7 @@ labs(y = "speed (mph)")
 
 ::: columns
 ::: {.column width="70%"}
-```{r, eval=TRUE}
+```{r, eval=FALSE}
 raw_data_wide %>% 
   knitr::kable()
   #flextable::flextable() %>% 
@@ -163,7 +163,7 @@ raw_data_wide %>%
 :::
 
 ::: {.column width="30%"}
-```{r, eval=TYRUE}
+```{r, eval=FALSE}
 raw_data_wide %>% 
   pivot_longer(names_to = "houses",
                values_to = "tick_count",
