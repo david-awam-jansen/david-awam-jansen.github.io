@@ -16,18 +16,17 @@ format:
 ```{r}
 library(tidyverse)
 library(knitr)
-library(kableExtra)
 ```
 
 
 ```{r}
-available.packages() %>% 
+installed.packages() %>% 
   as_tibble() %>% 
   filter(str_detect(Package, "knitr"))
 
-available.packages() %>% 
+installed.packages() %>% 
   as_tibble() %>% 
-  filter(str_detect(Package, "kable"))
+  filter(str_detect(Package, "kableE"))
 ```
 
 -   Data management
