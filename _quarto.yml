@@ -21,14 +21,15 @@ website:
         contents:
           - text: "Introduction into good data and coding practices"
             file: ./workshops/good_data_practises.qmd
-          - text: "Introduction ggplot"
-            file: ./workshops/intro_into_ggplot.qmd
           - text: "Introduction into git version control" 
             file: ./workshops/git_version_control.qmd
           - text: "Reproducibility research"
             file: ./workshops/reproducibility_workshop.qmd
           - text: "Peer review process"
             file: ./workshops/peer_review.qmd
+          - text: "Introduction to data management for MCEVBD fellows"            
+          - text: "workshops/good_data_practises_for_MCEVBD_fellows.qmd"            
+          
             
 bibliography: publications.bib         
 
