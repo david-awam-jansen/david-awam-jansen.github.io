@@ -12,5 +12,5 @@ library(kableExtra)
 
 ```{r, eval = TRUE}
 ft <- head(mtcars)
-ft %>%  kableExtra::kable()
+knitr::kable(ft)
 ```
