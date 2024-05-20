@@ -9,6 +9,6 @@ library(flextable)
 ```
 
 ```{r, eval = TRUE}
-ft <- flextable(head(mtcars))
-ft
+ft <- head(mtcars)
+ft %>%  kableExtra::kable()
 ```
