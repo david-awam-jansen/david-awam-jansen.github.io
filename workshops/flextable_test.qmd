@@ -7,7 +7,6 @@ editor: visual
 ```{r}
 library(flextable)
 library(tidyverse)
-library(kableExtra)
 ```
 
 ```{r, eval = TRUE}
