@@ -6,6 +6,9 @@ editor: visual
 
 ```{r}
 library(flextable)
+library(tidyverse)
+library(kable)
+library(kableExtra)
 ```
 
 ```{r, eval = TRUE}
