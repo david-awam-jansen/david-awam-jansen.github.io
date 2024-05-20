@@ -4,7 +4,7 @@ RUN /rocker_scripts/install_tidyverse.sh
 
 # Install Bash
 RUN apt-get update && \
-    apt-get install -y bash curl && \
+    apt-get install -y bash curl wget && \
     rm -rf /var/lib/apt/lists/*
 
 # Download and install quarto using dpkg
