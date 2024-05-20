@@ -22,6 +22,11 @@ RUN  R -e "install.packages(c( \
       , lib = '/usr/local/lib/R/library' \
         ))"
 
+RUN R -e "install.packages('remotes')"
+
+RUN R -e "remotes::install_version('flextable', version = '0.9.4')"
+
+
 # Install R packages needed for workshops
 RUN R -e "install.packages(c( \
   'broom', \
@@ -29,7 +34,6 @@ RUN R -e "install.packages(c( \
   'cowplot', \
   'data.table', \
   'dismo', \
-  'flextable', \
   'ggtext', \
   'janitor', \
   'lme4', \
