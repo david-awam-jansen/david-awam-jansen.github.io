@@ -11,6 +11,8 @@ format:
     mathjax: NULL
 ---
 
+![](/images/data_quality.jpg){fig-align="center" width="900"}
+
 # Content
 
 ```{r}
@@ -22,6 +24,26 @@ library(tidyverse)
 -   Naming structures
 
 -   Eau Claire terminex project
+
+## Examples of problems last year
+
+## Blank versus 0
+
+-   0 means that you did not find tick
+-   blank could mean several things
+    -   You looked for ticks, but did not find any.
+    -   You did not look for ticks so you don't know how many ticks there are.
+    -   Computers will see blanks as NA (i.e. you don't know).
+
+Example why this is an important difference
+
+So please pay attention so I can avoid this
+
+![](images/frustrated_coder.jpg){fig-align="center"}
+
+and be
+
+![](images/yes_scientist.jpg){fig-align="center"}
 
 ## Data (1)
 
@@ -39,7 +61,8 @@ library(tidyverse)
 > -   Gnerally not excel format - transferring between platforms can cause an issue (e.g. dates)
 
 ```         
-> - But sometimes it is useful   
+> - But sometimes it is useful
+  
 ```
 
 > -   Better are csv, tsv, maybe text
@@ -70,7 +93,7 @@ R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
 -   Try to have content of columns in correct data type and units
 -   An example why this ~~can~~ is important
 
-```{r}
+```{r, eval=FALSE}
 tibble(species = c("elphant", "mouse", "cheetah"),
        speed = c("24.0 mph", "8.1 mph", "74.6 mph"),
        speed_mph = c(24, 8.1, 74.7)) %>% 
@@ -125,7 +148,7 @@ labs(y = "speed (mph)")
 
 ::: columns
 ::: {.column width="70%"}
-```{r}
+```{r, eval=FALSE}
 raw_data_wide %>% 
   flextable::flextable() %>% 
   flextable::colformat_double(digits = 1)
@@ -136,7 +159,7 @@ raw_data_wide %>%
 :::
 
 ::: {.column width="30%"}
-```{r}
+```{r, eval=FALSE}
 raw_data_wide %>% 
   pivot_longer(names_to = "houses",
                values_to = "tick_count",
@@ -243,24 +266,6 @@ While a computer will ultimately run your code, it'll be read by humans, so writ
 
         ![](../images/yes_scientist.jpg){width="100"}
 
-    b.  error -\> go back to 1.
+    b.  error -\> go back to 1.git stat
 
-## Examples of problems last year
-
-## Blank versus 0
-
--   0 means that you did not find tick
--   blank could mean several things
-    -   You looked for ticks, but did not find any.
-    -   You did not look for ticks so you don't know how many ticks there are.
-    -   Computers will see blanks as NA (i.e. you don't know).
-
-Example why this is an important difference
-
-So please pay attention so I can avoid this
-
-![](images/frustrated_coder.jpg){fig-align="center"}
-
-and be
-
-![](images/yes_scientist.jpg){fig-align="center"}
+6.  
