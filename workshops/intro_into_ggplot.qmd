@@ -20,6 +20,10 @@ output:
     number_sections: true
 ---
 
+```{r}
+library(tidyverse)
+```
+
 -   What is ggplot2?
 
 -   Why use ggplot2?
@@ -76,9 +80,7 @@ Thank you chatgpt to help me make some of these slides
 -   Generally data needs to be in a long format
 -   Columns need top be in format you want to plot
 
-```{r}
-library(tidyverse)
-
+```{r, eval = FALSE}
 tibble(location = c("A", "B"),
        week1 = c(10, 12),
        week2 = c(12, 15),
@@ -99,8 +101,9 @@ df <- tibble(location = c("A", "B"),
        week4 = c(11,  20)) %>% 
   pivot_longer(names_to = "week", values_to = "count", week1:week4) %>%  
   mutate(week = as.numeric(str_remove(week, pattern = "week"))) 
+```
 
-
+```{r, eval = FALSE}
 df %>% 
   flextable::flextable()
 ```
