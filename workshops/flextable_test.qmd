@@ -10,6 +10,8 @@ library(flextable)
 
 ```{r, eval = TRUE}
 ft <- flextable(airquality[ sample.int(10),])
+
+ft
 ```
 
 ```{r, eval = FALSE}
