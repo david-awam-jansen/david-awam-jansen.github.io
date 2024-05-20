@@ -20,7 +20,7 @@ output:
     number_sections: true
 ---
 
-```{r}
+```{r, eval = FALSE}
 library(tidyverse)
 ```
 
@@ -93,7 +93,7 @@ tibble(location = c("A", "B"),
 
 -   Generally data needs to be in a long format
 
-```{r}
+```{r, eval = FALSE}
 df <- tibble(location = c("A", "B"),
        week1 = c(10, 12),
        week2 = c(12, 15),
@@ -112,7 +112,7 @@ df %>%
 
 -   basic plot
 
-```{r}
+```{r, eval = FALSE}
 ggplot(data = df, aes(x = week, y = count)) +
   geom_point()
 ```
@@ -121,7 +121,7 @@ ggplot(data = df, aes(x = week, y = count)) +
 
 -   change size of the dots
 
-```{r}
+```{r, eval = FALSE}
 ggplot(data = df, aes(x = week, y = count)) +
   geom_point(size = 5)
 ```
@@ -130,7 +130,7 @@ ggplot(data = df, aes(x = week, y = count)) +
 
 -   change the color of the dots
 
-```{r}
+```{r, eval = FALSE}
 ggplot(data = df, aes(x = week, y = count, color = location)) +
   geom_point(size = 5)
 ```
@@ -139,7 +139,7 @@ ggplot(data = df, aes(x = week, y = count, color = location)) +
 
 -   change axis
 
-```{r}
+```{r, eval = FALSE}
 ggplot(data = df, aes(x = week, y = count, color = location)) +
   geom_point(size = 5) +
   scale_y_continuous(limits = c(0,22))
@@ -149,7 +149,7 @@ ggplot(data = df, aes(x = week, y = count, color = location)) +
 
 -   change labels and theme
 
-```{r}
+```{r, eval = FALSE}
 ggplot(data = df, aes(x = week, y = count, color = location)) +
   geom_point(size = 5) +
   scale_y_continuous(limits = c(0,22)) +
