@@ -42,7 +42,7 @@ RUN R -e "install.packages(c( \
   'dismo', \
   'ggtext', \
   'janitor', \
-  'kable', \
+  'knitr', \
   'kableExtra', \
   'lme4', \
   'lmerTest', \
