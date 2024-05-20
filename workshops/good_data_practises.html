@@ -409,6 +409,33 @@ David Jansen
 <section>
 <section id="content" class="title-slide slide level1 center">
 <h1>Content</h1>
+<div class="cell">
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 7 × 17
+  Package   Version Priority Depends Imports LinkingTo Suggests Enhances License
+  &lt;chr&gt;     &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;     &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;  
+1 docknitr  1.0.1   &lt;NA&gt;     knitr,…  &lt;NA&gt;   &lt;NA&gt;      "rmarkd… &lt;NA&gt;     MIT + …
+2 ezknitr   0.6.3   &lt;NA&gt;     R (&gt;= … "knitr… &lt;NA&gt;      "testth… &lt;NA&gt;     MIT + …
+3 knitr     1.46    &lt;NA&gt;     R (&gt;= … "evalu… &lt;NA&gt;      "bslib,… &lt;NA&gt;     GPL    
+4 knitrBoo… 1.0.3   &lt;NA&gt;     R (&gt;= … "knitr… &lt;NA&gt;      "testth… &lt;NA&gt;     MIT + …
+5 knitrdata 0.6.1   &lt;NA&gt;     R (&gt; 3… "knitr… &lt;NA&gt;      "gpg, r… &lt;NA&gt;     GPL-3  
+6 knitrPro… 1.1.0   &lt;NA&gt;     &lt;NA&gt;    "R6, R… &lt;NA&gt;      "knitr,… &lt;NA&gt;     MIT + …
+7 RTLknitr  1.0.0   &lt;NA&gt;     R (&gt;= … "knitr… &lt;NA&gt;       &lt;NA&gt;    &lt;NA&gt;     GPL (&gt;…
+# ℹ 8 more variables: License_is_FOSS &lt;chr&gt;, License_restricts_use &lt;chr&gt;,
+#   OS_type &lt;chr&gt;, Archs &lt;chr&gt;, MD5sum &lt;chr&gt;, NeedsCompilation &lt;chr&gt;,
+#   File &lt;chr&gt;, Repository &lt;chr&gt;</code></pre>
+</div>
+<div class="cell-output cell-output-stdout">
+<pre><code># A tibble: 2 × 17
+  Package   Version Priority Depends Imports LinkingTo Suggests Enhances License
+  &lt;chr&gt;     &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;     &lt;chr&gt;    &lt;chr&gt;    &lt;chr&gt;  
+1 clickabl… 1.0     &lt;NA&gt;     R (&gt;= … "gridE… &lt;NA&gt;      knitr, … &lt;NA&gt;     GPL (&gt;…
+2 kableExt… 1.4.0   &lt;NA&gt;     R (&gt;= … "knitr… &lt;NA&gt;      testtha… &lt;NA&gt;     MIT + …
+# ℹ 8 more variables: License_is_FOSS &lt;chr&gt;, License_restricts_use &lt;chr&gt;,
+#   OS_type &lt;chr&gt;, Archs &lt;chr&gt;, MD5sum &lt;chr&gt;, NeedsCompilation &lt;chr&gt;,
+#   File &lt;chr&gt;, Repository &lt;chr&gt;</code></pre>
+</div>
+</div>
 <ul>
 <li><p>Data management</p></li>
 <li><p>Naming structures</p></li>
@@ -460,36 +487,6 @@ David Jansen
 <li>Try to have content of columns in correct data type and units</li>
 <li>An example why this <del>can</del> is important</li>
 </ul>
-<div class="cell">
-<div class="cell-output-display">
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">species</th>
-<th style="text-align: left;">speed</th>
-<th style="text-align: right;">speed_mph</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">elphant</td>
-<td style="text-align: left;">24.0 mph</td>
-<td style="text-align: right;">24.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">mouse</td>
-<td style="text-align: left;">8.1 mph</td>
-<td style="text-align: right;">8.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">cheetah</td>
-<td style="text-align: left;">74.6 mph</td>
-<td style="text-align: right;">74.7</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
 <div class="fragment">
 <div class="{,columns}">
 <div class="column" style="width:45%;">
@@ -497,7 +494,7 @@ David Jansen
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="good_data_practises_files/figure-revealjs/unnamed-chunk-3-1.png" width="960"></p>
+<p><img data-src="good_data_practises_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -508,7 +505,7 @@ David Jansen
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="good_data_practises_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
+<p><img data-src="good_data_practises_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -562,10 +559,12 @@ David Jansen
 <li><p>Lyric: “House E used pesticides and should be excluded for this study”</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a> raw_data_wide <span class="sc">%&gt;%</span> </span>
-<span id="cb1-2"><a></a>  <span class="fu">select</span>(<span class="sc">-</span>House_E) <span class="sc">%&gt;%</span>    <span class="do">## The owners used pesticides during the trials</span></span>
-<span id="cb1-3"><a></a>      flextable<span class="sc">::</span><span class="fu">flextable</span>() <span class="sc">%&gt;%</span> </span>
-<span id="cb1-4"><a></a>      flextable<span class="sc">::</span><span class="fu">colformat_double</span>(<span class="at">digits =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a> raw_data_wide <span class="sc">%&gt;%</span> </span>
+<span id="cb3-2"><a></a>  <span class="fu">select</span>(<span class="sc">-</span>House_E) <span class="sc">%&gt;%</span>    <span class="do">## The owners used pesticides during the trials</span></span>
+<span id="cb3-3"><a></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">digits =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb3-4"><a></a>  <span class="fu">kable_classic</span>(<span class="at">full_width =</span> F, <span class="at">html_font =</span> <span class="st">"Cambria"</span>)</span>
+<span id="cb3-5"><a></a>      <span class="co"># flextable::flextable() %&gt;% </span></span>
+<span id="cb3-6"><a></a>      <span class="co"># flextable::colformat_double(digits = 1)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="data-4-4" class="slide level2 smaller">

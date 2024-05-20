@@ -224,7 +224,7 @@
     "href": "workshops/good_data_practises.html#data-3",
     "title": "Good data practices",
     "section": "Data (3)",
-    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\n\n\n\nspecies\nspeed\nspeed_mph\n\n\n\n\nelphant\n24.0 mph\n24.0\n\n\nmouse\n8.1 mph\n8.1\n\n\ncheetah\n74.6 mph\n74.7",
+    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -268,7 +268,7 @@
     "href": "workshops/good_data_practises.html#data-4-3",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n      flextable::flextable() %&gt;% \n      flextable::colformat_double(digits = 1)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n  knitr::kable(digits = 1) %&gt;% \n  kable_classic(full_width = F, html_font = \"Cambria\")\n      # flextable::flextable() %&gt;% \n      # flextable::colformat_double(digits = 1)",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
