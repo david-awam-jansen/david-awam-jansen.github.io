@@ -1,63 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://david-awam-jansen.github.io/presentations.html</loc>
-    <lastmod>2024-05-08T18:19:37.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/presentations/good_data_practises.html</loc>
-    <lastmod>2024-05-08T18:19:37.423Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/presentations/git_version_control.html</loc>
-    <lastmod>2024-05-08T18:19:37.423Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/presentations/MCEVBD_interview.html</loc>
-    <lastmod>2024-05-08T18:19:37.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/workshops/reproducibility_workshop.html</loc>
-    <lastmod>2024-05-08T18:19:37.427Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/workshops/git_version_control.html</loc>
-    <lastmod>2024-05-08T18:19:37.427Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/index.html</loc>
-    <lastmod>2024-05-08T18:19:37.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/publications.html</loc>
-    <lastmod>2024-05-08T18:19:37.427Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/about.html</loc>
-    <lastmod>2024-05-08T18:19:37.095Z</lastmod>
-  </url>
-  <url>
-    <loc>https://david-awam-jansen.github.io/workshops/intro_into_ggplot.html</loc>
-    <lastmod>2024-05-08T18:19:37.427Z</lastmod>
+    <loc>https://david-awam-jansen.github.io/workshops/peer_review.html</loc>
+    <lastmod>2024-05-20T16:27:44.083Z</lastmod>
   </url>
   <url>
     <loc>https://david-awam-jansen.github.io/workshops/good_data_practises.html</loc>
-    <lastmod>2024-05-08T18:19:37.427Z</lastmod>
+    <lastmod>2024-05-20T16:27:44.083Z</lastmod>
   </url>
   <url>
-    <loc>https://david-awam-jansen.github.io/workshops/peer_review.html</loc>
-    <lastmod>2024-05-08T18:19:37.427Z</lastmod>
+    <loc>https://david-awam-jansen.github.io/workshops/reproducibility_workshop.html</loc>
+    <lastmod>2024-05-20T16:27:44.083Z</lastmod>
   </url>
   <url>
-    <loc>https://david-awam-jansen.github.io/presentations/intro_into_ggplot.html</loc>
-    <lastmod>2024-05-08T18:19:37.423Z</lastmod>
+    <loc>https://david-awam-jansen.github.io/presentations.html</loc>
+    <lastmod>2024-05-20T16:27:44.003Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-awam-jansen.github.io/about.html</loc>
+    <lastmod>2024-05-20T16:27:43.751Z</lastmod>
   </url>
   <url>
     <loc>https://david-awam-jansen.github.io/presentations/cv.html</loc>
-    <lastmod>2024-05-08T18:19:37.391Z</lastmod>
+    <lastmod>2024-05-20T16:27:44.047Z</lastmod>
   </url>
   <url>
-    <loc>https://david-awam-jansen.github.io/presentations/reproducibility_workshop.html</loc>
-    <lastmod>2024-05-08T18:19:37.427Z</lastmod>
+    <loc>https://david-awam-jansen.github.io/presentations/MCEVBD_interview.html</loc>
+    <lastmod>2024-05-20T16:27:44.003Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-awam-jansen.github.io/index.html</loc>
+    <lastmod>2024-05-20T16:27:44.003Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-awam-jansen.github.io/publications.html</loc>
+    <lastmod>2024-05-20T16:27:44.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-awam-jansen.github.io/workshops/git_version_control.html</loc>
+    <lastmod>2024-05-20T16:27:44.083Z</lastmod>
+  </url>
+  <url>
+    <loc>https://david-awam-jansen.github.io/workshops/good_data_practises_for_MCEVBD_fellows.html</loc>
+    <lastmod>2024-05-20T16:27:44.083Z</lastmod>
   </url>
 </urlset>
