@@ -1,0 +1,567 @@
+---
+title: "Introduction into ggplot2"
+date: last-modified
+author: "David Jansen"
+execute:
+  include: true
+  echo: true
+format:
+  revealjs: 
+    theme: sky
+    css: ../styles.css
+    reveal_plugins: notes
+    mathjax: NULL
+---
+
+---
+title: "Introduction to ggplot2"
+output:
+  quarto::pdf_document:
+    number_sections: true
+---
+
+```{r, eval = FALSE}
+library(tidyverse)
+```
+          - text: "Introduction ggplot"
+            file: ./workshops/intro_into_ggplot.qmd
+
+
+-   What is ggplot2?
+
+-   Why use ggplot2?
+
+-   Key Features of ggplot2
+
+-   Basic Syntax Overview
+
+-   Example Visualizations
+
+::: aside
+Thank you chatgpt to help me make some of these slides
+:::
+
+## What is ggplot2?
+
+-   **Definition:** ggplot2 is an R package for creating data visualizations based on the grammar of graphics.
+-   **Created by:** Hadley Wickham
+-   **First released:** 2007
+
+## Why Use ggplot2?
+
+-   **Advantages:**
+    -   Produces visually appealing and customizable plots.
+    -   Based on a coherent grammar of graphics, making it easy to understand and use.
+    -   Works well with tidy data principles.
+    -   Offers extensive documentation and a large community of users.
+
+## Why Use ggplot2?
+
+-   **Grammar of Graphics:** A systematic way to describe the components of a graph, including data, aesthetics, and geometric objects.
+-   **Layered Grammar:** Allows you to build complex plots by adding layers of data and visual elements.
+-   **Faceting:** Easily create multiple plots based on subsets of your data.
+-   **Themes:** Customize the appearance of your plots with built-in or custom themes.
+
+## Why Use ggplot2?
+
+-   There are many package that build on ggplot to work with specific kinds of data, e.g.;
+    -   **survminer** for survival analysis
+    -   **ggcorrplot** for correlation plots
+    -   **gganimate** make plot animations
+
+## Basic Syntax Overview
+
+-   `ggplot()` function: Initializes a ggplot object.
+-   `data` Can be given either directly or through a pipe
+-   `aes()` function: Specifies aesthetic mappings between data variables and visual properties.
+-   `geom_*()` functions: Add geometric objects (points, lines, bars, etc.) to your plot.
+-   `facet_*()` functions: Facet your plot by one or more variables.
+-   `theme()` function: Customize the appearance of your plot.
+
+## Data prep for plotting
+
+-   Generally data needs to be in a long format
+-   Columns need top be in format you want to plot
+
+```{r, eval = FALSE}
+tibble(location = c("A", "B"),
+       week1 = c(10, 12),
+       week2 = c(12, 15),
+       week3 = c(14, 15),
+       week4 = c(11,  20)) %>% 
+  flextable::flextable()
+```
+
+## Data prep for plotting
+
+-   Generally data needs to be in a long format
+
+```{r, eval = FALSE}
+df <- tibble(location = c("A", "B"),
+       week1 = c(10, 12),
+       week2 = c(12, 15),
+       week3 = c(14, 15),
+       week4 = c(11,  20)) %>% 
+  pivot_longer(names_to = "week", values_to = "count", week1:week4) %>%  
+  mutate(week = as.numeric(str_remove(week, pattern = "week"))) 
+```
+
+```{r, eval = FALSE}
+df %>% 
+  flextable::flextable()
+```
+
+## First simple plot (1)
+
+-   basic plot
+
+```{r, eval = FALSE}
+ggplot(data = df, aes(x = week, y = count)) +
+  geom_point()
+```
+
+## First simple plot (2)
+
+-   change size of the dots
+
+```{r, eval = FALSE}
+ggplot(data = df, aes(x = week, y = count)) +
+  geom_point(size = 5)
+```
+
+## First simple plot (3)
+
+-   change the color of the dots
+
+```{r, eval = FALSE}
+ggplot(data = df, aes(x = week, y = count, color = location)) +
+  geom_point(size = 5)
+```
+
+## First simple plot (4)
+
+-   change axis
+
+```{r, eval = FALSE}
+ggplot(data = df, aes(x = week, y = count, color = location)) +
+  geom_point(size = 5) +
+  scale_y_continuous(limits = c(0,22))
+```
+
+## First simple plot (5)
+
+-   change labels and theme
+
+```{r, eval = FALSE}
+ggplot(data = df, aes(x = week, y = count, color = location)) +
+  geom_point(size = 5) +
+  scale_y_continuous(limits = c(0,22)) +
+  labs(x = "sample week", y = "tick count") +
+  theme_classic()
+```
+
+# Ok, lets have some fun with more complex figures
+
+## Zack's heatmap
+
+```{r, eval=TRUE, echo=FALSE}
+heatmap_data <- read_csv("../data/heatmap_data.csv")
+
+heatmap_data %>%
+ggplot(aes(x = week, y = transect, fill = density)) +
+	geom_tile() +
+	facet_grid(treatment_type ~ .) +
+	scale_fill_gradient(low = "white", high = "black") +
+	guides(fill = guide_colorbar(title = "Density of nymphs per 1000m2"))  +
+	labs(y = "") +
+	theme(legend.position = "bottom",
+				legend.key.size = unit(1, 'cm')) +
+	theme(panel.background = element_blank(),
+				plot.background = element_blank(),
+				axis.text = element_text(size = 19))+
+	geom_vline(xintercept = 1.5, linetype = "dashed", size = 1.5) +
+	geom_vline(xintercept = 5.5, linetype = "dashed", size = 1.5)+
+	theme(axis.title = element_text(size = 16),
+				legend.text = element_text(size = 16),
+				legend.title = element_text(size = 19),
+				title = element_text(size = 15),
+				strip.text = element_text(size = 15))
+```
+
+## Zack's heatmap (code)
+
+```{r, eval=FALSE}
+ggplot(data = heatmap_data, aes(x = week, y = transect, fill = density)) +
+	geom_tile() +
+	facet_grid(treatment_type ~ .) +
+	scale_fill_gradient(low = "white", high = "black") +
+	guides(fill = guide_colorbar(title = "Density of nymphs per 1000m2"))  +
+	labs(y = "") +
+	theme(legend.position = "bottom",
+				legend.key.size = unit(1, 'cm')) +
+	theme(panel.background = element_blank(),
+				plot.background = element_blank(),
+				axis.text = element_text(size = 19))+
+	geom_vline(xintercept = c(1.5, 5.5), linetype = "dashed", size = 1.5) +
+	theme(axis.title = element_text(size = 16),
+				legend.text = element_text(size = 16),
+				legend.title = element_text(size = 19),
+				title = element_text(size = 15),
+				strip.text = element_text(size = 15))
+```
+
+## Survival analysis in a baboon paper
+
+```{r, echo = FALSE}
+load('../data/data_for_fig3.RData')
+library(broom)
+library(survival)
+library(tidyverse)
+library(cowplot)
+
+
+text_height = 3.6
+A <- coxph(data = xdata_females_with_social, Surv(statage, adult_survival_status) ~ cumulative_adversity + jDSI_paternal + dad_overlap_years) %>%
+	tidy() %>%
+	mutate(term = case_when(term == "cumulative_adversity" ~ "cumulative adversity",
+													term == "jDSI_paternal" ~ "paternal dyadic bond strength",
+													term == "dad_overlap_years" ~ "co-residency with father")) %>%
+	mutate(term = forcats::fct_relevel(term, "cumulative adversity", after = Inf)) %>%
+	mutate(low.95 = exp(estimate - 1.96*std.error),
+				 high.95 = exp(estimate + 1.96*std.error),
+				 low.99 = exp(estimate - 2.575*std.error),
+				 high.99 = exp(estimate + 2.575*std.error)) %>%
+	ggplot(aes(y = term, x = exp(estimate))) +
+	geom_segment(aes(x = low.99, xend = high.99, yend = term),
+							 size = 5, color = "dodgerblue", alpha = .7) +
+	geom_segment(aes(x = low.95, xend = high.95, yend = term),
+							 size = 5, color = "dodgerblue4") +
+	geom_point(size = 2,, color = "black") +
+	theme_cowplot() +
+	# scale_x_continuous(trans='log10',
+	# 									 breaks = c(.5, .7, 1, 1,3, 1.5, 2),
+	# 									 limits = c(.45, 2)
+	labs(x="Hazard ratio") +
+	geom_vline(xintercept = 1) +
+	annotate("text",x= .8,y=text_height,label="Enhanced survival", color = "gray")+
+	annotate("text",x= 1.2,y=text_height,label="Reduces survival", color = "gray")+
+	geom_curve(x = .63, y = text_height - 0.025, xend = .55, yend = text_height - 0.025, curvature = 0,
+						 arrow = arrow(length = unit(0.08, "inch")), size = 1,
+						 color = "gray") +
+	geom_curve(x = 1.36, y = text_height - 0.025, xend = 1.44, yend = text_height - 0.025, curvature = 0,
+						 arrow = arrow(length = unit(0.08, "inch")), size = 1,
+						 color = "gray")  +
+	#scale_y_discrete(expand = expand_scale(mult = c(0.5, .5))) +
+	coord_cartesian(ylim=c(1.2,3),clip="off") +
+	theme(aspect.ratio = .2) +
+	labs(y="")
+
+## survival plotea and paternal
+B <- ggplot() +
+	geom_line(data = surv_data_cumpat_long, aes(x = age,
+																							y = predicted.value,
+																							colour = type,
+																							linetype = type),
+						size = 1.2) +
+	geom_segment(aes(x = 0, xend = medium_high_Pat_low_cum,
+									 y  = 0.5, yend = 0.5),
+							 color = 'black', linetype = 'dashed') +
+
+
+	geom_segment(aes(x = medium_high_Pat_low_cum, xend = medium_high_Pat_low_cum,
+									 y  = 0, yend = 0.5),
+							 color = 'black', linetype = 'dashed') +
+	geom_segment(aes(x = medium_low_Pat_low_cum, xend = medium_low_Pat_low_cum,
+									 y  = 0, yend = 0.5),
+							 color = 'black', linetype = 'dashed') +
+	geom_segment(aes(x = medium_high_Pat_low_cum - 0.3, xend = medium_low_Pat_low_cum + 0.3,
+									 y  = 0.07, yend = 0.07),
+							 size = .2, arrow = arrow(length = unit(0.05, "inches"))) +
+	geom_segment(aes(x = medium_low_Pat_low_cum + 0.3, xend = medium_high_Pat_low_cum - 0.3,
+									 y  = 0.07, yend = 0.07),
+							 size = .2, arrow = arrow(length = unit(0.05, "inches"))) +
+	annotate("text",x = medium_low_Pat_low_cum + (medium_high_Pat_low_cum - medium_low_Pat_low_cum)/2, y = 0.03, size = 2,
+					 label = paste0(round(medium_high_Pat_low_cum - medium_low_Pat_low_cum,2), " y")) +
+
+
+
+	geom_segment(aes(x = 0, xend = medium_high_Pat_high_cum,
+									 y  = 0.5, yend = 0.5),
+							 color = 'black', linetype = 'dotdash') +
+	geom_segment(aes(x = medium_low_Pat_high_cum, xend = medium_low_Pat_high_cum,
+									 y  = 0, yend = 0.5),
+							 color = 'black', linetype = 'dotted') +
+	geom_segment(aes(x = medium_high_Pat_high_cum, xend = medium_high_Pat_high_cum,
+									 y  = 0, yend = 0.5),
+							 color = 'black', linetype = 'dotted') +
+	geom_segment(aes(x = medium_low_Pat_high_cum + 0.3, xend = medium_high_Pat_high_cum -0.3,
+									 y  = 0.06, yend = 0.06),
+							 size = .2, arrow = arrow(length = unit(0.05, "inches"))) +
+	geom_segment(aes(x = medium_high_Pat_high_cum - 0.3, xend = medium_low_Pat_high_cum + 0.3,
+									 y  = 0.06, yend = 0.06),
+							 size = .2, arrow = arrow(length = unit(0.05, "inches"))) +
+	annotate("text",x = medium_low_Pat_high_cum + (medium_high_Pat_high_cum - medium_low_Pat_high_cum)/2
+					 , y = 0.03, size = 2, size = 5,
+					 label = paste0(round(medium_low_Pat_low_cum - medium_low_Pat_high_cum,2), " y")) +
+	scale_x_continuous(expand = c(0, 0), limits = c(0, 31)) +
+	scale_y_continuous(expand = c(0, 0), limits = c(0, 1)) +
+	cowplot::theme_cowplot(font_size = 8) +
+	theme(legend.position = "none",
+				legend.text=element_text(size=7),
+				plot.margin = unit(c(0, 0, 0, 0), "cm")) +
+	scale_color_manual(values = c("firebrick", "firebrick", "dodgerblue4", "dodgerblue4")) +
+	scale_linetype_manual(values = c("solid", "dotted", "solid", "dotted")) +
+	labs(x = "Age",
+			 y = "Survival change",
+			 linetype = "",
+			 color = "")  +
+	guides(colour = guide_legend(nrow = 2))
+
+
+C <- ggplot() +
+	geom_line(data = surv_data_cumres_long, aes(x = age,
+																							y = predicted.value,
+																							colour = type,
+																							linetype = type),
+						size = 1.2) +
+	geom_segment(aes(x = medium_low_pres_low_cum, xend = medium_high_pres_low_cum,
+									 y  = 0.5, yend = 0.5),
+							 color = 'black', linetype = 'dashed') +
+	geom_segment(aes(x = medium_high_pres_high_cum, xend = medium_high_pres_high_cum,
+									 y  = 0, yend = 0.5),
+							 color = 'black', linetype = 'dashed') +
+	geom_segment(aes(x = medium_high_pres_low_cum-.1, xend = medium_high_pres_low_cum-.1,
+									 y  = 0, yend = 0.5),
+							 color = 'black', linetype = 'dashed') +
+	geom_segment(aes(x = 0, xend = medium_low_pres_low_cum,
+									 y  = 0.5, yend = 0.5),
+							 color = 'black', linetype = 'dotdash') +
+	geom_segment(aes(x = medium_low_pres_low_cum, xend = medium_low_pres_low_cum,
+									 y  = 0, yend = 0.5),
+							 color = 'black', linetype = 'dotted') +
+	geom_segment(aes(x = medium_low_pres_high_cum, xend = medium_low_pres_high_cum,
+									 y  = 0, yend = 0.5),
+							 color = 'black', linetype = 'dotted') +
+	geom_segment(aes(x = medium_low_pres_high_cum + 0.3, xend = medium_low_pres_low_cum -0.3,
+									 y  = 0.06, yend = 0.06),
+							 size = .2, arrow = arrow(length = unit(0.05, "inches"))) +
+	geom_segment(aes(x = medium_low_pres_low_cum - 0.3, xend = medium_low_pres_high_cum + 0.3,
+									 y  = 0.06, yend = 0.06),
+							 size = .2, arrow = arrow(length = unit(0.05, "inches"))) +
+	annotate("text",x = medium_low_pres_high_cum + (medium_low_pres_low_cum - medium_low_pres_high_cum)/2,
+					 y = 0.03, size = 2,
+					 label = paste0(round(medium_low_pres_low_cum - medium_low_pres_high_cum,2), " y")) +
+
+	geom_segment(aes(x = medium_high_pres_high_cum + 0.3, xend = medium_high_pres_low_cum -0.3,
+									 y  = 0.07, yend = 0.07),
+							 size = .2, arrow = arrow(length = unit(0.05, "inches"))) +
+	geom_segment(aes(x = medium_high_pres_low_cum - 0.3, xend = medium_high_pres_high_cum + 0.3,
+									 y  = 0.07, yend = 0.07),
+							 size = .2, arrow = arrow(length = unit(0.05, "inches"))) +
+	annotate("text",x = medium_high_pres_high_cum + (medium_high_pres_low_cum -
+																									 	medium_high_pres_high_cum)/2, y = 0.03, size = 2,
+					 label = paste0(round(medium_high_pres_low_cum - medium_high_pres_high_cum,2), " y")) +
+	scale_x_continuous(expand = c(0, 0), limits = c(0, 31)) +
+	scale_y_continuous(expand = c(0, 0), limits = c(0, 1)) +
+	cowplot::theme_cowplot(font_size = 8) +
+	#theme(legend.position = "bottom") +
+	theme(#legend.position = c(.6, .92),
+		legend.position = "none",
+		legend.text=element_text(size=7),
+		plot.margin = unit(c(0, 0, 0, 0), "cm")) +
+	scale_color_manual(values = c("firebrick", "firebrick", "dodgerblue4", "dodgerblue4")) +
+	scale_linetype_manual(values = c("solid", "dotted", "solid", "dotted")) +
+	labs(x = "Age",
+			 y = "Survival change",
+			 linetype = "",
+			 color = "")  +
+	guides(colour = guide_legend(nrow = 2))
+
+plot_grid(plot_grid(A, labels = c("A.")
+										, label_size = 8
+										, label_x = 0
+										, label_y = 1
+										, hjust = -.5),
+					plot_grid(B, C, rel_heights = c(1, 2),
+										labels = c("B.", "C.")
+										, align = "v"
+										, label_size = 8
+										, label_x = 0
+										, label_y = 1
+										, hjust = -.5
+					), nrow = 2)
+```
+
+## Tick classification
+
+This is a very preliminary look at this data, so please judge or share the data.
+
+```{r, eval = TRUE, echo=FALSE}
+library(tidyverse)
+library(ggtext)
+library(showtext)
+
+font_add_google(family="patua-one", "Patua One")
+font_add_google(family="roboto", "Roboto")
+
+
+rm(list =ls())
+
+addline_format <- function(x,...){
+	gsub('\\s','\n',x)
+}
+
+tick_report_data <- read_csv("../data/tick_report_data.csv")
+
+plot_theme <- list(
+	cowplot::theme_cowplot(),
+	scale_alpha_manual(values = c(0.4, 1)),
+	scale_x_discrete(labels=addline_format(c(unique(tick_report_data$tickidnet_prediction_class), "Other\ unknown"))),
+	theme(axis.text.x = element_text(angle = 45, vjust = .4, hjust=.5)),
+	labs(x = "Expert assignment",
+			 y = "Number of submissions",
+			 fill = "Model prediction",
+			 alpha = NA),
+	guides(alpha = 'none'),
+	scale_fill_manual(values = c("darkolivegreen1", "deepskyblue", "darkgoldenrod1"))
+)
+
+
+make_accuracy_plot <- function(tick_report_data, probability = 0) {
+	plot_data <- tick_report_data %>% 
+		filter(tickidnet_prediction_probability > probability) %>% 
+		mutate(review_tick_species = if_else(review_tick_species == "other", 
+																				 true = "unknown",
+																				 false = review_tick_species)) %>% 
+		filter(!is.na(review_tick_species)) %>% 
+		select(contains("species"), tickidnet_prediction_class) %>% 
+		mutate(across(where(is.character), tolower)) %>% 
+		mutate(across(where(is.character), str_to_sentence)) %>% 
+		group_by(review_tick_species, tickidnet_prediction_class) %>% 
+		summarise(cases = n(), .groups = "drop") %>% 
+		group_by(review_tick_species) %>% 
+		mutate(total = sum(cases)) %>% 
+		mutate(percentage = cases/total) %>% 
+		#ungroup() %>% 
+		mutate(correct = review_tick_species == tickidnet_prediction_class) %>% 
+		arrange(correct, percentage) %>% 
+		mutate(order = row_number()) 
+	
+	plot_data <<- plot_data
+	min_probability <<-  probability
+	
+	plot_setup <-   list(
+		geom_col(colour="black"),
+		scale_alpha_manual(values = c(0.4, 1)),
+		scale_x_discrete(labels=addline_format(c(unique(tick_report_data$tickidnet_prediction_class), "Other\ unknown"))),
+		cowplot::theme_cowplot(),
+		theme(axis.text.x = element_text(angle = 45, vjust = .4, hjust=.5)),
+		labs(x = "Expert assignment",
+				 y = "Number of submissions",
+				 fill = "Model prediction",
+				 alpha = NA),
+		guides(alpha = 'none'),
+		scale_fill_manual(values = c("darkolivegreen1", "deepskyblue", "darkgoldenrod1"))
+	)
+	
+	p1 <- plot_data %>% 
+		ggplot(aes(x=review_tick_species, y = percentage, 
+							 fill =  tickidnet_prediction_class,
+							 #alpha = correct,
+							 group = order)) +
+		geom_col(color = "black") +
+		scale_y_continuous(labels = scales::percent,expand = c(0, 0)) +
+		plot_theme 
+	
+	p2 <- plot_data %>% 
+		ggplot(aes(x=review_tick_species, y = cases, 
+							 fill =  tickidnet_prediction_class,
+							 #alpha = correct,
+							 group = order)) +
+		geom_col(color = "black") +
+		scale_y_continuous() +
+		plot_theme 
+	
+	legend <- cowplot::get_legend(
+		## create some space to the left of the legend
+		p1 + 
+			theme(legend.position = "bottom") +
+			guides(fill=guide_legend(nrow=1))
+	)
+	
+	prow <- cowplot::plot_grid(
+		p1 + theme(legend.position="none"),
+		p2 + theme(legend.position="none"),
+		align = 'vh',
+		hjust = -1,
+		nrow = 1
+	)
+	
+	legend = cowplot::plot_grid(NULL, legend, NULL, nrow = 1)
+	cowplot::plot_grid(prow,  legend, ncol = 1, rel_heights = c(1, .1))
+}
+
+make_accuracy_plot(tick_report_data, probability = 0.1)
+```
+
+## Tick classification
+
+This is a very preliminary look at this data, so please judge or share the data.
+
+```{r, eval = TRUE, echo=FALSE}
+set_tile_plot <- list(
+	geom_tile(color = "black"),
+	geom_text(aes(label=text_label)),
+	scale_fill_gradient(low="white", high="#009194"),
+	cowplot::theme_cowplot(),
+	theme(legend.position = "none"
+	      , axis.text.x = element_text(angle = 45, vjust = 1, hjust=1)
+	      ,text=element_text(size=10)
+	      ) ,
+	scale_x_discrete(expand = c(0, 0)),
+	scale_y_discrete(expand = c(0, 0)) 
+	
+)
+
+p1 <- plot_data %>% 
+	mutate(text_label = paste0(round(percentage,2)*100, "%")) %>% 
+	ggplot(aes(review_tick_species,tickidnet_prediction_class, fill= percentage)) +
+	set_tile_plot +
+	labs(x = "Expert", y = "Tick Id net",
+			 title = "Percent of TickidNet assignment per species",
+			 caption = "") 
+
+p2 <- plot_data %>% 
+	group_by(tickidnet_prediction_class) %>% 
+	mutate(total = sum(cases)) %>% 
+	mutate(percentage = cases/total) %>% 
+	mutate(text_label = paste0(round(percentage,2)*100, "%")) %>% 
+	ggplot(aes(tickidnet_prediction_class, review_tick_species, fill= percentage)) +
+	set_tile_plot +
+	labs(x = "Tick Id net", y = "Expert",
+			 title = "Percent of expert assignment per species",
+			 caption = paste("The minimum probrability was", min_probability)) 
+
+
+cowplot::plot_grid(p1, p2)  
+```
+
+## Resources
+
+-   chatgpt and google
+
+-   find examples and build from there
+
+-   useful webpages
+
+    -   [https://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.html](https://r-statistics.co/Top50-Ggplot2-Visualizations-MasterList-R-Code.htmlggplot)
+
+    -   <https://ggplot2tor.com/theme/>
+
+    -   <https://r-graph-gallery.com/>
+
+    -   <https://rstudio.github.io/cheatsheets/html/data-visualization.html>
+
+-   R Graphics Cookbook (I have a copy)
+
+-   ask me (I love making visualizations)
