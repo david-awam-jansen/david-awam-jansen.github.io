@@ -16,6 +16,7 @@ format:
 # Content
 
 ```{r}
+knitr::opts_chunk$set("ft.shadow" = FALSE)
 library(tidyverse)
 ```
 
