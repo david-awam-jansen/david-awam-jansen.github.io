@@ -30,7 +30,7 @@ RUN  R -e "install.packages(c( \
 
 RUN R -e "install.packages('remotes')"
 
-RUN R -e "remotes::install_version('flextable', version = '0.9.4')"
+RUN R -e "remotes::install_version('flextable', version = '0.9.5')"
 
 
 # Install R packages needed for workshops
