@@ -1,0 +1,13 @@
+---
+title: blah blah
+output: html_document
+---
+
+> this is how to print a flextable in a R Markdown document
+
+```{r}
+library(flextable)
+ft <- flextable(head(mtcars))
+ft <- autofit(ft)
+ft
+```
