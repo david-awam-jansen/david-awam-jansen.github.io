@@ -10,9 +10,7 @@
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.554">
 
-  <meta name="author" content="David Jansen">
-  <meta name="dcterms.date" content="2024-05-21">
-  <title>Good data practices</title>
+  <title>test_flextable</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,9 +28,73 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
-  <link rel="stylesheet" href="../styles.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
@@ -328,352 +390,25 @@
     <div class="slides">
 
 <section id="title-slide" class="quarto-title-block center">
-  <h1 class="title">Good data practices</h1>
-  <p class="subtitle">MCEVBD fellowship</p>
+  <h1 class="title">test_flextable</h1>
 
 <div class="quarto-title-authors">
-<div class="quarto-title-author">
-<div class="quarto-title-author-name">
-David Jansen 
-</div>
-</div>
 </div>
 
-  <p class="date">2024-05-21</p>
 </section>
 <section class="slide level2">
 
-
-<img data-src="../images/data_quality.jpg" class="quarto-figure quarto-figure-center r-stretch" width="900"></section>
-<section>
-<section id="content" class="title-slide slide level1 center">
-<h1>Content</h1>
-<ul>
-<li><p>Data management</p></li>
-<li><p>Naming structures</p></li>
-<li><p>Eau Claire terminex project</p></li>
-</ul>
-</section>
-<section id="examples-of-problems-last-year" class="slide level2">
-<h2>Examples of problems last year</h2>
-</section>
-<section id="blank-versus-0" class="slide level2">
-<h2>Blank versus 0</h2>
-<ul>
-<li>0 means that you did not find tick</li>
-<li>blank could mean several things
-<ul>
-<li>You looked for ticks, but did not find any.</li>
-<li>You did not look for ticks so you don’t know how many ticks there are.</li>
-<li>Computers will see blanks as NA (i.e.&nbsp;you don’t know).</li>
-</ul></li>
-</ul>
-<p>Example why this is an important difference</p>
-<p>So please pay attention so I can avoid this</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/frustrated_coder.jpg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-<p>and be</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/yes_scientist.jpg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
-</section>
-<section id="data-1" class="slide level2">
-<h2>Data (1)</h2>
-<ul>
-<li><p>Keep an as raw as possible version</p>
-<p><img data-src="../images/raw_vegies.jpg"></p></li>
-</ul>
-</section>
-<section id="data-1-1" class="slide level2">
-<h2>Data (1)</h2>
-<ul>
-<li>Keep an as raw as possible version</li>
-<li>Consider making your original data file read-only</li>
-</ul>
-<div>
-<ul>
-<li class="fragment">keep in a ‘save’ format</li>
-<li class="fragment">Gnerally not excel format - transferring between platforms can cause an issue (e.g.&nbsp;dates)</li>
-</ul>
-<pre><code>&gt; - But sometimes it is useful
-  </code></pre>
-<ul>
-<li class="fragment">Better are csv, tsv, maybe text</li>
-</ul>
-</div>
-<ul>
-<li class="fragment">Don’t make changes to this raw data</li>
-</ul>
-</section>
-<section id="data-2" class="slide level2" data-transition="convex">
-<h2>Data (2)</h2>
-<ul>
-<li><p>Content of columns in correct data type and units</p>
-<ul>
-<li><p>character (e.g, “a”, “swc”)</p></li>
-<li><p>numeric (real or decimal) (e.g, 2, 2.0)</p></li>
-<li><p>logical (FALSE, TRUE)</p></li>
-<li><p>integer (e.g, 2L, as.integer(3))</p></li>
-<li><p>complex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying</p></li>
-</ul></li>
-</ul>
-
-<aside><div>
-<p>R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.</p>
-</div></aside></section>
-<section id="data-3" class="slide level2">
-<h2>Data (3)</h2>
-<ul>
-<li>Try to have content of columns in correct data type and units</li>
-<li>An example why this <del>can</del> is important</li>
-</ul>
 <div class="cell">
-<div class="cell-output-display">
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">species</th>
-<th style="text-align: left;">speed</th>
-<th style="text-align: right;">speed_mph</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">elphant</td>
-<td style="text-align: left;">24.0 mph</td>
-<td style="text-align: right;">24.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">mouse</td>
-<td style="text-align: left;">8.1 mph</td>
-<td style="text-align: right;">8.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">cheetah</td>
-<td style="text-align: left;">74.6 mph</td>
-<td style="text-align: right;">74.7</td>
-</tr>
-</tbody>
-</table>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a><span class="fu">library</span>(flextable)</span>
+<span id="cb1-2"><a></a><span class="fu">install.packages</span>(<span class="st">"kableExtra"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</div>
-<div class="fragment">
-<div class="{,columns}">
-<div class="column" style="width:45%;">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="good_data_practises_for_MCEVBD_fellows_files/figure-revealjs/unnamed-chunk-3-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<div class="column" style="width:45 %;">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure>
-<p><img data-src="good_data_practises_for_MCEVBD_fellows_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-</div>
-</div>
-</section>
-<section id="data-4" class="slide level2">
-<h2>Data (4)</h2>
-<ul>
-<li>Use a scripted program not only for analysis, but also for <strong><em>data cleaning</em></strong> and <strong><em>data wrangling</em></strong></li>
-</ul>
-</section>
-<section id="data-4-1" class="slide level2">
-<h2>Data (4)</h2>
-<ul>
-<li><p>Use a scripted program not only for analysis, but also for <strong><em>data cleaning</em></strong> and <strong><em>data wrangling</em></strong></p></li>
-<li><p>reproducible</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="../images/recipe.jpg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div></li>
-</ul>
-</section>
-<section id="wide-format-versus-long-format" class="slide level2 smaller">
-<h2>Wide format versus long format</h2>
-<div class="columns">
-<div class="column" style="width:70%;">
-<ul>
-<li>wide often easier for recording</li>
-<li>long often required for analysis</li>
-</ul>
-</div><div class="column" style="width:30%;">
-
-</div>
-</div>
-</section>
-<section id="data-documentation-1" class="slide level2">
-<h2>Data documentation (1)</h2>
-
-<img data-src="../images/data_metadat.png" class="quarto-figure quarto-figure-center r-stretch" width="600"><div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>You know details of project and data structure (at this moment), but what about future you or others.</p>
-</div>
-</div>
-</div>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>This is why notes are important. You were in the field. Your data scientist might not.</p>
-</div>
-</div>
-</div>
-</section>
-<section id="data-documentation-2" class="slide level2 smaller">
-<h2>Data documentation (2)</h2>
-<ul>
-<li>README
-<ul>
-<li>one per dataset</li>
-<li>provide a title for the dataset</li>
-<li>brief description per column</li>
-<li>publicly available data may need more details</li>
-<li><a href="https://guides.lib.uci.edu/datamanagement/readme" class="uri">https://guides.lib.uci.edu/datamanagement/readme</a></li>
-</ul></li>
-<li>Metadata
-<ul>
-<li>often 1 per study</li>
-<li>information does generally not change
-<ul>
-<li>e.g.&nbsp;details on study sites</li>
-</ul></li>
-<li>data about data</li>
-</ul></li>
-</ul>
-
-<aside><div>
-<p>https://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme</p>
-</div></aside></section>
-<section id="naming" class="slide level2">
-<h2>Naming</h2>
-<ul>
-<li>Use descriptive names for folders, files and variables</li>
-</ul>
-<ul>
-<li class="fragment">Understandable but not to long
-<ul>
-<li class="fragment">m1 versus glm_count_full</li>
-<li class="fragment">data versus tick_counts_EA</li>
-</ul></li>
-</ul>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>While a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!</p>
-</div>
-</div>
-</div>
-</section>
-<section id="naming-1" class="slide level2 smaller">
-<h2>Naming</h2>
-<ul>
-<li>Be aware on naming rules of programs
-<ul>
-<li>Avoid special characters ($, @, *)</li>
-<li>Avoid name of functions</li>
-<li>No spaces !!</li>
-<li>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
-<li>R (and many other languages) names can’t start with numbers and does not like spaces</li>
-<li>‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’</li>
-</ul></li>
-</ul>
-</section>
-<section id="naming-2" class="slide level2 smaller">
-<h2>Naming</h2>
-<ul>
-<li>Be aware on naming rules of programs
-<ul>
-<li>Avoid special characters ($, @, *)</li>
-<li>Avoid name of functions</li>
-<li>No spaces !!</li>
-<li>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
-<li>R (and many other languages) names can’t start with numbers and does not like spaces</li>
-<li>‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’</li>
-</ul></li>
-<li>styles
-<ul>
-<li>camelCase</li>
-<li>PascalCase</li>
-<li>snake_case</li>
-</ul></li>
-</ul>
-<ul>
-<li class="fragment">be consistent</li>
-</ul>
-</section></section>
-<section>
-<section id="take-home" class="title-slide slide level1 center">
-<h1>Take home</h1>
-<ul>
-<li class="fragment">keep raw data raw</li>
-<li class="fragment">use code to clean data</li>
-<li class="fragment">document code and data</li>
-<li class="fragment"><strong><em>No Spaces :-)</em></strong></li>
-</ul>
-</section>
-<section id="bonus" class="slide level2">
-<h2>Bonus</h2>
-
-<img data-src="../images/debugging.jpg" class="quarto-figure quarto-figure-center r-stretch"></section>
-<section id="how-to-deal-with-r-programming-errors" class="slide level2 smaller">
-<h2>How to deal with R (programming) errors</h2>
-<ol type="1">
-<li><p>don’t get frustrated by error messages</p></li>
-<li><p>read the error message</p></li>
-<li><p>google the error message</p></li>
-<li><p>google solutions or use ChatGPT</p></li>
-<li><p>trial and error</p>
-<ol type="a">
-<li><p>it works –&gt; go back to your analysis</p>
-<p><img data-src="../images/yes_scientist.jpg" width="100"></p></li>
-<li><p>error -&gt; go back to 1.git stat</p></li>
-</ol></li>
-<li></li>
-</ol>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
 </div>
 </div>
-</section></section>
+</section>
     </div>
   </div>
 
@@ -690,6 +425,7 @@ David Jansen
   <script src="../site_libs/revealjs/plugin/notes/notes.js"></script>
   <script src="../site_libs/revealjs/plugin/search/search.js"></script>
   <script src="../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../site_libs/revealjs/plugin/math/math.js"></script>
   <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
 
   <script>
@@ -856,9 +592,27 @@ David Jansen
         // Factor of the display size that should remain empty around the content
         margin: 0.1,
 
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
         // reveal.js plugins
         plugins: [QuartoLineHighlight, PdfExport, RevealMenu, QuartoSupport,
 
+          RevealMath,
           RevealNotes,
           RevealSearch,
           RevealZoom
