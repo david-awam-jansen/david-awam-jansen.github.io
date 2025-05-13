@@ -48,9 +48,9 @@ jobs:
       #    docker cp temp_container:/usr/local/lib/R/site-library/ $HOME/R_packages
       #    docker rm temp_container
     
-      - name: Set up R environment
-        run: |
-          echo "R_LIBS=$HOME/R_packages:/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library" >> $GITHUB_ENV        
+      #- name: Set up R environment
+      #  run: |
+          #echo "R_LIBS=$HOME/R_packages:/usr/local/lib/R/site-library:/usr/lib/R/site-library:/usr/lib/R/library" >> $GITHUB_ENV        
 
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
