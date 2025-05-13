@@ -41,6 +41,7 @@ jobs:
             any::downlit
             any::xml2
             any::tidyverse
+            any::cowplot
 
       #- name: Copy R library from container
       #  run: |
