@@ -28,11 +28,8 @@ website:
           - text: "Peer review process"
             file: ./workshops/peer_review.qmd
           - text: "Introduction to data management for MCEVBD fellows"            
-          - text: "workshops/good_data_practises_for_MCEVBD_fellows.qmd"
-          - text: "check tables"
-            file: ./workshops/test_flextable.qmd  
-          
-            
+          - file: workshops/good_data_practises_for_MCEVBD_fellows.qmd
+
 bibliography: publications.bib         
 
 format:
