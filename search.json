@@ -1,5 +1,448 @@
 [
   {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "MCEVBD job interview\nI gave this  presentation  as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here.\nPhD defense talk\nI gave this  presentation  as part of my PhD defense at the University of Zurich. This presentation was made with LaTeX. The raw code can be found here.",
+    "crumbs": [
+      "Basics",
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "presentations/MCEVBD_interview.html",
+    "href": "presentations/MCEVBD_interview.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "MCEVBD job interview\nI gave this presenttaion as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications list",
+    "section": "",
+    "text": "References\n\nAkinyi, M.Y., Habig, B., Gesquiere, L.R., Alberts, S.C. & Archie, E.A. (2019). Costs and drivers of helminth parasite infection in wild female baboons. Journal of Animal Ecology, 88, 1029–1043.\n\n\nBjörk, J.R., Dasari, M.R., Roche, K., Grieneisen, L., Gould, T.J., Grenier, J.-C., et al. (2022). Synchrony and idiosyncrasy in the gut microbiome of wild baboons. Nature ecology & evolution, 6, 955–964.\n\n\nGordon, J.B., Learn, N.H. & Alberts, S.C. (2022). Ordinal dominance rank assignments: Protocol for the amboseli baboon research project. Avaialable at: https://amboselibaboons. nd. edu/downloads/, Accessed Feb, 23, 2023.\n\n\nGrieneisen, L., Dasari, M., Gould, T., Bjork, J., Grenier, J., Yotova, V., et al. (2020). Heritability of the gut microbiome in wild baboons (papio cynocephalus). In: American journal of primatology. WILEY 111 RIVER ST, HOBOKEN 07030-5774, NJ USA.\n\n\nGrieneisen, L., Dasari, M., Gould, T.J., Björk, J.R., Grenier, J.-C., Yotova, V., et al. (2021). Gut microbiome heritability is nearly universal but environmentally contingent. Science, 373, 181–186.\n\n\nHabig, B., Akinyi, M.Y., Gesquiere, L.R., Alberts, S.C. & Archie, E.A. (2019). Multi-scale predictors of parasite risk in wild male savanna baboons (papio cynocephalus). Behavioral Ecology and Sociobiology, 73, 1–16.\n\n\nJansen, D.A. (2013a). Diet selection of goats: - a feeding trial experiment. PhD thesis. University of Wageningen.\n\n\nJansen, D.A. (2013b). Self-organising spatial patterns in mussel beds. PhD thesis. University of Wageningen.\n\n\nJansen, D.A. (2013c). The contribution of floodplains to the ecology of large herbivores. PhD thesis. University of Wageningen.\n\n\nJansen, D.A. (2013d). Vocal communication in the banded mongoose (mungos mungo). PhD thesis. University of Zurich.\n\n\nJansen, D.A., Cant, M.A. & Manser, M.B. (2012). Segmental concatenation of individual signatures and context cues in banded mongoose (mungos mungo) close calls. BMC biology, 10, 1–11.\n\n\nJansen, D.A., Cant, M.A. & Manser, M.B. (2013). Testing for vocal individual discrimination in adult banded mongooses. Journal of Zoology, 291, 171–177.\n\n\nJansen, D.A., Langevelde, F. van, Boer, W.F. de & Kirkman, K.P. (2007). Optimisation or satiation, testing diet selection rules in goats. Small Ruminant Research, 73, 160–168.\n\n\nLevy, E.J., Zipple, M.N., McLean, E., Campos, F.A., Dasari, M., Fogel, A.S., et al. (2020). A comparison of dominance rank metrics reveals multiple competitive landscapes in an animal society. Proceedings of the Royal Society B, 287, 20201013.\n\n\nManser, M.B., Jansen, J.D.A., Graw, B., Hollén, L.I., Bousquet, C.A., Furrer, R.D., et al. (2014). Vocal complexity in meerkats and other mongoose species, 46, 281–310.\n\n\nPaietta, E.N., Weibel, C.J., Jansen, D.A., Mututua, R.S., Warutere, J.K., Long’ida Siodi, I., et al. (2022). Troubled waters: Water availability drives human-baboon encounters in a protected, semi-arid landscape. Biological Conservation, 274, 109740.\n\n\nRoche, K.E., Bjork, J.R., Dasari, M.R., Grieneisen, L., Gould, T.J., Gesquiere, L.R., et al. (2023). Universal gut microbial relationships in the gut microbiome of wild baboons. Elife, 12, e83152.\n\n\nTownsend, S.W., Koski, S.E., Byrne, R.W., Slocombe, K.E., Bickel, B., Boeckle, M., et al. (2017). Exorcising g rice’s ghost: An empirical approach to studying intentional communication in animals. Biological Reviews, 92, 1427–1433.\n\n\nWeibel, C.J., Dasari, M.R., Jansen, D.A., Gesquiere, L.R., Mututua, R.S., Warutere, J.K., et al. (2024). Using non-invasive behavioral and physiological data to measure biological age in wild baboons. GeroScience.",
+    "crumbs": [
+      "Basics",
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-1",
+    "href": "workshops/good_data_practises.html#data-1",
+    "title": "Good data practices",
+    "section": "Data (1)",
+    "text": "Data (1)\n\nKeep an as raw as possible version",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-1-1",
+    "href": "workshops/good_data_practises.html#data-1-1",
+    "title": "Good data practices",
+    "section": "Data (1)",
+    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\n\nkeep in a ‘save’ format\nNot excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\n\n\n\n\n\n\nDon’t make changes to this raw data",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-2",
+    "href": "workshops/good_data_practises.html#data-2",
+    "title": "Good data practices",
+    "section": "Data (2)",
+    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-3",
+    "href": "workshops/good_data_practises.html#data-3",
+    "title": "Good data practices",
+    "section": "Data (3)",
+    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4",
+    "href": "workshops/good_data_practises.html#data-4",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-1",
+    "href": "workshops/good_data_practises.html#data-4-1",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-2",
+    "href": "workshops/good_data_practises.html#data-4-2",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-3",
+    "href": "workshops/good_data_practises.html#data-4-3",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n  knitr::kable(digits = 1) %&gt;% \n  kable_classic(full_width = F, html_font = \"Cambria\")\n      # flextable::flextable() %&gt;% \n      # flextable::colformat_double(digits = 1)",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-4",
+    "href": "workshops/good_data_practises.html#data-4-4",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\n\n\n\nLyric: “I changed my mind about house_E”\n\n\n\n\n\n\n“Sorry I deleted that data” versus “Let me rerun code”",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#wide-format-versus-long-format",
+    "href": "workshops/good_data_practises.html#wide-format-versus-long-format",
+    "title": "Good data practices",
+    "section": "Wide format versus long format",
+    "text": "Wide format versus long format\n\n\n\nwide often easier for recording\nlong often required for analysis",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-documentation-1",
+    "href": "workshops/good_data_practises.html#data-documentation-1",
+    "title": "Good data practices",
+    "section": "Data documentation (1)",
+    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-documentation-2",
+    "href": "workshops/good_data_practises.html#data-documentation-2",
+    "title": "Good data practices",
+    "section": "Data documentation (2)",
+    "text": "Data documentation (2)\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\nMetadata\n\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\ndata about data\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming",
+    "href": "workshops/good_data_practises.html#naming",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming-1",
+    "href": "workshops/good_data_practises.html#naming-1",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\n\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming-2",
+    "href": "workshops/good_data_practises.html#naming-2",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming-3",
+    "href": "workshops/good_data_practises.html#naming-3",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\n\n\nbe consistent",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#bonus",
+    "href": "workshops/good_data_practises.html#bonus",
+    "title": "Good data practices",
+    "section": "Bonus",
+    "text": "Bonus",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
+    "href": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
+    "title": "Good data practices",
+    "section": "How to deal with R (programming) errors",
+    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-year",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-year",
+    "title": "Good data practices",
+    "section": "Examples of problems last year",
+    "text": "Examples of problems last year",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#blank-versus-0",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#blank-versus-0",
+    "title": "Good data practices",
+    "section": "Blank versus 0",
+    "text": "Blank versus 0\n\n0 means that you did not find tick\nblank could mean several things\n\nYou looked for ticks, but did not find any.\nYou did not look for ticks so you don’t know how many ticks there are.\nComputers will see blanks as NA (i.e. you don’t know).\n\n\nExample why this is an important difference\nSo please pay attention so I can avoid this\n\n\n\n\n\nand be",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-1",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-1",
+    "title": "Good data practices",
+    "section": "Data (1)",
+    "text": "Data (1)\n\nKeep an as raw as possible version",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-1-1",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-1-1",
+    "title": "Good data practices",
+    "section": "Data (1)",
+    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\n\nkeep in a ‘save’ format\nGnerally not excel format - transferring between platforms can cause an issue (e.g. dates)\n\n\n\n&gt; - But sometimes it is useful\n  \n\n\n\nBetter are csv, tsv, maybe text\n\n\n\n\n\n\nDon’t make changes to this raw data",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-2",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-2",
+    "title": "Good data practices",
+    "section": "Data (2)",
+    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-3",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-3",
+    "title": "Good data practices",
+    "section": "Data (3)",
+    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\n\n\n\nspecies\nspeed\nspeed_mph\n\n\n\n\nelphant\n24.0 mph\n24.0\n\n\nmouse\n8.1 mph\n8.1\n\n\ncheetah\n74.6 mph\n74.7",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-1",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-1",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#wide-format-versus-long-format",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#wide-format-versus-long-format",
+    "title": "Good data practices",
+    "section": "Wide format versus long format",
+    "text": "Wide format versus long format\n\n\n\nwide often easier for recording\nlong often required for analysis",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-1",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-1",
+    "title": "Good data practices",
+    "section": "Data documentation (1)",
+    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.\n\n\n\n\n\n\n\n\n\nTip\n\n\nThis is why notes are important. You were in the field. Your data scientist might not.",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-2",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-2",
+    "title": "Good data practices",
+    "section": "Data documentation (2)",
+    "text": "Data documentation (2)\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\nMetadata\n\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\ndata about data\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-1",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-1",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-2",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-2",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\n\n\nbe consistent",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#bonus",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#bonus",
+    "title": "Good data practices",
+    "section": "Bonus",
+    "text": "Bonus",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#how-to-deal-with-r-programming-errors",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#how-to-deal-with-r-programming-errors",
+    "title": "Good data practices",
+    "section": "How to deal with R (programming) errors",
+    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.git stat",
+    "crumbs": [
+      "Workshops",
+      "Good data practices"
+    ]
+  },
+  {
+    "objectID": "workshops/flextable_test.html",
+    "href": "workshops/flextable_test.html",
+    "title": "blah blah",
+    "section": "",
+    "text": "this is how to print a flextable in a R Markdown document\n\n\nlibrary(flextable)\nft &lt;- flextable(head(mtcars))\nft &lt;- autofit(ft)\nft\n\nmpgcyldisphpdratwtqsecvsamgearcarb21.061601103.902.62016.46014421.061601103.902.87517.02014422.84108933.852.32018.61114121.462581103.083.21519.44103118.783601753.153.44017.02003218.162251052.763.46020.221031"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "",
+    "section": "",
+    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "",
+    "section": "Education",
+    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013\nWageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005\nWageningen University, Netherlands BSc in Forest and Nature Management | Aug 2000 - June 2003\nClick here for my Resume or CV",
+    "crumbs": [
+      "Basics",
+      "About Me"
+    ]
+  },
+  {
     "objectID": "workshops/peer_review.html#the-start",
     "href": "workshops/peer_review.html#the-start",
     "title": "Introduction into peer review process",
@@ -187,306 +630,6 @@
     ]
   },
   {
-    "objectID": "workshops/good_data_practises.html#data-1",
-    "href": "workshops/good_data_practises.html#data-1",
-    "title": "Good data practices",
-    "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-1-1",
-    "href": "workshops/good_data_practises.html#data-1-1",
-    "title": "Good data practices",
-    "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\nkeep in a ‘save’ format\nNot excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\n\n\n\nDon’t make changes to this raw data",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-2",
-    "href": "workshops/good_data_practises.html#data-2",
-    "title": "Good data practices",
-    "section": "Data (2)",
-    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-3",
-    "href": "workshops/good_data_practises.html#data-3",
-    "title": "Good data practices",
-    "section": "Data (3)",
-    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4",
-    "href": "workshops/good_data_practises.html#data-4",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-1",
-    "href": "workshops/good_data_practises.html#data-4-1",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-2",
-    "href": "workshops/good_data_practises.html#data-4-2",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-3",
-    "href": "workshops/good_data_practises.html#data-4-3",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n  knitr::kable(digits = 1) %&gt;% \n  kable_classic(full_width = F, html_font = \"Cambria\")\n      # flextable::flextable() %&gt;% \n      # flextable::colformat_double(digits = 1)",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-4",
-    "href": "workshops/good_data_practises.html#data-4-4",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\n\nLyric: “I changed my mind about house_E”\n\n\n“Sorry I deleted that data” versus “Let me rerun code”",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#wide-format-versus-long-format",
-    "href": "workshops/good_data_practises.html#wide-format-versus-long-format",
-    "title": "Good data practices",
-    "section": "Wide format versus long format",
-    "text": "Wide format versus long format\n\n\n\nwide often easier for recording\nlong often required for analysis",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-documentation-1",
-    "href": "workshops/good_data_practises.html#data-documentation-1",
-    "title": "Good data practices",
-    "section": "Data documentation (1)",
-    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-documentation-2",
-    "href": "workshops/good_data_practises.html#data-documentation-2",
-    "title": "Good data practices",
-    "section": "Data documentation (2)",
-    "text": "Data documentation (2)\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\nMetadata\n\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\ndata about data\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming",
-    "href": "workshops/good_data_practises.html#naming",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming-1",
-    "href": "workshops/good_data_practises.html#naming-1",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming-2",
-    "href": "workshops/good_data_practises.html#naming-2",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming-3",
-    "href": "workshops/good_data_practises.html#naming-3",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#bonus",
-    "href": "workshops/good_data_practises.html#bonus",
-    "title": "Good data practices",
-    "section": "Bonus",
-    "text": "Bonus",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
-    "href": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
-    "title": "Good data practices",
-    "section": "How to deal with R (programming) errors",
-    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/reproducibility_workshop.html#folder-organization",
-    "href": "workshops/reproducibility_workshop.html#folder-organization",
-    "title": "Research reproducibility",
-    "section": "Folder organization",
-    "text": "Folder organization",
-    "crumbs": [
-      "Workshops",
-      "Reproducibility research"
-    ]
-  },
-  {
-    "objectID": "workshops/reproducibility_workshop.html#other-sources",
-    "href": "workshops/reproducibility_workshop.html#other-sources",
-    "title": "Research reproducibility",
-    "section": "Other sources",
-    "text": "Other sources\nNoble WS. A quick guide to organizing computational biology projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. doi: 10.1371/journal.pcbi.1000424. http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424\nCasadevall A, Ellis LM, Davies EW, McFall-Ngai M, Fang FC. A Framework for Improving the Quality of Research in the Biological Sciences. MBio. 2016 Aug 30;7(4). pii: e01256-16. doi: 10.1128/mBio.01256-16. http://mbio.asm.org/content/7/4/e01256-16.long\nRavel J, Wommack KE. All hail reproducibility in microbiome research. Microbiome. 2014 Mar 7;2(1):8. doi: 10.1186/2049-2618-2-8. https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-8",
-    "crumbs": [
-      "Workshops",
-      "Reproducibility research"
-    ]
-  },
-  {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "MCEVBD job interview\nI gave this  presentation  as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here.\nPhD defense talk\nI gave this  presentation  as part of my PhD defense at the University of Zurich. This presentation was made with LaTeX. The raw code can be found here.",
-    "crumbs": [
-      "Basics",
-      "Presentations"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "",
-    "section": "",
-    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
-    "crumbs": [
-      "Basics",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "",
-    "section": "",
-    "text": "I am data scientist at the Midwest Center of Excellence for Vector-Borne Disease (MCEVBD) https://mcevbd.wisc.edu/. I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
-    "crumbs": [
-      "Basics",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "",
-    "section": "Education",
-    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013\nWageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005\nWageningen University, Netherlands BSc in Forest and Nature Management | Aug 2000 - June 2003\nClick here for my Resume or CV",
-    "crumbs": [
-      "Basics",
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "presentations/cv.html",
-    "href": "presentations/cv.html",
-    "title": "Curriculum vitæ",
-    "section": "",
-    "text": "Download current CV"
-  },
-  {
-    "objectID": "presentations/MCEVBD_interview.html",
-    "href": "presentations/MCEVBD_interview.html",
-    "title": "MCEVBD job interview",
-    "section": "",
-    "text": "MCEVBD job interview\nI gave this presentation as part of my job interview for my current job at the MCEVBD.\nMCEVBD interview\nThis presentation was made with LaTeX. The raw code can be found see here and downloaded here.\nClick here for my Resume or CV"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "David Jansen",
-    "section": "",
-    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
-    "crumbs": [
-      "Basics",
-      "Home"
-    ]
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications list",
-    "section": "",
-    "text": "References\n\nAkinyi, M. Y., Habig, B., Gesquiere, L. R., Alberts, S. C., & Archie, E. A. (2019). Costs and drivers of helminth parasite infection in wild female baboons. Journal of Animal Ecology, 88(7), 1029–1043.\n\n\nBjörk, J. R., Dasari, M. R., Roche, K., Grieneisen, L., Gould, T. J., Grenier, J.-C., Yotova, V., Gottel, N., Gesquiere, L. R., et al. (2022). Synchrony and idiosyncrasy in the gut microbiome of wild baboons. Nature Ecology & Evolution, 6(7), 955–964.\n\n\nGordon, J. B., Learn, N. H., & Alberts, S. C. (2022). Ordinal dominance rank assignments: Protocol for the amboseli baboon research project. Avaialable at: Https://Amboselibaboons. Nd. Edu/Downloads/, Accessed Feb, 23, 2023.\n\n\nGrieneisen, L., Dasari, M., Gould, T. J., Björk, J. R., Grenier, J.-C., Yotova, V., Gottel, N., Gordon, J. B., Learn, N. H., et al. (2021). Gut microbiome heritability is nearly universal but environmentally contingent. Science, 373(6551), 181–186.\n\n\nGrieneisen, L., Dasari, M., Gould, T., Bjork, J., Grenier, J., Yotova, V., Gottel, N., Gilbert, J., Barreiro, L., et al. (2020). Heritability of the gut microbiome in wild baboons (papio cynocephalus). American Journal of Primatology, 82.\n\n\nHabig, B., Akinyi, M. Y., Gesquiere, L. R., Alberts, S. C., & Archie, E. A. (2019). Multi-scale predictors of parasite risk in wild male savanna baboons (papio cynocephalus). Behavioral Ecology and Sociobiology, 73, 1–16.\n\n\nJansen, D. A. (2013a). Diet selection of goats: - a feeding trial experiment [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013b). Self-organising spatial patterns in mussel beds. [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013c). The contribution of floodplains to the ecology of large herbivores [PhD thesis]. University of Wageningen.\n\n\nJansen, D. A. (2013d). Vocal communication in the banded mongoose (mungos mungo) [PhD thesis]. University of Zurich.\n\n\nJansen, D. A., Cant, M. A., & Manser, M. B. (2012). Segmental concatenation of individual signatures and context cues in banded mongoose (mungos mungo) close calls. BMC Biology, 10, 1–11.\n\n\nJansen, D. A., Cant, M. A., & Manser, M. B. (2013). Testing for vocal individual discrimination in adult banded mongooses. Journal of Zoology, 291(3), 171–177.\n\n\nJansen, D. A., Langevelde, F. van, Boer, W. F. de, & Kirkman, K. P. (2007). Optimisation or satiation, testing diet selection rules in goats. Small Ruminant Research, 73(1-3), 160–168.\n\n\nLevy, E. J., Zipple, M. N., McLean, E., Campos, F. A., Dasari, M., Fogel, A. S., Franz, M., Gesquiere, L. R., Gordon, J. B., Grieneisen, L., et al. (2020). A comparison of dominance rank metrics reveals multiple competitive landscapes in an animal society. Proceedings of the Royal Society B, 287(1934), 20201013.\n\n\nManser, M. B., Jansen, J. D. A., Graw, B., Hollén, L. I., Bousquet, C. A., Furrer, R. D., & Le Roux, A. (2014). Vocal complexity in meerkats and other mongoose species. 46, 281–310.\n\n\nPaietta, E. N., Weibel, C. J., Jansen, D. A., Mututua, R. S., Warutere, J. K., Long’ida Siodi, I., Gesquiere, L. R., Obanda, V., Alberts, S. C., & Archie, E. A. (2022). Troubled waters: Water availability drives human-baboon encounters in a protected, semi-arid landscape. Biological Conservation, 274, 109740. https://doi.org/https://doi.org/10.1016/j.biocon.2022.109740\n\n\nRoche, K. E., Bjork, J. R., Dasari, M. R., Grieneisen, L., Gould, T. J., Gesquiere, L. R., Barreiro, L. B., Alberts, S. C., Blekhman, R., et al. (2023). Universal gut microbial relationships in the gut microbiome of wild baboons. Elife, 12, e83152.\n\n\nTownsend, S. W., Koski, S. E., Byrne, R. W., Slocombe, K. E., Bickel, B., Boeckle, M., Braga Goncalves, I., Burkart, J. M., Flower, T., Gaunet, F., et al. (2017). Exorcising g rice’s ghost: An empirical approach to studying intentional communication in animals. Biological Reviews, 92(3), 1427–1433.\n\n\nWeibel, C. J., Dasari, M. R., Jansen, D. A., Gesquiere, L. R., Mututua, R. S., Warutere, J. K., Siodi, L. I., Alberts, S. C., Tung, J., & Archie, E. A. (2024). Using non-invasive behavioral and physiological data to measure biological age in wild baboons. GeroScience. https://doi.org/10.1007/s11357-024-01157-5",
-    "crumbs": [
-      "Basics",
-      "Publications"
-    ]
-  },
-  {
     "objectID": "workshops/git_version_control.html#what-is-version-control",
     "href": "workshops/git_version_control.html#what-is-version-control",
     "title": "Introduction into git",
@@ -623,7 +766,7 @@
     "href": "workshops/git_version_control.html#naming",
     "title": "Introduction into git",
     "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
     "crumbs": [
       "Workshops",
       "Introduction into git version control"
@@ -634,7 +777,7 @@
     "href": "workshops/git_version_control.html#naming-1",
     "title": "Introduction into git",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "text": "Naming\n\n\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
     "crumbs": [
       "Workshops",
       "Introduction into git version control"
@@ -656,7 +799,7 @@
     "href": "workshops/git_version_control.html#naming-3",
     "title": "Introduction into git",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\n\n\nbe consistent",
     "crumbs": [
       "Workshops",
       "Introduction into git version control"
@@ -685,115 +828,64 @@
     ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-year",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-year",
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#import",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#import",
     "title": "Good data practices",
-    "section": "Examples of problems last year",
-    "text": "Examples of problems last year"
+    "section": "Import",
+    "text": "Import\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#blank-versus-0",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#blank-versus-0",
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#bullets",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#bullets",
     "title": "Good data practices",
-    "section": "Blank versus 0",
-    "text": "Blank versus 0\n\n0 means that you did not find tick\nblank could mean several things\n\nYou looked for ticks, but did not find any.\nYou did not look for ticks so you don’t know how many ticks there are.\nComputers will see blanks as NA (i.e. you don’t know).\n\n\nExample why this is an important difference\nSo please pay attention so I can avoid this\n\n\n\n\n\nand be"
+    "section": "Bullets",
+    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-1",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-1",
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#code",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#code",
     "title": "Good data practices",
-    "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version"
+    "section": "Code",
+    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-1-1",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-1-1",
-    "title": "Good data practices",
-    "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\nkeep in a ‘save’ format\nGnerally not excel format - transferring between platforms can cause an issue (e.g. dates)\n\n&gt; - But sometimes it is useful\n  \n\nBetter are csv, tsv, maybe text\n\n\n\nDon’t make changes to this raw data"
+    "objectID": "workshops/reproducibility_workshop.html#folder-organization",
+    "href": "workshops/reproducibility_workshop.html#folder-organization",
+    "title": "Research reproducibility",
+    "section": "Folder organization",
+    "text": "Folder organization",
+    "crumbs": [
+      "Workshops",
+      "Reproducibility research"
+    ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-2",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-2",
-    "title": "Good data practices",
-    "section": "Data (2)",
-    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding."
+    "objectID": "workshops/reproducibility_workshop.html#other-sources",
+    "href": "workshops/reproducibility_workshop.html#other-sources",
+    "title": "Research reproducibility",
+    "section": "Other sources",
+    "text": "Other sources\nNoble WS. A quick guide to organizing computational biology projects. PLoS Comput Biol. 2009 Jul;5(7):e1000424. doi: 10.1371/journal.pcbi.1000424. http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1000424\nCasadevall A, Ellis LM, Davies EW, McFall-Ngai M, Fang FC. A Framework for Improving the Quality of Research in the Biological Sciences. MBio. 2016 Aug 30;7(4). pii: e01256-16. doi: 10.1128/mBio.01256-16. http://mbio.asm.org/content/7/4/e01256-16.long\nRavel J, Wommack KE. All hail reproducibility in microbiome research. Microbiome. 2014 Mar 7;2(1):8. doi: 10.1186/2049-2618-2-8. https://microbiomejournal.biomedcentral.com/articles/10.1186/2049-2618-2-8",
+    "crumbs": [
+      "Workshops",
+      "Reproducibility research"
+    ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-3",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-3",
-    "title": "Good data practices",
-    "section": "Data (3)",
-    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\n\n\n\nspecies\nspeed\nspeed_mph\n\n\n\n\nelphant\n24.0 mph\n24.0\n\n\nmouse\n8.1 mph\n8.1\n\n\ncheetah\n74.6 mph\n74.7"
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Jansen",
+    "section": "",
+    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
+    "crumbs": [
+      "Basics",
+      "Home"
+    ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling"
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-1",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-1",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible"
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#wide-format-versus-long-format",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#wide-format-versus-long-format",
-    "title": "Good data practices",
-    "section": "Wide format versus long format",
-    "text": "Wide format versus long format\n\n\n\nwide often easier for recording\nlong often required for analysis"
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-1",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-1",
-    "title": "Good data practices",
-    "section": "Data documentation (1)",
-    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.\n\n\n\n\n\n\n\n\n\nTip\n\n\nThis is why notes are important. You were in the field. Your data scientist might not."
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-2",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-2",
-    "title": "Good data practices",
-    "section": "Data documentation (2)",
-    "text": "Data documentation (2)\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\nMetadata\n\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\ndata about data\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme"
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!"
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-1",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-1",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’"
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-2",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-2",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\nbe consistent"
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#bonus",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#bonus",
-    "title": "Good data practices",
-    "section": "Bonus",
-    "text": "Bonus"
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#how-to-deal-with-r-programming-errors",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#how-to-deal-with-r-programming-errors",
-    "title": "Good data practices",
-    "section": "How to deal with R (programming) errors",
-    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.git stat"
+    "objectID": "presentations/cv.html",
+    "href": "presentations/cv.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "Download current CV"
   }
 ]
