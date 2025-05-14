@@ -35,7 +35,8 @@ jobs:
 
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
-          packages:
+          cache: true
+          packages: |
             any::knitr
             any::rmarkdown
             any::downlit
