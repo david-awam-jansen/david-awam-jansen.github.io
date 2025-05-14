@@ -43,7 +43,7 @@ jobs:
             any::xml2
             any::tidyverse
             any::cowplot
-            amy::flextable
+            any::flextable
 
       #- name: Copy R library from container
       #  run: |
