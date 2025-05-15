@@ -189,6 +189,8 @@
       margin-right: 0; 
     }
   </style>
+  <link href="../site_libs/tabwid-1.1.3/tabwid.css" rel="stylesheet">
+  <script src="../site_libs/tabwid-1.1.3/tabwid.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -211,25 +213,6 @@ David Jansen
 <section>
 <section id="content" class="title-slide slide level1 center">
 <h1>Content</h1>
-<div class="cell">
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 1 × 16
-  Package LibPath   Version Priority Depends Imports LinkingTo Suggests Enhances
-  &lt;chr&gt;   &lt;chr&gt;     &lt;chr&gt;   &lt;chr&gt;    &lt;chr&gt;   &lt;chr&gt;   &lt;chr&gt;     &lt;chr&gt;    &lt;chr&gt;   
-1 knitr   /home/ru… 1.50    &lt;NA&gt;     R (&gt;= … "evalu… &lt;NA&gt;      "bslib,… &lt;NA&gt;    
-# ℹ 7 more variables: License &lt;chr&gt;, License_is_FOSS &lt;chr&gt;,
-#   License_restricts_use &lt;chr&gt;, OS_type &lt;chr&gt;, MD5sum &lt;chr&gt;,
-#   NeedsCompilation &lt;chr&gt;, Built &lt;chr&gt;</code></pre>
-</div>
-<div class="cell-output cell-output-stdout">
-<pre><code># A tibble: 0 × 16
-# ℹ 16 variables: Package &lt;chr&gt;, LibPath &lt;chr&gt;, Version &lt;chr&gt;, Priority &lt;chr&gt;,
-#   Depends &lt;chr&gt;, Imports &lt;chr&gt;, LinkingTo &lt;chr&gt;, Suggests &lt;chr&gt;,
-#   Enhances &lt;chr&gt;, License &lt;chr&gt;, License_is_FOSS &lt;chr&gt;,
-#   License_restricts_use &lt;chr&gt;, OS_type &lt;chr&gt;, MD5sum &lt;chr&gt;,
-#   NeedsCompilation &lt;chr&gt;, Built &lt;chr&gt;</code></pre>
-</div>
-</div>
 <ul>
 <li><p>Data management</p></li>
 <li><p>Naming structures</p></li>
@@ -252,7 +235,7 @@ David Jansen
 
 <ul>
 <li>keep in a ‘save’ format</li>
-<li>Not excel format - transferring between platforms can cause an issue (e.g.&nbsp;dates)</li>
+<li>Preferably not excel format - transferring between platforms can cause an issue (e.g.&nbsp;dates)</li>
 <li>csv, tsv, maybe text</li>
 </ul>
 
@@ -265,7 +248,7 @@ David Jansen
 
 </blockquote>
 </section>
-<section id="data-2" class="slide level2" data-transition="convex">
+<section id="data-2" class="slide level2">
 <h2>Data (2)</h2>
 <ul>
 <li><p>Content of columns in correct data type and units</p>
@@ -287,14 +270,21 @@ David Jansen
 <li>Try to have content of columns in correct data type and units</li>
 <li>An example why this <del>can</del> is important</li>
 </ul>
-<div class="fragment">
+<div class="cell">
+<div class="cell-output-display">
+<div class="tabwid"><style>.cl-3a76901c{}.cl-3a6f1ba2{font-family:'DejaVu Sans';font-size:30pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-3a72d8b4{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-3a72d8be{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-3a72f506{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3a72f510{width:2in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3a72f511{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3a72f512{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3a72f51a{width:2in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3a72f524{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3a72f525{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3a72f526{width:2in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-3a72f527{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-3a76901c"><thead><tr style="overflow-wrap:break-word;"><th class="cl-3a72f506"><p class="cl-3a72d8b4"><span class="cl-3a6f1ba2">species</span></p></th><th class="cl-3a72f510"><p class="cl-3a72d8b4"><span class="cl-3a6f1ba2">speed</span></p></th><th class="cl-3a72f511"><p class="cl-3a72d8be"><span class="cl-3a6f1ba2">speed_mph</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-3a72f512"><p class="cl-3a72d8b4"><span class="cl-3a6f1ba2">elphant</span></p></td><td class="cl-3a72f51a"><p class="cl-3a72d8b4"><span class="cl-3a6f1ba2">24.0 mph</span></p></td><td class="cl-3a72f524"><p class="cl-3a72d8be"><span class="cl-3a6f1ba2">24.0</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-3a72f512"><p class="cl-3a72d8b4"><span class="cl-3a6f1ba2">mouse</span></p></td><td class="cl-3a72f51a"><p class="cl-3a72d8b4"><span class="cl-3a6f1ba2">8.1 mph</span></p></td><td class="cl-3a72f524"><p class="cl-3a72d8be"><span class="cl-3a6f1ba2">8.1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-3a72f525"><p class="cl-3a72d8b4"><span class="cl-3a6f1ba2">cheetah</span></p></td><td class="cl-3a72f526"><p class="cl-3a72d8b4"><span class="cl-3a6f1ba2">74.6 mph</span></p></td><td class="cl-3a72f527"><p class="cl-3a72d8be"><span class="cl-3a6f1ba2">74.7</span></p></td></tr></tbody></table></div>
+</div>
+</div>
+</section>
+<section id="data-3-1" class="slide level2">
+<h2>Data (3)</h2>
 <div class="{,columns}">
 <div class="column" style="width:45%;">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="good_data_practises_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
+<p><img data-src="good_data_practises_files/figure-revealjs/unnamed-chunk-3-1.png" width="960"></p>
 </figure>
 </div>
 </div>
@@ -304,13 +294,12 @@ David Jansen
 <div class="cell-output-display">
 <div>
 <figure>
-<p><img data-src="good_data_practises_files/figure-revealjs/unnamed-chunk-5-1.png" width="960"></p>
+<p><img data-src="good_data_practises_files/figure-revealjs/unnamed-chunk-4-1.png" width="960"></p>
 </figure>
 </div>
 </div>
 </div>
 </div></div>
-</div>
 </section>
 <section id="data-4" class="slide level2">
 <h2>Data (4)</h2>
@@ -355,12 +344,12 @@ David Jansen
 <li><p>Lyric: “House E used pesticides and should be excluded for this study”</p></li>
 </ul>
 <div class="cell">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a></a> raw_data_wide <span class="sc">%&gt;%</span> </span>
-<span id="cb3-2"><a></a>  <span class="fu">select</span>(<span class="sc">-</span>House_E) <span class="sc">%&gt;%</span>    <span class="do">## The owners used pesticides during the trials</span></span>
-<span id="cb3-3"><a></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">digits =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
-<span id="cb3-4"><a></a>  <span class="fu">kable_classic</span>(<span class="at">full_width =</span> F, <span class="at">html_font =</span> <span class="st">"Cambria"</span>)</span>
-<span id="cb3-5"><a></a>      <span class="co"># flextable::flextable() %&gt;% </span></span>
-<span id="cb3-6"><a></a>      <span class="co"># flextable::colformat_double(digits = 1)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a> raw_data_wide <span class="sc">%&gt;%</span> </span>
+<span id="cb1-2"><a></a>  <span class="fu">select</span>(<span class="sc">-</span>House_E) <span class="sc">%&gt;%</span>    <span class="do">## The owners used pesticides during the trials</span></span>
+<span id="cb1-3"><a></a>  knitr<span class="sc">::</span><span class="fu">kable</span>(<span class="at">digits =</span> <span class="dv">1</span>) <span class="sc">%&gt;%</span> </span>
+<span id="cb1-4"><a></a>  <span class="fu">kable_classic</span>(<span class="at">full_width =</span> F, <span class="at">html_font =</span> <span class="st">"Cambria"</span>)</span>
+<span id="cb1-5"><a></a>      <span class="co"># flextable::flextable() %&gt;% </span></span>
+<span id="cb1-6"><a></a>      <span class="co"># flextable::colformat_double(digits = 1)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
 </section>
 <section id="data-4-4" class="slide level2 smaller">
@@ -375,7 +364,7 @@ David Jansen
 <blockquote>
 
 <ul>
-<li>Lyric: “I changed my mind about house_E”</li>
+<li>Lyric: “I changed my mind about house E, because it was only done in the front yard”</li>
 </ul>
 
 </blockquote>
@@ -418,6 +407,8 @@ David Jansen
 </section>
 <section id="data-documentation-2" class="slide level2 smaller">
 <h2>Data documentation (2)</h2>
+<blockquote>
+
 <ul>
 <li>README
 <ul>
@@ -427,16 +418,24 @@ David Jansen
 <li>publicly available data may need more details</li>
 <li><a href="https://guides.lib.uci.edu/datamanagement/readme" class="uri">https://guides.lib.uci.edu/datamanagement/readme</a></li>
 </ul></li>
+</ul>
+
+</blockquote>
+<blockquote>
+
+<ul>
 <li>Metadata
 <ul>
+<li>data about data</li>
 <li>often 1 per study</li>
 <li>information does generally not change
 <ul>
 <li>e.g.&nbsp;details on study sites</li>
 </ul></li>
-<li>data about data</li>
 </ul></li>
 </ul>
+
+</blockquote>
 
 <aside><div>
 <p>https://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme</p>
@@ -452,7 +451,7 @@ David Jansen
 <li>Understandable but not to long
 <ul>
 <li>m1 versus glm_count_full</li>
-<li>data versus tick_counts_EA</li>
+<li>data versus tick_counts_GH</li>
 </ul></li>
 </ul>
 
@@ -479,11 +478,10 @@ David Jansen
 <li>Be aware on naming rules of programs
 <ul>
 <li>Avoid special characters ($, @, *)</li>
-<li>Avoid name of functions</li>
-<li>No spaces !!</li>
+<li><strong>No spaces !!</strong></li>
 <li>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
-<li>R (and many other languages) names can’t start with numbers and does not like spaces</li>
-<li>‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’</li>
+<li>R (and many other languages) names can’t start with numbers</li>
+<li>‘car speed in miles per hour’ versus ‘car speed (mph)’ versus <strong>car_speed_mph</strong>’</li>
 </ul></li>
 </ul>
 
@@ -495,7 +493,6 @@ David Jansen
 <li>Be aware on naming rules of programs
 <ul>
 <li>Avoid special characters ($, @, *)</li>
-<li>Avoid name of functions</li>
 <li>No spaces !!</li>
 <li>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
 <li>R (and many other languages) names can’t start with numbers and does not like spaces</li>
@@ -509,7 +506,6 @@ David Jansen
 <li>Be aware on naming rules of programs
 <ul>
 <li>Avoid special characters ($, @, *)</li>
-<li>Avoid name of functions</li>
 <li>No spaces !!</li>
 <li>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
 <li>R (and many other languages) names can’t start with numbers and does not like spaces</li>
