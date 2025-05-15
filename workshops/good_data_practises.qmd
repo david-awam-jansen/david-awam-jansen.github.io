@@ -31,28 +31,25 @@ library(knitr)
 ## Data (1)
 
 -   Keep an as raw as possible version
--   Consider making your original data file read-only
-<ul>
-<li> -   keep in a 'save' format </li>
-<li> -   Preferably not excel format - transferring between platforms can cause an issue (e.g. dates) </li>
-<li> -   csv, tsv, maybe text <li/>
-</ul>
 
-<li> -   Don't make changes to this raw data </li>
+-   Consider making your original data file read-only
+
+-   keep in a 'save' format
+
+-   Preferably not excel format - transferring between platforms can cause an issue (e.g. dates)
+
+-   csv, tsv, maybe text
+
+-   Don't make changes to this raw data
 
 ## Data (2)
 
 -   Content of columns in correct data type and units
-
-    -   character (e.g, "a", "swc")
-
-    -   numeric (real or decimal) (e.g, 2, 2.0)
-
-    -   logical (FALSE, TRUE)
-
-    -   integer (e.g, 2L, as.integer(3))
-
-    -   complex (e.g, 1 + 0i, 1 + 4i) \<- These can be annoying
+-   character (e.g, "a", "swc")
+-   numeric (real or decimal) (e.g, 2, 2.0)
+-   logical (FALSE, TRUE)
+-   integer (e.g, 2L, as.integer(3))
+-   complex (e.g, 1 + 0i, 1 + 4i) \<- These can be annoying
 
 ::: aside
 R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
@@ -104,7 +101,6 @@ labs(y = "speed (mph)")
 :::
 :::::
 
-
 ## Data (4)
 
 -   Use a scripted program not only for analysis, but also for ***data cleaning*** and ***data wrangling***
@@ -128,7 +124,7 @@ labs(y = "speed (mph)")
 :::
 
 ::: {.column width="60%"}
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 raw_data_wide <- tibble(day = c(1,2,3,4,5),
                House_A = c(10, 10, 8, 4, 2),
                House_B = c(2, 10, 9, 4, 2),
@@ -137,10 +133,10 @@ raw_data_wide <- tibble(day = c(1,2,3,4,5),
                House_E = c(14, 2, 8, 11, 1))
 
 raw_data_wide %>% 
-  knitr::kable(digits = 1) %>% 
-  kable_classic(full_width = F, html_font = "Cambria")
-  # flextable::flextable() %>% 
-  # flextable::colformat_double(digits = 1) 
+  #knitr::kable(digits = 1) %>% 
+  #kable_classic(full_width = F, html_font = "Cambria")
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 1) 
 ```
 :::
 
@@ -157,10 +153,8 @@ raw_data_wide %>%
 ```{r, echo=  TRUE, eval =FALSE}
  raw_data_wide %>% 
   select(-House_E) %>%    ## The owners used pesticides during the trials
-  knitr::kable(digits = 1) %>% 
-  kable_classic(full_width = F, html_font = "Cambria")
-      # flextable::flextable() %>% 
-      # flextable::colformat_double(digits = 1)
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 1)
 ```
 
 ## Data (4) {.smaller}
@@ -175,15 +169,15 @@ raw_data_wide %>%
 
 -   A few months later...
 
--   Lyric: "I changed my mind about house E, because it was only done in the front yard"
+    -   Lyric: "I changed my mind about house E, because it was only done in the front yard"
 
--   "Sorry I deleted that data" versus "Let me rerun code"
+        -   "Sorry I deleted that data" versus "Let me rerun code"
 
 ## Wide format versus long format {.smaller}
 
 ::::: columns
 ::: {.column width="70%"}
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 raw_data_wide %>% 
   #knitr::kable(digits = 1) %>% 
   #kable_classic(full_width = F, html_font = "Cambria")
@@ -196,7 +190,7 @@ raw_data_wide %>%
 :::
 
 ::: {.column width="30%"}
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 raw_data_wide %>% 
   pivot_longer(names_to = "houses",
                values_to = "tick_count",
@@ -218,67 +212,58 @@ raw_data_wide %>%
 You know details of project and data structure (at this moment), but what about future you or others.
 :::
 
-
 ## Data documentation (2) {.smaller}
 
-- **README**
-<div class="fragment">
-<ul>
-  <li>One per dataset</li>
-  <li>Provide a title for the dataset</li>
-  <li>Brief description per column</li>
-  <li>Publicly available data may need more details</li>
-  <li><a href="https://guides.lib.uci.edu/datamanagement/readme">UC Irvine README guide</a></li>
-</ul>
-</div>
+-   **README**
 
-- **Metadata**
-<div class="fragment">
-<ul>
-  <li>Data about data</li>
-  <li>Often 1 per study</li>
-  <li>Information does generally not change
+    ::: fragment
     <ul>
-      <li>e.g. details on study sites</li>
+
+    <li>One per dataset</li>
+
+    <li>Provide a title for the dataset</li>
+
+    <li>Brief description per column</li>
+
+    <li>Publicly available data may need more details</li>
+
+    <li><a href="https://guides.lib.uci.edu/datamanagement/readme">UC Irvine README guide</a></li>
+
     </ul>
-  </li>
-  <li><a href="https://datadryad.org/stash/best_practices">Dryad Best Practices</a></li>
-</ul>
-</div>
-
-
-
-## Data documentation xx (2) {.smaller}
-
-- **README**
-    ::: {.fragment}
-    - One per dataset  
-    - Provide a title for the dataset  
-    - Brief description per column  
-    - Publicly available data may need more details  
-    - [UC Irvine README guide](https://guides.lib.uci.edu/datamanagement/readme)  
     :::
 
-- **Metadata**
-    ::: {.fragment}
-    - Data about data  
-    - Often 1 per study  
-    - Information does generally not change  
-        - e.g. details on study sites
-    :::    
+-   **Metadata**
 
+    ::: fragment
+    <ul>
 
-::: aside
-https://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme
-:::
+    <li>Data about data</li>
+
+    <li>Often 1 per study</li>
+
+    <li>
+
+    Information does generally not change
+
+    <ul>
+
+    <li>e.g. details on study sites</li>
+
+    </ul>
+
+    </li>
+
+    <li><a href="https://datadryad.org/stash/best_practices">Dryad Best Practices</a></li>
+
+    </ul>
+    :::
 
 ## Naming
 
 -   Use descriptive names for folders, files and variables
 -   Understandable but not to long
-  -   m1 versus glm_count_full
-  -   data versus tick_counts_GH
-
+-   m1 versus glm_count_full
+-   data versus tick_counts_GH
 
 ::: callout-tip
 While a computer will ultimately run your code, it'll be read by humans, so write code intended for humans!
@@ -287,19 +272,22 @@ While a computer will ultimately run your code, it'll be read by humans, so writ
 ## Naming {.smaller}
 
 -   Be aware on naming rules of programs
-<ul>
-   <li>   Avoid special characters (\$, \@, \*) </li>
-   <li>   **No spaces !!** </li>
-   <li>   Case-sensitive (e.g. R) versus case insensitive (SQL) <li>
-   <li>   R (and many other languages) names can't start with numbers </li>
-   <li>   'car speed in miles per hour' versus 'car speed (mph)' versus **car_speed_mph**' </li>
-</ul>
+
+    -   Avoid special characters (\$, \@, \*)
+
+    -   **No spaces !!**
+
+    -   Case-sensitive (e.g. R) versus case insensitive (SQL)
+
+    -   R (and many other languages) names can't start with numbers
+
+    -   'car speed in miles per hour' versus 'car speed (mph)' versus **car_speed_mph**'
 
 ## Naming {.smaller}
 
 -   Be aware on naming rules of programs
     -   Avoid special characters (\$, \@, \*)
-    -   No spaces !!
+    -   **No spaces !!**
     -   Case-sensitive (e.g. R) versus case insensitive (SQL)
     -   R (and many other languages) names can't start with numbers and does not like spaces
     -   'car speed in miles per hour' versus 'car speed (mph)' versus car_speed_mph'
@@ -307,15 +295,14 @@ While a computer will ultimately run your code, it'll be read by humans, so writ
     -   camelCase
     -   PascalCase
     -   snake_case
-
 -   be consistent
 
 # Take home
 
-> -   keep raw data raw
-> -   use code to clean data
-> -   document code and data
-> -   ***No Spaces :-)***
+-   keep raw data raw
+-   use code to clean data
+-   document code and data
+-   ***No Spaces :-)***
 
 ## Bonus
 
