@@ -58,7 +58,7 @@
     "href": "workshops/good_data_practises.html#data-1-1",
     "title": "Good data practices",
     "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\n\nkeep in a ‘save’ format\nPreferably not excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\n\n\n\n\n\n\nDon’t make changes to this raw data",
+    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\nkeep in a ‘save’ format\n\n\n\nPreferably not excel format - transferring between platforms can cause an issue (e.g. dates)\n\n\n\ncsv, tsv, maybe text\n\n\n\n\n\n\n\n\nDon’t make changes to this raw data",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -146,7 +146,7 @@
     "href": "workshops/good_data_practises.html#data-4-4",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\n\n\n\nLyric: “I changed my mind about house E, because it was only done in the front yard”\n\n\n\n\n\n\n“Sorry I deleted that data” versus “Let me rerun code”",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\nLyric: “I changed my mind about house E, because it was only done in the front yard”\n“Sorry I deleted that data” versus “Let me rerun code”",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -179,7 +179,18 @@
     "href": "workshops/good_data_practises.html#data-documentation-2",
     "title": "Good data practices",
     "section": "Data documentation (2)",
-    "text": "Data documentation (2)\n\n\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\n\n\n\n\n\n\nMetadata\n\ndata about data\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\n\n\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
+    "text": "Data documentation (2)\n\nREADME\n\n\n\nOne per dataset\n\n\nProvide a title for the dataset\n\n\nBrief description per column\n\n\nPublicly available data may need more details\n\n\nUC Irvine README guide\n\n\n\nMetadata\n\n\n\nData about data\n\n\nOften 1 per study\n\n\nInformation does generally not change\n\n\ne.g. details on study sites\n\n\n\n\nDryad Best Practices",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-documentation-xx-2",
+    "href": "workshops/good_data_practises.html#data-documentation-xx-2",
+    "title": "Good data practices",
+    "section": "Data documentation xx (2)",
+    "text": "Data documentation xx (2)\n\nREADME ::: {.fragment}\n\nOne per dataset\n\nProvide a title for the dataset\n\nBrief description per column\n\nPublicly available data may need more details\n\nUC Irvine README guide\n:::\n\nMetadata ::: {.fragment}\n\nData about data\n\nOften 1 per study\n\nInformation does generally not change\n\ne.g. details on study sites :::\n\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -190,7 +201,7 @@
     "href": "workshops/good_data_practises.html#naming",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_GH\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\nUnderstandable but not to long\nm1 versus glm_count_full\ndata versus tick_counts_GH\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -201,7 +212,7 @@
     "href": "workshops/good_data_practises.html#naming-1",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\n\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\n\nAvoid special characters ($, @, *)\n\n\nNo spaces !!\n\n\nCase-sensitive (e.g. R) versus case insensitive (SQL)\n\n\nR (and many other languages) names can’t start with numbers\n\n\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -212,18 +223,7 @@
     "href": "workshops/good_data_practises.html#naming-2",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming-3",
-    "href": "workshops/good_data_practises.html#naming-3",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\n\n\nbe consistent",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\nbe consistent",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
