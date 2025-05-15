@@ -252,27 +252,30 @@
     ]
   },
   {
-    "objectID": "workshops/flextable_test.html",
-    "href": "workshops/flextable_test.html",
-    "title": "blah blah",
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications list",
     "section": "",
-    "text": "this is how to print a flextable in a R Markdown document\n\n\nlibrary(flextable)\nft &lt;- flextable(head(mtcars))\nft &lt;- autofit(ft)\nft\n\nmpgcyldisphpdratwtqsecvsamgearcarb21.061601103.902.62016.46014421.061601103.902.87517.02014422.84108933.852.32018.61114121.462581103.083.21519.44103118.783601753.153.44017.02003218.162251052.763.46020.221031"
+    "text": "1. Jansen, D. A. The contribution of floodplains to the ecology of large herbivores. (University of Wageningen, 2013).\n\n\n2. Jansen, D. A. Self-organising spatial patterns in mussel beds. (University of Wageningen, 2013).\n\n\n3. Jansen, D. A. Diet selection of goats: - a feeding trial experiment. (University of Wageningen, 2013).\n\n\n4. Jansen, D. A., Langevelde, F. van, Boer, W. F. de & Kirkman, K. P. Optimisation or satiation, testing diet selection rules in goats. Small Ruminant Research 73, 160–168 (2007).\n\n\n5. Jansen, D. A., Cant, M. A. & Manser, M. B. Segmental concatenation of individual signatures and context cues in banded mongoose (mungos mungo) close calls. BMC biology 10, 1–11 (2012).\n\n\n6. Jansen, D. A., Cant, M. A. & Manser, M. B. Testing for vocal individual discrimination in adult banded mongooses. Journal of Zoology 291, 171–177 (2013).\n\n\n7. Jansen, D. A. Vocal communication in the banded mongoose (mungos mungo). (University of Zurich, 2013).\n\n\n8. Manser, M. B. et al. Vocal complexity in meerkats and other mongoose species. 46, 281–310 (2014).\n\n\n9. Townsend, S. W. et al. Exorcising g rice’s ghost: An empirical approach to studying intentional communication in animals. Biological Reviews 92, 1427–1433 (2017).\n\n\n10. Akinyi, M. Y. et al. Costs and drivers of helminth parasite infection in wild female baboons. Journal of Animal Ecology 88, 1029–1043 (2019).\n\n\n11. Habig, B. et al. Multi-scale predictors of parasite risk in wild male savanna baboons (papio cynocephalus). Behavioral Ecology and Sociobiology 73, 1–16 (2019).\n\n\n12. Levy, E. J. et al. A comparison of dominance rank metrics reveals multiple competitive landscapes in an animal society. Proceedings of the Royal Society B 287, 20201013 (2020).\n\n\n13. Grieneisen, L. et al. Heritability of the gut microbiome in wild baboons (papio cynocephalus). in American journal of primatology vol. 82 (WILEY 111 RIVER ST, HOBOKEN 07030-5774, NJ USA, 2020).\n\n\n14. Grieneisen, L. et al. Gut microbiome heritability is nearly universal but environmentally contingent. Science 373, 181–186 (2021).\n\n\n15. Björk, J. R. et al. Synchrony and idiosyncrasy in the gut microbiome of wild baboons. Nature ecology & evolution 6, 955–964 (2022).\n\n\n16. Paietta, E. N. et al. Troubled waters: Water availability drives human-baboon encounters in a protected, semi-arid landscape. Biological Conservation 274, 109740 (2022).\n\n\n17. Gordon, J. B., Jansen, D. A., Learn, N. H. & Alberts, S. C. Ordinal dominance rank assignments: Protocol for the amboseli baboon research project. Avaialable at: https://amboselibaboons. nd. edu/downloads/, Accessed Feb 23, 2023 (2022).\n\n\n18. Roche, K. E. et al. Universal gut microbial relationships in the gut microbiome of wild baboons. Elife 12, e83152 (2023).\n\n\n19. Weibel, C. J. et al. Using non-invasive behavioral and physiological data to measure biological age in wild baboons. GeroScience (2024) doi:10.1007/s11357-024-01157-5.\n\n\n20. Jansen, D. A., Warutere, J. K., Tung, J., Alberts, S. C. & Archie, E. A. Early-life paternal relationships predict adult female survival in wild baboons. Proceedings of the Royal Society B xxx, (in press).",
+    "crumbs": [
+      "Publications"
+    ]
   },
   {
-    "objectID": "presentations/cv.html",
-    "href": "presentations/cv.html",
-    "title": "Curriculum vitæ",
-    "section": "",
-    "text": "Download current CV"
-  },
-  {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
+    "objectID": "presentations/MCEVBD_interview.html",
+    "href": "presentations/MCEVBD_interview.html",
     "title": "Presentations",
     "section": "",
-    "text": "MCEVBD job interview\nI gave this  presentation  as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here.\nPhD defense talk\nI gave this  presentation  as part of my PhD defense at the University of Zurich. This presentation was made with LaTeX. The raw code can be found here.",
+    "text": "MCEVBD job interview\nI gave this presenttaion as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Jansen",
+    "section": "",
+    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
     "crumbs": [
-      "Presentations"
+      "Home"
     ]
   },
   {
@@ -306,31 +309,21 @@
     ]
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "David Jansen",
-    "section": "",
-    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "presentations/MCEVBD_interview.html",
-    "href": "presentations/MCEVBD_interview.html",
+    "objectID": "presentations.html",
+    "href": "presentations.html",
     "title": "Presentations",
     "section": "",
-    "text": "MCEVBD job interview\nI gave this presenttaion as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here."
+    "text": "MCEVBD job interview\nI gave this  presentation  as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here.\nPhD defense talk\nI gave this  presentation  as part of my PhD defense at the University of Zurich. This presentation was made with LaTeX. The raw code can be found here.",
+    "crumbs": [
+      "Presentations"
+    ]
   },
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications list",
+    "objectID": "presentations/cv.html",
+    "href": "presentations/cv.html",
+    "title": "Curriculum vitæ",
     "section": "",
-    "text": "1. Jansen, D. A. The contribution of floodplains to the ecology of large herbivores. (University of Wageningen, 2013).\n\n\n2. Jansen, D. A. Self-organising spatial patterns in mussel beds. (University of Wageningen, 2013).\n\n\n3. Jansen, D. A. Diet selection of goats: - a feeding trial experiment. (University of Wageningen, 2013).\n\n\n4. Jansen, D. A., Langevelde, F. van, Boer, W. F. de & Kirkman, K. P. Optimisation or satiation, testing diet selection rules in goats. Small Ruminant Research 73, 160–168 (2007).\n\n\n5. Jansen, D. A., Cant, M. A. & Manser, M. B. Segmental concatenation of individual signatures and context cues in banded mongoose (mungos mungo) close calls. BMC biology 10, 1–11 (2012).\n\n\n6. Jansen, D. A., Cant, M. A. & Manser, M. B. Testing for vocal individual discrimination in adult banded mongooses. Journal of Zoology 291, 171–177 (2013).\n\n\n7. Jansen, D. A. Vocal communication in the banded mongoose (mungos mungo). (University of Zurich, 2013).\n\n\n8. Manser, M. B. et al. Vocal complexity in meerkats and other mongoose species. 46, 281–310 (2014).\n\n\n9. Townsend, S. W. et al. Exorcising g rice’s ghost: An empirical approach to studying intentional communication in animals. Biological Reviews 92, 1427–1433 (2017).\n\n\n10. Akinyi, M. Y. et al. Costs and drivers of helminth parasite infection in wild female baboons. Journal of Animal Ecology 88, 1029–1043 (2019).\n\n\n11. Habig, B. et al. Multi-scale predictors of parasite risk in wild male savanna baboons (papio cynocephalus). Behavioral Ecology and Sociobiology 73, 1–16 (2019).\n\n\n12. Levy, E. J. et al. A comparison of dominance rank metrics reveals multiple competitive landscapes in an animal society. Proceedings of the Royal Society B 287, 20201013 (2020).\n\n\n13. Grieneisen, L. et al. Heritability of the gut microbiome in wild baboons (papio cynocephalus). in American journal of primatology vol. 82 (WILEY 111 RIVER ST, HOBOKEN 07030-5774, NJ USA, 2020).\n\n\n14. Grieneisen, L. et al. Gut microbiome heritability is nearly universal but environmentally contingent. Science 373, 181–186 (2021).\n\n\n15. Björk, J. R. et al. Synchrony and idiosyncrasy in the gut microbiome of wild baboons. Nature ecology & evolution 6, 955–964 (2022).\n\n\n16. Paietta, E. N. et al. Troubled waters: Water availability drives human-baboon encounters in a protected, semi-arid landscape. Biological Conservation 274, 109740 (2022).\n\n\n17. Gordon, J. B., Jansen, D. A., Learn, N. H. & Alberts, S. C. Ordinal dominance rank assignments: Protocol for the amboseli baboon research project. Avaialable at: https://amboselibaboons. nd. edu/downloads/, Accessed Feb 23, 2023 (2022).\n\n\n18. Roche, K. E. et al. Universal gut microbial relationships in the gut microbiome of wild baboons. Elife 12, e83152 (2023).\n\n\n19. Weibel, C. J. et al. Using non-invasive behavioral and physiological data to measure biological age in wild baboons. GeroScience (2024) doi:10.1007/s11357-024-01157-5.\n\n\n20. Jansen, D. A., Warutere, J. K., Tung, J., Alberts, S. C. & Archie, E. A. Early-life paternal relationships predict adult female survival in wild baboons. Proceedings of the Royal Society B xxx, (in press).",
-    "crumbs": [
-      "Publications"
-    ]
+    "text": "Download current CV"
   },
   {
     "objectID": "workshops/git_version_control.html#what-is-version-control",
