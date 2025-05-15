@@ -58,7 +58,7 @@
     "href": "workshops/good_data_practises.html#data-1-1",
     "title": "Good data practices",
     "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\nkeep in a ‘save’ format\n\n\n\nPreferably not excel format - transferring between platforms can cause an issue (e.g. dates)\n\n\n\ncsv, tsv, maybe text\n\n\n\n\n\n\n\n\nDon’t make changes to this raw data",
+    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\nkeep in a ‘save’ format\nPreferably not excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\nDon’t make changes to this raw data",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -69,7 +69,7 @@
     "href": "workshops/good_data_practises.html#data-2",
     "title": "Good data practices",
     "section": "Data (2)",
-    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
+    "text": "Data (2)\n\nContent of columns in correct data type and units\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -124,7 +124,7 @@
     "href": "workshops/good_data_practises.html#data-4-2",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\n\n\n\n\n\n\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -135,7 +135,7 @@
     "href": "workshops/good_data_practises.html#data-4-3",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n  knitr::kable(digits = 1) %&gt;% \n  kable_classic(full_width = F, html_font = \"Cambria\")\n      # flextable::flextable() %&gt;% \n      # flextable::colformat_double(digits = 1)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n  flextable::flextable() %&gt;% \n  flextable::colformat_double(digits = 1)",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -146,7 +146,7 @@
     "href": "workshops/good_data_practises.html#data-4-4",
     "title": "Good data practices",
     "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\nLyric: “I changed my mind about house E, because it was only done in the front yard”\n“Sorry I deleted that data” versus “Let me rerun code”",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\nLyric: “I changed my mind about house E, because it was only done in the front yard”\n\n“Sorry I deleted that data” versus “Let me rerun code”",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -157,7 +157,7 @@
     "href": "workshops/good_data_practises.html#wide-format-versus-long-format",
     "title": "Good data practices",
     "section": "Wide format versus long format",
-    "text": "Wide format versus long format\n\n\n\nwide often easier for recording\nlong often required for analysis",
+    "text": "Wide format versus long format\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E11021111421010121423895684444211522241\n\n\n\nwide often easier for recording\nlong often required for analysis\n\n\n\n\ndayhousestick_count1House_A101House_B21House_C11House_D111House_E142House_A102House_B102House_C122House_D142House_E23House_A83House_B93House_C53House_D63House_E84House_A44House_B44House_C44House_D24House_E11",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -186,17 +186,6 @@
     ]
   },
   {
-    "objectID": "workshops/good_data_practises.html#data-documentation-xx-2",
-    "href": "workshops/good_data_practises.html#data-documentation-xx-2",
-    "title": "Good data practices",
-    "section": "Data documentation xx (2)",
-    "text": "Data documentation xx (2)\n\nREADME ::: {.fragment}\n\nOne per dataset\n\nProvide a title for the dataset\n\nBrief description per column\n\nPublicly available data may need more details\n\nUC Irvine README guide\n:::\n\nMetadata ::: {.fragment}\n\nData about data\n\nOften 1 per study\n\nInformation does generally not change\n\ne.g. details on study sites :::\n\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
     "objectID": "workshops/good_data_practises.html#naming",
     "href": "workshops/good_data_practises.html#naming",
     "title": "Good data practices",
@@ -212,7 +201,7 @@
     "href": "workshops/good_data_practises.html#naming-1",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\n\nAvoid special characters ($, @, *)\n\n\nNo spaces !!\n\n\nCase-sensitive (e.g. R) versus case insensitive (SQL)\n\n\nR (and many other languages) names can’t start with numbers\n\n\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
