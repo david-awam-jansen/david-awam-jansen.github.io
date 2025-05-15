@@ -32,14 +32,13 @@ library(knitr)
 
 -   Keep an as raw as possible version
 -   Consider making your original data file read-only
+<ul>
+<li> -   keep in a 'save' format </li>
+<li> -   Preferably not excel format - transferring between platforms can cause an issue (e.g. dates) </li>
+<li> -   csv, tsv, maybe text <li/>
+</ul>
 
-::: nonincremental
-> -   keep in a 'save' format
-> -   Preferably not excel format - transferring between platforms can cause an issue (e.g. dates)
-> -   csv, tsv, maybe text
-:::
-
-> -   Don't make changes to this raw data
+<li> -   Don't make changes to this raw data </li>
 
 ## Data (2)
 
@@ -176,9 +175,9 @@ raw_data_wide %>%
 
 -   A few months later...
 
-> -   Lyric: "I changed my mind about house E, because it was only done in the front yard"
+-   Lyric: "I changed my mind about house E, because it was only done in the front yard"
 
-> -   "Sorry I deleted that data" versus "Let me rerun code"
+-   "Sorry I deleted that data" versus "Let me rerun code"
 
 ## Wide format versus long format {.smaller}
 
@@ -219,20 +218,54 @@ raw_data_wide %>%
 You know details of project and data structure (at this moment), but what about future you or others.
 :::
 
+
 ## Data documentation (2) {.smaller}
 
-> - README  
->    - one per dataset
->    - provide a title for the dataset
->    - brief description per column
->    - publicly available data may need more details
->    - <https://guides.lib.uci.edu/datamanagement/readme>
+- **README**
+<div class="fragment">
+<ul>
+  <li>One per dataset</li>
+  <li>Provide a title for the dataset</li>
+  <li>Brief description per column</li>
+  <li>Publicly available data may need more details</li>
+  <li><a href="https://guides.lib.uci.edu/datamanagement/readme">UC Irvine README guide</a></li>
+</ul>
+</div>
 
-> - Metadata  
->     - data about data
->     - often 1 per study
->     - information does generally not change
->         - e.g. details on study sites
+- **Metadata**
+<div class="fragment">
+<ul>
+  <li>Data about data</li>
+  <li>Often 1 per study</li>
+  <li>Information does generally not change
+    <ul>
+      <li>e.g. details on study sites</li>
+    </ul>
+  </li>
+  <li><a href="https://datadryad.org/stash/best_practices">Dryad Best Practices</a></li>
+</ul>
+</div>
+
+
+
+## Data documentation xx (2) {.smaller}
+
+- **README**
+    ::: {.fragment}
+    - One per dataset  
+    - Provide a title for the dataset  
+    - Brief description per column  
+    - Publicly available data may need more details  
+    - [UC Irvine README guide](https://guides.lib.uci.edu/datamanagement/readme)  
+    :::
+
+- **Metadata**
+    ::: {.fragment}
+    - Data about data  
+    - Often 1 per study  
+    - Information does generally not change  
+        - e.g. details on study sites
+    :::    
 
 
 ::: aside
@@ -242,10 +275,10 @@ https://datadryad.org/stash/best_practices https://data.research.cornell.edu/con
 ## Naming
 
 -   Use descriptive names for folders, files and variables
+-   Understandable but not to long
+  -   m1 versus glm_count_full
+  -   data versus tick_counts_GH
 
-> -   Understandable but not to long
->     -   m1 versus glm_count_full
->     -   data versus tick_counts_GH
 
 ::: callout-tip
 While a computer will ultimately run your code, it'll be read by humans, so write code intended for humans!
@@ -253,21 +286,14 @@ While a computer will ultimately run your code, it'll be read by humans, so writ
 
 ## Naming {.smaller}
 
-> -   Be aware on naming rules of programs
->     -   Avoid special characters (\$, \@, \*)
->     -   **No spaces !!**
->     -   Case-sensitive (e.g. R) versus case insensitive (SQL)
->     -   R (and many other languages) names can't start with numbers
->     -   'car speed in miles per hour' versus 'car speed (mph)' versus **car_speed_mph**'
-
-## Naming {.smaller}
-
 -   Be aware on naming rules of programs
-    -   Avoid special characters (\$, \@, \*)
-    -   No spaces !!
-    -   Case-sensitive (e.g. R) versus case insensitive (SQL)
-    -   R (and many other languages) names can't start with numbers and does not like spaces
-    -   'car speed in miles per hour' versus 'car speed (mph)' versus car_speed_mph'
+<ul>
+   <li>   Avoid special characters (\$, \@, \*) </li>
+   <li>   **No spaces !!** </li>
+   <li>   Case-sensitive (e.g. R) versus case insensitive (SQL) <li>
+   <li>   R (and many other languages) names can't start with numbers </li>
+   <li>   'car speed in miles per hour' versus 'car speed (mph)' versus **car_speed_mph**' </li>
+</ul>
 
 ## Naming {.smaller}
 
@@ -282,7 +308,7 @@ While a computer will ultimately run your code, it'll be read by humans, so writ
     -   PascalCase
     -   snake_case
 
-> -   be consistent
+-   be consistent
 
 # Take home
 
