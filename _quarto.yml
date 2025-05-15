@@ -1,22 +1,24 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!data_wrangling_of_field_data_standby.qmd"
+    - "!temp/*"
 
 website:
   sidebar:
     style: "docked"
     search: true
     contents:
-      - section: "Basics"
-        contents:
-          - text: "Home"
-            file: index.qmd
-          - text: "About Me"
-            file: about.qmd
-          - text: "Publications"
-            file: publications.qmd
-          - text: "Presentations"
-            file: presentations.qmd
+      - text: "Home"
+        file: index.qmd
+      - text: "About Me"
+        file: about.qmd
+      - text: "Publications"
+        file: publications.qmd
+      - text: "Presentations"
+        file: presentations.qmd
       - section: "Workshops"
         contents:
           - text: "Introduction into good data and coding practices"
@@ -28,7 +30,7 @@ website:
           - text: "Peer review process"
             file: ./workshops/peer_review.qmd
           - text: "Introduction to data management for MCEVBD fellows"            
-          - file: workshops/good_data_practises_for_MCEVBD_fellows.qmd
+            file: workshops/good_data_practises_for_MCEVBD_fellows.qmd
 
 bibliography: publications.bib         
 
