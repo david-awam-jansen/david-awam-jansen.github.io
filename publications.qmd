@@ -1,18 +1,23 @@
 ---
 title: "Publications list"
 bibliography: publications.bib
-csl: styles/ecology-letters
 nocite: |
-  @jansen2003thesis, @jansen2005intern, @jansen2005thesis, @jansen2007, @jansen2012, @jansen2013, @jansen2013thesis, @manser2014, @townsend2017, @akinyi2019, @habig2019, @levy2020, @grieneisen2020, @grieneisen2021, @bjork2022, @gordon2023, @paietta2023, @roche2023, @weibel2024
+  @jansen2003thesis, @jansen2005intern, @jansen2005thesis, @jansen2007, @jansen2012, @jansen2013, @jansen2013thesis, @manser2014, @townsend2017, @akinyi2019, @habig2019, @levy2020, @grieneisen2020, @grieneisen2021, @bjork2022, @gordon2023, @paietta2023, @roche2023, @weibel2024, @jansen2025
 reference-section-title: " "  
 custom-css: |
   .references .title {
     display: none;
   }
-filters: [bold-author.lua]
+csl: styles/nature
+filters:
+  - dociteproc.lua
+  - boldname.lua
+citeproc: false
+format:
+  html:
+    toc: true
 ---
-
-
+<!-- filters: [bold-author.lua] -->
 
 
 <!-- As point make bold author name. This would be so cool -->
