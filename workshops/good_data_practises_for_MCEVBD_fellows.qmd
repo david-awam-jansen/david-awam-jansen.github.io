@@ -88,9 +88,9 @@ library(tidyverse)
 
 - be accurate 
 - check sheets if they are completed 
-- your hard work is only valuable if data is recorded
 - **no blanks**
-- notes if needed
+- your hard work is only valuable if data is recorded
+- as many notes if needed
 
 ##
 
