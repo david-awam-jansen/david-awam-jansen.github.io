@@ -11,8 +11,6 @@ format:
     mathjax: NULL
 ---
 
-![](/images/data_quality.jpg){fig-align="center" width="900"}
-
 # Content
 
 ```{r}
@@ -20,31 +18,91 @@ knitr::opts_chunk$set("ft.shadow" = FALSE)
 library(tidyverse)
 ```
 
+-   Field data collection
+
 -   Data management
 
 -   Naming structures
 
--   Eau Claire terminex project
+# Field data collection
 
-## Examples of problems last year
+![](/images/data_quality.jpg){fig-align="center" width="900"}
+
+## Importance of good data
+
+-   Good data leads to good science
+-   “Garbage in, garbage out” – no analysis can save bad data
+-   “Accuracy isn’t about perfection — it’s about responsibility.”
+-   You can’t fix bad data with good statistics
+
+## Uniqueness of fieldwork
+
+-   One-time opportunity: You can’t redo fieldwork
+    -   once it’s done, it’s done.
+-   High cost:
+    -   Fieldwork involves lots of time, travel and staff
+-   Unpredictable conditions:
+    -   **Weather**, animals, insects and the environment add complexity
+
+## Data collection sheets
+
+-   Your lab notebook of the field
+    -   This is the raw data of the project
+-   Your entries might be entered by other people
+    -   Clear handwriting is essential (**also for numbers**)
+        -   Ask Brad for details :-)
+    -   consistent entries
+    -   standardized formats
+-   The data might only be entered weeks later.
+
+- Add notes if needed
+
+## Data collection sheet
+
+-   Example of a data collection sheet
+
+![](/images/FieldDataEntrySsheet_2025_Gault_Hollow.jpg){fig-align="center" width="900"}
 
 ## Blank versus 0
 
--   0 means that you did not find tick
--   blank could mean several things
-    -   You looked for ticks, but did not find any.
-    -   You did not look for ticks so you don't know how many ticks there are.
-    -   Computers will see blanks as NA (i.e. you don't know).
+-   0 means that you did not find a tick
+-   Blank means you don’t have information about ticks
+    -   You looked for ticks and found none
+    -   You looked for ticks, but did not record what number you found
+    -   You did not look for ticks, so you don't know how many ticks there are.
+-   **Important:** Computers interpret blanks as **NA** (missing data), which means *unknown*.
 
-Example why this is an important difference
+## Date Formats Matter
 
-So please pay attention so I can avoid this
+-   Be consistent.
+    -   Don’t mix formats like 3/5/25
+        -    March 5 (USA)
+        -    May 3 (rest of the world)
+    - ISO format: YYYY-MM-DD (e.g. 2025-05-15)
+    - ddMMMyy: (e.g. 15MAY25)
+- When entering data watch out for auto-formatting in spreadsheets! 
+  - ddMMMyy format is save as it is seen as text 
+    
 
-![](images/frustrated_coder.jpg){fig-align="center"}
+## Take home message
+
+- be accurate 
+- check sheets if they are completed 
+- your hard work is only valuable if data is recorded
+- **no blanks**
+- notes if needed
+
+##
+
+If we can all do this we can avoid 
+
+<img src="images/frustrated_coder.jpg" style="display:block; margin:auto;" height="200px"/>
 
 and be
 
-![](images/yes_scientist.jpg){fig-align="center"}
+<img src="images/yes_scientist.jpg" style="display:block; margin:auto;" height="300px"/>
+
+# Data management
 
 ## Data (1)
 
@@ -56,34 +114,20 @@ and be
 
 -   Keep an as raw as possible version
 -   Consider making your original data file read-only
+-   keep in a 'save' format
+-   Preferably not excel format - transferring between platforms can cause an issue (e.g. dates)
+-   But sometimes it is useful
+-   csv, tsv, maybe text
+-   Don't make changes to this raw data
 
-::: nonincremental
-> -   keep in a 'save' format
-> -   Gnerally not excel format - transferring between platforms can cause an issue (e.g. dates)
-
-```         
-> - But sometimes it is useful
-  
-```
-
-> -   Better are csv, tsv, maybe text
-:::
-
-> -   Don't make changes to this raw data
-
-## Data (2) {data-transition="convex"}
+## Data (2)
 
 -   Content of columns in correct data type and units
-
-    -   character (e.g, "a", "swc")
-
-    -   numeric (real or decimal) (e.g, 2, 2.0)
-
-    -   logical (FALSE, TRUE)
-
-    -   integer (e.g, 2L, as.integer(3))
-
-    -   complex (e.g, 1 + 0i, 1 + 4i) \<- These can be annoying
+-   character (e.g, "a", "swc")
+-   numeric (real or decimal) (e.g, 2, 2.0)
+-   logical (FALSE, TRUE)
+-   integer (e.g, 2L, as.integer(3))
+-   complex (e.g, 1 + 0i, 1 + 4i) \<- These can be annoying
 
 ::: aside
 R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
@@ -94,21 +138,21 @@ R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
 -   Try to have content of columns in correct data type and units
 -   An example why this ~~can~~ is important
 
-```{r}
+```{r, eval=TRUE}
 tibble(species = c("elphant", "mouse", "cheetah"),
        speed = c("24.0 mph", "8.1 mph", "74.6 mph"),
        speed_mph = c(24, 8.1, 74.7)) %>% 
-    knitr::kable()
-
-# %>% 
-#     flextable::fontsize(size = 14, part = "all") %>% 
-#     flextable::colformat_double(digits = 1) %>%  
-#     flextable::width(j = 2, 1, unit = "in")
+  #knitr::kable(digits = 1) %>% 
+  #kableExtra::kable_classic(full_width = F, html_font = "Cambria")
+     flextable::flextable() %>% 
+     flextable::fontsize(size = 30, part = "all") %>% 
+     flextable::colformat_double(digits = 1) %>%  
+     flextable::width(j = 2, 2, unit = "in")
 ```
 
-. . .
+## Data (3)
 
-::: {,columns}
+::::: {,columns}
 ::: {.column width="45%"}
 ```{r}
 tibble(species = c("elphant", "mouse", "cheetah"),
@@ -133,7 +177,7 @@ tibble(species = c("elphant", "mouse", "cheetah"),
 labs(y = "speed (mph)")
 ```
 :::
-:::
+:::::
 
 ## Data (4)
 
@@ -147,15 +191,76 @@ labs(y = "speed (mph)")
 
     ![](../images/recipe.jpg){fig-align="center"}
 
+## Data (4) {.smaller}
+
+-   Use a scripted program not only for analysis, but also for ***data cleaning*** and ***data wrangling***
+-   reproducible
+-   Keep raw version safe !!!
+
+::: {.column width="35%"}
+![](../images/field_data.jpg){fig-align="center"}
+:::
+
+::: {.column width="60%"}
+```{r, eval=TRUE}
+raw_data_wide <- tibble(day = c(1,2,3,4,5),
+               House_A = c(10, 10, 8, 4, 2),
+               House_B = c(2, 10, 9, 4, 2),
+               House_C = c(1, 12, 5, 4, 2),
+               House_D = c(11, 14, 6, 2, 4),
+               House_E = c(14, 2, 8, 11, 1))
+
+raw_data_wide %>% 
+  #knitr::kable(digits = 1) %>% 
+  #kable_classic(full_width = F, html_font = "Cambria")
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 1) 
+```
+:::
+
+## Data (4) {.smaller}
+
+-   Use a scripted program not only for analysis, but also for ***data cleaning*** and ***data wrangling***
+
+-   reproducible
+
+-   Keep raw version safe !!!
+
+-   Lyric: "House E used pesticides and should be excluded for this study"
+
+```{r, echo=  TRUE, eval =FALSE}
+ raw_data_wide %>% 
+  select(-House_E) %>%    ## The owners used pesticides during the trials
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 1)
+```
+
+## Data (4) {.smaller}
+
+-   Use a scripted program not only for analysis, but also for ***data cleaning*** and ***data wrangling***
+
+-   reproducible
+
+-   Keep raw version safe !!!
+
+-   Lyric: "House E used pesticides and should be excluded for this study"
+
+-   A few months later...
+
+    -   Lyric: "I changed my mind about house E, because it was only done in the front yard"
+
+        -   "Sorry I deleted that data" versus "Let me rerun code"
+
 ## Wide format versus long format {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="70%"}
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 raw_data_wide %>% 
-  knitr::kable()
-  #flextable::flextable() %>% 
-  #flextable::colformat_double(digits = 1)
+  #knitr::kable(digits = 1) %>% 
+  #kable_classic(full_width = F, html_font = "Cambria")
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 0)
 ```
 
 -   wide often easier for recording
@@ -163,18 +268,19 @@ raw_data_wide %>%
 :::
 
 ::: {.column width="30%"}
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 raw_data_wide %>% 
   pivot_longer(names_to = "houses",
                values_to = "tick_count",
                cols = -day) %>% 
-  slice(1:20) %>%
-  knitr::kable()
-  #flextable::flextable() %>% 
-  #flextable::colformat_double(digits = 1)
+  slice(1:20) %>% 
+  #knitr::kable(digits = 1) %>% 
+  #kable_classic(full_width = F, html_font = "Cambria")
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 0)
 ```
 :::
-:::
+:::::
 
 ## Data documentation (1)
 
@@ -184,35 +290,58 @@ raw_data_wide %>%
 You know details of project and data structure (at this moment), but what about future you or others.
 :::
 
-::: callout-tip
-This is why notes are important. You were in the field. Your data scientist might not.
-:::
-
 ## Data documentation (2) {.smaller}
 
--   README
-    -   one per dataset
-    -   provide a title for the dataset
-    -   brief description per column
-    -   publicly available data may need more details
-    -   <https://guides.lib.uci.edu/datamanagement/readme>
--   Metadata
-    -   often 1 per study
-    -   information does generally not change
-        -   e.g. details on study sites
-    -   data about data
+-   **README**
 
-::: aside
-https://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme
-:::
+    ::: fragment
+    <ul>
+
+    <li>One per dataset</li>
+
+    <li>Provide a title for the dataset</li>
+
+    <li>Brief description per column</li>
+
+    <li>Publicly available data may need more details</li>
+
+    <li><a href="https://guides.lib.uci.edu/datamanagement/readme">UC Irvine README guide</a></li>
+
+    </ul>
+    :::
+
+-   **Metadata**
+
+    ::: fragment
+    <ul>
+
+    <li>Data about data</li>
+
+    <li>Often 1 per study</li>
+
+    <li>
+
+    Information does generally not change
+
+    <ul>
+
+    <li>e.g. details on study sites</li>
+
+    </ul>
+
+    </li>
+
+    <li><a href="https://datadryad.org/stash/best_practices">Dryad Best Practices</a></li>
+
+    </ul>
+    :::
 
 ## Naming
 
 -   Use descriptive names for folders, files and variables
-
-> -   Understandable but not to long
->     -   m1 versus glm_count_full
->     -   data versus tick_counts_EA
+-   Understandable but not to long
+-   m1 versus glm_count_full
+-   data versus tick_counts_GH
 
 ::: callout-tip
 While a computer will ultimately run your code, it'll be read by humans, so write code intended for humans!
@@ -221,35 +350,38 @@ While a computer will ultimately run your code, it'll be read by humans, so writ
 ## Naming {.smaller}
 
 -   Be aware on naming rules of programs
+
     -   Avoid special characters (\$, \@, \*)
-    -   Avoid name of functions
-    -   No spaces !!
+
+    -   **No spaces !!**
+
     -   Case-sensitive (e.g. R) versus case insensitive (SQL)
-    -   R (and many other languages) names can't start with numbers and does not like spaces
-    -   'car speed in miles per hour' versus 'car speed (mph)' versus car_speed_mph'
+
+    -   R (and many other languages) names can't start with numbers
+
+    -   'car speed in miles per hour' versus 'car speed (mph)' versus **car_speed_mph**
 
 ## Naming {.smaller}
 
 -   Be aware on naming rules of programs
-    -   Avoid special characters (\$, \@, \*)
-    -   Avoid name of functions
-    -   No spaces !!
-    -   Case-sensitive (e.g. R) versus case insensitive (SQL)
-    -   R (and many other languages) names can't start with numbers and does not like spaces
-    -   'car speed in miles per hour' versus 'car speed (mph)' versus car_speed_mph'
 -   styles
     -   camelCase
     -   PascalCase
     -   snake_case
-
-> -   be consistent
+-   be consistent
 
 # Take home
 
-> -   keep raw data raw
-> -   use code to clean data
-> -   document code and data
-> -   ***No Spaces :-)***
+-   keep raw data raw
+-   use code to clean data
+-   document code and data
+-   ***No Spaces :-)***
+
+<!-- ![](images/frustrated_coder.jpg){fig-align="center" height="40%"} -->
+
+<!-- and be -->
+
+<!-- ![](images/yes_scientist.jpg){fig-align="center" height ="40%"} -->
 
 ## Bonus
 
@@ -272,5 +404,3 @@ While a computer will ultimately run your code, it'll be read by humans, so writ
         ![](../images/yes_scientist.jpg){width="100"}
 
     b.  error -\> go back to 1.git stat
-
-6.  
