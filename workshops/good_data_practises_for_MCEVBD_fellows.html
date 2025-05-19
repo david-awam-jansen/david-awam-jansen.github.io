@@ -29,6 +29,72 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
+    /* CSS for syntax highlighting */
+    html { -webkit-text-size-adjust: 100%; }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      { color: #003b4f; background-color: #f1f3f5; }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span { color: #003b4f; } /* Normal */
+    code span.al { color: #ad0000; } /* Alert */
+    code span.an { color: #5e5e5e; } /* Annotation */
+    code span.at { color: #657422; } /* Attribute */
+    code span.bn { color: #ad0000; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #003b4f; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #20794d; } /* Char */
+    code span.cn { color: #8f5902; } /* Constant */
+    code span.co { color: #5e5e5e; } /* Comment */
+    code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+    code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+    code span.dt { color: #ad0000; } /* DataType */
+    code span.dv { color: #ad0000; } /* DecVal */
+    code span.er { color: #ad0000; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #ad0000; } /* Float */
+    code span.fu { color: #4758ab; } /* Function */
+    code span.im { color: #00769e; } /* Import */
+    code span.in { color: #5e5e5e; } /* Information */
+    code span.kw { color: #003b4f; font-weight: bold; } /* Keyword */
+    code span.op { color: #5e5e5e; } /* Operator */
+    code span.ot { color: #003b4f; } /* Other */
+    code span.pp { color: #ad0000; } /* Preprocessor */
+    code span.sc { color: #5e5e5e; } /* SpecialChar */
+    code span.ss { color: #20794d; } /* SpecialString */
+    code span.st { color: #20794d; } /* String */
+    code span.va { color: #111111; } /* Variable */
+    code span.vs { color: #20794d; } /* VerbatimString */
+    code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto-39d1eab08b8faec97b8adc39508066ea.css">
   <link rel="stylesheet" href="../styles.css">
@@ -123,6 +189,8 @@
       margin-right: 0; 
     }
   </style>
+  <link href="../site_libs/tabwid-1.1.3/tabwid.css" rel="stylesheet">
+  <script src="../site_libs/tabwid-1.1.3/tabwid.js"></script>
 </head>
 <body class="quarto-light">
   <div class="reveal">
@@ -142,46 +210,126 @@ David Jansen
 
   <p class="date">2025-05-19</p>
 </section>
-<section class="slide level2">
-
-
-<img data-src="../images/data_quality.jpg" class="quarto-figure quarto-figure-center r-stretch" width="900"></section>
-<section>
 <section id="content" class="title-slide slide level1 center">
 <h1>Content</h1>
 <ul>
+<li><p>Field data collection</p></li>
 <li><p>Data management</p></li>
 <li><p>Naming structures</p></li>
-<li><p>Eau Claire terminex project</p></li>
 </ul>
 </section>
-<section id="examples-of-problems-last-year" class="slide level2">
-<h2>Examples of problems last year</h2>
+
+<section>
+<section id="field-data-collection" class="title-slide slide level1 center">
+<h1>Field data collection</h1>
+
+<img data-src="../images/data_quality.jpg" class="quarto-figure quarto-figure-center r-stretch" width="900"></section>
+<section id="importance-of-good-data" class="slide level2">
+<h2>Importance of good data</h2>
+<ul>
+<li>Good data leads to good science</li>
+<li>“Garbage in, garbage out” – no analysis can save bad data</li>
+<li>“Accuracy isn’t about perfection — it’s about responsibility.”</li>
+<li>You can’t fix bad data with good statistics</li>
+</ul>
 </section>
+<section id="uniqueness-of-fieldwork" class="slide level2">
+<h2>Uniqueness of fieldwork</h2>
+<ul>
+<li>One-time opportunity: You can’t redo fieldwork
+<ul>
+<li>once it’s done, it’s done.</li>
+</ul></li>
+<li>High cost:
+<ul>
+<li>Fieldwork involves lots of time, travel and staff</li>
+</ul></li>
+<li>Unpredictable conditions:
+<ul>
+<li><strong>Weather</strong>, animals, insects and the environment add complexity</li>
+</ul></li>
+</ul>
+</section>
+<section id="data-collection-sheets" class="slide level2">
+<h2>Data collection sheets</h2>
+<ul>
+<li><p>Your lab notebook of the field</p>
+<ul>
+<li>This is the raw data of the project</li>
+</ul></li>
+<li><p>Your entries might be entered by other people</p>
+<ul>
+<li>Clear handwriting is essential (<strong>also for numbers</strong>)
+<ul>
+<li>Ask Brad for details :-)</li>
+</ul></li>
+<li>consistent entries</li>
+<li>standardized formats</li>
+</ul></li>
+<li><p>The data might only be entered weeks later.</p></li>
+<li><p>Add notes if needed</p></li>
+</ul>
+</section>
+<section id="data-collection-sheet" class="slide level2">
+<h2>Data collection sheet</h2>
+<ul>
+<li>Example of a data collection sheet</li>
+</ul>
+
+<img data-src="../images/FieldDataEntrySsheet_2025_Gault_Hollow.jpg" class="quarto-figure quarto-figure-center r-stretch" width="900"></section>
 <section id="blank-versus-0" class="slide level2">
 <h2>Blank versus 0</h2>
 <ul>
-<li>0 means that you did not find tick</li>
-<li>blank could mean several things
+<li>0 means that you did not find a tick</li>
+<li>Blank means you don’t have information about ticks
 <ul>
-<li>You looked for ticks, but did not find any.</li>
-<li>You did not look for ticks so you don’t know how many ticks there are.</li>
-<li>Computers will see blanks as NA (i.e.&nbsp;you don’t know).</li>
+<li>You looked for ticks and found none</li>
+<li>You looked for ticks, but did not record what number you found</li>
+<li>You did not look for ticks, so you don’t know how many ticks there are.</li>
+</ul></li>
+<li><strong>Important:</strong> Computers interpret blanks as <strong>NA</strong> (missing data), which means <em>unknown</em>.</li>
+</ul>
+</section>
+<section id="date-formats-matter" class="slide level2">
+<h2>Date Formats Matter</h2>
+<ul>
+<li>Be consistent.
+<ul>
+<li>Don’t mix formats like 3/5/25
+<ul>
+<li>March 5 (USA)</li>
+<li>May 3 (rest of the world)</li>
+</ul></li>
+<li>ISO format: YYYY-MM-DD (e.g.&nbsp;2025-05-15)</li>
+<li>ddMMMyy: (e.g.&nbsp;15MAY25)</li>
+</ul></li>
+<li>When entering data watch out for auto-formatting in spreadsheets!
+<ul>
+<li>ddMMMyy format is save as it is seen as text</li>
 </ul></li>
 </ul>
-<p>Example why this is an important difference</p>
-<p>So please pay attention so I can avoid this</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/frustrated_coder.jpg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
+</section>
+<section id="take-home-message" class="slide level2">
+<h2>Take home message</h2>
+<ul>
+<li>be accurate</li>
+<li>check sheets if they are completed</li>
+<li>your hard work is only valuable if data is recorded</li>
+<li><strong>no blanks</strong></li>
+<li>notes if needed</li>
+</ul>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p>If we can all do this we can avoid</p>
+<p><img src="images/frustrated_coder.jpg" style="display:block; margin:auto;" height="200px"></p>
 <p>and be</p>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/yes_scientist.jpg" class="quarto-figure quarto-figure-center"></p>
-</figure>
-</div>
+<p><img src="images/yes_scientist.jpg" style="display:block; margin:auto;" height="300px"></p>
+</section></section>
+<section>
+<section id="data-management" class="title-slide slide level1 center">
+<h1>Data management</h1>
+
 </section>
 <section id="data-1" class="slide level2">
 <h2>Data (1)</h2>
@@ -195,43 +343,22 @@ David Jansen
 <ul>
 <li>Keep an as raw as possible version</li>
 <li>Consider making your original data file read-only</li>
-</ul>
-<blockquote>
-
-<ul>
 <li>keep in a ‘save’ format</li>
-<li>Gnerally not excel format - transferring between platforms can cause an issue (e.g.&nbsp;dates)</li>
-</ul>
-
-</blockquote>
-<pre><code>&gt; - But sometimes it is useful
-  </code></pre>
-<blockquote>
-
-<ul>
-<li>Better are csv, tsv, maybe text</li>
-</ul>
-
-</blockquote>
-<blockquote>
-
-<ul>
+<li>Preferably not excel format - transferring between platforms can cause an issue (e.g.&nbsp;dates)</li>
+<li>But sometimes it is useful</li>
+<li>csv, tsv, maybe text</li>
 <li>Don’t make changes to this raw data</li>
 </ul>
-
-</blockquote>
 </section>
-<section id="data-2" class="slide level2" data-transition="convex">
+<section id="data-2" class="slide level2">
 <h2>Data (2)</h2>
 <ul>
-<li><p>Content of columns in correct data type and units</p>
-<ul>
-<li><p>character (e.g, “a”, “swc”)</p></li>
-<li><p>numeric (real or decimal) (e.g, 2, 2.0)</p></li>
-<li><p>logical (FALSE, TRUE)</p></li>
-<li><p>integer (e.g, 2L, as.integer(3))</p></li>
-<li><p>complex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying</p></li>
-</ul></li>
+<li>Content of columns in correct data type and units</li>
+<li>character (e.g, “a”, “swc”)</li>
+<li>numeric (real or decimal) (e.g, 2, 2.0)</li>
+<li>logical (FALSE, TRUE)</li>
+<li>integer (e.g, 2L, as.integer(3))</li>
+<li>complex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying</li>
 </ul>
 
 <aside><div>
@@ -245,35 +372,12 @@ David Jansen
 </ul>
 <div class="cell">
 <div class="cell-output-display">
-<table class="caption-top">
-<thead>
-<tr class="header">
-<th style="text-align: left;">species</th>
-<th style="text-align: left;">speed</th>
-<th style="text-align: right;">speed_mph</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">elphant</td>
-<td style="text-align: left;">24.0 mph</td>
-<td style="text-align: right;">24.0</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">mouse</td>
-<td style="text-align: left;">8.1 mph</td>
-<td style="text-align: right;">8.1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">cheetah</td>
-<td style="text-align: left;">74.6 mph</td>
-<td style="text-align: right;">74.7</td>
-</tr>
-</tbody>
-</table>
+<div class="tabwid"><style>.cl-7ffc8e6a{}.cl-7ff46762{font-family:'DejaVu Sans';font-size:30pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-7ff8d8ba{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-7ff8d8ce{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-7ff8f4d0{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-7ff8f4d1{width:2in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-7ff8f4da{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-7ff8f4db{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-7ff8f4dc{width:2in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-7ff8f4e4{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-7ff8f4e5{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-7ff8f4e6{width:2in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-7ff8f4ee{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-7ffc8e6a"><thead><tr style="overflow-wrap:break-word;"><th class="cl-7ff8f4d0"><p class="cl-7ff8d8ba"><span class="cl-7ff46762">species</span></p></th><th class="cl-7ff8f4d1"><p class="cl-7ff8d8ba"><span class="cl-7ff46762">speed</span></p></th><th class="cl-7ff8f4da"><p class="cl-7ff8d8ce"><span class="cl-7ff46762">speed_mph</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-7ff8f4db"><p class="cl-7ff8d8ba"><span class="cl-7ff46762">elphant</span></p></td><td class="cl-7ff8f4dc"><p class="cl-7ff8d8ba"><span class="cl-7ff46762">24.0 mph</span></p></td><td class="cl-7ff8f4e4"><p class="cl-7ff8d8ce"><span class="cl-7ff46762">24.0</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-7ff8f4db"><p class="cl-7ff8d8ba"><span class="cl-7ff46762">mouse</span></p></td><td class="cl-7ff8f4dc"><p class="cl-7ff8d8ba"><span class="cl-7ff46762">8.1 mph</span></p></td><td class="cl-7ff8f4e4"><p class="cl-7ff8d8ce"><span class="cl-7ff46762">8.1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-7ff8f4e5"><p class="cl-7ff8d8ba"><span class="cl-7ff46762">cheetah</span></p></td><td class="cl-7ff8f4e6"><p class="cl-7ff8d8ba"><span class="cl-7ff46762">74.6 mph</span></p></td><td class="cl-7ff8f4ee"><p class="cl-7ff8d8ce"><span class="cl-7ff46762">74.7</span></p></td></tr></tbody></table></div>
 </div>
 </div>
-<div class="fragment">
+</section>
+<section id="data-3-1" class="slide level2">
+<h2>Data (3)</h2>
 <div class="{,columns}">
 <div class="column" style="width:45%;">
 <div class="cell">
@@ -296,7 +400,6 @@ David Jansen
 </div>
 </div>
 </div></div>
-</div>
 </section>
 <section id="data-4" class="slide level2">
 <h2>Data (4)</h2>
@@ -316,16 +419,76 @@ David Jansen
 </div></li>
 </ul>
 </section>
+<section id="data-4-2" class="slide level2 smaller">
+<h2>Data (4)</h2>
+<ul>
+<li>Use a scripted program not only for analysis, but also for <strong><em>data cleaning</em></strong> and <strong><em>data wrangling</em></strong></li>
+<li>reproducible</li>
+<li>Keep raw version safe !!!</li>
+</ul>
+<div class="column" style="width:35%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="../images/field_data.jpg" class="quarto-figure quarto-figure-center"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="cell">
+<div class="cell-output-display">
+<div class="tabwid"><style>.cl-808ac90a{}.cl-80852536{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-80878a9c{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-8087a392{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8087a393{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-8087a39c{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-808ac90a"><thead><tr style="overflow-wrap:break-word;"><th class="cl-8087a392"><p class="cl-80878a9c"><span class="cl-80852536">day</span></p></th><th class="cl-8087a392"><p class="cl-80878a9c"><span class="cl-80852536">House_A</span></p></th><th class="cl-8087a392"><p class="cl-80878a9c"><span class="cl-80852536">House_B</span></p></th><th class="cl-8087a392"><p class="cl-80878a9c"><span class="cl-80852536">House_C</span></p></th><th class="cl-8087a392"><p class="cl-80878a9c"><span class="cl-80852536">House_D</span></p></th><th class="cl-8087a392"><p class="cl-80878a9c"><span class="cl-80852536">House_E</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">1.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">10.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">2.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">1.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">11.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">14.0</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">2.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">10.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">10.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">12.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">14.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">2.0</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">3.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">8.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">9.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">5.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">6.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">8.0</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">4.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">4.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">4.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">4.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">2.0</span></p></td><td class="cl-8087a393"><p class="cl-80878a9c"><span class="cl-80852536">11.0</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-8087a39c"><p class="cl-80878a9c"><span class="cl-80852536">5.0</span></p></td><td class="cl-8087a39c"><p class="cl-80878a9c"><span class="cl-80852536">2.0</span></p></td><td class="cl-8087a39c"><p class="cl-80878a9c"><span class="cl-80852536">2.0</span></p></td><td class="cl-8087a39c"><p class="cl-80878a9c"><span class="cl-80852536">2.0</span></p></td><td class="cl-8087a39c"><p class="cl-80878a9c"><span class="cl-80852536">4.0</span></p></td><td class="cl-8087a39c"><p class="cl-80878a9c"><span class="cl-80852536">1.0</span></p></td></tr></tbody></table></div>
+</div>
+</div>
+</div></section>
+<section id="data-4-3" class="slide level2 smaller">
+<h2>Data (4)</h2>
+<ul>
+<li><p>Use a scripted program not only for analysis, but also for <strong><em>data cleaning</em></strong> and <strong><em>data wrangling</em></strong></p></li>
+<li><p>reproducible</p></li>
+<li><p>Keep raw version safe !!!</p></li>
+<li><p>Lyric: “House E used pesticides and should be excluded for this study”</p></li>
+</ul>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode numberSource r number-lines code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a></a> raw_data_wide <span class="sc">%&gt;%</span> </span>
+<span id="cb1-2"><a></a>  <span class="fu">select</span>(<span class="sc">-</span>House_E) <span class="sc">%&gt;%</span>    <span class="do">## The owners used pesticides during the trials</span></span>
+<span id="cb1-3"><a></a>  flextable<span class="sc">::</span><span class="fu">flextable</span>() <span class="sc">%&gt;%</span> </span>
+<span id="cb1-4"><a></a>  flextable<span class="sc">::</span><span class="fu">colformat_double</span>(<span class="at">digits =</span> <span class="dv">1</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</section>
+<section id="data-4-4" class="slide level2 smaller">
+<h2>Data (4)</h2>
+<ul>
+<li><p>Use a scripted program not only for analysis, but also for <strong><em>data cleaning</em></strong> and <strong><em>data wrangling</em></strong></p></li>
+<li><p>reproducible</p></li>
+<li><p>Keep raw version safe !!!</p></li>
+<li><p>Lyric: “House E used pesticides and should be excluded for this study”</p></li>
+<li><p>A few months later…</p>
+<ul>
+<li><p>Lyric: “I changed my mind about house E, because it was only done in the front yard”</p>
+<ul>
+<li>“Sorry I deleted that data” versus “Let me rerun code”</li>
+</ul></li>
+</ul></li>
+</ul>
+</section>
 <section id="wide-format-versus-long-format" class="slide level2 smaller">
 <h2>Wide format versus long format</h2>
 <div class="columns">
 <div class="column" style="width:70%;">
+<div class="cell">
+<div class="cell-output-display">
+<div class="tabwid"><style>.cl-80a0a518{}.cl-809af1f4{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-809d5e58{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-809d780c{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-809d7816{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-809d7820{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-80a0a518"><thead><tr style="overflow-wrap:break-word;"><th class="cl-809d780c"><p class="cl-809d5e58"><span class="cl-809af1f4">day</span></p></th><th class="cl-809d780c"><p class="cl-809d5e58"><span class="cl-809af1f4">House_A</span></p></th><th class="cl-809d780c"><p class="cl-809d5e58"><span class="cl-809af1f4">House_B</span></p></th><th class="cl-809d780c"><p class="cl-809d5e58"><span class="cl-809af1f4">House_C</span></p></th><th class="cl-809d780c"><p class="cl-809d5e58"><span class="cl-809af1f4">House_D</span></p></th><th class="cl-809d780c"><p class="cl-809d5e58"><span class="cl-809af1f4">House_E</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">1</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">10</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">2</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">1</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">11</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">14</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">2</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">10</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">10</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">12</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">14</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">2</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">3</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">8</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">9</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">5</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">6</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">8</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">4</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">4</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">4</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">4</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">2</span></p></td><td class="cl-809d7816"><p class="cl-809d5e58"><span class="cl-809af1f4">11</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-809d7820"><p class="cl-809d5e58"><span class="cl-809af1f4">5</span></p></td><td class="cl-809d7820"><p class="cl-809d5e58"><span class="cl-809af1f4">2</span></p></td><td class="cl-809d7820"><p class="cl-809d5e58"><span class="cl-809af1f4">2</span></p></td><td class="cl-809d7820"><p class="cl-809d5e58"><span class="cl-809af1f4">2</span></p></td><td class="cl-809d7820"><p class="cl-809d5e58"><span class="cl-809af1f4">4</span></p></td><td class="cl-809d7820"><p class="cl-809d5e58"><span class="cl-809af1f4">1</span></p></td></tr></tbody></table></div>
+</div>
+</div>
 <ul>
 <li>wide often easier for recording</li>
 <li>long often required for analysis</li>
 </ul>
 </div><div class="column" style="width:30%;">
-
+<div class="cell">
+<div class="cell-output-display">
+<div class="tabwid"><style>.cl-80b4be40{}.cl-80ae7558{font-family:'DejaVu Sans';font-size:11pt;font-weight:normal;font-style:normal;text-decoration:none;color:rgba(0, 0, 0, 1.00);background-color:transparent;}.cl-80b0e82e{margin:0;text-align:right;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-80b0e838{margin:0;text-align:left;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);padding-bottom:5pt;padding-top:5pt;padding-left:5pt;padding-right:5pt;line-height: 1;background-color:transparent;}.cl-80b101ec{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-80b101f6{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 1.5pt solid rgba(102, 102, 102, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-80b101f7{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-80b10200{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 0 solid rgba(0, 0, 0, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-80b10201{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}.cl-80b1020a{width:0.75in;background-color:transparent;vertical-align: middle;border-bottom: 1.5pt solid rgba(102, 102, 102, 1.00);border-top: 0 solid rgba(0, 0, 0, 1.00);border-left: 0 solid rgba(0, 0, 0, 1.00);border-right: 0 solid rgba(0, 0, 0, 1.00);margin-bottom:0;margin-top:0;margin-left:0;margin-right:0;}</style><table data-quarto-disable-processing="true" class="cl-80b4be40"><thead><tr style="overflow-wrap:break-word;"><th class="cl-80b101ec"><p class="cl-80b0e82e"><span class="cl-80ae7558">day</span></p></th><th class="cl-80b101f6"><p class="cl-80b0e838"><span class="cl-80ae7558">houses</span></p></th><th class="cl-80b101ec"><p class="cl-80b0e82e"><span class="cl-80ae7558">tick_count</span></p></th></tr></thead><tbody><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">1</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_A</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">10</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">1</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_B</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">2</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">1</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_C</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">1</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">1</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_D</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">11</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">1</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_E</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">14</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">2</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_A</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">10</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">2</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_B</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">10</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">2</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_C</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">12</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">2</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_D</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">14</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">2</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_E</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">2</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">3</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_A</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">8</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">3</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_B</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">9</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">3</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_C</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">5</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">3</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_D</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">6</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">3</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_E</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">8</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">4</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_A</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">4</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">4</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_B</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">4</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">4</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_C</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">4</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">4</span></p></td><td class="cl-80b10200"><p class="cl-80b0e838"><span class="cl-80ae7558">House_D</span></p></td><td class="cl-80b101f7"><p class="cl-80b0e82e"><span class="cl-80ae7558">2</span></p></td></tr><tr style="overflow-wrap:break-word;"><td class="cl-80b10201"><p class="cl-80b0e82e"><span class="cl-80ae7558">4</span></p></td><td class="cl-80b1020a"><p class="cl-80b0e838"><span class="cl-80ae7558">House_E</span></p></td><td class="cl-80b10201"><p class="cl-80b0e82e"><span class="cl-80ae7558">11</span></p></td></tr></tbody></table></div>
+</div>
+</div>
 </div></div>
 </section>
 <section id="data-documentation-1" class="slide level2">
@@ -344,61 +507,62 @@ David Jansen
 </div>
 </div>
 </div>
-<div class="callout callout-tip callout-titled callout-style-default">
-<div class="callout-body">
-<div class="callout-title">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<p><strong>Tip</strong></p>
-</div>
-<div class="callout-content">
-<p>This is why notes are important. You were in the field. Your data scientist might not.</p>
-</div>
-</div>
-</div>
 </section>
 <section id="data-documentation-2" class="slide level2 smaller">
 <h2>Data documentation (2)</h2>
 <ul>
-<li>README
+<li><p><strong>README</strong></p>
+<div class="fragment">
 <ul>
-<li>one per dataset</li>
-<li>provide a title for the dataset</li>
-<li>brief description per column</li>
-<li>publicly available data may need more details</li>
-<li><a href="https://guides.lib.uci.edu/datamanagement/readme" class="uri">https://guides.lib.uci.edu/datamanagement/readme</a></li>
-</ul></li>
-<li>Metadata
-<ul>
-<li>often 1 per study</li>
-<li>information does generally not change
-<ul>
-<li>e.g.&nbsp;details on study sites</li>
-</ul></li>
-<li>data about data</li>
-</ul></li>
+<li>
+One per dataset
+</li>
+<li>
+Provide a title for the dataset
+</li>
+<li>
+Brief description per column
+</li>
+<li>
+Publicly available data may need more details
+</li>
+<li>
+<a href="https://guides.lib.uci.edu/datamanagement/readme">UC Irvine README guide</a>
+</li>
 </ul>
-
-<aside><div>
-<p>https://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme</p>
-</div></aside></section>
+</div></li>
+<li><p><strong>Metadata</strong></p>
+<div class="fragment">
+<ul>
+<li>
+Data about data
+</li>
+<li>
+Often 1 per study
+</li>
+<li>
+<p>Information does generally not change</p>
+<ul>
+<li>
+e.g.&nbsp;details on study sites
+</li>
+</ul>
+</li>
+<li>
+<a href="https://datadryad.org/stash/best_practices">Dryad Best Practices</a>
+</li>
+</ul>
+</div></li>
+</ul>
+</section>
 <section id="naming" class="slide level2">
 <h2>Naming</h2>
 <ul>
 <li>Use descriptive names for folders, files and variables</li>
-</ul>
-<blockquote>
-
-<ul>
-<li>Understandable but not to long
-<ul>
+<li>Understandable but not to long</li>
 <li>m1 versus glm_count_full</li>
-<li>data versus tick_counts_EA</li>
-</ul></li>
+<li>data versus tick_counts_GH</li>
 </ul>
-
-</blockquote>
 <div class="callout callout-tip callout-titled callout-style-default">
 <div class="callout-body">
 <div class="callout-title">
@@ -416,57 +580,41 @@ David Jansen
 <section id="naming-1" class="slide level2 smaller">
 <h2>Naming</h2>
 <ul>
-<li>Be aware on naming rules of programs
+<li><p>Be aware on naming rules of programs</p>
 <ul>
-<li>Avoid special characters ($, @, *)</li>
-<li>Avoid name of functions</li>
-<li>No spaces !!</li>
-<li>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
-<li>R (and many other languages) names can’t start with numbers and does not like spaces</li>
-<li>‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’</li>
+<li><p>Avoid special characters ($, @, *)</p></li>
+<li><p><strong>No spaces !!</strong></p></li>
+<li><p>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</p></li>
+<li><p>R (and many other languages) names can’t start with numbers</p></li>
+<li><p>‘car speed in miles per hour’ versus ‘car speed (mph)’ versus <strong>car_speed_mph</strong></p></li>
 </ul></li>
 </ul>
 </section>
 <section id="naming-2" class="slide level2 smaller">
 <h2>Naming</h2>
 <ul>
-<li>Be aware on naming rules of programs
-<ul>
-<li>Avoid special characters ($, @, *)</li>
-<li>Avoid name of functions</li>
-<li>No spaces !!</li>
-<li>Case-sensitive (e.g.&nbsp;R) versus case insensitive (SQL)</li>
-<li>R (and many other languages) names can’t start with numbers and does not like spaces</li>
-<li>‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’</li>
-</ul></li>
+<li>Be aware on naming rules of programs</li>
 <li>styles
 <ul>
 <li>camelCase</li>
 <li>PascalCase</li>
 <li>snake_case</li>
 </ul></li>
-</ul>
-<blockquote>
-
-<ul>
 <li>be consistent</li>
 </ul>
-
-</blockquote>
 </section></section>
 <section>
 <section id="take-home" class="title-slide slide level1 center">
 <h1>Take home</h1>
-<blockquote>
-
 <ul>
 <li>keep raw data raw</li>
 <li>use code to clean data</li>
 <li>document code and data</li>
 <li><strong><em>No Spaces :-)</em></strong></li>
 </ul>
-
-</blockquote>
+<!-- ![](images/frustrated_coder.jpg){fig-align="center" height="40%"} -->
+<!-- and be -->
+<!-- ![](images/yes_scientist.jpg){fig-align="center" height ="40%"} -->
 </section>
 <section id="bonus" class="slide level2">
 <h2>Bonus</h2>
@@ -485,7 +633,6 @@ David Jansen
 <p><img data-src="../images/yes_scientist.jpg" width="100"></p></li>
 <li><p>error -&gt; go back to 1.git stat</p></li>
 </ol></li>
-<li></li>
 </ol>
 
 

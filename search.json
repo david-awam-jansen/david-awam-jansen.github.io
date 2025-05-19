@@ -513,11 +513,44 @@
     ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-year",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-year",
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#importance-of-good-data",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#importance-of-good-data",
     "title": "Good data practices",
-    "section": "Examples of problems last year",
-    "text": "Examples of problems last year",
+    "section": "Importance of good data",
+    "text": "Importance of good data\n\nGood data leads to good science\n“Garbage in, garbage out” – no analysis can save bad data\n“Accuracy isn’t about perfection — it’s about responsibility.”\nYou can’t fix bad data with good statistics",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#uniqueness-of-fieldwork",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#uniqueness-of-fieldwork",
+    "title": "Good data practices",
+    "section": "Uniqueness of fieldwork",
+    "text": "Uniqueness of fieldwork\n\nOne-time opportunity: You can’t redo fieldwork\n\nonce it’s done, it’s done.\n\nHigh cost:\n\nFieldwork involves lots of time, travel and staff\n\nUnpredictable conditions:\n\nWeather, animals, insects and the environment add complexity",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheets",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheets",
+    "title": "Good data practices",
+    "section": "Data collection sheets",
+    "text": "Data collection sheets\n\nYour lab notebook of the field\n\nThis is the raw data of the project\n\nYour entries might be entered by other people\n\nClear handwriting is essential (also for numbers)\n\nAsk Brad for details :-)\n\nconsistent entries\nstandardized formats\n\nThe data might only be entered weeks later.\nAdd notes if needed",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheet",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheet",
+    "title": "Good data practices",
+    "section": "Data collection sheet",
+    "text": "Data collection sheet\n\nExample of a data collection sheet",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -528,7 +561,40 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#blank-versus-0",
     "title": "Good data practices",
     "section": "Blank versus 0",
-    "text": "Blank versus 0\n\n0 means that you did not find tick\nblank could mean several things\n\nYou looked for ticks, but did not find any.\nYou did not look for ticks so you don’t know how many ticks there are.\nComputers will see blanks as NA (i.e. you don’t know).\n\n\nExample why this is an important difference\nSo please pay attention so I can avoid this\n\n\n\n\n\nand be",
+    "text": "Blank versus 0\n\n0 means that you did not find a tick\nBlank means you don’t have information about ticks\n\nYou looked for ticks and found none\nYou looked for ticks, but did not record what number you found\nYou did not look for ticks, so you don’t know how many ticks there are.\n\nImportant: Computers interpret blanks as NA (missing data), which means unknown.",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#date-formats-matter",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#date-formats-matter",
+    "title": "Good data practices",
+    "section": "Date Formats Matter",
+    "text": "Date Formats Matter\n\nBe consistent.\n\nDon’t mix formats like 3/5/25\n\nMarch 5 (USA)\nMay 3 (rest of the world)\n\nISO format: YYYY-MM-DD (e.g. 2025-05-15)\nddMMMyy: (e.g. 15MAY25)\n\nWhen entering data watch out for auto-formatting in spreadsheets!\n\nddMMMyy format is save as it is seen as text",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#take-home-message",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#take-home-message",
+    "title": "Good data practices",
+    "section": "Take home message",
+    "text": "Take home message\n\nbe accurate\ncheck sheets if they are completed\nyour hard work is only valuable if data is recorded\nno blanks\nnotes if needed",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#section",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#section",
+    "title": "Good data practices",
+    "section": "",
+    "text": "If we can all do this we can avoid\n\nand be",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -550,7 +616,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-1-1",
     "title": "Good data practices",
     "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\n\n\n\n\nkeep in a ‘save’ format\nGnerally not excel format - transferring between platforms can cause an issue (e.g. dates)\n\n\n\n&gt; - But sometimes it is useful\n  \n\n\n\nBetter are csv, tsv, maybe text\n\n\n\n\n\n\nDon’t make changes to this raw data",
+    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\nkeep in a ‘save’ format\nPreferably not excel format - transferring between platforms can cause an issue (e.g. dates)\nBut sometimes it is useful\ncsv, tsv, maybe text\nDon’t make changes to this raw data",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -561,7 +627,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-2",
     "title": "Good data practices",
     "section": "Data (2)",
-    "text": "Data (2)\n\nContent of columns in correct data type and units\n\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
+    "text": "Data (2)\n\nContent of columns in correct data type and units\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -572,7 +638,18 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-3",
     "title": "Good data practices",
     "section": "Data (3)",
-    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\n\n\n\nspecies\nspeed\nspeed_mph\n\n\n\n\nelphant\n24.0 mph\n24.0\n\n\nmouse\n8.1 mph\n8.1\n\n\ncheetah\n74.6 mph\n74.7",
+    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\nspeciesspeedspeed_mphelphant24.0 mph24.0mouse8.1 mph8.1cheetah74.6 mph74.7",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-3-1",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-3-1",
+    "title": "Good data practices",
+    "section": "Data (3)",
+    "text": "Data (3)",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -601,11 +678,44 @@
     ]
   },
   {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-2",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-2",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\n\n\n\n\n\n\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-3",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-3",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n  flextable::flextable() %&gt;% \n  flextable::colformat_double(digits = 1)",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-4",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-4-4",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\nLyric: “I changed my mind about house E, because it was only done in the front yard”\n\n“Sorry I deleted that data” versus “Let me rerun code”",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
     "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#wide-format-versus-long-format",
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#wide-format-versus-long-format",
     "title": "Good data practices",
     "section": "Wide format versus long format",
-    "text": "Wide format versus long format\n\n\n\nwide often easier for recording\nlong often required for analysis",
+    "text": "Wide format versus long format\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E11021111421010121423895684444211522241\n\n\n\nwide often easier for recording\nlong often required for analysis\n\n\n\n\ndayhousestick_count1House_A101House_B21House_C11House_D111House_E142House_A102House_B102House_C122House_D142House_E23House_A83House_B93House_C53House_D63House_E84House_A44House_B44House_C44House_D24House_E11",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -616,7 +726,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-1",
     "title": "Good data practices",
     "section": "Data documentation (1)",
-    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.\n\n\n\n\n\n\n\n\n\nTip\n\n\nThis is why notes are important. You were in the field. Your data scientist might not.",
+    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -627,7 +737,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-documentation-2",
     "title": "Good data practices",
     "section": "Data documentation (2)",
-    "text": "Data documentation (2)\n\nREADME\n\none per dataset\nprovide a title for the dataset\nbrief description per column\npublicly available data may need more details\nhttps://guides.lib.uci.edu/datamanagement/readme\n\nMetadata\n\noften 1 per study\ninformation does generally not change\n\ne.g. details on study sites\n\ndata about data\n\n\n\n\nhttps://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme",
+    "text": "Data documentation (2)\n\nREADME\n\n\n\nOne per dataset\n\n\nProvide a title for the dataset\n\n\nBrief description per column\n\n\nPublicly available data may need more details\n\n\nUC Irvine README guide\n\n\n\nMetadata\n\n\n\nData about data\n\n\nOften 1 per study\n\n\nInformation does generally not change\n\n\ne.g. details on study sites\n\n\n\n\nDryad Best Practices",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -638,7 +748,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\nUnderstandable but not to long\nm1 versus glm_count_full\ndata versus tick_counts_GH\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -649,7 +759,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-1",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -660,7 +770,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#naming-2",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\n\n\nbe consistent",
+    "text": "Naming\n\nBe aware on naming rules of programs\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\nbe consistent",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
