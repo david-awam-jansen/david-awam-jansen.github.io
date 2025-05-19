@@ -201,7 +201,7 @@
     "href": "workshops/good_data_practises.html#naming-1",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
@@ -212,7 +212,7 @@
     "href": "workshops/good_data_practises.html#naming-2",
     "title": "Good data practices",
     "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\nbe consistent",
+    "text": "Naming\n\nBe aware on naming rules of programs\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\nbe consistent",
     "crumbs": [
       "Workshops",
       "Introduction into good data and coding practices"
