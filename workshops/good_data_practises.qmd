@@ -18,17 +18,6 @@ library(tidyverse)
 library(knitr)
 ```
 
-
-```{r}
-installed.packages() %>% 
-  as_tibble() %>% 
-  filter(str_detect(Package, "knitr"))
-
-installed.packages() %>% 
-  as_tibble() %>% 
-  filter(str_detect(Package, "kableE"))
-```
-
 -   Data management
 
 -   Naming structures
@@ -42,29 +31,25 @@ installed.packages() %>%
 ## Data (1)
 
 -   Keep an as raw as possible version
+
 -   Consider making your original data file read-only
 
-::: nonincremental
-> -   keep in a 'save' format
-> -   Not excel format - transferring between platforms can cause an issue (e.g. dates)
-> -   csv, tsv, maybe text
-:::
+-   keep in a 'save' format
 
-> -   Don't make changes to this raw data
+-   Preferably not excel format - transferring between platforms can cause an issue (e.g. dates)
 
-## Data (2) {data-transition="convex"}
+-   csv, tsv, maybe text
+
+-   Don't make changes to this raw data
+
+## Data (2)
 
 -   Content of columns in correct data type and units
-
-    -   character (e.g, "a", "swc")
-
-    -   numeric (real or decimal) (e.g, 2, 2.0)
-
-    -   logical (FALSE, TRUE)
-
-    -   integer (e.g, 2L, as.integer(3))
-
-    -   complex (e.g, 1 + 0i, 1 + 4i) \<- These can be annoying
+-   character (e.g, "a", "swc")
+-   numeric (real or decimal) (e.g, 2, 2.0)
+-   logical (FALSE, TRUE)
+-   integer (e.g, 2L, as.integer(3))
+-   complex (e.g, 1 + 0i, 1 + 4i) \<- These can be annoying
 
 ::: aside
 R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
@@ -75,21 +60,21 @@ R sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.
 -   Try to have content of columns in correct data type and units
 -   An example why this ~~can~~ is important
 
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 tibble(species = c("elphant", "mouse", "cheetah"),
        speed = c("24.0 mph", "8.1 mph", "74.6 mph"),
        speed_mph = c(24, 8.1, 74.7)) %>% 
-  knitr::kable(digits = 1) %>% 
-  kableExtra::kable_classic(full_width = F, html_font = "Cambria")
-#     flextable::flextable() %>% 
-#     flextable::fontsize(size = 14, part = "all") %>% 
-#     flextable::colformat_double(digits = 1) %>%  
-#     flextable::width(j = 2, 1, unit = "in")
+  #knitr::kable(digits = 1) %>% 
+  #kableExtra::kable_classic(full_width = F, html_font = "Cambria")
+     flextable::flextable() %>% 
+     flextable::fontsize(size = 30, part = "all") %>% 
+     flextable::colformat_double(digits = 1) %>%  
+     flextable::width(j = 2, 2, unit = "in")
 ```
 
-. . .
+## Data (3)
 
-::: {,columns}
+::::: {,columns}
 ::: {.column width="45%"}
 ```{r}
 tibble(species = c("elphant", "mouse", "cheetah"),
@@ -114,7 +99,7 @@ tibble(species = c("elphant", "mouse", "cheetah"),
 labs(y = "speed (mph)")
 ```
 :::
-:::
+:::::
 
 ## Data (4)
 
@@ -139,7 +124,7 @@ labs(y = "speed (mph)")
 :::
 
 ::: {.column width="60%"}
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 raw_data_wide <- tibble(day = c(1,2,3,4,5),
                House_A = c(10, 10, 8, 4, 2),
                House_B = c(2, 10, 9, 4, 2),
@@ -148,10 +133,10 @@ raw_data_wide <- tibble(day = c(1,2,3,4,5),
                House_E = c(14, 2, 8, 11, 1))
 
 raw_data_wide %>% 
-  knitr::kable(digits = 1) %>% 
-  kable_classic(full_width = F, html_font = "Cambria")
-  # flextable::flextable() %>% 
-  # flextable::colformat_double(digits = 1) 
+  #knitr::kable(digits = 1) %>% 
+  #kable_classic(full_width = F, html_font = "Cambria")
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 1) 
 ```
 :::
 
@@ -168,10 +153,8 @@ raw_data_wide %>%
 ```{r, echo=  TRUE, eval =FALSE}
  raw_data_wide %>% 
   select(-House_E) %>%    ## The owners used pesticides during the trials
-  knitr::kable(digits = 1) %>% 
-  kable_classic(full_width = F, html_font = "Cambria")
-      # flextable::flextable() %>% 
-      # flextable::colformat_double(digits = 1)
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 1)
 ```
 
 ## Data (4) {.smaller}
@@ -186,20 +169,20 @@ raw_data_wide %>%
 
 -   A few months later...
 
-> -   Lyric: "I changed my mind about house_E"
+    -   Lyric: "I changed my mind about house E, because it was only done in the front yard"
 
-> -   "Sorry I deleted that data" versus "Let me rerun code"
+        -   "Sorry I deleted that data" versus "Let me rerun code"
 
 ## Wide format versus long format {.smaller}
 
-::: columns
+::::: columns
 ::: {.column width="70%"}
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 raw_data_wide %>% 
-  knitr::kable(digits = 1) %>% 
-  kable_classic(full_width = F, html_font = "Cambria")
-  #flextable::flextable() %>% 
-  #flextable::colformat_double(digits = 1)
+  #knitr::kable(digits = 1) %>% 
+  #kable_classic(full_width = F, html_font = "Cambria")
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 0)
 ```
 
 -   wide often easier for recording
@@ -207,19 +190,19 @@ raw_data_wide %>%
 :::
 
 ::: {.column width="30%"}
-```{r, eval=FALSE}
+```{r, eval=TRUE}
 raw_data_wide %>% 
   pivot_longer(names_to = "houses",
                values_to = "tick_count",
                cols = -day) %>% 
   slice(1:20) %>% 
-  knitr::kable(digits = 1) %>% 
-  kable_classic(full_width = F, html_font = "Cambria")
-  #flextable::flextable() %>% 
-  #flextable::colformat_double(digits = 1)
+  #knitr::kable(digits = 1) %>% 
+  #kable_classic(full_width = F, html_font = "Cambria")
+  flextable::flextable() %>% 
+  flextable::colformat_double(digits = 0)
 ```
 :::
-:::
+:::::
 
 ## Data documentation (1)
 
@@ -231,29 +214,56 @@ You know details of project and data structure (at this moment), but what about 
 
 ## Data documentation (2) {.smaller}
 
--   README
-    -   one per dataset
-    -   provide a title for the dataset
-    -   brief description per column
-    -   publicly available data may need more details
-    -   <https://guides.lib.uci.edu/datamanagement/readme>
--   Metadata
-    -   often 1 per study
-    -   information does generally not change
-        -   e.g. details on study sites
-    -   data about data
+-   **README**
 
-::: aside
-https://datadryad.org/stash/best_practices https://data.research.cornell.edu/content/readme
-:::
+    ::: fragment
+    <ul>
+
+    <li>One per dataset</li>
+
+    <li>Provide a title for the dataset</li>
+
+    <li>Brief description per column</li>
+
+    <li>Publicly available data may need more details</li>
+
+    <li><a href="https://guides.lib.uci.edu/datamanagement/readme">UC Irvine README guide</a></li>
+
+    </ul>
+    :::
+
+-   **Metadata**
+
+    ::: fragment
+    <ul>
+
+    <li>Data about data</li>
+
+    <li>Often 1 per study</li>
+
+    <li>
+
+    Information does generally not change
+
+    <ul>
+
+    <li>e.g. details on study sites</li>
+
+    </ul>
+
+    </li>
+
+    <li><a href="https://datadryad.org/stash/best_practices">Dryad Best Practices</a></li>
+
+    </ul>
+    :::
 
 ## Naming
 
 -   Use descriptive names for folders, files and variables
-
-> -   Understandable but not to long
->     -   m1 versus glm_count_full
->     -   data versus tick_counts_EA
+-   Understandable but not to long
+-   m1 versus glm_count_full
+-   data versus tick_counts_GH
 
 ::: callout-tip
 While a computer will ultimately run your code, it'll be read by humans, so write code intended for humans!
@@ -261,46 +271,33 @@ While a computer will ultimately run your code, it'll be read by humans, so writ
 
 ## Naming {.smaller}
 
-> -   Be aware on naming rules of programs
->     -   Avoid special characters (\$, \@, \*)
->     -   Avoid name of functions
->     -   No spaces !!
->     -   Case-sensitive (e.g. R) versus case insensitive (SQL)
->     -   R (and many other languages) names can't start with numbers and does not like spaces
->     -   'car speed in miles per hour' versus 'car speed (mph)' versus car_speed_mph'
+-   Be aware on naming rules of programs
+
+    -   Avoid special characters (\$, \@, \*)
+
+    -   **No spaces !!**
+
+    -   Case-sensitive (e.g. R) versus case insensitive (SQL)
+
+    -   R (and many other languages) names can't start with numbers
+
+    -   'car speed in miles per hour' versus 'car speed (mph)' versus **car_speed_mph**
 
 ## Naming {.smaller}
 
 -   Be aware on naming rules of programs
-    -   Avoid special characters (\$, \@, \*)
-    -   Avoid name of functions
-    -   No spaces !!
-    -   Case-sensitive (e.g. R) versus case insensitive (SQL)
-    -   R (and many other languages) names can't start with numbers and does not like spaces
-    -   'car speed in miles per hour' versus 'car speed (mph)' versus car_speed_mph'
-
-## Naming {.smaller}
-
--   Be aware on naming rules of programs
-    -   Avoid special characters (\$, \@, \*)
-    -   Avoid name of functions
-    -   No spaces !!
-    -   Case-sensitive (e.g. R) versus case insensitive (SQL)
-    -   R (and many other languages) names can't start with numbers and does not like spaces
-    -   'car speed in miles per hour' versus 'car speed (mph)' versus car_speed_mph'
 -   styles
     -   camelCase
     -   PascalCase
     -   snake_case
-
-> -   be consistent
+-   be consistent
 
 # Take home
 
-> -   keep raw data raw
-> -   use code to clean data
-> -   document code and data
-> -   ***No Spaces :-)***
+-   keep raw data raw
+-   use code to clean data
+-   document code and data
+-   ***No Spaces :-)***
 
 ## Bonus
 
