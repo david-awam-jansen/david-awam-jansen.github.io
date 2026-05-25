@@ -1,5 +1,5 @@
 ---
-title: "Good data practices "
+title: "Good data practices"
 subtitle: "MCEVBD fellowship"
 date: last-modified
 author: "David Jansen"
@@ -28,7 +28,7 @@ library(tidyverse)
 
 -   Good data sheets
 
-## Examples of problems last year
+## Examples of problems
 ![](/images/data_quality.jpg){fig-align="center" width="900"}
 
 ## Importance of good data
@@ -43,13 +43,13 @@ library(tidyverse)
 -   One-time opportunity: You can’t redo fieldwork
     -   once it’s done, it’s done.
 -   High cost:
-    -   Fieldwork involves lots of time, travel and staff
+    -   Fieldwork involves lots of time, travel, and staff
 -   Unpredictable conditions:
-    -   **Weather**, animals, insects and the environment add complexity
+    -   **Weather**, animals, insects, and the environment add complexity
 
 ## Data collection sheets
 
--   Your lab notebook of the field
+-   Your lab notebook from the field
     -   This is the raw data of the project
 -   Your entries might be entered by other people
     -   Clear handwriting is essential (**also for numbers**)
@@ -65,7 +65,6 @@ library(tidyverse)
 -   Example of a data collection sheet
 
 ![](/images/FieldDataEntrySsheet_2025_Gault_Hollow.jpg){fig-align="center" width="900"}
->>>>>>> 3b6256fa69a3d84d827968ffd51e874eab1beae6
 
 ## Blank versus 0
 
