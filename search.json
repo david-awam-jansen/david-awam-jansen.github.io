@@ -523,11 +523,11 @@
     ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-year",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-year",
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems",
     "title": "Good data practices",
-    "section": "Examples of problems last year",
-    "text": "Examples of problems last year",
+    "section": "Examples of problems",
+    "text": "Examples of problems",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -549,7 +549,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#uniqueness-of-fieldwork",
     "title": "Good data practices",
     "section": "Uniqueness of fieldwork",
-    "text": "Uniqueness of fieldwork\n\nOne-time opportunity: You can’t redo fieldwork\n\nonce it’s done, it’s done.\n\nHigh cost:\n\nFieldwork involves lots of time, travel and staff\n\nUnpredictable conditions:\n\nWeather, animals, insects and the environment add complexity",
+    "text": "Uniqueness of fieldwork\n\nOne-time opportunity: You can’t redo fieldwork\n\nonce it’s done, it’s done.\n\nHigh cost:\n\nFieldwork involves lots of time, travel, and staff\n\nUnpredictable conditions:\n\nWeather, animals, insects, and the environment add complexity",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -560,7 +560,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheets",
     "title": "Good data practices",
     "section": "Data collection sheets",
-    "text": "Data collection sheets\n\nYour lab notebook of the field\n\nThis is the raw data of the project\n\nYour entries might be entered by other people\n\nClear handwriting is essential (also for numbers)\n\nAsk Brad for details :-)\n\nconsistent entries\nstandardized formats\n\nThe data might only be entered weeks later.\nAdd notes if needed",
+    "text": "Data collection sheets\n\nYour lab notebook from the field\n\nThis is the raw data of the project\n\nYour entries might be entered by other people\n\nClear handwriting is essential (also for numbers)\n\nAsk Brad for details :-)\n\nconsistent entries\nstandardized formats\n\nThe data might only be entered weeks later.\nAdd notes if needed",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -571,7 +571,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheet",
     "title": "Good data practices",
     "section": "Data collection sheet",
-    "text": "Data collection sheet\n\nExample of a data collection sheet\n\n &gt;&gt;&gt;&gt;&gt;&gt;&gt; 3b6256fa69a3d84d827968ffd51e874eab1beae6",
+    "text": "Data collection sheet\n\nExample of a data collection sheet",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
