@@ -26,6 +26,8 @@ library(tidyverse)
 
 -   Eau Claire terminex project
 
+-   Good data sheets
+
 ## Examples of problems last year
 
 ## Blank versus 0
