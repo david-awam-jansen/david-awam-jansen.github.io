@@ -106,6 +106,10 @@ library(tidyverse)
     -   ddMMMyy: (e.g. 15MAY25)
 -   When entering data watch out for auto-formatting in spreadsheets!
     -   ddMMMyy format is save as it is seen as text
+    
+## Easy quick data check
+
+![](../images/FieldDataEntrySsheet_2026_Gault_Hollow.jpg){fig-align="center" width="900"}
 
 ## Easy quick data check
 
@@ -115,16 +119,6 @@ library(tidyverse)
     -   Do you have all tubes?
     -   Do we have all the larvae sheets?
     -   Is everything labeled correctly?
-
-<!-- ## Data collection sheet -->
-
-<!-- -   Example of a data collection sheet -->
-
-<!-- ![](../images/FieldDataEntrySsheet_2026_Gault_Hollow.jpg){fig-align="center" width="900"} -->
-
-## Easy quick data check
-
-![](../images/FieldDataEntrySsheet_2026_Gault_Hollow.jpg){fig-align="center" width="900"}
 
 ## Delay between collection and data analysis
 
@@ -149,25 +143,23 @@ library(tidyverse)
 
 ## Take home message
 
-::: fragment
 -   Be accurate
 -   Check sheets if they are completed
 -   **no blanks**
 -   Your hard work is only valuable if data is recorded
 -   As many notes if needed
-:::
 
-::: fragment
+## Take home message
+
 If we can all do this we can avoid
 
 <img src="../images/frustrated_coder.jpg" style="display:block; margin:auto;" height="200px"/>
-:::
 
-::: fragment
+## Take home message
+
 and be
 
 <img src="../images/yes_scientist.jpg" style="display:block; margin:auto;" height="300px"/>
-:::
 
 # Data management
 
