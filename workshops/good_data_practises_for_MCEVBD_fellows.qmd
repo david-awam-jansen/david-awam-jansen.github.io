@@ -113,24 +113,15 @@ library(tidyverse)
    - Do we have all the larvae sheets?
    - Is everything labeled correctly?
    
-   ## Data collection sheet
+## Data collection sheet
 
 -   Example of a data collection sheet
 
 ![](../images/FieldDataEntrySsheet_2026_Gault_Hollow.jpg){fig-align="center" width="900"}
 
-   
-
 ## Easy quick data check 
 
 ![](../images/FieldDataEntrySsheet_2026_Gault_Hollow.jpg){fig-align="center" width="900"}   
-
-## Data collection sheet
-
--   Example of a data collection sheet
-
-![](../images/FieldDataEntrySsheet_2025_Gault_Hollow.jpg){fig-align="center" width="900"}
-
 
 ## Delay between collection and data analysis
 -   The data often only analysed months after collection
