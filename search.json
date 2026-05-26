@@ -26,7 +26,18 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#importance-of-good-data",
     "title": "Good data practices",
     "section": "Importance of good data",
-    "text": "Importance of good data\n\nGood data leads to good science\n“Garbage in, garbage out” – no analysis can save bad data\n“Accuracy isn’t about perfection — it’s about responsibility.”\nYou can’t fix bad data with good statistics",
+    "text": "Importance of good data",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#importance-of-good-data-1",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#importance-of-good-data-1",
+    "title": "Good data practices",
+    "section": "Importance of good data",
+    "text": "Importance of good data\n\nGood data leads to good science\n\n\n\n“Garbage in, garbage out” – no analysis can save bad data\n“Accuracy isn’t about perfection — it’s about responsibility.”\nYou can’t fix bad data with good statistics",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -37,7 +48,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#uniqueness-of-fieldwork",
     "title": "Good data practices",
     "section": "Uniqueness of fieldwork",
-    "text": "Uniqueness of fieldwork\n\nOne-time opportunity: You can’t redo fieldwork\n\nonce it’s done, it’s done.\n\nHigh cost:\n\nFieldwork involves lots of time, travel, and staff\n\nUnpredictable conditions:\n\nWeather, animals, insects and the environment add complexity",
+    "text": "Uniqueness of fieldwork\n\nOne-time opportunity: You can’t redo fieldwork\n\nonce it’s done, it’s done.\n\n\n\nHigh cost:\n\nFieldwork involves lots of time, travel, and staff\n\nUnpredictable conditions:\n\nWeather, animals, insects and the environment add complexity",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -48,40 +59,18 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheets",
     "title": "Good data practices",
     "section": "Data collection sheets",
-    "text": "Data collection sheets\n\nYour lab notebook from the field\n\nThis is the raw data of the project\n\nYour entries might be entered by other people\n\nClear handwriting is essential (also for numbers)\n\nAsk Brad for details :-)\n\nconsistent entries\nstandardized formats\n\nThe data might only be entered weeks later.\nAdd notes if needed",
+    "text": "Data collection sheets\n\nYour lab notebook from the field\n\nThis is the raw data of the project\n\n\n\nYour entries might be entered by other people\n\nClear handwriting is essential (also for numbers)\n\nAsk Brad for details :-)\n\nconsistent entries\nstandardized formats\nAdd notes if needed",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
     ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheet",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheet",
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#notes",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#notes",
     "title": "Good data practices",
-    "section": "Data collection sheet",
-    "text": "Data collection sheet\n\nExample of a data collection sheet",
-    "crumbs": [
-      "Workshops",
-      "Introduction to data management for MCEVBD fellows"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#delay-between-collection-and-data-analysis",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#delay-between-collection-and-data-analysis",
-    "title": "Good data practices",
-    "section": "Delay between collection and data analysis",
-    "text": "Delay between collection and data analysis\n\nThe data often only analysed months after collection\nFixing mistakes (if possible) cost a lot of time",
-    "crumbs": [
-      "Workshops",
-      "Introduction to data management for MCEVBD fellows"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-years",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-years",
-    "title": "Good data practices",
-    "section": "Examples of problems last years",
-    "text": "Examples of problems last years",
+    "section": "Notes",
+    "text": "Notes\n\nNotes are really helpful when sorting issues later",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -114,7 +103,51 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#easy-quick-data-check",
     "title": "Good data practices",
     "section": "Easy quick data check",
-    "text": "Easy quick data check\n\nCheck sheets before you leave field (or let animal go)\nDid you collect all data you need\n\nWhere all plots sampled?\nDo you have all tubes?",
+    "text": "Easy quick data check\n\nCheck sheets before you leave field (or let animal go)\nDid you collect all data you need\n\nWhere all plots sampled?\nDo you have all tubes?\nDo we have all the larvae sheets?\nIs everything labeled correctly?",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheet",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheet",
+    "title": "Good data practices",
+    "section": "Data collection sheet",
+    "text": "Data collection sheet\n\nExample of a data collection sheet",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheet-1",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-collection-sheet-1",
+    "title": "Good data practices",
+    "section": "Data collection sheet",
+    "text": "Data collection sheet\n\nExample of a data collection sheet",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#delay-between-collection-and-data-analysis",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#delay-between-collection-and-data-analysis",
+    "title": "Good data practices",
+    "section": "Delay between collection and data analysis",
+    "text": "Delay between collection and data analysis\n\nThe data often only analysed months after collection\nFixing mistakes (if possible) cost a lot of time",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-years",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-years",
+    "title": "Good data practices",
+    "section": "Examples of problems last years",
+    "text": "Examples of problems last years",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
