@@ -14,14 +14,14 @@ format:
 ## About me: David Jansen
 
 -   BSc and MSc Nature Concervation and Ecology at University of Wageningen, The Netherlands
--   Several years as field scientist\
+-   Several years as field scientist
 -   PhD Animal communication at University of Zurich, Switzerland
 -   Research Scientist at Notre Dame university and Amboseli Baboon research project
 -   Since 2023 Data scientist at MCEVBD
 
 ## Study animals
 
-![](images/carreer-03.jpg)
+![](images/carreer.jpg)
 
 # Content
 
