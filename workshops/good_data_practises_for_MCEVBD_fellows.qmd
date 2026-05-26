@@ -19,7 +19,9 @@ format:
 -   Research Scientist at Notre Dame university and Amboseli Baboon research project
 -   Since 2023 Data scientist at MCEVBD
 
-## Study animals ![](images/carreer-01.jpg)
+## Study animals
+
+![](images/carreer-03.jpg)
 
 # Content
 
@@ -33,8 +35,6 @@ library(tidyverse)
 -   Field data collection
 
 -   Data management
-
--   Naming structures
 
 ## Importance of good data
 
