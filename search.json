@@ -22,518 +22,6 @@
     ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#import",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#import",
-    "title": "Good data practices",
-    "section": "Import",
-    "text": "Import\nQuarto enables you to weave together content and executable code into a finished presentation. To learn more about Quarto presentations see https://quarto.org/docs/presentations/."
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#bullets",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#bullets",
-    "title": "Good data practices",
-    "section": "Bullets",
-    "text": "Bullets\nWhen you click the Render button a document will be generated that includes:\n\nContent authored with markdown\nOutput from executable code"
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#code",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows_v2.html#code",
-    "title": "Good data practices",
-    "section": "Code",
-    "text": "Code\nWhen you click the Render button a presentation will be generated that includes both content and the output of embedded code. You can embed code like this:\n\n\n[1] 2"
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-1",
-    "href": "workshops/good_data_practises.html#data-1",
-    "title": "Good data practices",
-    "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-1-1",
-    "href": "workshops/good_data_practises.html#data-1-1",
-    "title": "Good data practices",
-    "section": "Data (1)",
-    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\nkeep in a ‘save’ format\nPreferably not excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\nDon’t make changes to this raw data",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-2",
-    "href": "workshops/good_data_practises.html#data-2",
-    "title": "Good data practices",
-    "section": "Data (2)",
-    "text": "Data (2)\n\nContent of columns in correct data type and units\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-3",
-    "href": "workshops/good_data_practises.html#data-3",
-    "title": "Good data practices",
-    "section": "Data (3)",
-    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\nspeciesspeedspeed_mphelphant24.0 mph24.0mouse8.1 mph8.1cheetah74.6 mph74.7",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-3-1",
-    "href": "workshops/good_data_practises.html#data-3-1",
-    "title": "Good data practices",
-    "section": "Data (3)",
-    "text": "Data (3)",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4",
-    "href": "workshops/good_data_practises.html#data-4",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-1",
-    "href": "workshops/good_data_practises.html#data-4-1",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-2",
-    "href": "workshops/good_data_practises.html#data-4-2",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\n\n\n\n\n\n\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-3",
-    "href": "workshops/good_data_practises.html#data-4-3",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n  flextable::flextable() %&gt;% \n  flextable::colformat_double(digits = 1)",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-4-4",
-    "href": "workshops/good_data_practises.html#data-4-4",
-    "title": "Good data practices",
-    "section": "Data (4)",
-    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\nLyric: “I changed my mind about house E, because it was only done in the front yard”\n\n“Sorry I deleted that data” versus “Let me rerun code”",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#wide-format-versus-long-format",
-    "href": "workshops/good_data_practises.html#wide-format-versus-long-format",
-    "title": "Good data practices",
-    "section": "Wide format versus long format",
-    "text": "Wide format versus long format\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E11021111421010121423895684444211522241\n\n\n\nwide often easier for recording\nlong often required for analysis\n\n\n\n\ndayhousestick_count1House_A101House_B21House_C11House_D111House_E142House_A102House_B102House_C122House_D142House_E23House_A83House_B93House_C53House_D63House_E84House_A44House_B44House_C44House_D24House_E11",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-documentation-1",
-    "href": "workshops/good_data_practises.html#data-documentation-1",
-    "title": "Good data practices",
-    "section": "Data documentation (1)",
-    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#data-documentation-2",
-    "href": "workshops/good_data_practises.html#data-documentation-2",
-    "title": "Good data practices",
-    "section": "Data documentation (2)",
-    "text": "Data documentation (2)\n\nREADME\n\n\n\nOne per dataset\n\n\nProvide a title for the dataset\n\n\nBrief description per column\n\n\nPublicly available data may need more details\n\n\nUC Irvine README guide\n\n\n\nMetadata\n\n\n\nData about data\n\n\nOften 1 per study\n\n\nInformation does generally not change\n\n\ne.g. details on study sites\n\n\n\n\nDryad Best Practices",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming",
-    "href": "workshops/good_data_practises.html#naming",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\nUnderstandable but not to long\nm1 versus glm_count_full\ndata versus tick_counts_GH\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming-1",
-    "href": "workshops/good_data_practises.html#naming-1",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#naming-2",
-    "href": "workshops/good_data_practises.html#naming-2",
-    "title": "Good data practices",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\nbe consistent",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#bonus",
-    "href": "workshops/good_data_practises.html#bonus",
-    "title": "Good data practices",
-    "section": "Bonus",
-    "text": "Bonus",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
-    "href": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
-    "title": "Good data practices",
-    "section": "How to deal with R (programming) errors",
-    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into good data and coding practices"
-    ]
-  },
-  {
-    "objectID": "publications.html",
-    "href": "publications.html",
-    "title": "Publications list",
-    "section": "",
-    "text": "1. Jansen, D. A. The contribution of floodplains to the ecology of large herbivores. (2013).\n\n\n2. Jansen, D. A. Self-organising spatial patterns in mussel beds. (2013).\n\n\n3. Jansen, D. A. Diet selection of goats: - a feeding trial experiment. (2013).\n\n\n4. Jansen, D. A., Langevelde, F. van, Boer, W. F. de & Kirkman, K. P. Optimisation or satiation, testing diet selection rules in goats. Small Ruminant Research 73, 160–168 (2007).\n\n\n5. Jansen, D. A., Cant, M. A. & Manser, M. B. Segmental concatenation of individual signatures and context cues in banded mongoose (mungos mungo) close calls. BMC biology 10, 1–11 (2012).\n\n\n6. Jansen, D. A., Cant, M. A. & Manser, M. B. Testing for vocal individual discrimination in adult banded mongooses. Journal of Zoology 291, 171–177 (2013).\n\n\n7. Jansen, D. A. Vocal communication in the banded mongoose (mungos mungo). (2013).\n\n\n8. Manser, M. B., Jansen, D. A., Graw, B., Hollén, L. I., Bousquet, C. A., Furrer, R. D. & Le Roux, A. Vocal complexity in meerkats and other mongoose species. 46, 281–310 (2014).\n\n\n9. Townsend, S. W., Koski, S. E., Byrne, R. W., Slocombe, K. E., Bickel, B., Boeckle, M., Braga Goncalves, I., Burkart, J. M., Flower, T., Gaunet, F., Glock, H. J., Gruber, T., Jansen, D. A., Liebal, K., Linke, A., Miklósi, Á., Moore, R., Schaik, C. P. van, Stoll, S., Vail, A. & Manser, M. B. Exorcising g rice’s ghost: An empirical approach to studying intentional communication in animals. Biological Reviews 92, 1427–1433 (2017).\n\n\n10. Akinyi, M. Y., Jansen, D. A., Habig, B., Gesquiere, L. R., Alberts, S. C. & Archie, E. A. Costs and drivers of helminth parasite infection in wild female baboons. Journal of Animal Ecology 88, 1029–1043 (2019).\n\n\n11. Habig, B., Jansen, D. A., Akinyi, M. Y., Gesquiere, L. R., Alberts, S. C. & Archie, E. A. Multi-scale predictors of parasite risk in wild male savanna baboons (papio cynocephalus). Behavioral Ecology and Sociobiology 73, 1–16 (2019).\n\n\n12. Levy, E. J., Zipple, M. N., McLean, E., Campos, F. A., Dasari, M., Fogel, A. S., Franz, M., Gesquiere, L. R., Gordon, J. B., Grieneisen, L., Habig, B., Jansen, D. A., Learn, N. H., Weibel, C. J., Altmann, Jeanne, Alberts, S. C. & Archie, E. A. A comparison of dominance rank metrics reveals multiple competitive landscapes in an animal society. Proceedings of the Royal Society B 287, 20201013 (2020).\n\n\n13. Grieneisen, L., Dasari, M., Gould, T., Bjork, J., Grenier, J., Yotova, V., Jansen, D. A., Gottel, N., Gilbert, J., Barreiro, L. & others. Heritability of the gut microbiome in wild baboons (papio cynocephalus). in American journal of primatology 82, (WILEY 111 RIVER ST, HOBOKEN 07030-5774, NJ USA, 2020).\n\n\n14. Grieneisen, L., Dasari, M., Gould, T. J., Björk, J. R., Grenier, J.-C., Yotova, V., Jansen, D. A., Gottel, N., Gordon, J. B., Learn, N. H. & others. Gut microbiome heritability is nearly universal but environmentally contingent. Science 373, 181–186 (2021).\n\n\n15. Björk, J. R., Dasari, M. R., Roche, K., Grieneisen, L., Gould, T. J., Grenier, J.-C., Yotova, V., Gottel, N., Jansen, D. A., Gesquiere, L. R. & others. Synchrony and idiosyncrasy in the gut microbiome of wild baboons. Nature ecology & evolution 6, 955–964 (2022).\n\n\n16. Paietta, E. N., Weibel, C. J., Jansen, D. A., Mututua, R. S., Warutere, J. K., Long’ida Siodi, I., Gesquiere, L. R., Obanda, V., Alberts, S. C. & Archie, E. A. Troubled waters: Water availability drives human-baboon encounters in a protected, semi-arid landscape. Biological Conservation 274, 109740 (2022).\n\n\n17. Gordon, J. B., Jansen, D. A., Learn, N. H. & Alberts, S. C. Ordinal dominance rank assignments: Protocol for the amboseli baboon research project. Avaialable at: https://amboselibaboons. nd. edu/downloads/, Accessed Feb 23, 2023 (2022).\n\n\n18. Roche, K. E., Bjork, J. R., Dasari, M. R., Grieneisen, L., Jansen, D. A., Gould, T. J., Gesquiere, L. R., Barreiro, L. B., Alberts, S. C., Blekhman, R. & others. Universal gut microbial relationships in the gut microbiome of wild baboons. Elife 12, e83152 (2023).\n\n\n19. Weibel, C. J., Dasari, M. R., Jansen, D. A., Gesquiere, L. R., Mututua, R. S., Warutere, J. K., Siodi, L. I., Alberts, S. C., Tung, J. & Archie, E. A. Using non-invasive behavioral and physiological data to measure biological age in wild baboons. GeroScience (2024). doi:10.1007/s11357-024-01157-5\n\n\n20. Zembsch, T., Jansen, D., Lee, X., Oberle, E., Philip, R., Bartholomay, L. & Paskewitz, S. Tick spotting: Using mannequins to evaluate individual efficacy at detecting ixodes scapularis (acari: ixodidae). Journal of Medical Entomology tjaf053 (2025). doi:10.1093/jme/tjaf053",
-    "crumbs": [
-      "Publications"
-    ]
-  },
-  {
-    "objectID": "presentations/MCEVBD_interview.html",
-    "href": "presentations/MCEVBD_interview.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "MCEVBD job interview\nI gave this presenttaion as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "David Jansen",
-    "section": "",
-    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "",
-    "section": "",
-    "text": "I am data scientist at the [Midwest Center of Excellence for Vector-Borne Disease (MCEVBD)] (https://mcevbd.wisc.edu/). I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on experimental design, statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
-    "crumbs": [
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about.html#about-me",
-    "href": "about.html#about-me",
-    "title": "",
-    "section": "",
-    "text": "I am data scientist at the [Midwest Center of Excellence for Vector-Borne Disease (MCEVBD)] (https://mcevbd.wisc.edu/). I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on experimental design, statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
-    "crumbs": [
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "",
-    "section": "Education",
-    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013\nWageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005\nWageningen University, Netherlands BSc in Forest and Nature Management | Aug 2000 - June 2003\nClick here for my Resume or CV",
-    "crumbs": [
-      "About Me"
-    ]
-  },
-  {
-    "objectID": "presentations.html",
-    "href": "presentations.html",
-    "title": "Presentations",
-    "section": "",
-    "text": "Here are a few presentations I have given.\nMCEVBD job interview\nI gave this  presentation  as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here.\nPhD defense talk\nI gave this  presentation  as part of my PhD defense at the University of Zurich. This presentation was made with LaTeX. The raw code can be found here.",
-    "crumbs": [
-      "Presentations"
-    ]
-  },
-  {
-    "objectID": "presentations.html#first-author-presentations",
-    "href": "presentations.html#first-author-presentations",
-    "title": "Presentations",
-    "section": "First author presentations",
-    "text": "First author presentations\nJansen, D., Archie , E.A. 2022. Can we replace assigned ranks by elo-based ranks?, Joint lab meeting, Duke, USA\nJansen, D., Archie , E.A. 2020. Do baboon dads matter?, Joint lab meeting, Duke, USA\nJansen, D., Archie , E.A. 2019. Issues with SCI and DSI and the possible solution of universal slopes. Joint lab meeting, Duke, USA\nJansen, D., Archie , E.A. 2018. Early adversity, social connectedness, and submission indexes for juveniles. Joint lab meeting, Duke, USA\nJansen, D., Archie , E.A. 2015. Condition data analysis. Joint lab meeting, Duke, USA\nJansen. D. Cant, M.A., Manser, M.B. 2013. Context-specific call sequences in the banded mongoose. (poster) ABS conference. Boulder, USA\nJansen. D., Cant, M.A., Manser, M.B. 2012. Temporal segregation of individual and behavioural signatures in banded mongoose (Mungos mungo) close calls. VIth ECBB. Essen, Germany\nJansen. D. 2012. Complexity of information coding in banded mongoose vocalisations. EvoBio PhD retreat. Riederalp, Switerland\nJansen. D. Cant, M.B., Manser, M.B. 2012. Close call transmission - a comparison between banded mongoose and meerkats. 4th annual Meerkat and Mongoose Meeting. Cambridge, UK\nJansen. D. Cant, M.B., Manser, M.B. 2012. Temporal segregation of individual and behavioural signatures in banded mongoose close calls. . ASAB Easter meeting. Aberystwyth, UK\nJansen. D. Cant, M.B., Manser, M.B.2012. Banded mongoose close calls encode individual- and behaviour-specific signatures. Biology 2012. Friborg, Switzerland\nJansen. D. Cant, M.B., Manser, M.B. 2011. Banded mongoose close calls encode individual- and behaviour-specific signatures. . XXIII IBAC. La Rochelle, France\nJansen. D. 2011. Cooperation. Conflict and Communication in Banded Mongoose. Tropical Biology Association course. Mweya, Uganda\nJansen. D. 2010. Cooperation. Conflict and Communication in Banded Mongoose. Tropical Biology Association course. Mweya. Uganda\nJansen. D. 2009. Vocalizations of banded mongoose. UWA research symposium. Mweya, Uganda\nJansen. D. 2009. Banded mongoose research in Queen Elisabeth National Park. Tropical Biology Association course. Mweya, Uganda\nJansen. D. 2008. ‘Dinner time’. - resource calls in banded mongoose. . Institute of Zoology PhD retreat. Zurich, Switzerland",
-    "crumbs": [
-      "Presentations"
-    ]
-  },
-  {
-    "objectID": "presentations/cv.html",
-    "href": "presentations/cv.html",
-    "title": "Curriculum vitæ",
-    "section": "",
-    "text": "Download current CV"
-  },
-  {
-    "objectID": "workshops/git_version_control.html#what-is-version-control",
-    "href": "workshops/git_version_control.html#what-is-version-control",
-    "title": "Introduction into git",
-    "section": "What is version control",
-    "text": "What is version control",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#what-is-version-control-1",
-    "href": "workshops/git_version_control.html#what-is-version-control-1",
-    "title": "Introduction into git",
-    "section": "What is version control",
-    "text": "What is version control\n\nKeep track and saves all you changes to code\nGood backup source\nEasier to fix mistakes\nCode is open and easy to share\nMultiple people working on the same code",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#what-is-git",
-    "href": "workshops/git_version_control.html#what-is-git",
-    "title": "Introduction into git",
-    "section": "What is Git",
-    "text": "What is Git\n\nGit is a version control system that allows developers to track changes in their code\ninstalled on your own computer\ncontrolled through mostly terminal\n\nbut e.g. Rstudio have systems to make it easier\n\nthere are alternatives but git is most common (at least in science)",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#what-is-github",
-    "href": "workshops/git_version_control.html#what-is-github",
-    "title": "Introduction into git",
-    "section": "What is GitHub",
-    "text": "What is GitHub\n\nGitHub is a web-based hosting service for git repositories.\nEnables you to store and share code for different projects\nMore advanced\n\nGithub actions\nGithub pages\nTogether they can e.g. build and host a webpage (e.g. this presentation).",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#lets-have-some-fun",
-    "href": "workshops/git_version_control.html#lets-have-some-fun",
-    "title": "Introduction into git",
-    "section": "Let’s have some fun !!",
-    "text": "Let’s have some fun !!",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#lets-have-some-fun-1",
-    "href": "workshops/git_version_control.html#lets-have-some-fun-1",
-    "title": "Introduction into git",
-    "section": "Let’s have some fun",
-    "text": "Let’s have some fun\nSorry I forgot I am in an mosquito lab",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#first-steps",
-    "href": "workshops/git_version_control.html#first-steps",
-    "title": "Introduction into git",
-    "section": "First steps",
-    "text": "First steps\n\nMake an account\n\nhttps://github.com/signup\n\nInstall git\n\nhttps://github.com/git-guides/install-git\n\nGithub student account\nprivate repositories",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#make-a-repository",
-    "href": "workshops/git_version_control.html#make-a-repository",
-    "title": "Introduction into git",
-    "section": "Make a repository",
-    "text": "Make a repository\n\nMethod 1 (easy)\n\nCreate repository on github\nhttps://github.com\n\nMethod 2 (harder)\n\nuse Git Repo\n\nCreate a repository from command line\nNot today",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#terminal",
-    "href": "workshops/git_version_control.html#terminal",
-    "title": "Introduction into git",
-    "section": "Terminal",
-    "text": "Terminal\n\n‘Easy’ start with git bash\n\nhttps://education.github.com/git-cheat-sheet-education.pdf\nLet’s go to the terminal.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#terminal-1",
-    "href": "workshops/git_version_control.html#terminal-1",
-    "title": "Introduction into git",
-    "section": "Terminal",
-    "text": "Terminal\necho \"# training_repo\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin git@github.com:david-awam-jansen/training_repo.git\ngit push -u origin main",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#terminal-2",
-    "href": "workshops/git_version_control.html#terminal-2",
-    "title": "Introduction into git",
-    "section": "Terminal",
-    "text": "Terminal\ngit status\ngit add\ngit commit",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#rstudio-examples",
-    "href": "workshops/git_version_control.html#rstudio-examples",
-    "title": "Introduction into git",
-    "section": "Rstudio examples",
-    "text": "Rstudio examples\n\nterminal\nbuild-in",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#naming",
-    "href": "workshops/git_version_control.html#naming",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#naming-1",
-    "href": "workshops/git_version_control.html#naming-1",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\n\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#naming-2",
-    "href": "workshops/git_version_control.html#naming-2",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#naming-3",
-    "href": "workshops/git_version_control.html#naming-3",
-    "title": "Introduction into git",
-    "section": "Naming",
-    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\n\n\nbe consistent",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#bonus",
-    "href": "workshops/git_version_control.html#bonus",
-    "title": "Introduction into git",
-    "section": "Bonus",
-    "text": "Bonus",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/git_version_control.html#how-to-deal-with-r-programming-errors",
-    "href": "workshops/git_version_control.html#how-to-deal-with-r-programming-errors",
-    "title": "Introduction into git",
-    "section": "How to deal with R (programming) errors",
-    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
-    "crumbs": [
-      "Workshops",
-      "Introduction into git version control"
-    ]
-  },
-  {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems",
-    "title": "Good data practices",
-    "section": "Examples of problems",
-    "text": "Examples of problems",
-    "crumbs": [
-      "Workshops",
-      "Introduction to data management for MCEVBD fellows"
-    ]
-  },
-  {
     "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#importance-of-good-data",
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#importance-of-good-data",
     "title": "Good data practices",
@@ -549,7 +37,7 @@
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#uniqueness-of-fieldwork",
     "title": "Good data practices",
     "section": "Uniqueness of fieldwork",
-    "text": "Uniqueness of fieldwork\n\nOne-time opportunity: You can’t redo fieldwork\n\nonce it’s done, it’s done.\n\nHigh cost:\n\nFieldwork involves lots of time, travel, and staff\n\nUnpredictable conditions:\n\nWeather, animals, insects, and the environment add complexity",
+    "text": "Uniqueness of fieldwork\n\nOne-time opportunity: You can’t redo fieldwork\n\nonce it’s done, it’s done.\n\nHigh cost:\n\nFieldwork involves lots of time, travel, and staff\n\nUnpredictable conditions:\n\nWeather, animals, insects and the environment add complexity",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -578,6 +66,28 @@
     ]
   },
   {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#delay-between-collection-and-data-analysis",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#delay-between-collection-and-data-analysis",
+    "title": "Good data practices",
+    "section": "Delay between collection and data analysis",
+    "text": "Delay between collection and data analysis\n\nThe data often only analysed months after collection\nFixing mistakes (if possible) cost a lot of time",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-years",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#examples-of-problems-last-years",
+    "title": "Good data practices",
+    "section": "Examples of problems last years",
+    "text": "Examples of problems last years",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
     "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#blank-versus-0",
     "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#blank-versus-0",
     "title": "Good data practices",
@@ -600,22 +110,33 @@
     ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#take-home-message",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#take-home-message",
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#easy-quick-data-check",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#easy-quick-data-check",
     "title": "Good data practices",
-    "section": "Take home message",
-    "text": "Take home message\n\nbe accurate\ncheck sheets if they are completed\nno blanks\nyour hard work is only valuable if data is recorded\nas many notes if needed",
+    "section": "Easy quick data check",
+    "text": "Easy quick data check\n\nCheck sheets before you leave field (or let animal go)\nDid you collect all data you need\n\nWhere all plots sampled?\nDo you have all tubes?",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
     ]
   },
   {
-    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#section",
-    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#section",
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-entry",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#data-entry",
     "title": "Good data practices",
-    "section": "",
-    "text": "If we can all do this we can avoid\n\nand be",
+    "section": "Data entry",
+    "text": "Data entry\n\nDo this is as close to collection as possible\nIf anything is unclear ask person who collected the data\nIf possible enter data twice\nBe accura",
+    "crumbs": [
+      "Workshops",
+      "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises_for_MCEVBD_fellows.html#take-home-message",
+    "href": "workshops/good_data_practises_for_MCEVBD_fellows.html#take-home-message",
+    "title": "Good data practices",
+    "section": "Take home message",
+    "text": "Take home message\n\nbe accurate\ncheck sheets if they are completed\nno blanks\nyour hard work is only valuable if data is recorded\nas many notes if needed\n\nIf we can all do this we can avoid\n\nand be",
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
@@ -817,6 +338,486 @@
     "crumbs": [
       "Workshops",
       "Introduction to data management for MCEVBD fellows"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#what-is-version-control",
+    "href": "workshops/git_version_control.html#what-is-version-control",
+    "title": "Introduction into git",
+    "section": "What is version control",
+    "text": "What is version control",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#what-is-version-control-1",
+    "href": "workshops/git_version_control.html#what-is-version-control-1",
+    "title": "Introduction into git",
+    "section": "What is version control",
+    "text": "What is version control\n\nKeep track and saves all you changes to code\nGood backup source\nEasier to fix mistakes\nCode is open and easy to share\nMultiple people working on the same code",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#what-is-git",
+    "href": "workshops/git_version_control.html#what-is-git",
+    "title": "Introduction into git",
+    "section": "What is Git",
+    "text": "What is Git\n\nGit is a version control system that allows developers to track changes in their code\ninstalled on your own computer\ncontrolled through mostly terminal\n\nbut e.g. Rstudio have systems to make it easier\n\nthere are alternatives but git is most common (at least in science)",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#what-is-github",
+    "href": "workshops/git_version_control.html#what-is-github",
+    "title": "Introduction into git",
+    "section": "What is GitHub",
+    "text": "What is GitHub\n\nGitHub is a web-based hosting service for git repositories.\nEnables you to store and share code for different projects\nMore advanced\n\nGithub actions\nGithub pages\nTogether they can e.g. build and host a webpage (e.g. this presentation).",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#lets-have-some-fun",
+    "href": "workshops/git_version_control.html#lets-have-some-fun",
+    "title": "Introduction into git",
+    "section": "Let’s have some fun !!",
+    "text": "Let’s have some fun !!",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#lets-have-some-fun-1",
+    "href": "workshops/git_version_control.html#lets-have-some-fun-1",
+    "title": "Introduction into git",
+    "section": "Let’s have some fun",
+    "text": "Let’s have some fun\nSorry I forgot I am in an mosquito lab",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#first-steps",
+    "href": "workshops/git_version_control.html#first-steps",
+    "title": "Introduction into git",
+    "section": "First steps",
+    "text": "First steps\n\nMake an account\n\nhttps://github.com/signup\n\nInstall git\n\nhttps://github.com/git-guides/install-git\n\nGithub student account\nprivate repositories",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#make-a-repository",
+    "href": "workshops/git_version_control.html#make-a-repository",
+    "title": "Introduction into git",
+    "section": "Make a repository",
+    "text": "Make a repository\n\nMethod 1 (easy)\n\nCreate repository on github\nhttps://github.com\n\nMethod 2 (harder)\n\nuse Git Repo\n\nCreate a repository from command line\nNot today",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#terminal",
+    "href": "workshops/git_version_control.html#terminal",
+    "title": "Introduction into git",
+    "section": "Terminal",
+    "text": "Terminal\n\n‘Easy’ start with git bash\n\nhttps://education.github.com/git-cheat-sheet-education.pdf\nLet’s go to the terminal.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#terminal-1",
+    "href": "workshops/git_version_control.html#terminal-1",
+    "title": "Introduction into git",
+    "section": "Terminal",
+    "text": "Terminal\necho \"# training_repo\" &gt;&gt; README.md\ngit init\ngit add README.md\ngit commit -m \"first commit\"\ngit branch -M main\ngit remote add origin git@github.com:david-awam-jansen/training_repo.git\ngit push -u origin main",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#terminal-2",
+    "href": "workshops/git_version_control.html#terminal-2",
+    "title": "Introduction into git",
+    "section": "Terminal",
+    "text": "Terminal\ngit status\ngit add\ngit commit",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#rstudio-examples",
+    "href": "workshops/git_version_control.html#rstudio-examples",
+    "title": "Introduction into git",
+    "section": "Rstudio examples",
+    "text": "Rstudio examples\n\nterminal\nbuild-in",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#naming",
+    "href": "workshops/git_version_control.html#naming",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\n\n\n\n\nUnderstandable but not to long\n\nm1 versus glm_count_full\ndata versus tick_counts_EA\n\n\n\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#naming-1",
+    "href": "workshops/git_version_control.html#naming-1",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\n\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#naming-2",
+    "href": "workshops/git_version_control.html#naming-2",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#naming-3",
+    "href": "workshops/git_version_control.html#naming-3",
+    "title": "Introduction into git",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nAvoid name of functions\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers and does not like spaces\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph’\n\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\n\n\n\n\nbe consistent",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#bonus",
+    "href": "workshops/git_version_control.html#bonus",
+    "title": "Introduction into git",
+    "section": "Bonus",
+    "text": "Bonus",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "workshops/git_version_control.html#how-to-deal-with-r-programming-errors",
+    "href": "workshops/git_version_control.html#how-to-deal-with-r-programming-errors",
+    "title": "Introduction into git",
+    "section": "How to deal with R (programming) errors",
+    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into git version control"
+    ]
+  },
+  {
+    "objectID": "presentations/cv.html",
+    "href": "presentations/cv.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "Download current CV"
+  },
+  {
+    "objectID": "presentations.html",
+    "href": "presentations.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "Here are a few presentations I have given.\nMCEVBD job interview\nI gave this  presentation  as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here.\nPhD defense talk\nI gave this  presentation  as part of my PhD defense at the University of Zurich. This presentation was made with LaTeX. The raw code can be found here.",
+    "crumbs": [
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "presentations.html#first-author-presentations",
+    "href": "presentations.html#first-author-presentations",
+    "title": "Presentations",
+    "section": "First author presentations",
+    "text": "First author presentations\nJansen, D., Archie , E.A. 2022. Can we replace assigned ranks by elo-based ranks?, Joint lab meeting, Duke, USA\nJansen, D., Archie , E.A. 2020. Do baboon dads matter?, Joint lab meeting, Duke, USA\nJansen, D., Archie , E.A. 2019. Issues with SCI and DSI and the possible solution of universal slopes. Joint lab meeting, Duke, USA\nJansen, D., Archie , E.A. 2018. Early adversity, social connectedness, and submission indexes for juveniles. Joint lab meeting, Duke, USA\nJansen, D., Archie , E.A. 2015. Condition data analysis. Joint lab meeting, Duke, USA\nJansen. D. Cant, M.A., Manser, M.B. 2013. Context-specific call sequences in the banded mongoose. (poster) ABS conference. Boulder, USA\nJansen. D., Cant, M.A., Manser, M.B. 2012. Temporal segregation of individual and behavioural signatures in banded mongoose (Mungos mungo) close calls. VIth ECBB. Essen, Germany\nJansen. D. 2012. Complexity of information coding in banded mongoose vocalisations. EvoBio PhD retreat. Riederalp, Switerland\nJansen. D. Cant, M.B., Manser, M.B. 2012. Close call transmission - a comparison between banded mongoose and meerkats. 4th annual Meerkat and Mongoose Meeting. Cambridge, UK\nJansen. D. Cant, M.B., Manser, M.B. 2012. Temporal segregation of individual and behavioural signatures in banded mongoose close calls. . ASAB Easter meeting. Aberystwyth, UK\nJansen. D. Cant, M.B., Manser, M.B.2012. Banded mongoose close calls encode individual- and behaviour-specific signatures. Biology 2012. Friborg, Switzerland\nJansen. D. Cant, M.B., Manser, M.B. 2011. Banded mongoose close calls encode individual- and behaviour-specific signatures. . XXIII IBAC. La Rochelle, France\nJansen. D. 2011. Cooperation. Conflict and Communication in Banded Mongoose. Tropical Biology Association course. Mweya, Uganda\nJansen. D. 2010. Cooperation. Conflict and Communication in Banded Mongoose. Tropical Biology Association course. Mweya. Uganda\nJansen. D. 2009. Vocalizations of banded mongoose. UWA research symposium. Mweya, Uganda\nJansen. D. 2009. Banded mongoose research in Queen Elisabeth National Park. Tropical Biology Association course. Mweya, Uganda\nJansen. D. 2008. ‘Dinner time’. - resource calls in banded mongoose. . Institute of Zoology PhD retreat. Zurich, Switzerland",
+    "crumbs": [
+      "Presentations"
+    ]
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "",
+    "section": "",
+    "text": "I am data scientist at the [Midwest Center of Excellence for Vector-Borne Disease (MCEVBD)] (https://mcevbd.wisc.edu/). I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on experimental design, statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
+    "title": "",
+    "section": "",
+    "text": "I am data scientist at the [Midwest Center of Excellence for Vector-Borne Disease (MCEVBD)] (https://mcevbd.wisc.edu/). I have a broad experience in behavioral research, database management, statistical modeling, and data visualization. I enjoy being a resource for my colleagues and providing advice on experimental design, statistical modeling, coding, and research reproducibility. Prior to joining the center, I worked as a research scientist at the University of Notre Dame and the Amboseli Baboon Research Project.",
+    "crumbs": [
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "",
+    "section": "Education",
+    "text": "Education\nUniversity of Zurich , Switzerland PhD in Animal communication | Sep 2009 - Apr 2013\nWageningen University, Netherlands MsC in Forest and Nature Management - Ecology | Aug 2003 - June 2005\nWageningen University, Netherlands BSc in Forest and Nature Management | Aug 2000 - June 2003\nClick here for my Resume or CV",
+    "crumbs": [
+      "About Me"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "David Jansen",
+    "section": "",
+    "text": "The site is created with Rstudio and Quarto (https://quarto.org/docs/websites). It uses a Docker container to manage R packages and is maintained through github actions.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "presentations/MCEVBD_interview.html",
+    "href": "presentations/MCEVBD_interview.html",
+    "title": "Presentations",
+    "section": "",
+    "text": "MCEVBD job interview\nI gave this presenttaion as part of my job interview for my current job at the MCEVBD. This presentation was made with LaTeX. The raw code can be found see here and downloaded here."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications list",
+    "section": "",
+    "text": "1. Jansen, D. A. The contribution of floodplains to the ecology of large herbivores. (2013).\n\n\n2. Jansen, D. A. Self-organising spatial patterns in mussel beds. (2013).\n\n\n3. Jansen, D. A. Diet selection of goats: - a feeding trial experiment. (2013).\n\n\n4. Jansen, D. A., Langevelde, F. van, Boer, W. F. de & Kirkman, K. P. Optimisation or satiation, testing diet selection rules in goats. Small Ruminant Research 73, 160–168 (2007).\n\n\n5. Jansen, D. A., Cant, M. A. & Manser, M. B. Segmental concatenation of individual signatures and context cues in banded mongoose (mungos mungo) close calls. BMC biology 10, 1–11 (2012).\n\n\n6. Jansen, D. A., Cant, M. A. & Manser, M. B. Testing for vocal individual discrimination in adult banded mongooses. Journal of Zoology 291, 171–177 (2013).\n\n\n7. Jansen, D. A. Vocal communication in the banded mongoose (mungos mungo). (2013).\n\n\n8. Manser, M. B., Jansen, D. A., Graw, B., Hollén, L. I., Bousquet, C. A., Furrer, R. D. & Le Roux, A. Vocal complexity in meerkats and other mongoose species. 46, 281–310 (2014).\n\n\n9. Townsend, S. W., Koski, S. E., Byrne, R. W., Slocombe, K. E., Bickel, B., Boeckle, M., Braga Goncalves, I., Burkart, J. M., Flower, T., Gaunet, F., Glock, H. J., Gruber, T., Jansen, D. A., Liebal, K., Linke, A., Miklósi, Á., Moore, R., Schaik, C. P. van, Stoll, S., Vail, A. & Manser, M. B. Exorcising g rice’s ghost: An empirical approach to studying intentional communication in animals. Biological Reviews 92, 1427–1433 (2017).\n\n\n10. Akinyi, M. Y., Jansen, D. A., Habig, B., Gesquiere, L. R., Alberts, S. C. & Archie, E. A. Costs and drivers of helminth parasite infection in wild female baboons. Journal of Animal Ecology 88, 1029–1043 (2019).\n\n\n11. Habig, B., Jansen, D. A., Akinyi, M. Y., Gesquiere, L. R., Alberts, S. C. & Archie, E. A. Multi-scale predictors of parasite risk in wild male savanna baboons (papio cynocephalus). Behavioral Ecology and Sociobiology 73, 1–16 (2019).\n\n\n12. Levy, E. J., Zipple, M. N., McLean, E., Campos, F. A., Dasari, M., Fogel, A. S., Franz, M., Gesquiere, L. R., Gordon, J. B., Grieneisen, L., Habig, B., Jansen, D. A., Learn, N. H., Weibel, C. J., Altmann, Jeanne, Alberts, S. C. & Archie, E. A. A comparison of dominance rank metrics reveals multiple competitive landscapes in an animal society. Proceedings of the Royal Society B 287, 20201013 (2020).\n\n\n13. Grieneisen, L., Dasari, M., Gould, T., Bjork, J., Grenier, J., Yotova, V., Jansen, D. A., Gottel, N., Gilbert, J., Barreiro, L. & others. Heritability of the gut microbiome in wild baboons (papio cynocephalus). in American journal of primatology 82, (WILEY 111 RIVER ST, HOBOKEN 07030-5774, NJ USA, 2020).\n\n\n14. Grieneisen, L., Dasari, M., Gould, T. J., Björk, J. R., Grenier, J.-C., Yotova, V., Jansen, D. A., Gottel, N., Gordon, J. B., Learn, N. H. & others. Gut microbiome heritability is nearly universal but environmentally contingent. Science 373, 181–186 (2021).\n\n\n15. Björk, J. R., Dasari, M. R., Roche, K., Grieneisen, L., Gould, T. J., Grenier, J.-C., Yotova, V., Gottel, N., Jansen, D. A., Gesquiere, L. R. & others. Synchrony and idiosyncrasy in the gut microbiome of wild baboons. Nature ecology & evolution 6, 955–964 (2022).\n\n\n16. Paietta, E. N., Weibel, C. J., Jansen, D. A., Mututua, R. S., Warutere, J. K., Long’ida Siodi, I., Gesquiere, L. R., Obanda, V., Alberts, S. C. & Archie, E. A. Troubled waters: Water availability drives human-baboon encounters in a protected, semi-arid landscape. Biological Conservation 274, 109740 (2022).\n\n\n17. Gordon, J. B., Jansen, D. A., Learn, N. H. & Alberts, S. C. Ordinal dominance rank assignments: Protocol for the amboseli baboon research project. Avaialable at: https://amboselibaboons. nd. edu/downloads/, Accessed Feb 23, 2023 (2022).\n\n\n18. Roche, K. E., Bjork, J. R., Dasari, M. R., Grieneisen, L., Jansen, D. A., Gould, T. J., Gesquiere, L. R., Barreiro, L. B., Alberts, S. C., Blekhman, R. & others. Universal gut microbial relationships in the gut microbiome of wild baboons. Elife 12, e83152 (2023).\n\n\n19. Weibel, C. J., Dasari, M. R., Jansen, D. A., Gesquiere, L. R., Mututua, R. S., Warutere, J. K., Siodi, L. I., Alberts, S. C., Tung, J. & Archie, E. A. Using non-invasive behavioral and physiological data to measure biological age in wild baboons. GeroScience (2024). doi:10.1007/s11357-024-01157-5\n\n\n20. Zembsch, T., Jansen, D., Lee, X., Oberle, E., Philip, R., Bartholomay, L. & Paskewitz, S. Tick spotting: Using mannequins to evaluate individual efficacy at detecting ixodes scapularis (acari: ixodidae). Journal of Medical Entomology tjaf053 (2025). doi:10.1093/jme/tjaf053",
+    "crumbs": [
+      "Publications"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-1",
+    "href": "workshops/good_data_practises.html#data-1",
+    "title": "Good data practices",
+    "section": "Data (1)",
+    "text": "Data (1)\n\nKeep an as raw as possible version",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-1-1",
+    "href": "workshops/good_data_practises.html#data-1-1",
+    "title": "Good data practices",
+    "section": "Data (1)",
+    "text": "Data (1)\n\nKeep an as raw as possible version\nConsider making your original data file read-only\nkeep in a ‘save’ format\nPreferably not excel format - transferring between platforms can cause an issue (e.g. dates)\ncsv, tsv, maybe text\nDon’t make changes to this raw data",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-2",
+    "href": "workshops/good_data_practises.html#data-2",
+    "title": "Good data practices",
+    "section": "Data (2)",
+    "text": "Data (2)\n\nContent of columns in correct data type and units\ncharacter (e.g, “a”, “swc”)\nnumeric (real or decimal) (e.g, 2, 2.0)\nlogical (FALSE, TRUE)\ninteger (e.g, 2L, as.integer(3))\ncomplex (e.g, 1 + 0i, 1 + 4i) &lt;- These can be annoying\n\n\n\nR sees logical as 0/1 (FALSE/TRUE). This can be handy during coding.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-3",
+    "href": "workshops/good_data_practises.html#data-3",
+    "title": "Good data practices",
+    "section": "Data (3)",
+    "text": "Data (3)\n\nTry to have content of columns in correct data type and units\nAn example why this can is important\n\n\n\nspeciesspeedspeed_mphelphant24.0 mph24.0mouse8.1 mph8.1cheetah74.6 mph74.7",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-3-1",
+    "href": "workshops/good_data_practises.html#data-3-1",
+    "title": "Good data practices",
+    "section": "Data (3)",
+    "text": "Data (3)",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4",
+    "href": "workshops/good_data_practises.html#data-4",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-1",
+    "href": "workshops/good_data_practises.html#data-4-1",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-2",
+    "href": "workshops/good_data_practises.html#data-4-2",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\n\n\n\n\n\n\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E1.010.02.01.011.014.02.010.010.012.014.02.03.08.09.05.06.08.04.04.04.04.02.011.05.02.02.02.04.01.0",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-3",
+    "href": "workshops/good_data_practises.html#data-4-3",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\n\n\n raw_data_wide %&gt;% \n  select(-House_E) %&gt;%    ## The owners used pesticides during the trials\n  flextable::flextable() %&gt;% \n  flextable::colformat_double(digits = 1)",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-4-4",
+    "href": "workshops/good_data_practises.html#data-4-4",
+    "title": "Good data practices",
+    "section": "Data (4)",
+    "text": "Data (4)\n\nUse a scripted program not only for analysis, but also for data cleaning and data wrangling\nreproducible\nKeep raw version safe !!!\nLyric: “House E used pesticides and should be excluded for this study”\nA few months later…\n\nLyric: “I changed my mind about house E, because it was only done in the front yard”\n\n“Sorry I deleted that data” versus “Let me rerun code”",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#wide-format-versus-long-format",
+    "href": "workshops/good_data_practises.html#wide-format-versus-long-format",
+    "title": "Good data practices",
+    "section": "Wide format versus long format",
+    "text": "Wide format versus long format\n\n\n\n\ndayHouse_AHouse_BHouse_CHouse_DHouse_E11021111421010121423895684444211522241\n\n\n\nwide often easier for recording\nlong often required for analysis\n\n\n\n\ndayhousestick_count1House_A101House_B21House_C11House_D111House_E142House_A102House_B102House_C122House_D142House_E23House_A83House_B93House_C53House_D63House_E84House_A44House_B44House_C44House_D24House_E11",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-documentation-1",
+    "href": "workshops/good_data_practises.html#data-documentation-1",
+    "title": "Good data practices",
+    "section": "Data documentation (1)",
+    "text": "Data documentation (1)\n\n\n\n\n\n\n\nTip\n\n\nYou know details of project and data structure (at this moment), but what about future you or others.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#data-documentation-2",
+    "href": "workshops/good_data_practises.html#data-documentation-2",
+    "title": "Good data practices",
+    "section": "Data documentation (2)",
+    "text": "Data documentation (2)\n\nREADME\n\n\n\nOne per dataset\n\n\nProvide a title for the dataset\n\n\nBrief description per column\n\n\nPublicly available data may need more details\n\n\nUC Irvine README guide\n\n\n\nMetadata\n\n\n\nData about data\n\n\nOften 1 per study\n\n\nInformation does generally not change\n\n\ne.g. details on study sites\n\n\n\n\nDryad Best Practices",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming",
+    "href": "workshops/good_data_practises.html#naming",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nUse descriptive names for folders, files and variables\nUnderstandable but not to long\nm1 versus glm_count_full\ndata versus tick_counts_GH\n\n\n\n\n\n\n\nTip\n\n\nWhile a computer will ultimately run your code, it’ll be read by humans, so write code intended for humans!",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming-1",
+    "href": "workshops/good_data_practises.html#naming-1",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\n\nAvoid special characters ($, @, *)\nNo spaces !!\nCase-sensitive (e.g. R) versus case insensitive (SQL)\nR (and many other languages) names can’t start with numbers\n‘car speed in miles per hour’ versus ‘car speed (mph)’ versus car_speed_mph",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#naming-2",
+    "href": "workshops/good_data_practises.html#naming-2",
+    "title": "Good data practices",
+    "section": "Naming",
+    "text": "Naming\n\nBe aware on naming rules of programs\nstyles\n\ncamelCase\nPascalCase\nsnake_case\n\nbe consistent",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#bonus",
+    "href": "workshops/good_data_practises.html#bonus",
+    "title": "Good data practices",
+    "section": "Bonus",
+    "text": "Bonus",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
+    ]
+  },
+  {
+    "objectID": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
+    "href": "workshops/good_data_practises.html#how-to-deal-with-r-programming-errors",
+    "title": "Good data practices",
+    "section": "How to deal with R (programming) errors",
+    "text": "How to deal with R (programming) errors\n\ndon’t get frustrated by error messages\nread the error message\ngoogle the error message\ngoogle solutions or use ChatGPT\ntrial and error\n\nit works –&gt; go back to your analysis\n\nerror -&gt; go back to 1.",
+    "crumbs": [
+      "Workshops",
+      "Introduction into good data and coding practices"
     ]
   },
   {
