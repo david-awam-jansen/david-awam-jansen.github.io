@@ -47,11 +47,18 @@ library(tidyverse)
 -   One-time opportunity: You can’t redo fieldwork
     -   once it’s done, it’s done.
     
-::: {.incremental}    
+::: {.fragment}
+
 -   High cost:
     -   Fieldwork involves lots of time, travel, and staff
+    
+:::
+    
+::: {.fragment}
+
 -   Unpredictable conditions:
     -   **Weather**, animals, insects and the environment add complexity
+
 :::    
 
 ## Data collection sheets
@@ -74,8 +81,7 @@ library(tidyverse)
 
 -  Notes are really helpful when sorting issues later
 
-![](/images/FieldDataEntrySsheet_2026_Gault_Hollow_with_comments.jpg){fig-align="center" width="900"}   
-
+![](/images/FieldDataEntrySsheet_2026_Gault_Hollow_with_comments.jpg){fig-align="center" width="900"} 
 
     
 
