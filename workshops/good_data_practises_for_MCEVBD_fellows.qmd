@@ -18,18 +18,13 @@ knitr::opts_chunk$set("ft.shadow" = FALSE)
 library(tidyverse)
 ```
 
+-   Data collection
+
 -   Field data collection
 
 -   Data management
 
 -   Naming structures
-
-# Field data collection
-
--   Good data sheets
-
-## Examples of problems last year
-![](/images/data_quality.jpg){fig-align="center" width="900"}
 
 ## Importance of good data
 
@@ -37,6 +32,9 @@ library(tidyverse)
 -   “Garbage in, garbage out” – no analysis can save bad data
 -   “Accuracy isn’t about perfection — it’s about responsibility.”
 -   You can’t fix bad data with good statistics
+
+
+# Field data collection
 
 ## Uniqueness of fieldwork
 
@@ -46,7 +44,7 @@ library(tidyverse)
     -   Fieldwork involves lots of time, travel and staff
 -   Unpredictable conditions:
     -   **Weather**, animals, insects and the environment add complexity
-
+    
 ## Data collection sheets
 
 -   Your lab notebook of the field
@@ -57,15 +55,20 @@ library(tidyverse)
     -   consistent entries
     -   standardized formats
 -   The data might only be entered weeks later.
-
-- Add notes if needed
+-   Add notes if needed
 
 ## Data collection sheet
 
 -   Example of a data collection sheet
 
 ![](/images/FieldDataEntrySsheet_2025_Gault_Hollow.jpg){fig-align="center" width="900"}
->>>>>>> 3b6256fa69a3d84d827968ffd51e874eab1beae6
+
+
+# Importance of accuracy
+
+## Examples of problems last years
+![](/images/data_quality.jpg){fig-align="center" width="900"}
+
 
 ## Blank versus 0
 
