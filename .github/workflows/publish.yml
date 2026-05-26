@@ -6,7 +6,7 @@ on:
     branches: main
     paths:
       - '**/*.qmd'
-      - _quarto.ylm
+      - _quarto.yml
 
 jobs:
   build-deploy:
