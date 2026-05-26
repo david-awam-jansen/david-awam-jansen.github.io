@@ -1,5 +1,5 @@
 ---
-title: "Good data practices "
+title: "Good data practices"
 subtitle: "MCEVBD fellowship"
 date: last-modified
 author: "David Jansen"
@@ -33,7 +33,6 @@ library(tidyverse)
 -   “Accuracy isn’t about perfection — it’s about responsibility.”
 -   You can’t fix bad data with good statistics
 
-
 # Field data collection
 
 ## Uniqueness of fieldwork
@@ -41,13 +40,13 @@ library(tidyverse)
 -   One-time opportunity: You can’t redo fieldwork
     -   once it’s done, it’s done.
 -   High cost:
-    -   Fieldwork involves lots of time, travel and staff
+    -   Fieldwork involves lots of time, travel, and staff
 -   Unpredictable conditions:
     -   **Weather**, animals, insects and the environment add complexity
-    
+
 ## Data collection sheets
 
--   Your lab notebook of the field
+-   Your lab notebook from the field
     -   This is the raw data of the project
 -   Your entries might be entered by other people
     -   Clear handwriting is essential (**also for numbers**)
@@ -56,6 +55,11 @@ library(tidyverse)
     -   standardized formats
 -   The data might only be entered weeks later.
 -   Add notes if needed
+
+## Delay between collection and data analysis
+-   The data often only analysed months after collection
+-   Fixing mistakes cost a lot of time
+-   Time = Money
 
 ## Data collection sheet
 
@@ -68,7 +72,6 @@ library(tidyverse)
 
 ## Examples of problems last years
 ![](/images/data_quality.jpg){fig-align="center" width="900"}
-
 
 ## Blank versus 0
 
@@ -89,6 +92,17 @@ library(tidyverse)
     - ddMMMyy: (e.g. 15MAY25)
 - When entering data watch out for auto-formatting in spreadsheets! 
   - ddMMMyy format is save as it is seen as text 
+  
+## Easy data checks
+
+-   Check cheets before you leave field
+
+  
+## Data entry
+
+- Do this is as close to collection as possible
+- If anything is unclear ask person who collected the data
+- If possible enter data twice
     
 
 ## Take home message
@@ -99,7 +113,7 @@ library(tidyverse)
 - your hard work is only valuable if data is recorded
 - as many notes if needed
 
-##
+
 
 If we can all do this we can avoid 
 
